@@ -9,20 +9,24 @@ LANG2=cat
 VAR1=#leave empty
 VAR2=_valencia_gva
 VAR3=_valencia_uni
+VAR4=_balear
 
 LANG2C=$(LANG2)$(VAR1)
 LANG2V=$(LANG2)$(VAR2)
 LANG2U=$(LANG2)$(VAR3)
+LANG2B=$(LANG2)$(VAR4)
 
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX1C=$(LANG1)-$(LANG2C)
 PREFIX1V=$(LANG1)-$(LANG2V)
 PREFIX1U=$(LANG1)-$(LANG2U)
+PREFIX1B=$(LANG1)-$(LANG2B)
 
 PREFIX2=$(LANG2)-$(LANG1)
 PREFIX2C=$(LANG2C)-$(LANG1)
 PREFIX2V=$(LANG2V)-$(LANG1)
 PREFIX2U=$(LANG2U)-$(LANG1)
+PREFIX2B=$(LANG2B)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
 
@@ -34,13 +38,16 @@ TARGETS_COMMON =			\
 	$(PREFIX1C).autobil.bin 	\
 	$(PREFIX1V).autobil.bin 	\
 	$(PREFIX1U).autobil.bin 	\
+	$(PREFIX1B).autobil.bin 	\
 	$(PREFIX1).autolex.bin  \
 	$(PREFIX1C).autogen.bin 	\
 	$(PREFIX1V).autogen.bin 	\
 	$(PREFIX1U).autogen.bin 	\
+	$(PREFIX1B).autogen.bin 	\
 	$(PREFIX1C).autopgen.bin 	\
 	$(PREFIX1V).autopgen.bin 	\
 	$(PREFIX1U).autopgen.bin 	\
+	$(PREFIX1B).autopgen.bin 	\
 	$(PREFIX2).automorf.bin		\
 	$(PREFIX2).prob			\
 	$(PREFIX2).autobil.bin		\
@@ -50,6 +57,7 @@ TARGETS_COMMON =			\
 	$(PREFIX1C).t1x.bin 		\
 	$(PREFIX1V).t1x.bin 		\
 	$(PREFIX1U).t1x.bin 		\
+	$(PREFIX1B).t1x.bin 		\
 	$(PREFIX2).t1x.bin
 	
 
@@ -72,6 +80,9 @@ $(PREFIX1V).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1V).autobil.b
 	lt-trim $^ $@
 
 $(PREFIX1U).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1V).autobil.bin
+	lt-trim $^ $@
+
+$(PREFIX1B).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1B).autobil.bin
 	lt-trim $^ $@
 
 # -------------------
@@ -104,6 +115,9 @@ $(PREFIX1V).autogen.bin: $(AP_SRC2)/$(LANG2V).autogen.bin
 $(PREFIX1U).autogen.bin: $(AP_SRC2)/$(LANG2U).autogen.bin
 	cp $< $@
 
+$(PREFIX1B).autogen.bin: $(AP_SRC2)/$(LANG2B).autogen.bin
+	cp $< $@
+
 $(PREFIX1C).autopgen.bin: $(AP_SRC2)/$(LANG2C).autopgen.bin
 	cp $< $@
 
@@ -111,6 +125,9 @@ $(PREFIX1V).autopgen.bin: $(AP_SRC2)/$(LANG2V).autopgen.bin
 	cp $< $@
 
 $(PREFIX1U).autopgen.bin: $(AP_SRC2)/$(LANG2U).autopgen.bin
+	cp $< $@
+
+$(PREFIX1B).autopgen.bin: $(AP_SRC2)/$(LANG2B).autopgen.bin
 	cp $< $@
 
 
@@ -147,6 +164,9 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 .deps/$(PREFIX1).val_uni.dix: .deps/$(PREFIX1).dix
 	python genvrdix.py val_uni $< >$@
 	
+.deps/$(PREFIX1).bal.dix: .deps/$(PREFIX1).dix
+	python genvrdix.py bal $< >$@
+	
 $(PREFIX1C).autobil.bin: .deps/$(PREFIX1).cat.dix
 	apertium-validate-dictionary $<
 	lt-comp --var-right=cat lr $< $@
@@ -158,6 +178,10 @@ $(PREFIX1V).autobil.bin: .deps/$(PREFIX1).val_gva.dix
 $(PREFIX1U).autobil.bin: .deps/$(PREFIX1).val_uni.dix
 	apertium-validate-dictionary $<
 	lt-comp --var-right=val_uni lr $< $@
+
+$(PREFIX1B).autobil.bin: .deps/$(PREFIX1).bal.dix
+	apertium-validate-dictionary $<
+	lt-comp --var-right=bal lr $< $@
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $<
@@ -198,6 +222,10 @@ $(PREFIX1U).t1x.bin: $(PREFIX1U).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
+$(PREFIX1B).t1x.bin: $(PREFIX1B).t1x
+	apertium-validate-transfer $<
+	apertium-preprocess-transfer $< $@
+
 .deps/$(BASENAME).$(PREFIX1).cat.t1x: $(BASENAME).$(PREFIX1).t1x
 	python gent1x.py cat $< >$@
 
@@ -207,6 +235,9 @@ $(PREFIX1U).t1x.bin: $(PREFIX1U).t1x
 .deps/$(BASENAME).$(PREFIX1).val_uni.t1x: $(BASENAME).$(PREFIX1).t1x
 	python gent1x.py val_uni $< >$@
 
+.deps/$(BASENAME).$(PREFIX1).bal.t1x: $(BASENAME).$(PREFIX1).t1x
+	python gent1x.py bal $< >$@
+
 $(PREFIX1C).t1x: .deps/$(BASENAME).$(PREFIX1).cat.t1x
 	xsltproc --stringparam alt cat alt.xsl $< >$@
 
@@ -215,6 +246,9 @@ $(PREFIX1V).t1x: .deps/$(BASENAME).$(PREFIX1).val_gva.t1x
 
 $(PREFIX1U).t1x: .deps/$(BASENAME).$(PREFIX1).val_uni.t1x
 	xsltproc --stringparam alt val_uni alt.xsl $< >$@
+
+$(PREFIX1B).t1x: .deps/$(BASENAME).$(PREFIX1).bal.t1x
+	xsltproc --stringparam alt bal alt.xsl $< >$@
 
 $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $<
@@ -232,6 +266,7 @@ EXTRA_DIST=									\
 		$(PREFIX1C).t1x 	\
 		$(PREFIX1V).t1x 	\
 		$(PREFIX1U).t1x 	\
+		$(PREFIX1B).t1x 	\
 		$(BASENAME).$(PREFIX2).t1x 			\
 		modes.xml 							\
 		alt.xsl
@@ -249,6 +284,7 @@ apertium_spa_cat_DATA=				\
 	$(PREFIX1C).t1x			\
 	$(PREFIX1V).t1x			\
 	$(PREFIX1U).t1x			\
+	$(PREFIX1B).t1x			\
 	$(BASENAME).$(PREFIX2).t1x		
 
 modes/$(PREFIX1).mode: modes.xml
