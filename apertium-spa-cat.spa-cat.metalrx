@@ -332,17 +332,167 @@
     </or>
   </rule>
 
+  <!-- acordar >  / acordar / recordar-se de -->
+
+  <rule weight="0.8">
+    <match lemma="acordar" tags="vblex.*"><select lemma="acordar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match lemma="acordar" tags="vblex.*.p1.sg"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match lemma="acordar" tags="vblex.*.p2.sg"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="acordar" tags="vblex.*.p3.sg"><select lemma="recordar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.pl"/>
+    <match lemma="acordar" tags="vblex.*.p1.pl"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p2.mf.pl"/>
+    <match lemma="acordar" tags="vblex.*.p2.pl"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="acordar" tags="vblex.*.p3.pl"><select lemma="recordar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>
+  </rule>
+
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match lemma="haber" tags="vbhaver.*.p1.sg"/>
+    <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match lemma="haber" tags="vbhaver.*.p2.sg"/>
+    <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="haber" tags="vbhaver.*.p3.sg"/>
+    <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.pl"/>
+    <match lemma="haber" tags="vbhaver.*.p1.pl"/>
+    <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p2.mf.pl"/>
+    <match lemma="haber" tags="vbhaver.*.p2.pl"/>
+    <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="haber" tags="vbhaver.*.p3.pl"/>
+    <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>
+  </rule>
+
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbmod.*.p1.sg"/>
+    <match lemma="acordar" tags="vblex.inf"><select lemma="recordar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbmod.*.p2.sg"/>
+    <match lemma="acordar" tags="vblex.inf"><select lemma="recordar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbmod.*.p3.sg"/>
+    <match lemma="acordar" tags="vblex.inf"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbmod.*.p1.pl"/>
+    <match lemma="acordar" tags="vblex.inf"><select lemma="recordar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbmod.*.p2.pl"/>
+    <match lemma="acordar" tags="vblex.inf"><select lemma="recordar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbmod.*.p3.pl"/>
+    <match lemma="acordar" tags="vblex.inf"><select lemma="recordar"/></match>
+  </rule>
+
+  <rule weight="1"> <!-- No funciona en un cas: "tienes que darme cuenta a mi" (molt rar)-->
+    <match lemma="acordar"><select lemma="recordar"/></match>
+        <or>
+            <match tags="prn.enc.ref.p3.mf.sp"/>
+            <match tags="prn.enc.p1.mf.*"/>
+            <match tags="prn.enc.p2.mf.*"/>
+        </or>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="acordar" tags="vblex.imp.p2.sg"><select lemma="recordar"/></match>
+    <match tags="prn.enc.p2.mf.sg"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="acordar" tags="vblex.imp.p3.sg"><select lemma="recordar"/></match>
+    <match tags="prn.enc.ref.p3.mf.sp"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="acordar" tags="vblex.imp.p1.pl"><select lemma="recordar"/></match>
+    <match tags="prn.pro.p1.mf.pl"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="acordar" tags="vblex.imp.p2.pl"><select lemma="recordar"/></match>
+    <match tags="prn.pro.p2.mf.pl"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="acordar" tags="vblex.imp.p3.pl"><select lemma="recordar"/></match>
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+  </rule>
+
+
+
    <!-- darse cuenta > adonar-se / dar cuenta > donar compte -->
 
   <rule weight="0.8">
     <match lemma="dar# cuenta" tags="vblex.*"><select lemma="donar# compte"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="1.5">
+    <match lemma="dar# cuenta" tags="vblex.*"><select lemma="donar# compte"/></match>
+    <match lemma="a" tags="pr"/>
+  </rule>
+
+  <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
     <match lemma="dar# cuenta" tags="vblex.*.p1.sg"><select lemma="adonar"/></match>
   </rule>
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.p2.mf.sg"/>
     <match lemma="dar# cuenta" tags="vblex.*.p2.sg"><select lemma="adonar"/></match>
   </rule>
@@ -350,25 +500,25 @@
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match lemma="dar# cuenta" tags="vblex.*.p3.sg"><select lemma="adonar"/></match>
   </rule>
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.p1.mf.pl"/>
     <match lemma="dar# cuenta" tags="vblex.*.p1.pl"><select lemma="adonar"/></match>
   </rule>
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.p2.mf.pl"/>
     <match lemma="dar# cuenta" tags="vblex.*.p2.pl"><select lemma="adonar"/></match>
   </rule>
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match lemma="dar# cuenta" tags="vblex.*.p3.pl"><select lemma="adonar"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
     <match tags="vbmod.*.p1.sg"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
   </rule>
-    <rule weight="1">
+    <rule weight="2">
     <match tags="prn.pro.p2.mf.sg"/>
     <match tags="vbmod.*.p2.sg"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
@@ -378,29 +528,69 @@
     <match tags="vbmod.*.p3.sg"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
   </rule>
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
     <match tags="vbmod.*.p1.pl"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
   </rule>
-    <rule weight="1">
+    <rule weight="2">
     <match tags="prn.pro.p2.mf.sg"/>
     <match tags="vbmod.*.p2.pl"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
   </rule>
-    <rule weight="1">
+    <rule weight="2">
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match tags="vbmod.*.p3.pl"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
   </rule>
 
-  <rule weight="1"> <!-- No funciona en un cas: "tienes que darme cuenta a mi" (molt rar)-->
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbhaver.*.p1.sg"/>
+    <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbhaver.*.p2.sg"/>
+    <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbhaver.*.p3.sg"/>
+    <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbhaver.*.p1.pl"/>
+    <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbhaver.*.p2.pl"/>
+    <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbhaver.*.p3.pl"/>
+    <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
+  </rule>
+
+  <rule weight="1"> 
     <match lemma="dar# cuenta"><select lemma="adonar"/></match>
-        <or>
-            <match tags="prn.enc.ref.p3.mf.sp"/>
-            <match tags="prn.enc.p1.mf.*"/>
-            <match tags="prn.enc.p2.mf.*"/>
-        </or>
+    <or>
+        <match tags="prn.enc.ref.p3.mf.sp"/>
+        <match tags="prn.enc.p1.mf.*"/>
+        <match tags="prn.enc.p2.mf.*"/>
+    </or>
+  </rule>
+  <rule weight="1.5"> 
+    <match lemma="dar# cuenta"><select lemma="donar# compte"/></match>
+    <or>
+        <match tags="prn.enc.ref.p3.mf.sp"/>
+        <match tags="prn.enc.p1.mf.*"/>
+        <match tags="prn.enc.p2.mf.*"/>
+    </or>
+    <match lemma="a" tags="pr"/>
   </rule>
   
 <!-- tachar > ratllar / titllar  -->
@@ -529,6 +719,64 @@
     </or>
   </rule>
 
+
+    <!-- cruzar > creuar / travessar/ encreuar  -->
+
+  <rule weight="0.5">
+    <match lemma="cruzar" tags="vblex.*"><select lemma="creuar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cruzar" tags="vblex.*"><select lemma="travessar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="autopista" tags="n.*"/>
+      <match lemma="autovía" tags="n.*"/>
+      <match lemma="avenida" tags="n.*"/>
+      <match lemma="calle" tags="n.*"/>
+      <match lemma="carretera" tags="n.*"/>
+      <match lemma="frontera" tags="n.*"/>
+      <match lemma="lago" tags="n.*"/>
+      <match lemma="línea" tags="n.*"/>
+      <match lemma="meta" tags="n.*"/>
+      <match lemma="plaza" tags="n.*"/>
+      <match lemma="puerta" tags="n.*"/>
+      <match lemma="río" tags="n.*"/>
+      <match lemma="umbral" tags="n.*"/>
+      <match lemma="vía" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cruzar" tags="vblex.*"><select lemma="encreuar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="pierna" tags="n.*"/>
+      <match lemma="dedo" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="pierna" tags="n.*"/>
+    </or>
+    <match lemma="cruzar" tags="vblex.*"><select lemma="plegar"/></match>
+  </rule>
+
   <!-- emplear > emprar/ocupar -->
 
   <rule weight="0.8">
@@ -576,6 +824,812 @@
   <rule weight="1.0"> 
     <match lemma="gran"/>
     <match lemma="número" tags="n.*"><select lemma="nombre"/></match>
+  </rule>
+
+
+ <!-- hasta la fecha > fins avui / fins a la data  -->
+
+  <rule weight="0.5">
+    <match lemma="hasta la fecha" tags="adv"><select lemma="fins avui"/></match>
+  </rule>
+
+   <rule weight="1.5">
+    <match lemma="hasta la fecha" tags="adv"><select lemma="fins avui"/></match>
+    <match tags="adj.mf.*" lemma="gran"/>
+  </rule>
+
+  <rule weight="1.5">
+    <match lemma="hasta la fecha" tags="adv"><select lemma="fins avui"/></match>
+    <match tags="pr" lemma="de"/>
+    <or>
+      <match tags="n.f.sg" lemma="manera"/>
+      <match tags="n.f.sg" lemma="forma"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="hasta la fecha" tags="adv"><select lemma="fins a la data"/></match>
+    <or>
+      <match lemma="de" tags="pr"/>
+      <match tags="adj.f.*"/>
+      <match tags="adj.mf.*"/>
+      <match tags="*.pp.f.sg"/>
+    </or>
+  </rule>
+
+  <!-- bolsa > bossa / borsa  -->
+
+  <rule weight="0.5">
+    <match lemma="bolsa" tags="n.f.*"><select lemma="bossa"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="Bolsa" tags="n.f.*"><select lemma="borsa"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="bolsa" tags="n.f.*"><select lemma="borsa"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match lemma="de" tags="pr"/>
+        <match lemma="a" tags="pr"/>
+        <match lemma="no" tags="adv"/>
+        <match lemma="todo"/>
+        <match tags="det.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="np.loc"/>
+      <match tags="np.top"/>
+      <match tags="np.loc.*"/>
+      <match tags="np.top.*"/>
+      <match lemma="sudeste" tags="n.*"/>
+      <match lemma="valor" tags="n.*"/>
+      <match lemma="mundo" tags="n.*"/>
+      <match lemma="mudial" tags="adj.*"/>
+      <match lemma="internacional" tags="adj.*"/>
+      <match lemma="sureste" tags="n.*"/>
+      <match lemma="unión" tags="n.*"/>
+      <match lemma="trabajo" tags="n.*"/>
+      <match lemma="interino" tags="n.*"/>
+      <match lemma="suplente"/>
+      <match lemma="médico" tags="n.*"/>
+      <match lemma="enfermero" tags="n.*"/>
+      <match lemma="profesor" tags="n.*"/>
+      <match lemma="maestro" tags="n.*"/>
+      <match lemma="asiático" tags="adj.*"/>
+      <match lemma="europeo" tags="adj.*"/>
+      <match lemma="americano" tags="adj.*"/>
+      <match lemma="estadounidense" tags="adj.*"/>
+      <match lemma="norteamericano" tags="adj.*"/>
+      <match lemma="suramericano" tags="adj.*"/>
+      <match lemma="asiático" tags="adj.*"/>
+      <match lemma="latinoamericano" tags="adj.*"/>
+      <match lemma="africano" tags="adj.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="bolsa" tags="n.f.*"><select lemma="borsa"/></match>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="acción"/>
+      <match lemma="agente" tags="n.*"/>
+      <match lemma="banco" tags="n.*"/>
+      <match lemma="capital" tags="n.*"/>
+      <match lemma="competencia" tags="n.f.*"/>
+      <match lemma="corredor" tags="n.*"/>
+      <match lemma="cotización"/>
+      <match lemma="cotizar"/>
+      <match lemma="crisis" tags="n.f.*"/>
+      <match lemma="economía" tags="n.f.*"/>
+      <match lemma="empresa" tags="n.f.*"/>
+      <match lemma="financiación"/>
+      <match lemma="financiar"/>
+      <match lemma="financiero"/>
+      <match lemma="fondo" tags="n.m.*"/>
+      <match lemma="inversor"/>
+      <match lemma="invertir"/>
+      <match lemma="jubilación"/>
+      <match lemma="mercado" tags="n.m.*"/>
+      <match lemma="multinacional"/>
+      <match lemma="negociar"/>
+      <match lemma="pensión"/>
+      <match lemma="renta" tags="n.*"/>
+      <match lemma="start-up"/>
+      <match lemma="valor" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="acción"/>
+      <match lemma="agente" tags="n.*"/>
+      <match lemma="banco" tags="n.*"/>
+      <match lemma="capital" tags="n.*"/>
+      <match lemma="competencia" tags="n.f.*"/>
+      <match lemma="corredor" tags="n.*"/>
+      <match lemma="cotización"/>
+      <match lemma="cotizar"/>
+      <match lemma="crisis" tags="n.f.*"/>
+      <match lemma="economía" tags="n.f.*"/>
+      <match lemma="empresa" tags="n.f.*"/>
+      <match lemma="financiación"/>
+      <match lemma="financiar"/>
+      <match lemma="financiero"/>
+      <match lemma="fondo" tags="n.m.*"/>
+      <match lemma="inversor"/>
+      <match lemma="invertir"/>
+      <match lemma="jubilación"/>
+      <match lemma="mercado" tags="n.m.*"/>
+      <match lemma="multinacional"/>
+      <match lemma="negociar"/>
+      <match lemma="pensión"/>
+      <match lemma="renta" tags="n.*"/>
+      <match lemma="start-up"/>
+      <match lemma="valor" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="bolsa" tags="n.f.*"><select lemma="borsa"/></match>
+  </rule>
+
+    <rule weight="2">
+    <match lemma="bolsa" tags="n.f.*"><select lemma="bossa"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match lemma="de" tags="pr"/>
+        <match tags="det.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="agua" tags="n.*"/>
+      <match lemma="aire" tags="n.*"/>
+      <match lemma="anticontagio" tags="adj.*"/>
+      <match lemma="aspiración" tags="n.*"/>
+      <match lemma="basura" tags="n.*"/>
+      <match lemma="biodegradable" tags="adj.*"/>
+      <match lemma="colector" tags="adj.*"/>
+      <match lemma="comida" tags="n.*"/>
+      <match lemma="compra" tags="n.*"/>
+      <match lemma="golf" tags="n.*"/>
+      <match lemma="mano" tags="n.*"/>
+      <match lemma="papel" tags="n.*"/>
+      <match lemma="piel" tags="n.*"/>
+      <match lemma="plástico" tags="n.*"/>
+      <match lemma="pobreza" tags="n.*"/>
+      <match lemma="tela" tags="n.*"/>
+      <match lemma="testicular" tags="adj.*"/>
+      <match lemma="transparente" tags="adj.*"/>
+      <match lemma="térmico" tags="adj.*"/>
+      <match lemma="viaje" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- cámara > càmera / cambra  -->
+
+  <rule weight="0.5">
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
+  </rule>
+
+  <rule weight="5">
+    <or>
+      <match lemma="ayuda"/>
+      <match lemma="ayudante"/>
+      <match lemma="carpintero"/>
+      <match lemma="clericato"/>
+      <match lemma="clérigo"/>
+      <match lemma="conjunto"/>
+      <match lemma="consejo"/>
+      <match lemma="coro"/>
+      <match lemma="debate"/>
+      <match lemma="diputado"/>
+      <match lemma="escultor"/>
+      <match lemma="feudo"/>
+      <match lemma="gentilhombre"/>
+      <match lemma="grupo"/>
+      <match lemma="maestro"/>
+      <match lemma="maestría"/>
+      <match lemma="miembro"/>
+      <match lemma="montero"/>
+      <match lemma="mozo"/>
+      <match lemma="música"/>
+      <match lemma="obra"/>
+      <match lemma="orquesta"/>
+      <match lemma="paje"/>
+      <match lemma="parlamentario"/>
+      <match lemma="pintor"/>
+      <match lemma="plenario"/>
+      <match lemma="pleno"/>
+      <match lemma="presidente"/>
+      <match lemma="representando"/>
+      <match lemma="representante"/>
+      <match lemma="ropa"/>
+      <match lemma="secretario"/>
+      <match lemma="senador"/>
+      <match lemma="teatro"/>
+      <match lemma="tesorero"/>
+      <match lemma="tribunal"/>
+      <match lemma="ujier"/>
+      <match lemma="vicepresidente"/>
+    </or>
+    <or>
+      <match lemma="de" tags="pr"/>
+      <match lemma="en" tags="pr"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
+  </rule>
+
+  <rule weight="5">
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
+    <match lemma="de"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="agua"/>
+      <match lemma="aire"/>
+      <match lemma="apelación"/>
+      <match lemma="arma"/>
+      <match lemma="bombeo"/>
+      <match lemma="burbuja"/>
+      <match lemma="carga"/>
+      <match lemma="Castilla"/>
+      <match lemma="combustión"/>
+      <match lemma="comercio"/>
+      <match lemma="compensación"/>
+      <match lemma="común"/>
+      <match lemma="congelación"/>
+      <match lemma="congreso"/>
+      <match lemma="consejo"/>
+      <match lemma="cría"/>
+      <match lemma="cultivo"/>
+      <match lemma="diputado"/>
+      <match lemma="empresario"/>
+      <match lemma="expansión"/>
+      <match lemma="gas"/>
+      <match lemma="india"/>
+      <match lemma="industria"/>
+      <match lemma="ionización"/>
+      <match lemma="lord"/>
+      <match lemma="máquina"/>
+      <match lemma="navegación"/>
+      <match lemma="paño"/>
+      <match lemma="parlamentario"/>
+      <match lemma="productor"/>
+      <match lemma="propiedad"/>
+      <match lemma="presión"/>
+      <match lemma="representando"/>
+      <match lemma="representante"/>
+      <match lemma="resonancia"/>
+      <match lemma="reverberación"/>
+      <match lemma="rey"/>
+      <match lemma="senador"/>
+      <match lemma="vacío"/>
+      <match lemma="vapor"/>
+    </or>
+  </rule>
+<rule weight="5">
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
+    <match tags="adj.*"/>
+    <match lemma="de"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="agua"/>
+      <match lemma="aire"/>
+      <match lemma="apelación"/>
+      <match lemma="arma"/>
+      <match lemma="bombeo"/>
+      <match lemma="burbuja"/>
+      <match lemma="carga"/>
+      <match lemma="Castilla"/>
+      <match lemma="combustión"/>
+      <match lemma="comercio"/>
+      <match lemma="compensación"/>
+      <match lemma="compresión"/>
+      <match lemma="común"/>
+      <match lemma="congelación"/>
+      <match lemma="congreso"/>
+      <match lemma="consejo"/>
+      <match lemma="conservación"/>
+      <match lemma="cría"/>
+      <match lemma="cultivo"/>
+      <match lemma="descongelación"/>
+      <match lemma="desverdización"/>
+      <match lemma="diputado"/>
+      <match lemma="empresario"/>
+      <match lemma="enfriamiento"/>
+      <match lemma="expansión"/>
+      <match lemma="gas"/>
+      <match lemma="india"/>
+      <match lemma="industria"/>
+      <match lemma="ionización"/>
+      <match lemma="lord"/>
+      <match lemma="máquina"/>
+      <match lemma="navegación"/>
+      <match lemma="parlamentario"/>
+      <match lemma="paño"/>
+      <match lemma="postcombustión"/>
+      <match lemma="precipitación"/>
+      <match lemma="precombustión"/>
+      <match lemma="presión"/>
+      <match lemma="productor"/>
+      <match lemma="propiedad"/>
+      <match lemma="recuperación"/>
+      <match lemma="regulación"/>
+      <match lemma="representando"/>
+      <match lemma="representante"/>
+      <match lemma="resonancia"/>
+      <match lemma="retención"/>
+      <match lemma="reverberación"/>
+      <match lemma="rey"/>
+      <match lemma="senador"/>
+      <match lemma="vacío"/>
+      <match lemma="vapor"/>
+    </or>
+  </rule>
+
+  <rule weight="5">
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
+    <or>
+      <match lemma="acorazar"/>
+      <match lemma="acuoso"/>
+      <match lemma="aerífero"/>
+      <match lemma="agrario"/>
+      <match lemma="agrícola"/>
+      <match lemma="alto"/>
+      <match lemma="anecoico"/>
+      <match lemma="apostólico"/>
+      <match lemma="ardiente"/>
+      <match lemma="autonómico"/>
+      <match lemma="bajo"/>
+      <match lemma="comercial"/>
+      <match lemma="doblar"/>
+      <match lemma="estatal"/>
+      <match lemma="espiral"/>
+      <match lemma="frigorífico"/>
+      <match lemma="funerario"/>
+      <match lemma="hiperbárico"/>
+      <match lemma="hipobárico"/>
+      <match lemma="hidropónico"/>
+      <match lemma="incubador"/>
+      <match lemma="impelente"/>
+      <match lemma="insonorizar"/>
+      <match lemma="institucional"/>
+      <match lemma="legislativo"/>
+      <match lemma="local"/>
+      <match lemma="metálico"/>
+      <match lemma="magmático"/>
+      <match lemma="mortuorio"/>
+      <match lemma="nacional"/>
+      <match lemma="ocular"/>
+      <match lemma="oficial"/>
+      <match lemma="oscura"/>
+      <match lemma="parlamentario"/>
+      <match lemma="provincial"/>
+      <match lemma="regional"/>
+      <match lemma="representativo"/>
+      <match lemma="séptico"/>
+      <match lemma="vítreo"/>
+    </or>
+  </rule>
+
+  <rule weight="5">
+    <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
+    <match lemma="de"/>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="det.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="alto" tags="adj.*"/>
+      <match lemma="cine"/>
+      <match lemma="cinematografía"/>
+      <match lemma="circuito"/>
+      <match lemma="foto"/>
+      <match lemma="fotografía"/>
+      <match lemma="mano"/>
+      <match lemma="observación"/>
+      <match lemma="seguridad"/>
+      <match lemma="televisión"/>
+      <match lemma="termográfico"/>
+      <match lemma="video"/>
+      <match lemma="videovigilancia"/>
+      <match lemma="vigilancia"/>
+      <match lemma="vídeo"/>
+      <match lemma="web"/>
+    </or>
+  </rule>
+
+    <rule weight="5">
+    <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
+    <or>
+      <match lemma="analógico"/>
+      <match lemma="automático"/>
+      <match lemma="cinematográfico"/>
+      <match lemma="claro"/>
+      <match lemma="compacto"/>
+      <match lemma="digital"/>
+      <match lemma="estenopeico"/>
+      <match lemma="fotográfico"/>
+      <match lemma="infrarrojo"/>
+      <match lemma="lento"/>
+      <match lemma="lúcido"/>
+      <match lemma="rápido"/>
+      <match lemma="réflex"/>
+      <!--<match lemma="submarino"/>  és ambigu -->
+      <match lemma="superlento"/>
+      <match lemma="web"/>
+    </or>
+  </rule>
+
+  <rule weight="5">
+    <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
+    <match lemma="y" tags="cnjcoo"/>
+    <match lemma="acción" tags="n.f.sg"/>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="Cámara" tags="n.f.*"><select lemma="Cambra"/></match>
+  </rule>
+
+
+  <rule weight="1">
+    <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="2D"/>
+      <match lemma="3D"/>
+      <match lemma="actor"/>
+      <match lemma="actriz"/>
+      <match lemma="Allen"/>
+      <match lemma="animación"/>
+      <match lemma="Antena 3"/>
+      <match lemma="astrofísica"/>
+      <match lemma="astronoomía"/>
+      <match lemma="audiovisual"/>
+      <match lemma="BBC"/>
+      <match lemma="binóculo"/>
+      <match lemma="Canal Nou"/>
+      <match lemma="Canal Plus"/>
+      <match lemma="captura"/>
+      <match lemma="carrete"/>
+      <match lemma="CCTV"/>
+      <match lemma="cine"/>
+      <match lemma="cineasta"/>
+      <match lemma="cinematografía"/>
+      <match lemma="cinematográfico"/>
+      <match lemma="claqueta"/>
+      <match lemma="CNN"/>
+      <match lemma="debut"/>
+      <match lemma="desenvoltura"/>
+      <match lemma="difracción"/>
+      <match lemma="digital"/>
+      <match lemma="digital"/>
+      <match lemma="digitalizar"/>
+      <match lemma="diodo"/>
+      <match lemma="director"/>
+      <match lemma="documental"/>
+      <match lemma="electrónica"/>
+      <match lemma="electrónico"/>
+      <match lemma="eléctrico"/>
+      <match lemma="emisor"/>
+      <match lemma="emisora"/>
+      <match lemma="emitir"/>
+      <match lemma="encuadrar"/>
+      <match lemma="encuadre"/>
+      <match lemma="enfocar"/>
+      <match lemma="enfoque"/>
+      <match lemma="estadio"/>
+      <match lemma="film"/>
+      <match lemma="filmación"/>
+      <match lemma="filmar"/>
+      <match lemma="flash"/>
+      <match lemma="flux"/>
+      <match lemma="fílmico"/>
+      <match lemma="focalización"/>
+      <match lemma="foto"/>
+      <match lemma="fotográfico"/>
+      <match lemma="fotógrafo"/>
+      <match lemma="geometría"/>
+      <match lemma="grabación"/>
+      <match lemma="grabar"/>
+      <match lemma="gráfico"/>
+      <match lemma="guionista"/>
+      <match lemma="guión"/>
+      <match lemma="Hollywood"/>
+      <match lemma="iluminación"/>
+      <match lemma="IMAX"/>
+      <match lemma="infrarrojo"/>
+      <match lemma="inmortalizar"/>
+      <match lemma="internet"/>
+      <match lemma="lente" tags="n.f.*"/>
+      <match lemma="megapíxel"/>
+      <match lemma="micrófono"/>
+      <match lemma="micrófono"/>
+      <match lemma="monitor"/>
+      <match lemma="montador"/>
+      <match lemma="montaje"/>
+      <match lemma="movimiento"/>
+      <match lemma="narrativa"/>
+      <match lemma="noticiario"/>
+      <match lemma="obturación"/>
+      <match lemma="obturar"/>
+      <match lemma="operador"/>
+      <match lemma="parking"/>
+      <match lemma="película"/>
+      <match lemma="periodista"/>
+      <match lemma="presentador"/>
+      <match lemma="proyector"/>
+      <match lemma="píxel"/>
+      <match lemma="render"/>
+      <match lemma="reportero"/>
+      <match lemma="retransmisión"/>
+      <match lemma="retransmitir"/>
+      <match lemma="retratar"/>
+      <match lemma="rodaje"/>
+      <match lemma="rodar"/>
+      <match lemma="RTVE"/>
+      <!--<match lemma="secuencia"/>-->
+      <match lemma="sensor"/>
+      <match lemma="sonda"/>
+      <match lemma="teatro"/>
+      <match lemma="Telecinco"/>
+      <match lemma="Telemadrid"/>
+      <match lemma="telescopio"/>
+      <match lemma="televisión"/>
+      <match lemma="tiro"/>
+      <match lemma="transmisión"/>
+      <match lemma="transmitir"/>
+      <match lemma="trípode"/>
+      <match lemma="TV3"/>
+      <match lemma="TVE"/>
+      <match lemma="vestuario"/>
+      <match lemma="video"/>
+      <match lemma="videovigilancia"/>
+      <match lemma="vigilancia"/>
+      <match lemma="visión"/>
+      <match lemma="visor"/>
+      <match lemma="vídeo"/>
+      <match lemma="zoom"/>
+      <match lemma="À Punt"/>
+      <match lemma="ángulo"/>
+      <match lemma="óptica"/>
+      <match lemma="óptico"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="2D"/>
+      <match lemma="3D"/>
+      <match lemma="actor"/>
+      <match lemma="actriz"/>
+      <match lemma="Allen"/>
+      <match lemma="animación"/>
+      <match lemma="Antena 3"/>
+      <match lemma="astrofísica"/>
+      <match lemma="astronoomía"/>
+      <match lemma="audiovisual"/>
+      <match lemma="BBC"/>
+      <match lemma="binóculo"/>
+      <match lemma="Canal Nou"/>
+      <match lemma="Canal Plus"/>
+      <match lemma="captura"/>
+      <match lemma="carrete"/>
+      <match lemma="CCTV"/>
+      <match lemma="cine"/>
+      <match lemma="cineasta"/>
+      <match lemma="cinematografía"/>
+      <match lemma="cinematográfico"/>
+      <match lemma="claqueta"/>
+      <match lemma="CNN"/>
+      <match lemma="debut"/>
+      <match lemma="desenvoltura"/>
+      <match lemma="difracción"/>
+      <match lemma="digital"/>
+      <match lemma="digital"/>
+      <match lemma="digitalizar"/>
+      <match lemma="diodo"/>
+      <match lemma="director"/>
+      <match lemma="documental"/>
+      <match lemma="electrónica"/>
+      <match lemma="electrónico"/>
+      <match lemma="eléctrico"/>
+      <match lemma="emisor"/>
+      <match lemma="emisora"/>
+      <match lemma="emitir"/>
+      <match lemma="encuadrar"/>
+      <match lemma="encuadre"/>
+      <match lemma="enfocar"/>
+      <match lemma="enfoque"/>
+      <match lemma="estadio"/>
+      <match lemma="film"/>
+      <match lemma="filmación"/>
+      <match lemma="filmar"/>
+      <match lemma="flash"/>
+      <match lemma="flux"/>
+      <match lemma="fílmico"/>
+      <match lemma="focalización"/>
+      <match lemma="foto"/>
+      <match lemma="fotográfico"/>
+      <match lemma="fotógrafo"/>
+      <match lemma="geometría"/>
+      <match lemma="grabación"/>
+      <match lemma="grabar"/>
+      <match lemma="gráfico"/>
+      <match lemma="guionista"/>
+      <match lemma="guión"/>
+      <match lemma="Hollywood"/>
+      <match lemma="iluminación"/>
+      <match lemma="IMAX"/>
+      <match lemma="infrarrojo"/>
+      <match lemma="inmortalizar"/>
+      <match lemma="internet"/>
+      <match lemma="lente" tags="n.f.*"/>
+      <match lemma="megapíxel"/>
+      <match lemma="micrófono"/>
+      <match lemma="micrófono"/>
+      <match lemma="monitor"/>
+      <match lemma="montador"/>
+      <match lemma="montaje"/>
+      <match lemma="movimiento"/>
+      <match lemma="narrativa"/>
+      <match lemma="noticiario"/>
+      <match lemma="obturación"/>
+      <match lemma="obturar"/>
+      <match lemma="operador"/>
+      <match lemma="parking"/>
+      <match lemma="película"/>
+      <match lemma="periodista"/>
+      <match lemma="presentador"/>
+      <match lemma="proyector"/>
+      <match lemma="píxel"/>
+      <match lemma="render"/>
+      <match lemma="reportero"/>
+      <match lemma="retransmisión"/>
+      <match lemma="retransmitir"/>
+      <match lemma="retratar"/>
+      <match lemma="rodaje"/>
+      <match lemma="rodar"/>
+      <match lemma="RTVE"/>
+      <!--<match lemma="secuencia"/>-->
+      <match lemma="sensor"/>
+      <match lemma="sonda"/>
+      <match lemma="teatro"/>
+      <match lemma="Telecinco"/>
+      <match lemma="Telemadrid"/>
+      <match lemma="telescopio"/>
+      <match lemma="televisión"/>
+      <match lemma="tiro"/>
+      <match lemma="transmisión"/>
+      <match lemma="transmitir"/>
+      <match lemma="trípode"/>
+      <match lemma="TV3"/>
+      <match lemma="TVE"/>
+      <match lemma="vestuario"/>
+      <match lemma="video"/>
+      <match lemma="videovigilancia"/>
+      <match lemma="vigilancia"/>
+      <match lemma="visión"/>  <!-- división! -->
+      <match lemma="visor"/>
+      <match lemma="vídeo"/>
+      <match lemma="zoom"/>
+      <match lemma="À Punt"/>
+      <match lemma="ángulo"/>
+      <match lemma="óptica"/>
+      <match lemma="óptico"/>
+    </or>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="candidato"/>
+      <match lemma="censo"/>
+      <match lemma="consejería"/>
+      <match lemma="conselleria"/>
+      <match lemma="diputado"/>
+      <match lemma="ejecutivo"/>
+      <match lemma="electoral"/>
+      <match lemma="Generalidad"/>
+      <match lemma="Generalitat"/>
+      <match lemma="legislativo"/>
+      <match lemma="operístico"/>
+      <match lemma="presidente"/>
+      <match lemma="repertorio"/>
+      <match lemma="secretario"/>
+      <match lemma="secretaría"/>
+      <match lemma="senador"/>
+      <match lemma="sinfónico"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="candidato"/>
+      <match lemma="censo"/>
+      <match lemma="consejería"/>
+      <match lemma="conselleria"/>
+      <match lemma="diputado"/>
+      <match lemma="ejecutivo"/>
+      <match lemma="electoral"/>
+      <match lemma="Generalidad"/>
+      <match lemma="Generalitat"/>
+      <match lemma="legislativo"/>
+      <match lemma="operístico"/>
+      <match lemma="presidente"/>
+      <match lemma="repertorio"/>
+      <match lemma="secretario"/>
+      <match lemma="secretaría"/>
+      <match lemma="senador"/>
+      <match lemma="sinfónico"/>
+      <match lemma="remitir"/>  <!-- bug emitir -->
+    </or>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
   </rule>
 
   <!-- orden religiosa > orde religiós -->
@@ -756,6 +1810,23 @@
     </or>
   </rule>
 
+   <rule weight="2">
+    <match lemma="plano" tags="n.*"><select lemma="pla"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="det.*"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <or>
+      <match tags="np.*" lemma="UE"/>
+      <match tags="np.*" lemma="EUA"/>
+      <match tags="np.*" lemma="España"/>
+      <match tags="np.*" lemma="Francia"/>
+      <match tags="np.*" lemma="Alemania"/>
+    </or>
+  </rule>
+
   <!-- mandar > manar/enviar -->
 
   <rule weight="0.8">
@@ -820,6 +1891,50 @@
     <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match>
   </rule>
 
+  <rule weight="4.0">
+    <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match> 
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+    </repeat>
+    <match lemma="atención"/>
+  </rule>
+
+  <rule weight="3.0">
+    <match tags="vbser.*"/>
+    <match lemma="llamar" tags="vblex.pp.*"><select lemma="cridar"/></match>
+    <or>
+      <match lemma="por" tags="pr"/>
+      <match lemma="a" tags="pr"/>
+    </or>
+  </rule>
+
+  <rule weight="3.0">  
+    <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match>
+    <repeat from="0" upto="10">
+      <or>
+        <match tags="pr" lemma="a"/>
+        <match tags="pr" lemma="de"/>
+        <match tags="n.*"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <!--<match tags="pr"/>-->
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="a" tags="pr"/>
+    <match tags="*.inf"/>
+  </rule>
+
+  <rule weight="3.0">
+    <match tags="adv"/>
+    <match lemma="llamar" tags="vblex.pp.*"><select lemma="cridar"/></match> 
+    <match lemma="por"/>
+  </rule>
+
   <rule weight="1.0">
     <match lemma="llamar" tags="vblex.*"><select lemma="telefonar"/></match>
     <match lemma="a"/>
@@ -870,11 +1985,27 @@
     </or>
   </rule>
 
+  <rule weight="3.0">
+    <or>
+      <match lemma="teléfono"/>
+      <match lemma="puerta"/>
+    </or>
+    <match lemma="a" tags="pr"/>
+    <repeat from="0" upto="1">
+        <match tags="det.*"/>
+    </repeat> 
+    <match tags="rel.*"/>
+    <match lemma="llamar" tags="vblex.*"><select lemma="trucar"/></match> 
+  </rule>
+
   <rule weight="1.0">
     <match lemma="llamar" tags="vblex.*"><select lemma="trucar"/></match>
     <match lemma="a"/>
     <match tags="det.*"/>
-    <match lemma="teléfono"/>
+    <or>
+      <match lemma="teléfono"/>
+      <match lemma="puerta"/>
+    </or>
   </rule>
 
   <rule weight="1.0">
@@ -889,7 +2020,17 @@
         <match lemma="así"/>
         <match tags="adj.*"/>
         <match tags="n.*"/>
+        <match tags="det.*"/>
       </or>
+  </rule>
+
+  <rule weight="2.0">
+    <or>
+      <match lemma="se" tags="prn.pro.ref.p3.mf.sp"/>
+      <match lemma="le" tags="prn.pro.p3.mf.sp"/>
+    </or>
+    <match tags="prn.pro.p3.*" />
+    <match lemma="llamar" tags="vblex.*"><select lemma="dir"/></match> 
   </rule>
 
   <rule weight="1.0">
@@ -898,14 +2039,31 @@
   </rule>
 
   <rule weight="3.0">
-    <match tags="adv"/>
-    <match lemma="llamar" tags="vblex.pp.*"><select lemma="cridar"/></match> 
-    <match lemma="por"/>
+    <match lemma="llamar" tags="vblex.*"><select lemma="dir"/></match> 
+    <match lemma="se" tags="prn.enc.*"/>
   </rule>
 
   <rule weight="3.0">
-    <match lemma="llamar" tags="vblex.*"><select lemma="dir"/></match> 
-    <match lemma="se" tags="prn.enc.*"/>
+    <match lemma="llamar" tags="vblex.*"><select lemma="anomenar"/></match> 
+    <match tags="prn.enc.*"/>
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+    </or>
+  </rule>
+
+  <rule weight="3.0">
+    <or>
+      <match lemma="como"/>
+      <match lemma="cómo"/>
+    </or>
+    <match tags="prn.pro.*"/>
+    <match lemma="llamar" tags="vblex.*"><select lemma="anomenar"/></match>
+  </rule>
+
+  <rule weight="2.0">
+    <match tags="rel.*"/>
+    <match lemma="llamar" tags="vblex.*"><select lemma="anomenar"/></match>
   </rule>
 
  <!-- granito > granit/granet/mica -->
@@ -1100,6 +2258,25 @@
     </or>
   </rule>
 
+  <!-- daño > mal / danys  -->
+
+  <rule weight="1">
+    <match lemma="daño" tags="n.m.sg"><select lemma="mal"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="daño" tags="n.m.pl"><select lemma="dany"/></match>
+  </rule>
+
+   <rule weight="2">
+    <match lemma="daño" tags="n.*"><select lemma="dany"/></match>
+    <or>
+      <match lemma="cerebral"/>
+      <match lemma="anatómico"/>
+    </or>
+  </rule>
+ 
+
 
 <!-- cumbre > cim /cimera -->
 
@@ -1125,12 +2302,30 @@
       <match lemma="ministro" tags="n.*"/>
       <match lemma="presidente" tags="n.*"/>
       <match lemma="consejero" tags="n.*"/>
+      <match lemma="unión" tags="n.*"/>
     </or>
   </rule>
 
   <rule weight="1.0">
     <match lemma="cumbre" tags="n.f.sg"><select lemma="cimera"/></match>  
-    <match lemma="de"/>
+    <repeat from="0" upto="2">
+      <or>
+        <match lemma="de"/>
+        <match tags="det.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="np.loc"/>
+      <match tags="np.top"/>
+      <match tags="np.loc.*"/>
+      <match tags="np.top.*"/>
+      <match lemma="unión" tags="n.*"/>
+    </or>
+  </rule>
+
+    <rule weight="1.0">
+    <match lemma="cumbre" tags="n.f.sg"><select lemma="cimera"/></match>  
+    <match lemma="en"/>
     <repeat from="0" upto="1">
       <match tags="det.*"/>
     </repeat>
@@ -1153,6 +2348,9 @@
       <match lemma="iberoamericano" tags="adj.*"/>
       <match lemma="latinoamericano" tags="adj.*"/>
       <match lemma="euroasiático" tags="adj.*"/>
+      <match lemma="internacional" tags="adj.*"/>
+      <match lemma="reivindicativo" tags="adj.*"/>
+      <match lemma="unión" tags="n.*"/>
     </or>
   </rule>
   
@@ -1180,22 +2378,280 @@
   </rule>
 
 
+<!-- pequeño -->
+
+  <rule weight="0.5">
+    <match lemma="pequeño" tags="adj.*"><select lemma="xicotet"/></match>  
+  </rule>
+
+  <rule weight="1">
+    <match lemma="pequeño" tags="adj.*"><select lemma="petit"/></match>  
+    <or>
+      <match lemma="y" tags="cnjcoo"/>
+      <match lemma="o" tags="cnjcoo"/>
+    </or>
+    <or>
+      <match lemma="medio" tags="adj.*"/>
+      <match lemma="mediano" tags="adj.*"/>
+      <match lemma="grande" tags="adj.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="medio" tags="adj.*"/>
+      <match lemma="mediano" tags="adj.*"/>
+      <match lemma="grande" tags="adj.*"/>
+    </or>
+    <or>
+      <match lemma="y" tags="cnjcoo"/>
+      <match lemma="o" tags="cnjcoo"/>
+    </or>
+    <match lemma="pequeño" tags="adj.*"><select lemma="petit"/></match>  
+    <match tags="n.*"/>
+  </rule>
+
 <!-- medio (adj) > mitjà/mitg/... -->
 
   <rule weight="0.6">
     <match lemma="medio" tags="adj.*"><select lemma="mitjà"/></match>
   </rule>
 
+  <rule weight="2">
+    <or>
+      <match lemma="pequeño" tags="adj.*"/>
+      <match lemma="grande" tags="adj.*"/>
+      <match lemma="bajo" tags="adj.*"/>
+      <match lemma="alto" tags="adj.*"/>
+      <match lemma="largo" tags="adj.*"/>
+      <match lemma="corto" tags="adj.*"/>
+    </or>
+    <or>
+      <match lemma="y" tags="cnjcoo"/>
+      <match lemma="o" tags="cnjcoo"/>
+    </or>
+    <match lemma="medio" tags="adj.*"><select lemma="mitjà"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="medio" tags="adj.*"><select lemma="mitjà"/></match>
+    <or>
+      <match lemma="plazo" tags="n.*"/>
+      <match lemma="término" tags="n.*"/>
+      <match lemma="tensión" tags="n.*"/>
+      <match lemma="edad" tags="n.*"/>
+      <match lemma="altura" tags="n.*"/>
+      <match lemma="tamaño" tags="n.*"/>
+      <match lemma="dimensión" tags="n.*"/>
+      <match lemma="empresa" tags="n.*"/>
+      <match lemma="empresario" tags="n.*"/>
+      <match lemma="negocio" tags="n.*"/>
+      <match lemma="este" tags="n.*"/>
+      <match lemma="oeste" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match lemma="nota" tags="n.*"/>
+      <match lemma="grado" tags="n.*"/>
+      <match lemma="técnico" tags="n.*"/>
+      <match lemma="resistencia" tags="n.*"/>
+      <match lemma="educación" tags="n.*"/>
+      <match lemma="enseñanza" tags="n.*"/>
+    </or>
+    <match lemma="medio" tags="adj.*"><select lemma="mitjà"/></match>
+  </rule>
+
   <rule weight="1.0">
     <match tags="n.m.*"/>
-    <match lemma="y"/>
+    <match lemma="y" tags="cnjcoo"/>
     <match lemma="medio" tags="adj.m.sg"><select lemma="mig"/></match>
   </rule>
   <rule weight="1.0">
     <match tags="n.f.*"/>
-    <match lemma="y"/>
+    <match lemma="y" tags="cnjcoo"/>
     <match lemma="medio" tags="adj.f.sg"><select lemma="mig"/></match>
   </rule>
+
+
+  <rule weight="1.0">
+    <match lemma="medio" tags="adj.m.sg"><select lemma="mig"/></match>
+    <or>
+      <match tags="n.m.sg"/>
+      <match tags="n.mf.sg"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="medio" tags="adj.f.sg"><select lemma="mig"/></match>
+    <or>
+      <match tags="n.f.sg"/>
+      <match tags="n.mf.sg"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="medio" tags="adj.m.pl"><select lemma="mig"/></match>
+    <or>
+      <match tags="n.m.pl"/>
+      <match tags="n.mf.pl"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="medio" tags="adj.f.pl"><select lemma="mig"/></match>
+    <or>
+      <match tags="n.f.pl"/>
+      <match tags="n.mf.pl"/>
+    </or>
+  </rule>
+
+  <!-- tanto > punt / al corrent... -->
+
+  <rule weight="0.5">
+    <match lemma="tanto" tags="n.*"><select lemma="punt"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="tanto" tags="n.*"><select lemma="tant"/></match>
+    <match lemma="por" tags="pr"/>
+    <or>
+      <match lemma="ciento"/>
+      <match lemma="cien"/>
+      <match lemma="tanto"/>
+      <match lemma="mil"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="continuar" tags="vblex.*"/>
+      <match lemma="estar" tags="vblex.*"/>
+      <match lemma="mantener" tags="vblex.*"/>
+      <match lemma="poner" tags="vblex.*"/>
+      <match lemma="seguir" tags="vblex.*"/>
+      <match lemma="tener" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="prn.enc.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match lemma="a" tags="pr"/>
+    <match lemma="el" tags="det.def.m.sg"/>
+    <match lemma="tanto" tags="n.m.sg"><select lemma="corrent"/></match>
+  </rule>
+ 
+  <!-- capital > cabdal / capital... Només per varietat estilistica. -->
+
+  <rule weight="0.6">
+    <match lemma="capital" tags="adj.*"><select lemma="capital"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*" lemma="punto"/>
+      <match tags="n.*" lemma="referencia"/>
+      <match tags="n.*" lemma="importancia"/>
+      <match tags="n.*" lemma="obra"/>
+      <match tags="n.*" lemma="papel"/>
+    </or>
+    <match lemma="capital" tags="adj.*"><select lemma="cabdal"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="capital" tags="adj.*"><select lemma="cabdal"/></match>
+    <match tags="n.*" lemma="importancia"/>
+  </rule>
+
+    <!-- pelo > pèl / cabells -->
+
+  <rule weight="0.6">
+    <match lemma="pelo" tags="n.*"><select lemma="pèl"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="pelo" tags="n.m.sg"><select lemma="cabell"/></match>
+    <or>
+      <match tags="adj.m.sg" lemma="afro"/>
+      <match tags="adj.m.sg" lemma="azul"/>
+      <match tags="adj.m.sg" lemma="blanco"/>
+      <match tags="adj.m.sg" lemma="brillante"/>
+      <match tags="adj.m.sg" lemma="castaño"/>
+      <match tags="adj.m.sg" lemma="corto"/>
+      <match tags="adj.m.sg" lemma="fino"/>
+      <match tags="adj.m.sg" lemma="fuerte"/>
+      <match tags="adj.m.sg" lemma="graso"/>
+      <match tags="adj.m.sg" lemma="gris"/>
+      <match tags="adj.m.sg" lemma="largo"/>
+      <match tags="adj.m.sg" lemma="liso"/>
+      <match tags="adj.m.sg" lemma="moreno"/>
+      <match tags="adj.m.sg" lemma="naranja"/>
+      <match tags="adj.m.sg" lemma="negro"/>
+      <match tags="adj.m.sg" lemma="pelirrojo"/>
+      <match tags="adj.m.sg" lemma="rojo"/>
+      <match tags="adj.m.sg" lemma="rosa"/>
+      <match tags="adj.m.sg" lemma="rubio"/>
+      <match tags="adj.m.sg" lemma="sintético"/>
+      <match tags="adj.m.sg" lemma="suave"/>
+      <match tags="adj.m.sg" lemma="sucio"/>
+      <match tags="adj.m.sg" lemma="suelto"/>
+      <match tags="adj.m.sg" lemma="verde"/>
+      <match tags="vblex.pp.m.sg" lemma="degradar"/>
+      <match tags="vblex.pp.m.sg" lemma="encrespar"/>
+      <match tags="vblex.pp.m.sg" lemma="escalar"/>
+      <match tags="vblex.pp.m.sg" lemma="ondular"/>
+      <match tags="vblex.pp.m.sg" lemma="rapar"/>
+      <match tags="vblex.pp.m.sg" lemma="rizar"/>
+      <match tags="vblex.pp.m.sg" lemma="trenzar"/>
+    </or>
+  </rule>
+
+  <rule weight="2.0">
+    <match lemma="pelo" tags="n.*"><select lemma="pèl"/></match>
+    <repeat from="0" upto="15">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="animal"/>
+      <match lemma="canino"/>
+      <match lemma="felino"/>
+      <match lemma="vegetal"/>
+      <match tags="n.*" lemma="cachorro"/>
+      <match tags="n.*" lemma="cola"/>
+      <match tags="n.*" lemma="gato"/>
+      <match tags="n.*" lemma="hoja"/>
+      <match tags="n.*" lemma="morro"/>
+      <match tags="n.*" lemma="oso"/>
+      <match tags="n.*" lemma="perro"/>
+      <match tags="n.*" lemma="planta"/>
+      <match tags="n.*" lemma="raza"/>
+      <match tags="n.*" lemma="vientre"/>
+    </or>
+  </rule>
+
+  <rule weight="2.0">
+    <or>
+      <match lemma="animal"/>
+      <match lemma="canino"/>
+      <match lemma="felino"/>
+      <match lemma="vegetal"/>
+      <match tags="n.*" lemma="cachorro"/>
+      <match tags="n.*" lemma="cola"/>
+      <match tags="n.*" lemma="gato"/>
+      <match tags="n.*" lemma="hoja"/>
+      <match tags="n.*" lemma="morro"/>
+      <match tags="n.*" lemma="oso"/>
+      <match tags="n.*" lemma="perro"/>
+      <match tags="n.*" lemma="planta"/>
+      <match tags="n.*" lemma="raza"/>
+      <match tags="n.*" lemma="vientre"/>
+    </or>
+    <repeat from="0" upto="15">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="pelo" tags="n.*"><select lemma="pèl"/></match>
+  </rule>
+
 
   <!-- librar > lliurar/deslliurar/... -->
 
@@ -1219,7 +2675,7 @@
 
   <rule weight="1.0">
     <match lemma="sí" tags="adv"><select lemma="sí que"/></match>
-    <repeat from="0" upto="1">
+    <repeat from="0" upto="2">
       <match tags="prn.*"/>
     </repeat>
     <or>
@@ -1247,6 +2703,23 @@
     </or>  
   </rule>
 
+  <rule weight="1.0"> <!-- seguir igual/enfermo > continuar igual/malalat-->
+    <match lemma="seguir" tags="vblex.*"><select lemma="continuar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="adj.*"/>
+  </rule>
+
+  <rule weight="2.0"> <!-- seguir varias conversaciones > seguir -->
+    <match lemma="seguir" tags="vblex.*"><select lemma="seguir"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="adj.*"/>
+    <match tags="n.*"/>
+  </rule>
+
   <!-- barajar > remenar / considerar + inf... -->
 
   <rule weight="0.6">
@@ -1259,6 +2732,49 @@
       <match tags="vblex.inf"/>  
       <match tags="vbmod.inf"/>
       <match tags="vbser.inf"/> 
+    </or>  
+  </rule>
+
+    <!-- ser preciso > ser precís / ser necessari -->
+
+  <rule weight="0.6">
+    <match lemma="preciso" tags="adj.*"><select lemma="precís"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="ser" tags="vbser.*"/>
+      <match lemma="resultar" tags="vblex.*"/>
+    </or>
+    <match lemma="preciso" tags="adj.m.sg"><select lemma="necessari"/></match>
+    <or>
+      <match tags="*.inf"/>
+      <match lemma="que"/>
+    </or>  
+  </rule>
+
+  <!-- desatar > deslligar / desfermar... -->
+
+  <rule weight="0.6">
+    <match lemma="desatar" tags="vblex.*"><select lemma="deslligar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="desatar" tags="vblex.*"><select lemma="desfermar"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="adj.*"/>
+        <match tags="det.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="tormenta"/>
+      <match lemma="pasión"/> 
+      <match lemma="batalla"/>
+      <match lemma="guerra"/>
+      <match lemma="lucha"/>      
+      <match lemma="inquietud"/>
     </or>  
   </rule>
 
@@ -1329,47 +2845,59 @@
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="5.0">
     <match lemma="probar" tags="vblex.*"/>
     <match lemma="a" tags="pr"><select lemma="de"/></match>
     <match tags="*.inf"/>
   </rule>
 
-  <!-- elimina "a" en verbs transitius -->
+     <!-- dar > donar / fer  ... -->
 
-  <rule weight="1.0">
-    <or>
-      <match lemma="perjudicar" tags="vblex.*"/>
-      <match lemma="concernir" tags="vblex.*"/>
-      <match lemma="cansar" tags="vblex.*"/>
-      <match lemma="sorprender" tags="vblex.*"/>
-      <match lemma="informar" tags="vblex.*"/>
-      <match lemma="afectar" tags="vblex.*"/>
-      <match lemma="asesorar" tags="vblex.*"/>
-      <match lemma="apasionar" tags="vblex.*"/>
-      <match lemma="atraer" tags="vblex.*"/>
-      <match lemma="ayudar" tags="vblex.*"/>
-      <match lemma="acusar" tags="vblex.*"/>
-      <match lemma="homenajear" tags="vblex.*"/>
-      <match lemma="preocupar" tags="vblex.*"/>
-      <!--<match lemma="obligar" tags="vblex.*"/>-->
-      <match lemma="fichar" tags="vblex.*"/>
-      <match lemma="felicitar" tags="vblex.*"/>
-    </or>
-    <match lemma="a" tags="pr"><select lemma=""/></match>
+  <rule weight="0.6">
+    <match lemma="dar" tags="vblex.*"><select lemma="donar"/></match>
   </rule>
 
-  <rule weight="1.1">
-    <match lemma="a" tags="pr"><select lemma="a"/></match>
+  <rule weight="1.0">
+    <match lemma="dar" tags="vblex.*"><select lemma="fer"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+        <match tags="num.*"/>
+      </or>
+    </repeat>
     <or>
-      <match tags="np.loc.*"/>
-      <match tags="np.top.*"/>   
-      <match tags="np.loc"/>
-      <match tags="np.top"/>   
-      <match tags="prn.*"/>  
-      <match lemma="todo"/>
-      <match tags="*.inf"/> 
-    </or>
+      <match lemma="abrazo"/>
+      <match lemma="asco"/>
+      <match lemma="beso"/>
+      <match lemma="calor"/>
+      <match lemma="chillido"/>
+      <match lemma="concierto"/>
+      <match lemma="grito"/>
+      <match lemma="impresión"/>
+      <match lemma="lástima"/>
+      <match lemma="miedo"/>
+      <match lemma="paso"/>
+      <match lemma="pasito"/>
+      <match lemma="paseo"/>
+      <match lemma="pellizco"/>
+      <match lemma="película"/>
+      <match lemma="pena"/>
+      <match lemma="rabia"/>
+      <match lemma="recital"/>
+      <match lemma="salto"/>
+      <match lemma="sed"/>
+      <match lemma="silbido"/>
+      <match lemma="vergüenza"/>
+      <match lemma="voltereta"/>
+    </or>  
+  </rule>
+
+  <rule weight="2">
+    <match lemma="dar" tags="vblex.*"><select lemma="donar"/></match>
+    <match lemma="paso" tags="n.m.sg"/>
   </rule>
 
   <!-- Verbs transitius: Le afectaba > L'afectava -->
@@ -1383,23 +2911,23 @@
 
   <rule weight="1.0">
     <or>
-      <match lemma="perjudicar" tags="vblex.*"/>
-      <match lemma="concernir" tags="vblex.*"/>
-      <match lemma="cansar" tags="vblex.*"/>
-      <match lemma="sorprender" tags="vblex.*"/>
-      <match lemma="informar" tags="vblex.*"/>
+      <!--<match lemma="obligar" tags="vblex.*"/>-->
+      <match lemma="acusar" tags="vblex.*"/>
       <match lemma="afectar" tags="vblex.*"/>
-      <match lemma="asesorar" tags="vblex.*"/>
       <match lemma="apasionar" tags="vblex.*"/>
+      <match lemma="asesorar" tags="vblex.*"/>
       <match lemma="atraer" tags="vblex.*"/>
       <match lemma="ayudar" tags="vblex.*"/>
-      <match lemma="acusar" tags="vblex.*"/>
-      <match lemma="homenajear" tags="vblex.*"/>
-      <match lemma="molestar" tags="vblex.*"/>
-      <match lemma="preocupar" tags="vblex.*"/>
-      <match lemma="obligar" tags="vblex.*"/>
-      <match lemma="fichar" tags="vblex.*"/>
+      <match lemma="cansar" tags="vblex.*"/>
+      <match lemma="concernir" tags="vblex.*"/>
       <match lemma="felicitar" tags="vblex.*"/>
+      <match lemma="fichar" tags="vblex.*"/>
+      <match lemma="homenajear" tags="vblex.*"/>
+      <match lemma="informar" tags="vblex.*"/>
+      <match lemma="molestar" tags="vblex.*"/>
+      <match lemma="perjudicar" tags="vblex.*"/>
+      <match lemma="preocupar" tags="vblex.*"/>
+      <match lemma="sorprender" tags="vblex.*"/>
     </or>
     <match lemma="le" tags="prn.enc.*"><select lemma="el"/></match>
   </rule>
@@ -1414,37 +2942,468 @@
       </or>
     </repeat>
     <or>
-      <match lemma="perjudicar" tags="vblex.*"/>
-      <match lemma="concernir" tags="vblex.*"/>
-      <match lemma="cansar" tags="vblex.*"/>
-      <match lemma="sorprender" tags="vblex.*"/>
-      <match lemma="informar" tags="vblex.*"/>
+      <!--<match lemma="obligar" tags="vblex.*"/>-->
+      <match lemma="acusar" tags="vblex.*"/>
       <match lemma="afectar" tags="vblex.*"/>
-      <match lemma="asesorar" tags="vblex.*"/>
       <match lemma="apasionar" tags="vblex.*"/>
+      <match lemma="asesorar" tags="vblex.*"/>
       <match lemma="atraer" tags="vblex.*"/>
       <match lemma="ayudar" tags="vblex.*"/>
-      <match lemma="acusar" tags="vblex.*"/>
-      <match lemma="homenajear" tags="vblex.*"/>
-      <match lemma="molestar" tags="vblex.*"/>
-      <match lemma="preocupar" tags="vblex.*"/>
-      <match lemma="obligar" tags="vblex.*"/>
-      <match lemma="fichar" tags="vblex.*"/>
+      <match lemma="cansar" tags="vblex.*"/>
+      <match lemma="concernir" tags="vblex.*"/>
       <match lemma="felicitar" tags="vblex.*"/>
+      <match lemma="fichar" tags="vblex.*"/>
+      <match lemma="homenajear" tags="vblex.*"/>
+      <match lemma="informar" tags="vblex.*"/>
+      <match lemma="molestar" tags="vblex.*"/>
+      <match lemma="perjudicar" tags="vblex.*"/>
+      <match lemma="preocupar" tags="vblex.*"/>
+      <match lemma="sorprender" tags="vblex.*"/>
     </or>   
   </rule>
 
-   <!-- en + inf > a + inf  Consiste en hacer > consisteix a fer -->
 
-  <rule weight="0.6">
-    <match lemma="en" tags="pr"><select lemma="en"/></match>
+  <rule weight="1.0"> <!-- whis is this necessary? Bug?-->
+    <match lemma="le" tags="prn.pro.*"><select lemma="el"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match lemma="ir"/>
+        <match lemma="a"/>
+        <match tags="vbmod.*"/>
+      </or>
+    </repeat>
+    <match lemma="obligar" tags="vblex.*"/>
   </rule>
 
   <rule weight="1.0">
-    <match lemma="en" tags="pr"><select lemma="a"/></match>
-    <match tags="*.inf"/>
+    <match lemma="obligar" tags="vblex.*"/>  
+    <match lemma="le" tags="prn.enc.*"><select lemma="el"/></match>
   </rule>
 
+  <!-- Se le conoce: cas de leísmo aceptable -->
+
+  <rule weight="1.0">
+    <match lemma="se" tags="prn.pro.ref.p3.mf.sp"/>  
+    <match lemma="le" tags="prn.pro.*"><select lemma="el"/></match>
+    <or>
+      <match lemma="representar" tags="vblex.*.p3.sg" />
+      <match lemma="juzgar" tags="vblex.*.p3.sg" />
+      <match lemma="citar" tags="vblex.*.p3.sg" />
+      <match lemma="conocer" tags="vblex.*.p3.sg" />
+      <match lemma="considerar" tags="vblex.*.p3.sg" />
+      <match lemma="definir" tags="vblex.*.p3.sg" />
+      <match lemma="denominar" tags="vblex.*.p3.sg" />
+      <match lemma="describir" tags="vblex.*.p3.sg" />
+      <match lemma="designar" tags="vblex.*.p3.sg" />
+      <match lemma="destinar" tags="vblex.*.p3.sg" />
+      <match lemma="identificar" tags="vblex.*.p3.sg" />
+      <match lemma="invitar" tags="vblex.*.p3.sg" />
+      <match lemma="nombrar" tags="vblex.*.p3.sg" />
+      <match lemma="mencionar" tags="vblex.*.p3.sg" />
+      <match lemma="obligar" tags="vblex.*.p3.sg" />
+      <match lemma="reconocer" tags="vblex.*.p3.sg" />
+      <match lemma="usar" tags="vblex.*.p3.sg" />
+      <match lemma="utilizar" tags="vblex.*.p3.sg" />
+      <match lemma="asociar" tags="vblex.*.p3.sg" />
+      <match lemma="relacionar" tags="vblex.*.p3.sg" />
+      <match lemma="relevar" tags="vblex.*.p3.sg" />
+    </or>
+  </rule>
+
+  <rule weight="2.0">
+    <match lemma="se" tags="prn.pro.ref.p3.mf.sp"/>  
+    <match lemma="le" tags="prn.pro.*"><select lemma="li"/></match>
+    <or>
+      <match lemma="reconocer" tags="vblex.*.p3.sg" />
+      <match lemma="conocer" tags="vblex.*.p3.sg" />
+      <!--<match lemma="considerar" tags="vblex.*.p3.sg" />
+      <match lemma="representar" tags="vblex.*.p3.sg" />
+      <match lemma="juzgar" tags="vblex.*.p3.sg" />
+      <match lemma="citar" tags="vblex.*.p3.sg" />
+      <match lemma="definir" tags="vblex.*.p3.sg" />
+      <match lemma="denominar" tags="vblex.*.p3.sg" />
+      <match lemma="describir" tags="vblex.*.p3.sg" />
+      <match lemma="designar" tags="vblex.*.p3.sg" />
+      <match lemma="destinar" tags="vblex.*.p3.sg" />
+      <match lemma="identificar" tags="vblex.*.p3.sg" />
+      <match lemma="invitar" tags="vblex.*.p3.sg" />
+      <match lemma="nombrar" tags="vblex.*.p3.sg" />
+      <match lemma="mencionar" tags="vblex.*.p3.sg" />
+      <match lemma="obligar" tags="vblex.*.p3.sg" />
+      <match lemma="usar" tags="vblex.*.p3.sg" />
+      <match lemma="utilizar" tags="vblex.*.p3.sg" />
+      <match lemma="asociar" tags="vblex.*.p3.sg" />
+      <match lemma="relacionar" tags="vblex.*.p3.sg" />
+      <match lemma="relevar" tags="vblex.*.p3.sg" />-->
+    </or>
+    <match tags="det.def.*"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="se" tags="prn.pro.ref.p3.mf.sp"/>  
+    <match lemma="le" tags="prn.pro.*"><select lemma="el"/></match>
+    <match lemma="haber" tags="*.*.p3.sg"/>
+    <or>
+      <match lemma="representar" tags="vblex.*.p3.sg" />
+      <match lemma="juzgar" tags="vblex.*.p3.sg" />
+      <match lemma="citar" tags="vblex.pp.m.sg" />
+      <match lemma="conocer" tags="vblex.pp.m.sg" />
+      <match lemma="considerar" tags="vblex.pp.m.sg" />
+      <match lemma="definir" tags="vblex.pp.m.sg" />
+      <match lemma="denominar" tags="vblex.pp.m.sg" />
+      <match lemma="describir" tags="vblex.pp.m.sg" />
+      <match lemma="designar" tags="vblex.pp.m.sg" />
+      <match lemma="destinar" tags="vblex.pp.m.sg" />
+      <match lemma="identificar" tags="vblex.pp.m.sg" />
+      <match lemma="invitar" tags="vblex.pp.m.sg" />
+      <match lemma="nombrar" tags="vblex.pp.m.sg" />
+      <match lemma="mencionar" tags="vblex.pp.m.sg" />
+      <match lemma="obligar" tags="vblex.pp.m.sg" />
+      <match lemma="reconocer" tags="vblex.pp.m.sg" />
+      <match lemma="usar" tags="vblex.pp.m.sg" />
+      <match lemma="utilizar" tags="vblex.pp.m.sg" />
+      <match lemma="asociar" tags="vblex.pp.m.sg" />
+      <match lemma="relacionar" tags="vblex.pp.m.sg" />
+      <match lemma="relevar" tags="vblex.pp.m.sg" />
+    </or>
+  </rule>
+
+  <!-- se lo > li ho / se'l -->
+
+  <rule weight="0.5">
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="el"/></match>
+  </rule>
+    <rule weight="0.5">
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="li"/></match> <!-- no es pot saber si la traducció és sg o pl -->
+  </rule>
+
+  <rule weight="1"> <!-- se lo > li ho -->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="li"/></match>
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="ho"/></match>
+  </rule>
+<!-- se lo > s'ho -->
+  <rule weight="3"> 
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="ho"/></match>
+    <or>
+      <match lemma="merecer" tags="vblex.*.p3.*" />
+      <match lemma="comer" tags="vblex.*.p3.*" />
+      <match lemma="beber" tags="vblex.*.p3.*" />
+      <match lemma="fumar" tags="vblex.*.p3.*" />
+      <match lemma="ingeniar" tags="vblex.*.p3.*" />
+      <match lemma="creer" tags="vblex.*.p3.*" />
+      <match lemma="encontrar" tags="vblex.*.p3.*" />
+      <match lemma="pensar" tags="vblex.*.p3.*" />
+      <match lemma="tomar" tags="vblex.*.p3.*" />
+      <match lemma="pasar" tags="vblex.*.p3.*" />
+    </or>
+  </rule>
+
+  <rule weight="3"> <!-- se lo > se'l -->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="el"/></match>
+    <or>
+      <match lemma="representar" tags="vblex.*.p3.sg" />
+      <match lemma="juzgar" tags="vblex.*.p3.sg" />
+      <match lemma="citar" tags="vblex.*.p3.sg" />
+      <match lemma="conocer" tags="vblex.*.p3.sg" />
+      <match lemma="considerar" tags="vblex.*.p3.sg" />
+      <match lemma="definir" tags="vblex.*.p3.sg" />
+      <match lemma="denominar" tags="vblex.*.p3.sg" />
+      <match lemma="describir" tags="vblex.*.p3.sg" />
+      <match lemma="designar" tags="vblex.*.p3.sg" />
+      <match lemma="destinar" tags="vblex.*.p3.sg" />
+      <match lemma="identificar" tags="vblex.*.p3.sg" />
+      <match lemma="invitar" tags="vblex.*.p3.sg" />
+      <match lemma="nombrar" tags="vblex.*.p3.sg" />
+      <match lemma="mencionar" tags="vblex.*.p3.sg" />
+      <match lemma="obligar" tags="vblex.*.p3.sg" />
+      <match lemma="reconocer" tags="vblex.*.p3.sg" />
+      <match lemma="usar" tags="vblex.*.p3.sg" />
+      <match lemma="utilizar" tags="vblex.*.p3.sg" />
+      <match lemma="asociar" tags="vblex.*.p3.sg" />
+      <match lemma="relacionar" tags="vblex.*.p3.sg" />
+      <match lemma="relevar" tags="vblex.*.p3.sg" />
+    </or>
+  </rule>
+
+  <rule weight="3"> 
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <or>
+      <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+      <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+    </or>
+    <or>
+      <match lemma="merecer" tags="vblex.*.p3.*" />
+      <match lemma="comer" tags="vblex.*.p3.*" />
+      <match lemma="beber" tags="vblex.*.p3.*" />
+      <match lemma="fumar" tags="vblex.*.p3.*" />
+      <match lemma="ingeniar" tags="vblex.*.p3.*" />
+      <match lemma="creer" tags="vblex.*.p3.*" />
+      <match lemma="encontrar" tags="vblex.*.p3.*" />
+      <match lemma="pensar" tags="vblex.*.p3.*" />
+      <match lemma="tomar" tags="vblex.*.p3.*" />
+      <match lemma="pasar" tags="vblex.*.p3.*" />
+    </or>
+  </rule>
+
+  <rule weight="3"> 
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+    <or>
+      <match lemma="arreglar" tags="vblex.*.p3.*" />
+      <match lemma="ver" tags="vblex.*.p3.*" />
+    </or>
+  </rule>
+
+  <rule weight="3"> <!-- se lo > se'l -->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <or>
+      <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+      <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+    </or>
+    <or>
+      <match lemma="representar" tags="vblex.*.p3.sg" />
+      <match lemma="juzgar" tags="vblex.*.p3.sg" />
+      <match lemma="citar" tags="vblex.*.p3.sg" />
+      <match lemma="conocer" tags="vblex.*.p3.sg" />
+      <match lemma="considerar" tags="vblex.*.p3.sg" />
+      <match lemma="definir" tags="vblex.*.p3.sg" />
+      <match lemma="denominar" tags="vblex.*.p3.sg" />
+      <match lemma="describir" tags="vblex.*.p3.sg" />
+      <match lemma="designar" tags="vblex.*.p3.sg" />
+      <match lemma="destinar" tags="vblex.*.p3.sg" />
+      <match lemma="identificar" tags="vblex.*.p3.sg" />
+      <match lemma="invitar" tags="vblex.*.p3.sg" />
+      <match lemma="nombrar" tags="vblex.*.p3.sg" />
+      <match lemma="mencionar" tags="vblex.*.p3.sg" />
+      <match lemma="obligar" tags="vblex.*.p3.sg" />
+      <match lemma="reconocer" tags="vblex.*.p3.sg" />
+      <match lemma="usar" tags="vblex.*.p3.sg" />
+      <match lemma="utilizar" tags="vblex.*.p3.sg" />
+      <match lemma="asociar" tags="vblex.*.p3.sg" />
+      <match lemma="relacionar" tags="vblex.*.p3.sg" />
+      <match lemma="relevar" tags="vblex.*.p3.sg" />
+    </or>
+  </rule>
+
+  <rule weight="3"> 
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="ho"/></match>
+    <match lemma="haber" tags="*.*.p3.*"/>
+    <or>
+      <match lemma="merecer" tags="vblex.pp.m.sg" />
+      <match lemma="comer" tags="vblex.pp.m.sg" />
+      <match lemma="beber" tags="vblex.pp.m.sg" />
+      <match lemma="fumar" tags="vblex.pp.m.sg" />
+      <match lemma="ingeniar" tags="vblex.pp.m.sg" />
+      <match lemma="creer" tags="vblex.pp.m.sg" />
+      <match lemma="encontrar" tags="vblex.pp.m.sg" />
+      <match lemma="pensar" tags="vblex.pp.m.sg" />
+      <match lemma="tomar" tags="vblex.pp.m.sg" />
+      <match lemma="pasar" tags="vblex.*.p3.*" />
+    </or>
+  </rule>
+
+  <rule weight="3"> <!-- se lo > se'l -->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="el"/></match>
+    <match lemma="haber" tags="*.*.p3.sg"/>
+    <or>
+      <match lemma="representar" tags="vblex.pp.m.sg" />
+      <match lemma="juzgar" tags="vblex.pp.m.sg" />
+      <match lemma="citar" tags="vblex.pp.m.sg" />
+      <match lemma="conocer" tags="vblex.pp.m.sg" />
+      <match lemma="considerar" tags="vblex.pp.m.sg" />
+      <match lemma="definir" tags="vblex.pp.m.sg" />
+      <match lemma="denominar" tags="vblex.pp.m.sg" />
+      <match lemma="describir" tags="vblex.pp.m.sg" />
+      <match lemma="designar" tags="vblex.pp.m.sg" />
+      <match lemma="destinar" tags="vblex.pp.m.sg" />
+      <match lemma="identificar" tags="vblex.pp.m.sg" />
+      <match lemma="invitar" tags="vblex.pp.m.sg" />
+      <match lemma="nombrar" tags="vblex.pp.m.sg" />
+      <match lemma="mencionar" tags="vblex.pp.m.sg" />
+      <match lemma="obligar" tags="vblex.pp.m.sg" />
+      <match lemma="reconocer" tags="vblex.pp.m.sg" />
+      <match lemma="usar" tags="vblex.pp.m.sg" />
+      <match lemma="utilizar" tags="vblex.pp.m.sg" />
+      <match lemma="asociar" tags="vblex.pp.m.sg" />
+      <match lemma="relacionar" tags="vblex.pp.m.sg" />
+      <match lemma="relevar" tags="vblex.pp.m.sg" />
+    </or>
+  </rule>
+
+  <rule weight="3"> 
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <or>
+      <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+      <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+    </or>
+    <match lemma="haber" tags="*.*.p3.*"/>
+    <or>
+      <match lemma="merecer" tags="vblex.pp.m.sg" />
+      <match lemma="comer" tags="vblex.pp.m.sg" />
+      <match lemma="beber" tags="vblex.pp.m.sg" />
+      <match lemma="fumar" tags="vblex.pp.m.sg" />
+      <match lemma="ingeniar" tags="vblex.pp.m.sg" />
+      <match lemma="creer" tags="vblex.pp.m.sg" />
+      <match lemma="encontrar" tags="vblex.pp.m.sg" />
+      <match lemma="pensar" tags="vblex.pp.m.sg" />
+      <match lemma="tomar" tags="vblex.pp.m.sg" />
+      <match lemma="pasar" tags="vblex.*.p3.*" />
+    </or>
+  </rule>
+
+  <rule weight="3"> 
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+    <match lemma="haber" tags="*.*.p3.*"/>
+    <or>
+      <match lemma="arreglar" tags="vblex.pp.m.sg" />
+      <match lemma="ver" tags="vblex.pp.m.sg" />
+    </or>
+  </rule>
+
+  <rule weight="3"> <!-- se lo > se'l -->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <or>
+      <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+      <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+    </or>
+    <match lemma="haber" tags="*.*.p3.sg"/>
+    <or>
+      <match lemma="representar" tags="vblex.pp.m.sg" />
+      <match lemma="juzgar" tags="vblex.pp.m.sg" />
+      <match lemma="citar" tags="vblex.pp.m.sg" />
+      <match lemma="conocer" tags="vblex.pp.m.sg" />
+      <match lemma="considerar" tags="vblex.pp.m.sg" />
+      <match lemma="definir" tags="vblex.pp.m.sg" />
+      <match lemma="denominar" tags="vblex.pp.m.sg" />
+      <match lemma="describir" tags="vblex.pp.m.sg" />
+      <match lemma="designar" tags="vblex.pp.m.sg" />
+      <match lemma="destinar" tags="vblex.pp.m.sg" />
+      <match lemma="identificar" tags="vblex.pp.m.sg" />
+      <match lemma="invitar" tags="vblex.pp.m.sg" />
+      <match lemma="nombrar" tags="vblex.pp.m.sg" />
+      <match lemma="mencionar" tags="vblex.pp.m.sg" />
+      <match lemma="obligar" tags="vblex.pp.m.sg" />
+      <match lemma="reconocer" tags="vblex.pp.m.sg" />
+      <match lemma="usar" tags="vblex.pp.m.sg" />
+      <match lemma="utilizar" tags="vblex.pp.m.sg" />
+      <match lemma="asociar" tags="vblex.pp.m.sg" />
+      <match lemma="relacionar" tags="vblex.pp.m.sg" />
+      <match lemma="relevar" tags="vblex.pp.m.sg" />
+    </or>
+  </rule>
+
+  <!-- lo > ho / el -->
+
+  <rule weight="0.5">
+    <match lemma="lo" tags="prn.*.p3.nt"><select lemma="ho"/></match>
+  </rule>
+
+ <rule weight="1">
+    <match tags="det.*.m.sg"/>
+    <match tags="n.m.sg"/>
+    <repeat from="0" upto="10">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+        <match tags="cm"/>
+      </or>
+    </repeat>
+    <match lemma="lo" tags="prn.*.p3.nt"><select lemma="el"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="lo" tags="prn.*.p3.nt"><select lemma="ho"/></match>
+    <repeat from="1" upto="4">
+    <or>
+      <match tags="pr"/>
+      <match tags="vblex.*"/>
+      <match tags="vbser.*"/>
+      <match tags="vbhaver.*"/>
+    </or>
+  </repeat>
+    <match lemma="todo" tags="prn.tn.m.sg"/>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match tags="vblex.*" lemma="desear"/>
+      <match tags="vblex.*" lemma="decir"/>
+      <match tags="vblex.*" lemma="estar"/>
+      <match tags="vbser.*" lemma="ser"/>
+    </or>
+    <match lemma="lo" tags="prn.enc.p3.nt"><select lemma="ho"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match tags="prn.tn.nt"/>
+    <repeat from="0" upto="10">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+        <match tags="cm"/>
+      </or>
+    </repeat>
+    <match lemma="lo" tags="prn.*.p3.nt"><select lemma="ho"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match tags="adv" lemma="así"/>
+    <match lemma="lo" tags="prn.pro.p3.nt"><select lemma="ho"/></match>
+  </rule>
+
+  <rule weight="5">
+    <match lemma="lo" tags="prn.pro.p3.nt"><select lemma="el"/></match>
+    <match tags="vblex.*" lemma="ayudar"/>
+  </rule>
+
+  <rule weight="5">
+    <match lemma="lo" tags="prn.pro.p3.nt"><select lemma="ho"/></match>
+    <repeat from="0" upto="1">
+      <match lemma="haber"/>
+    </repeat>
+    <or>
+      <match tags="vblex.*" lemma="agradecer"/>
+      <match tags="vblex.*" lemma="comprender"/>
+      <match tags="vblex.*" lemma="desear"/>
+      <match tags="vblex.*" lemma="entender"/>
+      <match tags="vblex.*" lemma="estar"/>
+      <match tags="vblex.*" lemma="estimar"/>
+      <match tags="vblex.*" lemma="hablar"/>
+      <match tags="vblex.*" lemma="impedir"/>
+      <match tags="vblex.*" lemma="permitir"/>
+      <match tags="vbser.*" lemma="ser"/>
+    </or>
+  </rule>
+
+  <rule weight="5">
+    <or>
+      <match tags="vblex.*" lemma="agradecer"/>
+      <match tags="vblex.*" lemma="comprender"/>
+      <match tags="vblex.*" lemma="desear"/>
+      <match tags="vblex.*" lemma="entender"/>
+      <match tags="vblex.*" lemma="estar"/>
+      <match tags="vblex.*" lemma="estimar"/>
+      <match tags="vblex.*" lemma="hablar"/>
+      <match tags="vblex.*" lemma="impedir"/>
+      <match tags="vblex.*" lemma="permitir"/>
+      <match tags="vbser.*" lemma="ser"/>
+    </or>
+    <match lemma="lo" tags="prn.enc.p3.nt"><select lemma="ho"/></match>
+  </rule>
+ 
   <!-- deber de > deure (si el castellà és "correcte") / haver de (molt sovint)... -->
 
   <rule weight="0.6">
@@ -1469,12 +3428,12 @@
     <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="deure"/></match> 
   </rule>
 
-  <rule weight="2">
+  <rule weight="5">
     <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="a causa"/></match> 
     <match lemma="a" tags="pr"><select lemma="de"/></match>
   </rule>  
 
-  <rule weight="3"> 
+  <rule weight="6"> 
     <or>
       <match lemma="ser" />
       <match lemma="haber" />
@@ -1487,7 +3446,7 @@
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
 
-  <rule weight="3"> 
+  <rule weight="6"> 
     <or>
       <match lemma="ser" />
       <match lemma="haber" />
@@ -1502,6 +3461,25 @@
     <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="deure"/></match>
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
+
+  <rule weight="6">
+    <match lemma="deber" tags="vbmod.*"><select lemma="deure"/></match> 
+    <match lemma="hacer"/>
+    <or>
+      <match lemma="frío"/>
+      <match lemma="calor"/>
+    </or>
+  </rule>
+
+  <rule weight="6">
+    <match lemma="deber# de" tags="vbmod.*"><select lemma="deure"/></match> 
+    <match lemma="hacer"/>
+    <or>
+      <match lemma="frío"/>
+      <match lemma="calor"/>
+    </or>
+  </rule>
+  
 
   <!-- apoyar > recolzar / donar suport ... -->
 
@@ -1562,25 +3540,2066 @@
     </or>
   </rule>
 
-  <!-- el mismo > el mateix / aquest  -->
+  <!-- respaldo > suport /respatler ... -->
 
-  <!--<rule weight="0.6">
+  <rule weight="0.5">
+    <match lemma="respaldo" tags="n.*"><select lemma="suport"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="respaldo" tags="n.*"><select lemma="respatller"/></match>
+    <repeat from="0" upto="5">
+      <match tags="*" />
+    </repeat>
+    <or>
+      <match lemma="silla" tags="n.*"/>
+      <match lemma="sofá" tags="n.*"/>
+      <match lemma="taburete" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+      <match lemma="asiento" tags="n.*"/>
+      <match lemma="sentar" tags="vblex.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="silla" tags="n.*"/>
+      <match lemma="sofá" tags="n.*"/>
+      <match lemma="taburete" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+      <match lemma="asiento" tags="n.*"/>
+      <match lemma="sentar" tags="vblex.*"/>
+    </or>    
+    <repeat from="0" upto="5">
+      <match tags="*" />
+    </repeat>
+    <match lemma="respaldo" tags="n.*"><select lemma="respatller"/></match>
+  </rule>
+
+    <rule weight="1.0">
+    <match lemma="respaldo" tags="n.*"><select lemma="respatler"/></match>
+    <repeat from="0" upto="5">
+      <match tags="*" />
+    </repeat>
+    <or>
+      <match lemma="silla" tags="n.*"/>
+      <match lemma="sofá" tags="n.*"/>
+      <match lemma="taburete" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+      <match lemma="asiento" tags="n.*"/>
+      <match lemma="sentar" tags="vblex.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="silla" tags="n.*"/>
+      <match lemma="sofá" tags="n.*"/>
+      <match lemma="taburete" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+      <match lemma="asiento" tags="n.*"/>
+      <match lemma="sentar" tags="vblex.*"/>
+    </or>    
+    <repeat from="0" upto="5">
+      <match tags="*" />
+    </repeat>
+    <match lemma="respaldo" tags="n.*"><select lemma="respatler"/></match>
+  </rule>
+
+
+  <!--el mismo > el mateix / aquest  -->
+
+  <rule weight="0.6">
     <match lemma="el mismo" tags="prn.*"><select lemma="el mateix"/></match>
   </rule>
 
-  <rule weight="0.6">
+  <rule weight="1">
     <match tags="pr"/>
     <match lemma="el mismo" tags="prn.*"><select lemma="aquest"/></match>
     <or>
       <match tags="sent"/>
       <match tags="cm"/>
     </or>
-  </rule>-->
+  </rule>
 
-  <!--<rule weight="1.0">
-    <match lemma="el mismo" tags="vblex.*"><select lemma="aquest"/></match>
+   <rule weight="1">
+    <match tags="pr" lemma="contra"/>
+    <match lemma="el mismo" tags="prn.*"><select lemma="aquest"/></match>    
+  </rule>
+
+  <!--mientras > metre / mentrestant  -->
+
+  <rule weight="0.6">
+    <match lemma="mientras" tags="adv"><select lemma="mentre"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="mientras" tags="adv"><select lemma="mentrestant"/></match>
+    <or>
+      <match tags="sent"/>
+      <match tags="cm"/>
+    </or>
+  </rule>
+
+  <!--tras > després de / rere  -->
+
+  <rule weight="0.6">
+    <match lemma="tras" tags="pr"><select lemma="després de"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="n.m.sg"/> <!--idealment hauria de ser la mateixa paraula repetida-->
+    <match lemma="tras" tags="pr"><select lemma="rere"/></match>
+    <match tags="n.m.sg"/>
+  </rule>
+
+  <rule weight="1">
+    <match tags="n.f.sg"/>
+    <match lemma="tras" tags="pr"><select lemma="rere"/></match>
+    <match tags="n.f.sg"/>
+  </rule>
+
+    <rule weight="1">
+    <match tags="n.f.sp"/>
+    <match lemma="tras" tags="pr"><select lemma="rere"/></match>
+    <match tags="n.f.sp"/>
+  </rule>
+
+
+  <!-- como > com / com a -->
+
+  <rule weight="0.6">
+    <match lemma="como" tags="pr"><select lemma="com"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="tanto"/>
+      <match lemma="tal"/>
+      <match lemma="así"/>
+      <match lemma="veces"/>
+    </or>
+    <match lemma="como" tags="pr"><select lemma="com"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="tanto"/>
+      <match lemma="tan"/>
+    </or>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <match lemma="como" tags="pr"><select lemma="com"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="como" tags="pr"><select lemma="com a"/></match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/> 
+      <match lemma="tal"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="conocer" tags="vblex.*"/>
+    <match lemma="como" tags="pr"><select lemma="com a"/></match>
+    <or>
+      <match tags="np.*"/>
+    </or>
+  </rule>
+
+<!-- a que > al fet que / a què -->
+
+  <rule weight="0.6">
+    <match lemma="a que" tags="cnjsub"><select lemma="al fet que"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="a que" tags="cnjsub"><select lemma="a què"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+      </repeat> 
+      <or>
+        <match lemma="referir"/>
+        <match lemma="destinar"/>
+        <match lemma="conceder"/>
+        <match lemma="condenar"/>
+        <match lemma="comprometer"/>
+        <match lemma="pertenecer"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="a que" tags="cnjsub"><select lemma="a què"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <match lemma="hacer"/>
+    <match lemma="referencia"/>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="esperar"/>
+      <match lemma="apostar"/>
+      <match lemma="animar"/>
+      <match lemma="instar"/>
+      <match lemma="motivar"/>
+    </or>
+    <match lemma="a que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+    <rule weight="2">
+    <or>
+      <match lemma="instar" tags="vblex.*"/>
+      <match lemma="incitar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="a que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+  <!-- de que > que / de què -->
+
+  <rule weight="0.6">
+    <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="sin"/>
+    <or>
+      <match lemma="perjuicio"/>
+      <match lemma="necesidad"/>
+    </or>
+    <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match lemma="indicio"/>
+      <match lemma="prueba"/>
+      <match lemma="fin"/>
+      <match lemma="finalidad"/>
+      <match lemma="objetivo"/>
+      <match lemma="objeto"/>
+      <match lemma="caso"/>
+      <match lemma="cualidad"/>
+      <match lemma="característica"/>
+      <match lemma="seguro"/>
+      <match lemma="hipótesis"/>
+      <match lemma="ilusión"/>
+      <match lemma="conclusión"/>
+      <match lemma="particularidad"/>
+      <match lemma="creencia"/>
+      <match lemma="realidad"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match lemma="dudar" tags="vblex.*"/>
+      <match lemma="sospechar" tags="vblex.*"/>
+      <match lemma="persuadir" tags="vblex.*"/>
+      <match lemma="convencer" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="5">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="prn.*"/>
+        <match tags="adv"/>
+        <match tags="vbmod.*"/>
+        <match lemma="a" tags="pr"/>
+        <match lemma="ir" tags="vblex.*.p3.*"/>
+        <match lemma="haber"/>
+      </or>
+      </repeat>
+      <or>
+        <match lemma="depender" tags="vblex.*"/>
+        <match lemma="disponer" tags="vblex.*"/>
+        <match lemma="tratar" tags="vblex.*"/>
+        <match lemma="constar" tags="vblex.*"/>
+      </or>
+  </rule>
+  <rule weight="1">
+    <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+      </repeat>
+      <match lemma="ser" tags="vbser.*"/>
+      <or>
+        <match lemma="objeto" tags="n.*"/>
+        <match lemma="víctima" tags="n.*"/>
+        <match lemma="heredero" tags="n.*"/>
+      </or>
+  </rule>
+  <rule weight="1">
+    <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+      </repeat>
+      <or>
+        <match lemma="haber" />
+        <match lemma="tener" tags="vblex.*"/>
+      </or>
+      <or>
+        <match lemma="constancia" tags="n.*"/>
+      </or>
+  </rule>
+  <rule weight="1">
+    <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+      </repeat>
+      <match lemma="formar" tags="vblex.*"/>
+      <match lemma="parte" tags="n.*"/>
+  </rule>
+
+   <!-- el que > el que / el qual -->
+
+  <rule weight="0.5">
+    <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="pr"/>
+    <match lemma="el que" tags="rel.*"><select lemma="el qual"/></match>
+  </rule>
+
+  <rule weight="5">
+    <or>
+      <match tags="pr" lemma="excepto"/>
+      <match tags="pr" lemma="respecto a"/>
+    </or>
+    <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="2"> <!-- per a donar varietat i no traduir sempre "en el qual"-->
+    <or>
+      <match lemma="año" tags="n.m.*"/>
+      <match lemma="día" tags="n.m.*"/>
+      <match lemma="mes" tags="n.m.*"/>
+    </or>
+    <match tags="pr"/>
+    <match lemma="el que" tags="rel.an.m.*"><select lemma="què"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="alternativo" tags="adj.*"/>
+      <match lemma="anterior" tags="adj.*"/>
+      <match lemma="análogo" tags="adj.*"/>
+      <match lemma="contrario" tags="adj.*"/>
+      <match lemma="correspondiente" tags="adj.*"/>
+      <match lemma="diferente" tags="adj.*"/>
+      <match lemma="distinto" tags="adj.*"/>
+      <match lemma="equiparable" tags="adj.*"/>
+      <match lemma="equivalente" tags="adj.*"/>
+      <match lemma="igual" tags="adj.*"/>
+      <match lemma="inferior" tags="adj.*"/>
+      <match lemma="inverso" tags="adj.*"/>
+      <match lemma="paralelo" tags="adj.*"/>
+      <match lemma="posterior" tags="adj.*"/>
+      <match lemma="próximo" tags="adj.*"/>
+      <match lemma="referente" tags="adj.*"/>
+      <match lemma="semejante" tags="adj.*"/>
+      <match lemma="similar" tags="adj.*"/>
+      <match lemma="superior" tags="adj.*"/>
+      <match lemma="comparar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="adj.*"/>
+        <match tags="cm"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="a"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="alternativo" tags="adj.*"/>
+      <match lemma="diferente" tags="adj.*"/>
+      <match lemma="distinto" tags="adj.*"/>
+      <match lemma="mejor" tags="adj.*"/>
+      <match lemma="contrario" tags="adj.*"/>
+      <match lemma="peor" tags="adj.*"/>
+      <match lemma="mejor" tags="adj.*"/>
+      <match lemma="equivalente" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="3"> <!-- quian hi ha només una coma, no hauria d'aplicar-se-->
+      <or>
+        <match tags="adj.*"/>
+        <match tags="cm"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="de"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule> 
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="alternativo" tags="adj.*"/>
+      <match lemma="anterior" tags="adj.*"/>
+      <match lemma="análogo" tags="adj.*"/>
+      <match lemma="contrario" tags="adj.*"/>
+      <match lemma="correspondiente" tags="adj.*"/>
+      <match lemma="diferente" tags="adj.*"/>
+      <match lemma="distinto" tags="adj.*"/>
+      <match lemma="equiparable" tags="adj.*"/>
+      <match lemma="equivalente" tags="adj.*"/>
+      <match lemma="igual" tags="adj.*"/>
+      <match lemma="inferior" tags="adj.*"/>
+      <match lemma="inverso" tags="adj.*"/>
+      <match lemma="mejor" tags="adj.*"/>
+      <match lemma="paralelo" tags="adj.*"/>
+      <match lemma="peor" tags="adj.*"/>
+      <match lemma="posterior" tags="adj.*"/>
+      <match lemma="próximo" tags="adj.*"/>
+      <match lemma="referente" tags="adj.*"/>
+      <match lemma="semejante" tags="adj.*"/>
+      <match lemma="similar" tags="adj.*"/>
+      <match lemma="superior" tags="adj.*"/>
+    </or>
+    <match tags="n.*"/>
+    <match tags="pr" lemma="a"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="hacer" tags="vblex.*"/>
+      <match lemma="dar" tags="vblex.*"/>
+    </or>
+    <or>
+      <match lemma="origen" tags="n.*"/>
+      <match lemma="frente" tags="n.*"/>
+      <match lemma="paso" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="cm"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="a"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="más" tags="adv"/>
+      <match lemma="menos" tags="adv"/>
+      <match lemma="más" tags="adj.*"/>
+      <match lemma="menos" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+        <match tags="cm"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="de"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="igual" tags="adj.*"/>
+      <match lemma="menos" tags="adv"/>
+      <match lemma="más allá" tags="adv"/>
+      <match lemma="más" tags="adj.*"/>
+      <match lemma="más" tags="adv"/>
+    </or>
+    <match tags="pr" lemma="de"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="hacer" tags="vblex.*"/>
+      <match lemma="dar" tags="vblex.*"/>
+    </or>
+    <or>
+      <match lemma="caso" tags="n.*"/>
+      <match lemma="mención" tags="n.*"/>
+      <match lemma="cargo" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="cm"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="pr" lemma="a"/>
+      <match tags="pr" lemma="de"/>
+    </or>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+
+  <rule weight="3.2"> 
     
-  </rule>-->
+    <or>
+      <match tags="vbhaver.*"/>
+      <match tags="vbser.*"/>
+      <match tags="vblex.*" lemma="estar"/>
+      <match tags="vblex.*" lemma="encontrar"/>
+    </or>
+    <match tags="vblex.pp.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="pr"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3.1"> 
+    <match tags="vblex.pp.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="pr"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el qual"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <match tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="pr"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match tags="n.*" lemma="comparación"/>
+      <match tags="vblex.*" lemma="comparar"/>
+    </or>
+    <or>
+      <match tags="pr" lemma="a"/>
+      <match tags="pr" lemma="de"/>
+      <match tags="pr" lemma="con"/>
+    </or>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+
+   <!-- en tanto que > en tant que / com a -->
+
+  <rule weight="0.6">
+    <match lemma="en tanto que" tags="pr"><select lemma="en tant que"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="en tanto que" tags="pr"><select lemma="com a"/></match>
+    <match tags="n.*"/>
+  </rule>
+
+  <!-- pues > doncs -->
+
+  <rule weight="0.6">
+    <match lemma="pues" tags="cnjadv"><select lemma="perquè"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="*.imp.*"/>
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+  </rule>
+
+  <rule weight="0.8"> <!-- ex.: se añade pues a una red extensa. -->
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="pr"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="n.*"/>
+        <match tags="np.*"/>
+        <match tags="cm"/>
+        <match tags="adv"/>
+        <match tags="prn.*"/>
+        <match tags="*.pp.*"/>
+        <match tags="*.inf"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="sent"/>
+      <match lemma="que"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="así" tags="adv"/>  
+      <match lemma="ser"/> <!-- bug si s'usa vbser.* amb: Lo digo pues ? -->
+      <match lemma="estar"/>
+    </or>
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+  </rule>
+
+    <rule weight="1">
+      <match lemma="tratar" tags="vblex.*"/>
+      <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+      <repeat from="0" upto="1">
+        <match tags="adv"/>
+      </repeat>
+      <match lemma="de" tags="pr"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+    <or>
+      <match lemma="bien"/>
+      <match lemma="que"/>
+      <match lemma="bueno"/>
+      <match lemma="porque"/>
+      <match lemma="sí"/>
+      <match lemma="a" tags="pr"/>
+    </or>
+  </rule>
+  <rule weight="1">
+    <match tags="cm"/>
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+    <match tags="cm"/>
+  </rule>
+  <rule weight="2">
+    <match lemma="pues" tags="cnjadv"><select lemma="perquè"/></match>
+    <match lemma="así"/>
+  </rule>
+  <rule weight="1">
+    <or>
+      <match tags="vblex.*"/>
+      <match tags="vbmod.*"/>
+    </or>
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+    <or>
+      <match tags="pr"/>      
+      <match tags="*.inf"/>
+    </or>
+  </rule>
+  <rule weight="1">
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+    <match lemma="no"/>
+    <or>
+      <match tags="cm"/>
+      <match tags="sent"/>
+    </or>
+  </rule>
+
+  <!-- sin embargo > no obstant això, tanmateix -->
+
+  <rule weight="0.6">
+    <match lemma="sin embargo" tags="cnjadv"><select lemma="no obstant això"/></match>
+  </rule>
+
+  <rule weight="2"> <!-- evita repeticions: això, això-->
+    <or>
+      <match lemma="esto" tags="prn.tn.nt"/>
+      <match lemma="eso" tags="prn.tn.nt"/>
+    </or>
+    <repeat from="0" upto="4">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="sin embargo" tags="cnjadv"><select lemma="tanmateix"/></match>   
+  </rule>
+
+  <rule weight="3">
+    <match lemma="sin embargo" tags="cnjadv"><select lemma="tanmateix"/></match>   
+    <repeat from="0" upto="4">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="esto" tags="prn.tn.nt"/>
+      <match lemma="eso" tags="prn.tn.nt"/>
+    </or>  
+  </rule>
+
+   <!-- elegir > triar / elegir ... -->
+
+  <rule weight="0.5">
+    <match lemma="elegir" tags="vblex.*"><select lemma="triar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="elegir" tags="vblex.*"><select lemma="elegir"/></match>
+    <repeat from="0" upto="5">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="presidente" />
+      <match lemma="vicepresidente" />
+      <match lemma="ministro" />
+      <match lemma="viceministro" />
+      <match lemma="director" />
+      <match lemma="subdirector" />
+      <match lemma="consejero" />
+      <match lemma="diputado" />
+      <match lemma="senador" />
+      <match lemma="cargo" />
+      <match lemma="secretario" />
+      <match lemma="tesorero" />
+      <match lemma="maestre" />
+      <match lemma="abad" />
+      <match lemma="presidencia" />
+      <match lemma="secretaría" />
+      <match lemma="dirección" />
+      <match lemma="elección" />
+      <match lemma="electoral" />
+      <match lemma="votación" />
+      <match lemma="voto" />
+      <match lemma="urna" />
+      <match lemma="papeleta" />
+      <match lemma="candidato" />
+      <match lemma="alcalde" />
+    </or>
+  </rule>
+
+    <!-- hambre > fam / gana ... -->
+
+  <rule weight="0.5">
+    <match lemma="hambre" tags="n.f.*"><select lemma="fam"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="tener" tags="vblex.*"/>
+      <match lemma="perder" tags="vblex.*"/>
+      <match lemma="matar" tags="vblex.*"/>
+      <!--<match lemma="sentir" tags="vblex.*"/>  BUG!! -->
+      <match lemma="quitar" tags="vblex.*"/>
+      <match lemma="saciar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+        <match tags="cm"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <match lemma="hambre" tags="n.f.sg"><select lemma="gana"/></match>
+  </rule>
+
+  <!-- cacarear > escatainar / esbombar ... -->
+
+  <rule weight="0.5">
+    <match lemma="cacarear" tags="vblex.*"><select lemma="escatainar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="preadv"/>
+      <match tags="adv"/>
+      <match tags="det.*"/>
+    </or>
+    <match lemma="cacarear" tags="vblex.pp.*"><select lemma="esbombar"/></match>
+  </rule>
+
+   <!-- precisar > precisar / requerir ... -->
+
+  <rule weight="0.5">
+    <match lemma="precisar" tags="vblex.*"><select lemma="precisar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="precisar" tags="vblex.*"><select lemma="requerir"/></match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="*.inf"/>
+    </or>
+  </rule>
+
+   <!-- para > per a / per ... -->
+
+  <rule weight="0.5">
+    <match lemma="para" tags="pr"><select lemma="per a"/></match>
+  </rule>
+
+   <!-- uno y otro > l'un i l'altre ... -->
+
+  <rule weight="0.5">
+    <match lemma="uno" tags="prn.*"><select lemma="un"/></match>
+  </rule>
+  <rule weight="0.5">
+    <match lemma="otro" tags="prn.*"><select lemma="un altre"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="uno" tags="prn.*"><select lemma="l'un"/></match>
+    <or>
+      <match tags="pr"/>
+      <match tags="cnjcoo"/>
+    </or>
+    <match lemma="otro" tags="prn.*"><select lemma="l'altre"/></match>
+  </rule>
+
+  <!-- entre otros > entre altres --> 
+  <!-- És opcional: entre altres/entre d'altres-->
+
+  <rule weight="1">
+    <match lemma="entre" tags="pr"/>
+    <match lemma="otro" tags="prn.tn.*.pl"><select lemma="altre"/></match>
+  </rule>
+
+  <!-- en > en / a -->
+
+  <rule weight="0.5">
+    <match lemma="en" tags="pr"><select lemma="en"/></match>
+  </rule>
+
+  <rule weight="3">
+    <or>
+      <match lemma="participar"/>
+      <match lemma="incluir"/>
+      <match lemma="interferir"/>
+      <match lemma="pensar"/>
+      <match lemma="convertir"/>
+    </or>
+    <match lemma="en" tags="pr"><select lemma="en"/></match>
+  </rule>
+
+  <rule weight="4"> <!-- especialistas en investigar, piensa en respirar -->
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <match tags="*.inf"/>
+  </rule>
+
+  <rule weight="4"> <!-- especialistas en investigar, piensa en respirar -->
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <match lema="no" tags="adv"/>
+    <match tags="*.inf"/>
+  </rule>
+
+  <rule weight="3">
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <repeat from="0" upto="1">
+      <match tags="det.def.*"/>
+    </repeat>
+    <or>
+      <match tags="np.loc"/>
+      <match tags="np.top"/>
+      <match tags="np.loc.*"/>
+      <match tags="np.top.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="hasta" tags="pr"><select lemma="fins i tot"/></match>
+    <match lemma="en" tags="pr"/>
+  </rule>
+
+  <rule weight="2.0">
+    <match lemma="hasta" tags="pr"><select lemma="fins"/></match>
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <or>
+      <match tags="det.def.*" lemma="el"/>
+      <match tags="det.pos.*" lemma="mío"/>
+      <match tags="det.pos.*" lemma="suyo"/>
+      <match tags="det.pos.*" lemma="tuyo"/>
+      <match tags="det.pos.*" lemma="nuestro"/>
+      <match tags="det.pos.*" lemma="vuestro"/>
+    </or>
+    <or>
+      <match lemma="apartamento" tags="n.*"/>
+      <match lemma="ascensor" tags="n.*"/>
+      <match lemma="auditorio" tags="n.*"/>
+      <match lemma="aula" tags="n.*"/>
+      <match lemma="ayuntamiento" tags="n.*"/>
+      <match lemma="balcón" tags="n.*"/>
+      <match lemma="biblioteca" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="cabeza" tags="n.*"/>
+      <match lemma="calle" tags="n.*"/>
+      <match lemma="campus" tags="n.*"/>
+      <match lemma="casa" tags="n.*"/>
+      <match lemma="castillo" tags="n.*"/>
+      <match lemma="cine" tags="n.*"/>
+      <match lemma="ciudad" tags="n.*"/>
+      <match lemma="comarca" tags="n.*"/>
+      <match lemma="cuarto_habitación" tags="n.*"/>
+      <match lemma="cuarto de al lado" tags="n.*"/>
+      <match lemma="ducha" tags="n.*"/>
+      <match lemma="escuela" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+      <match lemma="esquina" tags="n.*"/>
+      <match lemma="explanada" tags="n.*"/>
+      <match lemma="extranjero" tags="n.*"/>
+      <match lemma="frontera" tags="n.*"/>
+      <match lemma="fábrica" tags="n.*"/>
+      <match lemma="habitación" tags="n.*"/>
+      <match lemma="hospital" tags="n.*"/>
+      <match lemma="hotel" tags="n.*"/>
+      <match lemma="iglesia" tags="n.*"/>
+      <match lemma="isla" tags="n.*"/>
+      <match lemma="jardín" tags="n.*"/>
+      <match lemma="mano" tags="n.*"/>
+      <match lemma="montaña" tags="n.*"/>
+      <match lemma="parque" tags="n.*"/>
+      <match lemma="patio" tags="n.*"/>
+      <match lemma="país" tags="n.*"/>
+      <match lemma="pie" tags="n.*"/>
+      <match lemma="pierna" tags="n.*"/>
+      <match lemma="playa" tags="n.*"/>
+      <match lemma="principado" tags="n.*"/>
+      <match lemma="prisión" tags="n.*"/>
+      <match lemma="provincia" tags="n.*"/>
+      <match lemma="pueblo" tags="n.*"/>
+      <match lemma="puerta" tags="n.*"/>
+      <match lemma="región" tags="n.*"/>
+      <match lemma="ropa" tags="n.*"/>
+      <match lemma="sala" tags="n.*"/>
+      <match lemma="senado" tags="n.*"/>
+      <match lemma="terraza" tags="n.*"/>
+      <match lemma="tienda" tags="n.*"/>
+      <match lemma="torre" tags="n.*"/>
+      <match lemma="tren" tags="n.*"/>
+      <match lemma="urbanización" tags="n.*"/>
+      <match lemma="valle" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- atendiendo a -->
+
+  <rule weight="10">
+     <match tags="vblex.*"/>
+     <match lemma="atender" tags="vblex.ger"><select lemma="atendre"/></match>
+     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+  </rule>
+    <rule weight="10">
+     <match lemma="atender" tags="vblex.ger"><select lemma="atendre"/></match>
+     <match tags="prn.enc.*"></match>
+  </rule>
+
+  <rule weight="6">
+     <match lemma="atender" tags="vblex.ger"><select lemma="atès"/></match>
+     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match tags="det.*.m.sg"/>
+  </rule>
+  <rule weight="6">
+     <match lemma="atender" tags="vblex.ger"><select lemma="atès"/></match>
+     <match lemma="a que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+  <rule weight="6">
+     <match lemma="atender" tags="vblex.ger"><select lemma="atesa"/></match>
+     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match tags="det.*.f.sg"/>
+  </rule>
+    <rule weight="6">
+     <match lemma="atender" tags="vblex.ger"><select lemma="atesos"/></match>
+     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match tags="det.*.m.pl"/>
+  </rule>  
+  <rule weight="6">
+     <match lemma="atender" tags="vblex.ger"><select lemma="ateses"/></match>
+     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match tags="det.*.f.pl"/>
+  </rule>
+      
+  <!-- a > a / eliminar -->
+
+<rule weight="6">
+     <match lemma="ayudar" tags="vblex.*"/>
+      <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+      <or>
+        <match tags="det.*"/>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+      </or>
+      <repeat from="0" upto="5">
+        <or>
+          <match tags="det.*"/>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="pr"/>
+        </or>
+      </repeat>
+      <match lemma="a" tags="pr"/>
+      <match tags="*.inf"/>
+  </rule>
+
+  <rule weight="6">
+      <match lemma="obligar" tags="vblex.*"/>
+      <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+      <or>
+        <match tags="det.*"/>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+      </or>
+      <repeat from="0" upto="5">
+        <or>
+          <match tags="det.*"/>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="pr"/>
+        </or>
+      </repeat>
+      <match lemma="a" tags="pr"/>
+      <match tags="*.inf"/>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match lemma="acusar" tags="vblex.*"/>
+      <match lemma="afectar" tags="vblex.*"/>
+      <match lemma="agrupar" tags="vblex.*"/>
+      <match lemma="apasionar" tags="vblex.*"/>
+      <match lemma="asesorar" tags="vblex.*"/>
+      <match lemma="atender" tags="vblex.*"/>
+      <match lemma="autorizar" tags="vblex.*"/>
+      <match lemma="cansar" tags="vblex.*"/>
+      <match lemma="concernir" tags="vblex.*"/>
+      <match lemma="contentar" tags="vblex.*"/>
+      <match lemma="entrevistar" tags="vblex.*"/>
+      <match lemma="felicitar" tags="vblex.*"/>
+      <match lemma="fichar" tags="vblex.*"/>
+      <match lemma="homenajear" tags="vblex.*"/>
+      <match lemma="implicar" tags="vblex.*"/>
+      <match lemma="informar" tags="vblex.*"/>
+      <match lemma="perjudicar" tags="vblex.*"/>
+      <match lemma="preocupar" tags="vblex.*"/>
+      <match lemma="promover" tags="vblex.*"/>
+      <match lemma="reunir" tags="vblex.*"/>
+      <match lemma="reñir" tags="vblex.*"/>
+      <match lemma="secuestrar" tags="vblex.*"/>
+      <match lemma="sorprender" tags="vblex.*"/>
+  </or>
+      <repeat from="0" upto="1">
+        <match tags="adv"/>
+      </repeat>
+      <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+      <or>
+        <match tags="det.*"/>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+        <match tags="rel.an.*" lemma="el que"/>
+        <match tags="rel.an.*" lemma="lo que"/>
+      </or>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match lemma="acusar" tags="vblex.pp.*"/>
+      <match lemma="afectar" tags="vblex.pp.*"/>
+      <match lemma="agrupar" tags="vblex.pp.*"/>
+      <match lemma="apasionar" tags="vblex.pp.*"/>
+      <match lemma="asesorar" tags="vblex.pp.*"/>
+      <match lemma="atender" tags="vblex.pp.*"/>
+      <match lemma="autorizar" tags="vblex.pp.*"/>
+      <match lemma="cansar" tags="vblex.pp.*"/>
+      <match lemma="concernir" tags="vblex.pp.*"/>
+      <match lemma="contentar" tags="vblex.pp.*"/>
+      <match lemma="entrevistar" tags="vblex.pp.*"/>
+      <match lemma="felicitar" tags="vblex.pp.*"/>
+      <match lemma="fichar" tags="vblex.pp.*"/>
+      <match lemma="homenajear" tags="vblex.pp.*"/>
+      <match lemma="implicar" tags="vblex.pp.*"/>
+      <match lemma="informar" tags="vblex.pp.*"/>
+      <match lemma="perjudicar" tags="vblex.pp.*"/>
+      <match lemma="preocupar" tags="vblex.pp.*"/>
+      <match lemma="promover" tags="vblex.pp.*"/>
+      <match lemma="reunir" tags="vblex.pp.*"/>
+      <match lemma="reñir" tags="vblex.pp.*"/>
+      <match lemma="secuestrar" tags="vblex.pp.*"/>
+      <match lemma="sorprender" tags="vblex.pp.*"/>
+  </or>
+      <repeat from="0" upto="1">
+        <match tags="adv"/>
+      </repeat>
+      <match lemma="a" tags="pr"><select lemma="a"/></match>
+      <or>
+        <match tags="det.*"/>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+        <match tags="rel.an.*" lemma="el que"/>
+        <match tags="rel.an.*" lemma="lo que"/>
+      </or>
+  </rule>
+
+    <rule weight="2">
+    <match tags="vbhaver.*"/>  
+    <or>
+      <match lemma="acusar" tags="vblex.pp.m.sg"/>
+      <match lemma="afectar" tags="vblex.pp.m.sg"/>
+      <match lemma="agrupar" tags="vblex.pp.m.sg"/>
+      <match lemma="apasionar" tags="vblex.pp.m.sg"/>
+      <match lemma="asesorar" tags="vblex.pp.m.sg"/>
+      <match lemma="atender" tags="vblex.pp.m.sg"/>
+      <match lemma="autorizar" tags="vblex.pp.m.sg"/>
+      <match lemma="cansar" tags="vblex.pp.m.sg"/>
+      <match lemma="concernir" tags="vblex.pp.m.sg"/>
+      <match lemma="contentar" tags="vblex.pp.m.sg"/>
+      <match lemma="entrevistar" tags="vblex.pp.m.sg"/>
+      <match lemma="felicitar" tags="vblex.pp.m.sg"/>
+      <match lemma="fichar" tags="vblex.pp.m.sg"/>
+      <match lemma="homenajear" tags="vblex.pp.m.sg"/>
+      <match lemma="implicar" tags="vblex.pp.m.sg"/>
+      <match lemma="informar" tags="vblex.pp.m.sg"/>
+      <match lemma="perjudicar" tags="vblex.pp.m.sg"/>
+      <match lemma="preocupar" tags="vblex.pp.m.sg"/>
+      <match lemma="promover" tags="vblex.pp.m.sg"/>
+      <match lemma="reunir" tags="vblex.pp.m.sg"/>
+      <match lemma="reñir" tags="vblex.pp.m.sg"/>
+      <match lemma="secuestrar" tags="vblex.pp.m.sg"/>
+      <match lemma="sorprender" tags="vblex.pp.m.sg"/>
+  </or>
+      <repeat from="0" upto="1">
+        <match tags="adv"/>
+      </repeat>
+      <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+      <or>
+        <match tags="det.*"/>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+        <match tags="rel.an.*" lemma="el que"/>
+        <match tags="rel.an.*" lemma="lo que"/>
+      </or>
+  </rule>
+
+  <rule weight="3"> <!--excepció a la regla anterior -->
+    <match tags="vblex.pp.*"/>    
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+    <or>
+      <match tags="det.*"/>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+    </or>
+  </rule>
+
+  <rule weight="4">
+    <match lemma="haber"/>
+    <or>
+      <match lemma="acusar" tags="vblex.pp.m.sg"/>
+      <match lemma="afectar" tags="vblex.pp.m.sg"/>
+      <match lemma="agrupar" tags="vblex.pp.m.sg"/>
+      <match lemma="apasionar" tags="vblex.pp.m.sg"/>
+      <match lemma="asesorar" tags="vblex.pp.m.sg"/>
+      <match lemma="autorizar" tags="vblex.pp.m.sg"/>
+      <match lemma="cansar" tags="vblex.pp.m.sg"/>
+      <match lemma="concernir" tags="vblex.pp.m.sg"/>
+      <match lemma="contentar" tags="vblex.pp.m.sg"/>
+      <match lemma="desautorizar" tags="vblex.pp.m.sg"/>
+      <match lemma="entrevistar" tags="vblex.*"/> 
+      <match lemma="felicitar" tags="vblex.pp.m.sg"/>   
+      <match lemma="fichar" tags="vblex.pp.m.sg"/>
+      <match lemma="homenajear" tags="vblex.pp.m.sg"/>
+      <match lemma="informar" tags="vblex.pp.m.sg"/>
+      <match lemma="perjudicar" tags="vblex.pp.m.sg"/>
+      <match lemma="preocupar" tags="vblex.pp.m.sg"/>
+      <match lemma="promover" tags="vblex.pp.m.sg"/>
+      <match lemma="reñir" tags="vblex.pp.m.sg"/>
+      <match lemma="reunir" tags="vblex.pp.m.sg"/>
+      <match lemma="secuestrar" tags="vblex.pp.m.sg"/>
+      <match lemma="sorprender" tags="vblex.pp.m.sg"/>
+      <match lemma="implicar" tags="vblex.pp.m.sg"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <or>
+      <match tags="det.*"/>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+    </or>
+  </rule>
+
+  <!-- romper > trencar / esclafir a  ... -->
+
+  <rule weight="0.5">
+    <match lemma="romper" tags="vblex.*"><select lemma="trencar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="romper" tags="vblex.*"><select lemma="esclafir"/></match>
+    <match lemma="a"/>
+    <match tags="*.inf"/>
+  </rule>
+
+  <!-- abonar > abonar /adobar -->
+
+  <rule weight="0.5">
+    <match lemma="abonar" tags="vblex.*"><select lemma="abonar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="abonar" tags="vblex.*"><select lemma="adobar"/></match>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="tierra" tags="n.*"/>
+      <match lemma="terreno" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="sembrado" tags="n.*"/>
+      <match lemma="planta" tags="n.*"/>
+      <match lemma="cultivo" tags="n.*"/>
+      <match lemma="árbol" tags="n.*"/>
+      <match lemma="hortaliza" tags="n.*"/>
+      <match lemma="sembrar" tags="vblex.*"/>
+      <match lemma="plantar" tags="vblex.*"/>
+      <match lemma="regar" tags="vblex.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="tierra" tags="n.*"/>
+      <match lemma="terreno" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="sembrado" tags="n.*"/>
+      <match lemma="planta" tags="n.*"/>
+      <match lemma="cultivo" tags="n.*"/>
+      <match lemma="árbol" tags="n.*"/>
+      <match lemma="hortaliza" tags="n.*"/>
+      <match lemma="sembrar" tags="vblex.*"/>
+      <match lemma="plantar" tags="vblex.*"/>
+      <match lemma="regar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="abonar" tags="vblex.*"><select lemma="adobar"/></match>
+  </rule>
+
+  <!-- abono > abonament / adob -->
+
+  <rule weight="0.5">
+    <match lemma="abono" tags="n.*"><select lemma="abonament"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="abono" tags="n.*"><select lemma="adob"/></match>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="tierra" tags="n.*"/>
+      <match lemma="herbicida" tags="n.*"/>
+      <match lemma="terreno" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="sembrado" tags="n.*"/>
+      <match lemma="planta" tags="n.*"/>
+      <match lemma="cultivo" tags="n.*"/>
+      <match lemma="árbol" tags="n.*"/>
+      <match lemma="hortaliza" tags="n.*"/>
+      <match lemma="sembrar" tags="vblex.*"/>
+      <match lemma="plantar" tags="vblex.*"/>
+      <match lemma="regar" tags="vblex.*"/>
+      <match lemma="fertilizar" tags="vblex.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="tierra" tags="n.*"/>
+      <match lemma="herbicida" tags="n.*"/>
+      <match lemma="terreno" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="sembrado" tags="n.*"/>
+      <match lemma="planta" tags="n.*"/>
+      <match lemma="cultivo" tags="n.*"/>
+      <match lemma="árbol" tags="n.*"/>
+      <match lemma="hortaliza" tags="n.*"/>
+      <match lemma="sembrar" tags="vblex.*"/>
+      <match lemma="plantar" tags="vblex.*"/>
+      <match lemma="regar" tags="vblex.*"/>
+      <match lemma="fertilizar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+      <match lemma="abono" tags="n.*"><select lemma="adob"/></match>
+    </repeat>
+  </rule>
+
+
+
+  <!-- reñir > renyir / renyar -->
+
+  <rule weight="0.5">
+    <match lemma="reñir" tags="vblex.*"><select lemma="renyir"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="reñir" tags="vblex.*"><select lemma="renyar"/></match>
+    <match lemma="a" tags="pr"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="prn.pro.*"/>
+    <repeat from="0" upto="1">
+      <match lemma="haber"/>
+    </repeat>
+    <match lemma="reñir" tags="vblex.*"><select lemma="renyar"/></match>
+  </rule>
+
+  <!-- rayar > ratllar / vorejar -->
+
+  <rule weight="0.5">
+    <match lemma="rayar" tags="vblex.*"><select lemma="ratllar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="rayar" tags="vblex.*"><select lemma="ranejar"/></match>
+    <match lemma="en" tags="pr"/>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="ismo" tags="n.*"/>
+      <match lemma="cencia" tags="n.*"/>
+      <match lemma="itud" tags="n.*"/>
+      <match lemma="ción" tags="n.*"/>
+      <match lemma="idad" tags="n.*"/>
+      <match lemma="edad" tags="n.*"/>
+      <match lemma="mayoría" tags="n.*"/>
+      <match lemma="año" tags="n.*"/>
+      <match lemma="amenaza" tags="n.*"/>
+      <match lemma="insulto" tags="n.*"/>
+      <match lemma="absurdo"/>
+      <match tags="num"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="rayar" tags="vblex.*"><select lemma="vorejar"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="ismo" tags="n.*"/>
+      <match lemma="cencia" tags="n.*"/>
+      <match lemma="itud" tags="n.*"/>
+      <match lemma="ción" tags="n.*"/>
+      <match lemma="idad" tags="n.*"/>
+      <match lemma="edad" tags="n.*"/>
+      <match lemma="mayoría" tags="n.*"/>
+      <match lemma="año" tags="n.*"/>
+      <match lemma="amenaza" tags="n.*"/>
+      <match lemma="insulto" tags="n.*"/>
+      <match lemma="absurdo"/>
+      <match tags="num"/>
+    </or>
+  </rule>
+
+  <!-- volver > tornar / girar -->
+
+  <rule weight="0.5">
+    <match lemma="volver" tags="vblex.*"><select lemma="tornar"/></match>
+  </rule>
+
+  <rule weight="2"> <!-- la (re)vista volvió a dedicarle (innecessari si no hi hagués bug en RLX) -->
+    <match lemma="volver" tags="vblex.*"><select lemma="tornar"/></match>
+    <match lemma="a" tags="pr"/>
+    <match tags="*.inf"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="volver" tags="vblex.*"><select lemma="girar"/></match>
+    <match lemma="en" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.pos.*"/>
+    </repeat>
+    <match lemma="contra" tags="n.*"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="volver" tags="vblex.*"><select lemma="girar"/></match>
+    <or>
+      <match lemma="en mi contra" tags="adv"/>
+      <match lemma="en tu contra" tags="adv"/>
+      <match lemma="en su contra" tags="adv"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="volver" tags="vblex.*"><select lemma="girar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="ojo" tags="n.*"/>
+      <match lemma="mirada" tags="n.*"/>
+      <match lemma="vista" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="ojo" tags="n.*"/>
+      <match lemma="mirada" tags="n.*"/>
+      <match lemma="vista" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="prn.pro.*"/>
+        <match tags="adv"/>
+        <match lemma="haber"/>
+        <match lemma="ir"/>
+        <match lemma="a" tags="pr"/>
+      </or>
+    </repeat>
+    <match lemma="volver" tags="vblex.*"><select lemma="girar"/></match>
+  </rule>
+
+
+  <!-- pastel > pastís / pastel -->
+
+  <rule weight="0.5">
+    <match lemma="pastel" tags="n.*"><select lemma="pastís"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="tono" tags="n.*"/>
+      <match lemma="tonalidad" tags="n.*"/>
+      <match lemma="color" tags="n.*"/>
+    </or>
+    <match lemma="pastel" tags="n.*"><select lemma="pastel"/></match>
+  </rule>
+    
+    <!-- lo que > el que / la qual cosa -->
+    <!-- TODO: s'haurà de fer en Constraint Grammar, si es vol millorar -->
+  <rule weight="0.5">
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="cm"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="cm"/>
+    <match tags="pr" lemma="por"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
+  </rule>
+
+  <!-- por lo que a ... respecta -->
+  <rule weight="0.5">
+    <match tags="pr" lemma="respecta"><select lemma="respecta"/></match>
+  </rule>
+
+  <rule weight="4.0">
+    <match lemma="por" tags="pr"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que respecta"/></match>
+    <match lemma="a" tags="pr"/>
+    <repeat from="1" upto="5">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="respecta"><select lemma="preposicio_buida"/></match>
+  </rule>
+
+  <rule weight="4.0">
+    <match lemma="en" tags="pr"><select lemma="per"/></match>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que respecta"/></match>
+    <match lemma="a" tags="pr"/>
+    <repeat from="1" upto="5">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="respecta"><select lemma="preposicio_buida"/></match>
+  </rule> 
+    
+    <!-- propio  > propi / mateix -->
+
+  <rule weight="0.5">
+    <match lemma="propio" tags="adj.*"><select lemma="propi"/></match>
+  </rule>
+
+  <rule weight="3">
+    <match tags="det.pos.*"/>
+    <match lemma="propio" tags="adj.*"><select lemma="propi"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="det.def.*"/>
+    <match lemma="propio" tags="adj.*"><select lemma="mateix"/></match>
+    <or>
+      <match lemma="autor" tags="n.*"/>
+      <match lemma="ponente" tags="n.*"/>
+      <match lemma="escritor" tags="n.*"/>
+      <match lemma="pintor" tags="n.*"/>
+      <match lemma="poeta" tags="n.*"/>
+      <match lemma="escultor" tags="n.*"/>
+      <match tags="np.*"/>
+    </or>
+  </rule>
+
+      <!-- cerca, arriba, abajo  > prop / a prop -->
+
+  <rule weight="0.5">
+    <match lemma="cerca" tags="adv"><select lemma="a prop"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="de" tags="pr"/>
+    <match lemma="cerca" tags="adv"><select lemma="prop"/></match>
+  </rule>
+
+  <rule weight="0.5">
+    <match lemma="abajo" tags="adv"><select lemma="a baix"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="de" tags="pr"/>
+    <match lemma="abajo" tags="adv"><select lemma="baix"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="río" tags="n.*"/>
+      <match lemma="cuesta" tags="n.*"/>
+      <match lemma="escalera" tags="n.*"/>
+      <match lemma="agua" tags="n.*"/>
+    </or>
+    <match lemma="abajo" tags="adv"><select lemma="avall"/></match>
+  </rule>
+
+  <rule weight="0.5">
+    <match lemma="arriba" tags="adv"><select lemma="a dalt"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="de" tags="pr"/>
+    <match lemma="arriba" tags="adv"><select lemma="dalt"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="río" tags="n.*"/>
+      <match lemma="cuesta" tags="n.*"/>
+      <match lemma="escalera" tags="n.*"/>
+      <match lemma="agua" tags="n.*"/>
+    </or>
+    <match lemma="arriba" tags="adv"><select lemma="amunt"/></match>
+  </rule>
+
+  <!-- apenas  > a penes / tot just -->
+
+  <rule weight="0.5">
+    <match lemma="apenas" tags="adv"><select lemma="a penes"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="pr"/>
+    <match lemma="apenas" tags="adv"><select lemma="tot just"/></match>
+  </rule>
+
+     <!-- por su parte > per part seva, per la seva part -->
+
+  <rule weight="0.5">
+    <match lemma="por su parte" tags="adv"><select lemma="per la seua part"/></match>
+  </rule>
+
+  <rule weight="0.5">
+    <match lemma="por su parte" tags="adv"><select lemma="per la seva part"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="por su parte" tags="adv"><select lemma="per part seua"/></match>
+    <or>
+      <match tags="cm"/>
+      <match tags="sent"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="por su parte" tags="adv"><select lemma="per part seva"/></match>
+    <or>
+      <match tags="cm"/>
+      <match tags="sent"/>
+    </or>
+  </rule>
+
+  <!-- palma > palma / palmell -->
+
+  <rule weight="0.5">
+    <match lemma="palma" tags="n.*"><select lemma="palma"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="palma" tags="n.*"><select lemma="palmell"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="mano" tags="n.f.*"/>
+  </rule>
+
+   <!-- mucho > molt de /molta/molts/moltes -->
+
+  <rule weight="0.5">
+    <match lemma="mucho" tags="det.ind.*"><select lemma="molt"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="mucho" tags="det.ind.m.sg"><select lemma="molt de"/></match> <!-- caldria mirar el gènere de la traducció, no el de l'original-->
+    <or>
+      <match tags="n.m.sg"/>
+      <match tags="n.m.sp"/>
+      <match tags="n.mf.sp"/>
+      <match tags="n.mf.sg"/>
+    </or>
+  </rule>
+
+  <!-- tipo > tipus / mena -->
+
+  <rule weight="0.5">
+    <match lemma="tipo" tags="n.*"><select lemma="tipus"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="todo"/>
+      <match lemma="ninguno" tagger="det.ind.m.sg"/>
+    </or>
+    <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="a" tags="pr"/>
+    <or>
+      <match lemma="todo"/>
+      <match lemma="ninguno" tagger="det.ind.m.sg"/>
+    </or>
+    <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="ninguno" tagger="det.ind.m.sg"/>
+    <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
+  <!-- caber la posibilidad > haver-hi la possibilitat -->
+
+  <rule weight="0.5">
+    <match lemma="caber" tags="vblex.*"><select lemma="cabre"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="caber" tags="vblex.*.p3.*"><select lemma="haver"/></match>
+      <match lemma="caber" tags="vblex.inf"><select lemma="haver"/></match>
+      <match lemma="caber" tags="vblex.ger"><select lemma="haver"/></match>
+    </or>
+    <match tags="det.*.f.*"/>
+    <or>
+      <match tags="n.f.*" lemma="posibilidad"/>
+      <match tags="n.f.*" lemma="opción"/>
+      <match tags="n.f.*" lemma="alternativa"/>
+      <match tags="n.f.*" lemma="elección"/>
+      <match tags="n.f.*" lemma="duda"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="caber" tags="vblex.*.p3.*"><select lemma="haver"/></match>
+      <match lemma="caber" tags="vblex.inf"><select lemma="haver"/></match>
+      <match lemma="caber" tags="vblex.ger"><select lemma="haver"/></match>
+    </or>
+    <or>
+      <match tags="n.f.*" lemma="posibilidad"/>
+      <match tags="n.f.*" lemma="opción"/>
+      <match tags="n.f.*" lemma="alternativa"/>
+      <match tags="n.f.*" lemma="elección"/>
+      <match tags="n.f.*" lemma="duda"/>
+      <match tags="n.f.*" lemma="la menor duda"/>
+    </or>
+  </rule>
+
+
+  <!-- escuchar > escoltar / sentir -->
+
+  <rule weight="0.5">
+    <match lemma="escuchar" tags="vblex.*"><select lemma="escoltar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="escuchar" tags="vblex.*"><select lemma="sentir"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="adv"/>
+        <match tags="prn.enc.*"/>
+      </or>
+    </repeat>
+    <match tags="*.inf"/>
+  </rule>
+
+    <rule weight="1">
+    <match lemma="escuchar" tags="vblex.*"><select lemma="sentir"/></match>
+    <match lemma="que" tags="cnjsub"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="escuchar" tags="vblex.*"><select lemma="sentir"/></match>
+      <repeat from="0" upto="6">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="n.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <or>
+      <match tagger="n.*" lemma="cañón"/>
+      <match tagger="n.*" lemma="disparo"/>
+      <match tagger="n.*" lemma="fuego"/>
+      <match tagger="n.*" lemma="fusil"/>
+      <match tagger="n.*" lemma="grito"/>
+      <match tagger="n.*" lemma="petardo"/>
+      <match tagger="n.*" lemma="pistola"/>
+      <match tagger="n.*" lemma="relámpago"/>
+      <match tagger="n.*" lemma="tiro"/>
+      <match tagger="n.*" lemma="tormenta"/>
+      <match tagger="n.*" lemma="trueno"/>
+    </or>
+  </rule>
+
+  <!-- cebar > encebar / acarnissar -->
+
+  <rule weight="0.5">
+    <match lemma="cebar" tags="vblex.*"><select lemma="encebar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="prn.pro.*"/>
+    <repeat from="0" upto="2">
+      <or>
+        <match lemma="haber" tags="vbhaver.*"/>
+        <match lemma="ir" tags="vblex.*"/>
+        <match lemma="a" tags="pr"/>
+      </or>
+    </repeat>
+    <match lemma="cebar" tags="vblex.*"><select lemma="acarnissar"/></match>
+    <match lemma="con" tags="pr"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="cebar" tags="vblex.*"><select lemma="acarnissar"/></match>
+    <match tags="prn.enc.*"/>
+    <match lemma="con" tags="pr"/>
+  </rule>
+
+   <!-- el día siguiente > l'endemà / el dia següent -->
+
+  <rule weight="0.5">
+    <match lemma="día siguiente" tags="n.m.sg"><select lemma="endemà"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="día siguiente" tags="n.m.sg"><select lemma="endemà del dia"/></match>
+    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <match lemma="el que" tags="rel.an.m.sg"><select lemma="que"/></match>
+  </rule>
+
+  <!-- sumo > summe / suprem -->
+
+  <rule weight="0.5">
+    <match lemma="sumo" tags="adj.*"><select lemma="summe"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="grado" tags="n.*"/>
+    <match lemma="sumo" tags="adj.*"><select lemma="suprem"/></match>
+  </rule>
+
+  <!-- agallas > ganya / coratge (també: amígdala / gala /angina !!)  -->
+
+  <rule weight="0.5">
+    <match lemma="agalla" tags="n.*"><select lemma="gala"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="tener" tags="vblex.*"/>
+    <match lemma="agalla" tags="n.f.pl"><select lemma="coratge"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="tener" tags="vblex.*"/>
+    <match lemma="el" tags="det.def.f.pl"/>
+    <match lemma="agalla" tags="n.f.pl"><select lemma="coratge"/></match>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match lemma="abertura" tags="n.*"/>
+      <match lemma="boca" tags="n.*"/>
+      <match lemma="branquia" tags="n.*"/>
+      <match lemma="circulatorio" tags="adj.*"/>
+      <match lemma="corazón" tags="n.*"/>
+      <match lemma="disposición" tags="n.*"/>
+      <match lemma="filtrador" tags="adj.*"/>
+      <match lemma="filtrar" tags="vblex.*"/>
+      <match lemma="pez" tags="n.*"/>
+      <match lemma="plancton" tags="n.*"/>
+      <match lemma="presión" tags="n.*"/>
+      <match lemma="sangre" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="10">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="agalla" tags="n.*"><select lemma="ganya"/></match>
+  </rule>
+   
+
+  <rule weight="2">
+    <match lemma="agalla" tags="n.*"><select lemma="ganya"/></match>
+    <repeat from="0" upto="10">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="abertura" tags="n.*"/>
+      <match lemma="boca" tags="n.*"/>
+      <match lemma="branquia" tags="n.*"/>
+      <match lemma="circulatorio" tags="adj.*"/>
+      <match lemma="corazón" tags="n.*"/>
+      <match lemma="disposición" tags="n.*"/>
+      <match lemma="filtrador" tags="adj.*"/>
+      <match lemma="filtrar" tags="vblex.*"/>
+      <match lemma="pez" tags="n.*"/>
+      <match lemma="plancton" tags="n.*"/>
+      <match lemma="presión" tags="n.*"/>
+      <match lemma="sangre" tags="n.*"/>
+    </or>
+  </rule>
+
+    <!-- atizar > encebar / acarnissar -->
+
+  <rule weight="0.5">
+    <match lemma="atizar" tags="vblex.*"><select lemma="ventar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="atizar" tags="vblex.*"><select lemma="atiar"/></match>
+    <repeat from="0" upto="5">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="animosidad" tags="n.*"/>
+      <match lemma="brasa" tags="n.*"/>
+      <match lemma="conflicto" tags="n.*"/>
+      <match lemma="especulación" tags="n.*"/>
+      <match lemma="fuego" tags="n.*"/>
+      <match lemma="hogar" tags="n.*"/>
+      <match lemma="impaciencia" tags="n.*"/>
+      <match lemma="miedo" tags="n.*"/>
+      <match lemma="odio" tags="n.*"/>
+      <match lemma="pasión" tags="n.*"/>
+      <match lemma="pánico" tags="n.*"/>
+      <match lemma="racismo" tags="n.*"/>
+      <match lemma="rivalidad" tags="n.*"/>
+      <match lemma="sentimiento" tags="n.*"/>
+      <match lemma="sospecha" tags="n.*"/>
+      <match lemma="temor" tags="n.*"/>
+      <match lemma="tensión" tags="n.*"/>
+      <match lemma="violencia" tags="n.*"/>
+      <match lemma="xenofobia" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="animosidad" tags="n.*"/>
+      <match lemma="brasa" tags="n.*"/>
+      <match lemma="conflicto" tags="n.*"/>
+      <match lemma="especulación" tags="n.*"/>
+      <match lemma="fuego" tags="n.*"/>
+      <match lemma="hogar" tags="n.*"/>
+      <match lemma="impaciencia" tags="n.*"/>
+      <match lemma="miedo" tags="n.*"/>
+      <match lemma="odio" tags="n.*"/>
+      <match lemma="pasión" tags="n.*"/>
+      <match lemma="pánico" tags="n.*"/>
+      <match lemma="racismo" tags="n.*"/>
+      <match lemma="rivalidad" tags="n.*"/>
+      <match lemma="sentimiento" tags="n.*"/>
+      <match lemma="sospecha" tags="n.*"/>
+      <match lemma="temor" tags="n.*"/>
+      <match lemma="tensión" tags="n.*"/>
+      <match lemma="violencia" tags="n.*"/>
+      <match lemma="xenofobia" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="5">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="atizar" tags="vblex.*"><select lemma="atiar"/></match>
+  </rule>
+
+  <!-- qué duda cabe > no hi ha dubte / no n'hi ha dubte -->
+
+  <rule weight="0.5">
+    <match lemma="qué duda cabe" tags="adv"><select lemma="no n'hi ha dubte"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="qué duda cabe" tags="adv"><select lemma="no hi ha dubte"/></match>
+    <or>
+      <match lemma="de" tags="pr"/>
+      <match lemma="que" />
+      <match lemma="de que"/>
+    </or>
+  </rule>
+
+  <!-- topònims amb article -->
+
+  <rule weight="0.5"><match lemma="Argentina"><select lemma="l'Argentina"/></match></rule>
+  <rule weight="0.5"><match lemma="Brasil"><select lemma="el Brasil"/></match></rule>
+  <rule weight="0.5"><match lemma="Canadá"><select lemma="el Canadà"/></match></rule>
+  <rule weight="0.5"><match lemma="China"><select lemma="la Xina"/></match></rule>
+  <rule weight="0.5"><match lemma="Ecuador"><select lemma="l'Equador"/></match></rule>
+  <rule weight="0.5"><match lemma="EE. UU."><select lemma="els EUA"/></match></rule>
+  <rule weight="0.5"><match lemma="Estados Unidos"><select lemma="els Estats Units"/></match></rule>
+  <rule weight="0.5"><match lemma="India"><select lemma="l'Índia"/></match></rule>
+  <rule weight="0.5"><match lemma="Japón"><select lemma="el Japó"/></match></rule>
+  <rule weight="0.5"><match lemma="Marruecos"><select lemma="el Marroc"/></match></rule>
+  <rule weight="0.5"><match lemma="Perú"><select lemma="el Perú"/></match></rule>
+  <rule weight="0.5"><match lemma="Senegal"><select lemma="el Senegal"/></match></rule>
+  <rule weight="0.5"><match lemma="Uruguay"><select lemma="l'Uruguai"/></match></rule>
+  <rule weight="0.5"><match lemma="Vendrell"><select lemma="el Vendrell"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Argentina"><select lemma="Argentina"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Brasil"><select lemma="Brasil"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Canadá"><select lemma="Canadà"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="China"><select lemma="Xina"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Ecuador"><select lemma="Equador"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="EE. UU."><select lemma="EUA"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Estados Unidos"><select lemma="Estats Units"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="India"><select lemma="Índia"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Japón"><select lemma="Japó"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Marruecos"><select lemma="Marroc"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Perú"><select lemma="Perú"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Senegal"><select lemma="Senegal"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Uruguay"><select lemma="Uruguai"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vendrell"><select lemma="Vendrell"/></match></rule>
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
@@ -1611,6 +5630,9 @@
   <macro name="noms_propis" p1="Buenaventura" p2="Bonaventura" />
   <macro name="noms_propis" p1="Calixto" p2="Calixt" />
   <macro name="noms_propis" p1="Pascual" p2="Pasqual" />
+  <macro name="noms_propis" p1="Amadeo" p2="Amadeu" />
+  <macro name="noms_propis" p1="Antonio" p2="Antoni" />
+  <macro name="noms_propis" p1="Joaquín" p2="Joaquim" />
 
   <macro name="noms_propis" p1="Vilfredo" p2="Guifré" />
   <macro name="noms_propis" p1="Ramón" p2="Ramon" />
@@ -1630,6 +5652,7 @@
   <macro name="noms_propis" p1="Julio" p2="Juli" />
   <macro name="noms_propis" p1="Marcos" p2="Marc" />
   <macro name="noms_propis" p1="Lucas" p2="Lluc" />
+  <macro name="noms_propis" p1="Humberto" p2="Humbert" />
 
 </rules>
 </metalrx>

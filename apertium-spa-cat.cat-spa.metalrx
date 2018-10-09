@@ -302,16 +302,21 @@
       <match lemma="títol"/>
     </def-seq>
 
+
     <def-seq n="periode">
       <match lemma="minut" tags="n.*"/>
       <match lemma="hora" tags="n.*"/>
       <match lemma="dia" tags="n.*"/>
       <match lemma="setmana" tags="n.*"/>
       <match lemma="mes" tags="n.*"/>
+      <match lemma="trimestre" tags="n.*"/>
+      <match lemma="quadrimestre" tags="n.*"/>
+      <match lemma="semestre" tags="n.*"/>
       <match lemma="any" tags="n.*"/>
+      <match lemma="lustre" tags="n.*"/>
       <match lemma="dècada" tags="n.*"/>
       <match lemma="segle" tags="n.*"/>
-      <match lemma="mil·leni" tags="n.*"/>
+      <match lemma="mil·lenni" tags="n.*"/>
       <match lemma="període" tags="n.*"/>
       <match lemma="etapa" tags="n.*"/>
       <match lemma="infantesa" tags="n.*"/>
@@ -1645,6 +1650,54 @@
     </or>
   </rule>
 
+  <!-- grau > grado, grao -->
+
+  <rule weight="0.6">
+     <match lemma="grau" tags="n.*"><select lemma="grado"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="grau" tags="n.*"><select lemma="grao"/></match>
+     <match lemma="de" tags="pr"/>
+     <or>
+       <match lemma="València" tags="np.*"/>
+       <match lemma="Gandia" tags="np.*"/>
+       <match lemma="Castelló" tags="np.*"/>
+       <match lemma="Moncofa" tags="np.*"/>
+     </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+       <match lemma="carretera" tags="n.*"/>
+       <match lemma="camí" tags="n.*"/>
+       <match lemma="via" tags="n.*"/>
+       <match lemma="sud" tags="n.*"/>
+       <match lemma="nord" tags="n.*"/>
+       <match lemma="est" tags="n.*"/>
+       <match lemma="oest" tags="n.*"/>
+       <match lemma="fondo" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="pr"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+      </or>
+    </repeat>
+    <match lemma="grau" tags="n.*"><select lemma="grao"/></match>
+  </rule>
+
+  <!-- gana > gana / hambre -->
+
+  <rule weight="0.5">
+    <match lemma="gana" tags="n.f.sg"><select lemma="hambre"/></match>
+  </rule>
+
+  <rule weight="0.5">
+    <match lemma="gana" tags="n.f.pl"><select lemma="gana"/></match>
+  </rule>
+  
+
 <!-- **************** NP **************** -->
 
 <!-- Virgili > Virgili, Virgilio -->
@@ -1691,6 +1744,9 @@
   <macro name="noms_propis" p1="Bonaventura" p2="Buenaventura" />
   <macro name="noms_propis" p1="Calixt" p2="Calixto" />
   <macro name="noms_propis" p1="Pasqual" p2="Pascual" />
+  <macro name="noms_propis" p1="Amadeu" p2="Amadeo" />
+  <macro name="noms_propis" p1="Antoni" p2="Antonio" />
+  <macro name="noms_propis" p1="Joaquim" p2="Joaquín" />
 
   <macro name="noms_propis" p1="Guifré" p2="Vilfredo" />
   <macro name="noms_propis" p1="Ramon" p2="Ramón" />
@@ -1710,5 +1766,6 @@
   <macro name="noms_propis" p1="Juli" p2="Julio" />
   <macro name="noms_propis" p1="Marc" p2="Marcos" />
   <macro name="noms_propis" p1="Lluc" p2="Lucas" />
+  <macro name="noms_propis" p1="Humbert" p2="Humberto" />
 </rules>
 </metalrx>

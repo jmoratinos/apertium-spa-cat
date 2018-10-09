@@ -11,8 +11,9 @@
     </def-cat>
     <def-cat n="nploc">
       <cat-item tags="np.loc" />
+      <cat-item tags="np.top"/>
     </def-cat>
-      <def-cat n="nomcomunsg">
+    <def-cat n="nomcomunsg">
       <cat-item tags="n.m.sg" />
       <cat-item tags="n.f.sg" />
       <cat-item tags="n.mf.sg" />
@@ -39,6 +40,19 @@
       <cat-item tags="adj.*" />
       <cat-item tags="vblex.pp.*" />
     </def-cat>
+    <def-cat n="adjec0"> <!-- sense itg -->
+      <cat-item tags="adj.ind.*" />
+      <cat-item tags="adj.sup.*" />
+      <cat-item tags="adj.pos.*" />
+      <cat-item tags="adj.ord.*"/>
+      <cat-item tags="adj.m.*"/>
+      <cat-item tags="adj.f.*"/>
+      <cat-item tags="adj.mf.*"/>
+      <cat-item tags="vblex.pp.*" />
+    </def-cat>
+    <def-cat n="adjecitg">
+      <cat-item tags="adj.itg.*" />
+    </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*" />
     </def-cat>
@@ -58,6 +72,9 @@
     <def-cat n="prn">
       <cat-item tags="prn.tn.*" />
       <cat-item tags="prn.itg.*" />
+    </def-cat>
+    <def-cat n="prntn">
+      <cat-item tags="prn.tn.*" />
     </def-cat>
     <def-cat n="prnenc">
       <cat-item tags="prn.enc.*" />
@@ -82,6 +99,27 @@
     </def-cat>
     <def-cat n="prnpro">
       <cat-item lemma="lo" tags="prn.pro.p3.m.sg" />
+      <cat-item lemma="lo" tags="prn.pro.p3.f.sg" />
+      <cat-item lemma="lo" tags="prn.pro.p3.m.pl" />
+      <cat-item lemma="lo" tags="prn.pro.p3.f.pl" />
+    </def-cat>
+    <def-cat n="prnpro_lo">
+      <cat-item lemma="lo" tags="prn.pro.p3.m.sg" />
+    </def-cat>
+    <def-cat n="se">
+      <cat-item lemma="le" tags="prn.pro.p3.mf.sp" />
+      <cat-item lemma="se" tags="prn.pro.ref.p3.mf.sp" />
+    </def-cat>
+    <def-cat n="lelesloloslalas">
+      <cat-item lemma="lo" tags="prn.pro.p3.*" />
+      <cat-item lemma="lo" tags="prn.pro.p3.f.*" />
+      <cat-item lemma="lo" tags="prn.pro.p3.m.*" />
+      <cat-item lemma="le" tags="prn.pro.p3.mf.*" />
+    </def-cat>
+    <def-cat n="llamar">
+      <cat-item lemma="llamar" tags="vblex.*.p3.sg" />
+    </def-cat>
+    <def-cat n="prnpro_loslasla">
       <cat-item lemma="lo" tags="prn.pro.p3.f.sg" />
       <cat-item lemma="lo" tags="prn.pro.p3.m.pl" />
       <cat-item lemma="lo" tags="prn.pro.p3.f.pl" />
@@ -143,28 +181,28 @@
     <def-cat n="caber">
       <cat-item lemma="caber" tags="vblex.*" />
     </def-cat>
-    <def-cat n="verbos_impersonal">
-      <!-- leísmo: se le considera -->
-      <cat-item lemma="considerar" tags="vblex.*.p3.sg" />
-      <cat-item lemma="nombrar" tags="vblex.*.p3.sg" />
-      <cat-item lemma="definir" tags="vblex.*.p3.sg" />
-      <cat-item lemma="obligar" tags="vblex.*.p3.sg" />
-      <cat-item lemma="invitar" tags="vblex.*.p3.sg" />
-    </def-cat>
-    <def-cat n="verbos_impersonal_reflexivo">
-      <!-- se la come, se las considera -->
-      <cat-item lemma="considerar" tags="vblex.*.p3.*" />
-      <cat-item lemma="nombrar" tags="vblex.*.p3.*" />
-      <cat-item lemma="definir" tags="vblex.*.p3.*" />
-      <cat-item lemma="obligar" tags="vblex.*.p3.*" />
-      <cat-item lemma="invitar" tags="vblex.*.p3.sg" />
-      <cat-item lemma="comer" tags="vblex.*.p3.*" />
-      <cat-item lemma="ingeniar" tags="vblex.*.p3.*" />
+    <def-cat n="duda">
+      <cat-item lemma="duda" tags="n.f.*" />
+      <cat-item lemma="opción" tags="n.f.*" />
+      <cat-item lemma="alternativa" tags="n.f.*" />
+      <cat-item lemma="la menor duda" tags="n.f.*" />
     </def-cat>
     <def-cat n="verbos_ver_haber_tener">
       <cat-item lemma="ver" tags="vblex.*.p3.*" />
       <cat-item lemma="haber" tags="vbhaver.*.p3.*" />
       <cat-item lemma="tener" tags="vblex.*.p3.*" />
+    </def-cat>
+    <def-cat n="vbhaver_p3_sg">
+        <cat-item tags="vbhaver.*.p3.sg" />
+    </def-cat>
+    <def-cat n="vblex">
+        <cat-item tags="vblex.*" />
+    </def-cat>
+    <def-cat n="vblex_p3_sg">
+        <cat-item tags="vblex.*.p3.sg" />
+    </def-cat>
+    <def-cat n="vblex_pp_ms">
+      <cat-item tags="vblex.pp.m.sg" />
     </def-cat>
     <def-cat n="lquest">
       <cat-item tags="lquest" />
@@ -201,8 +239,10 @@
       <cat-item lemma="que" tags="cnjsub" />
       <cat-item lemma="que" tags="rel.an.mf.sp" />
     </def-cat>
-    <def-cat n="el_que">
-      <cat-item lemma="el que" tags="rel.an.*" />
+    <def-cat n="que_si">
+      <cat-item lemma="que" tags="cnjsub" />
+      <cat-item lemma="que" tags="rel.an.mf.sp" />
+      <cat-item lemma="si" tags="cnjadv" />
     </def-cat>
     <def-cat n="uno_prn">
       <cat-item lemma="uno" tags="prn.tn.*" />
@@ -268,6 +308,8 @@
       <cat-item lemma="caer" tags="vblex.*" />
       <cat-item lemma="reír" tags="vblex.*" />
       <cat-item lemma="callar" tags="vblex.*" />
+      <cat-item lemma="conchabar" tags="vblex.*" />
+      <cat-item lemma="marchar" tags="vblex.*" />
       <cat-item lemma="asomarse" tags="vblex.*" />
       <cat-item lemma="asomar" tags="vblex.*" />
       <cat-item lemma="afanar# en" tags="vblex.*" />
@@ -276,6 +318,8 @@
       <cat-item lemma="caer" tags="vblex.pp.*" />
       <cat-item lemma="reír" tags="vblex.pp.*" />
       <cat-item lemma="callar" tags="vblex.pp.*" />
+      <cat-item lemma="conchabar" tags="vblex.*" />
+      <cat-item lemma="marchar" tags="vblex.pp.*" />
       <cat-item lemma="asomarse" tags="vblex.pp.*" />
       <cat-item lemma="afanar# en" tags="vblex.pp.*" />
     </def-cat>
@@ -366,9 +410,6 @@
       <cat-item tags="adj.f.pl" />
       <cat-item tags="adj.mf.pl" />
     </def-cat>
-    <def-cat n="tras">
-      <cat-item lemma="tras" tags="pr" />
-    </def-cat>
     <def-cat n="hay">
       <cat-item lemma="hay" tags="vblex.*" />
       <cat-item lemma="haber" tags="vblex.*" />
@@ -420,12 +461,10 @@
       <attr-item tags="n" />
       <attr-item tags="n.acr" />
       <attr-item tags="np.ant" />
+      <attr-item tags="np.cog" />
     </def-attr>
     <def-attr n="a_nomp">
       <attr-item tags="np.ant" />
-    </def-attr>
-    <def-attr n="a_nploc">
-      <attr-item tags="np.loc" />
     </def-attr>
     <def-attr n="a_det">
       <attr-item tags="det.def" />
@@ -475,13 +514,7 @@
       <attr-item tags="rel.an.mf.sp" />
     </def-attr>
     <def-attr n="a_prn">
-      <attr-item tags="prn.tn.p1" />
-      <attr-item tags="prn.tn.p2" />
-      <attr-item tags="prn.tn.p3" />
-      <attr-item tags="prn.tn" />
-      <attr-item tags="prn.tn.ref.p3" />
-      <attr-item tags="prn.tn.pos" />
-      <attr-item tags="prn.itg" />
+      <attr-item tags="prn" />
     </def-attr>
     <def-attr n="a_encpro">
       <attr-item tags="enc" />
@@ -587,89 +620,11 @@
     <def-list n="per_de">
       <list-item v="lalala" />
     </def-list>
+    <def-list n="vb_no_a"> <!--eliminar la preposició "a"-->
+      <list-item v="lalala" />
+    </def-list>
     <def-list n="locatiu">
-      <list-item v="món" />
-      <list-item v="seu" />
-      <list-item v="base" />
-      <list-item v="ascensor" />
-      <list-item v="carrer" />
-      <list-item v="plaça" />
-      <list-item v="mercat" />
-      <list-item v="zona" />
-      <list-item v="àrea" />
-      <list-item v="comarca" />
-      <list-item v="barri" />
-      <list-item v="ciutat" />
-      <list-item v="província" />
-      <list-item v="illa" />
-      <list-item v="país" />
-      <list-item v="planeta" />
-      <list-item v="parlament" />
-      <list-item v="casa" />
-      <list-item v="tren" />
-      <list-item v="universitat" />
-      <list-item v="roba" />
-      <list-item v="escola" />
-      <list-item v="congrés" />
-      <list-item v="domicili" />
-      <list-item v="urbanització" />
-      <list-item v="presó" />
-      <list-item v="fàbrica" />
-      <list-item v="muntanya" />
-      <list-item v="cambra" />
-      <list-item v="habitació" />
-      <list-item v="vall" />
-      <list-item v="frontera" />
-      <list-item v="castell" />
-      <list-item v="sala" />
-      <list-item v="església" />
-      <list-item v="festa" />
-      <list-item v="esplanada" />
-      <list-item v="mercat" />
-      <list-item v="internet" />
-      <list-item v="ajuntament" />
-      <list-item v="polígon" />
-      <list-item v="auditori" />
-      <list-item v="estranger" />
-      <list-item v="poble" />
-      <list-item v="portal" />
-      <list-item v="canal" />
-      <list-item v="terra" />
-      <list-item v="torre" />
-      <list-item v="pati" />
-      <list-item v="aula" />
-      <list-item v="edifici" />
-      <list-item v="hospital" />
-      <list-item v="cambra" />
-      <list-item v="internet" />
-      <list-item v="principat" />
-      <list-item v="banc" />
-      <list-item v="botiga" />
-      <list-item v="franja" />
-      <list-item v="senat" />
-      <list-item v="comtat" />
-      <list-item v="govern" />
-      <list-item v="capital" />
-      <list-item v="hotel" />
-      <list-item v="cinema" />
-      <list-item v="apartament" />
-      <list-item v="platja" />
-      <list-item v="pàgina" />
-      <list-item v="mà" />
-      <list-item v="campus" />
-      <list-item v="territori" />
-      <list-item v="UOC" />
-      <list-item v="xarxa" />
-      <list-item v="parc" />
-      <list-item v="dutxa" />
-      <list-item v="regió" />
-      <list-item v="biblioteca" />
-      <list-item v="centre" />
-      <list-item v="carpeta" />
-      <list-item v="espai" />
-      <list-item v="web" />
-      <list-item v="recta" />
-      <list-item v="classe" />
+      <list-item v="lalala" />
     </def-list>
     <def-list n="tiempo">
       <list-item v="enero" />
@@ -690,11 +645,14 @@
     <def-list n="perif_venir">
       <list-item v="ser" />
       <list-item v="decir" />
+      <list-item v="hacer" />
       <list-item v="contar" />
       <list-item v="celebrar" />
       <list-item v="experimentar" />
       <list-item v="realizar" />
       <list-item v="trabajar" />
+      <list-item v="tener" />
+      <list-item v="seguir" />
     </def-list>
   </section-def-lists>
   <section-def-macros>
@@ -702,10 +660,14 @@
       <choose>
         <when>
           <test>
-            <equal>
+            <!--<equal>
               <clip pos="1" side="sl" part="a_val" />
               <lit-tag v="v2" />
-            </equal>
+            </equal>-->
+            <in caseless="yes">
+              <clip pos="1" side="sl" part="lem" />
+              <list n="vb_no_a" />
+            </in>
           </test>
           <let>
             <var n="valverb" />
@@ -768,231 +730,21 @@
         <lit v="" />
       </let>
     </def-macro>
-    <def-macro n="f_coma" npar="1">
+    <def-macro n="f_preps" npar="2"> <!--elimina preposició "a" davant de CD d'alguns verbs -->
       <choose>
         <when>
           <test>
             <equal caseless="yes">
-              <clip pos="1" side="sl" part="lem" />
-              <lit v="como" />
+              <clip pos="1" side="tl" part="lem" />
+              <lit v="preposicio_buida" />
             </equal>
           </test>
-          <let>
-            <clip pos="1" side="tl" part="lem" />
-            <get-case-from pos="1">
-              <lit v="com a" />
-            </get-case-from>
-          </let>
-        </when>
-      </choose>
-    </def-macro>
-    <def-macro n="f_preps" npar="2">
-      <choose>
-        <when>
-          <test>
-            <and>
-              <equal caseless="yes">
-                <clip pos="1" side="sl" part="lem" />
-                <lit v="a" />
-              </equal>
-              <equal>
-                <var n="valverb" />
-                <lit v="2" />
-              </equal>
-            </and>
-          </test>
           <call-macro n="f_bcond">
             <with-param pos="1" />
             <with-param pos="2" />
           </call-macro>
         </when>
         <otherwise>
-          <choose>
-            <when>
-              <test>
-                <and>
-                  <equal caseless="yes">
-                    <clip pos="1" side="sl" part="lem" />
-                    <lit v="de" />
-                  </equal>
-                  <equal>
-                    <var n="tipusverb" />
-                    <lit v="vbde_per" />
-                  </equal>
-                </and>
-              </test>
-              <let>
-                <clip pos="1" side="tl" part="lem" />
-                <get-case-from pos="1">
-                  <lit v="per" />
-                </get-case-from>
-              </let>
-            </when>
-            <!-- <when alt="cat">-->
-            <!-- <when>
-        <test>
-    <and>
-      <equal caseless="yes">
-        <clip pos="1" side="sl" part="lem"/>
-        <lit v="en"/>
-      </equal>
-      <in caseless="yes">
-        <clip pos="2" side="tl" part="lem"/>
-        <list n="locatiu"/>
-      </in>
-    </and>
-        </test>
-        <let>
-    <clip pos="1" side="tl" part="lem"/>
-    <get-case-from pos="1">
-      <lit v="a"/>
-    </get-case-from>
-        </let>
-      </when> -->
-            <when>
-              <!--en els sintagmes nominals, la preposició 'para' es tradueix sempre com a 'per a' -->
-              <test>
-                <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem" />
-                  <lit v="para" />
-                </equal>
-              </test>
-              <let>
-                <clip pos="1" side="tl" part="lem" />
-                <get-case-from pos="1">
-                  <lit v="per a" />
-                </get-case-from>
-              </let>
-            </when>
-          </choose>
-          <out>
-            <lu>
-              <clip pos="1" side="tl" part="whole" />
-            </lu>
-            <b pos="1" />
-          </out>
-        </otherwise>
-      </choose>
-      <let>
-        <var n="valverb" />
-        <lit v="" />
-      </let>
-      <let>
-        <var n="tipusverb" />
-        <lit v="" />
-      </let>
-    </def-macro>
-    <def-macro n="f_preps_det" npar="3">
-      <!--parámetro 3 = determinante. El único cambio respecto de f_preps es que (sólo para catalán, no para valenciano) se cambia la preposición 'en' por 'a' delante de det + nombre, excepto si el determinante es  'aquest/aquell/un/algun/altre'. La preposición 'en' no se cambia por 'a' en el resto de sintagmas nominales.-->
-      <choose>
-        <when>
-          <test>
-            <and>
-              <equal caseless="yes">
-                <clip pos="1" side="sl" part="lem" />
-                <lit v="a" />
-              </equal>
-              <equal>
-                <var n="valverb" />
-                <lit v="2" />
-              </equal>
-            </and>
-          </test>
-          <call-macro n="f_bcond">
-            <with-param pos="1" />
-            <with-param pos="2" />
-          </call-macro>
-        </when>
-        <otherwise>
-          <choose>
-            <when>
-              <test>
-                <and>
-                  <equal caseless="yes">
-                    <clip pos="1" side="sl" part="lem" />
-                    <lit v="de" />
-                  </equal>
-                  <equal>
-                    <var n="tipusverb" />
-                    <lit v="vbde_per" />
-                  </equal>
-                </and>
-              </test>
-              <let>
-                <clip pos="1" side="tl" part="lem" />
-                <get-case-from pos="1">
-                  <lit v="per" />
-                </get-case-from>
-              </let>
-            </when>
-            <when alt="cat">
-              <test>
-                <and>
-                  <equal caseless="yes">
-                    <clip pos="1" side="sl" part="lem" />
-                    <lit v="en" />
-                  </equal>
-                  <in caseless="yes">
-                    <clip pos="2" side="tl" part="lem" />
-                    <list n="locatiu" />
-                  </in>
-                  <not>
-                    <or>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="aquest" />
-                      </equal>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="aquell" />
-                      </equal>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="un" />
-                      </equal>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="algun" />
-                      </equal>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="altre" />
-                      </equal>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="qualsevol" />
-                      </equal>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="cap" />
-                      </equal>
-                    </or>
-                  </not>
-                </and>
-              </test>
-              <let>
-                <clip pos="1" side="tl" part="lem" />
-                <get-case-from pos="1">
-                  <lit v="a" />
-                </get-case-from>
-              </let>
-            </when>
-            <when>
-              <!--en els sintagmes nominals, la preposició 'para' es tradueix sempre com a 'per a' -->
-              <test>
-                <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem" />
-                  <lit v="para" />
-                </equal>
-              </test>
-              <let>
-                <clip pos="1" side="tl" part="lem" />
-                <get-case-from pos="1">
-                  <lit v="per a" />
-                </get-case-from>
-              </let>
-            </when>
-          </choose>
           <out>
             <lu>
               <clip pos="1" side="tl" part="whole" />
@@ -1108,7 +860,7 @@
             </get-case-from>
           </let>
         </when>
-        <when>
+        <!--<when>
           <test>
             <equal caseless="yes">
               <clip pos="1" side="tl" part="lem" />
@@ -1121,7 +873,7 @@
               <lit v="mig" />
             </get-case-from>
           </let>
-        </when>
+        </when>-->
       </choose>
     </def-macro>
     <def-macro n="f_llamado" npar="1">
@@ -3284,8 +3036,46 @@
         </out>
       </action>
     </rule>
+
+    <!-- se les llama > se'n diu -->
+    <rule>  
+      <pattern>
+        <pattern-item n="se" />
+        <pattern-item n="lelesloloslalas" />
+        <pattern-item n="llamar" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <lit v="es" />
+            </get-case-from>
+            <lit-tag v="prn" />
+            <lit-tag v="pro" />
+            <lit-tag v="ref" />
+            <lit-tag v="p3" />
+            <lit-tag v="mf" />
+            <lit-tag v="sp" />
+          </lu>
+          <b />
+          <lu>
+            <get-case-from pos="2">
+              <lit v="en" />
+            </get-case-from>
+            <lit-tag v="prn" />
+            <lit-tag v="pro" />
+            <lit-tag v="adv" />
+          </lu>
+          <b />
+        </out>
+        <call-macro n="f_pretind">
+        <with-param pos="3" />
+      </call-macro>
+      </action>
+    </rule>
+
+    <!-- los hay > n'hi ha -->
     <rule>
-      <!-- los hay > n'hi ha -->
       <pattern>
         <pattern-item n="los_las" />
         <pattern-item n="hay" />
@@ -3293,7 +3083,9 @@
       <action>
         <out>
           <lu>
-            <lit v="en" />
+            <get-case-from pos="1">
+              <lit v="en" />
+            </get-case-from>
             <lit-tag v="prn" />
             <lit-tag v="pro" />
             <lit-tag v="adv" />
@@ -3460,7 +3252,7 @@
       <!-- REGLA: NOM ADJECTIU-->
       <pattern>
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord2">
@@ -3493,9 +3285,9 @@
       <!-- REGLA: NOM ADJECTIU i ADJECTIU-->
       <pattern>
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
         <pattern-item n="cnjoadv" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -3536,6 +3328,46 @@
             <clip pos="4" side="tl" part="gen" />
             <clip pos="4" side="tl" part="nbr" />
             <clip pos="4" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <!-- REGLA: ITG ADJECTIU NOM -->
+      <pattern>
+        <pattern-item n="adjecitg" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="nom" />
+      </pattern>
+      <action>
+        <call-macro n="f_concord3">
+          <with-param pos="3" />
+          <with-param pos="2" />
+          <with-param pos="1" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh" />
+            <clip pos="1" side="tl" part="a_adjec" />
+            <clip pos="1" side="tl" part="gen" />
+            <clip pos="1" side="tl" part="nbr" />
+            <clip pos="1" side="tl" part="lemq" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <clip pos="2" side="tl" part="lemh" />
+            <clip pos="2" side="tl" part="a_adjec" />
+            <clip pos="2" side="tl" part="gen" />
+            <clip pos="2" side="tl" part="nbr" />
+            <clip pos="2" side="tl" part="lemq" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="lemh" />
+            <clip pos="3" side="tl" part="a_nom" />
+            <clip pos="3" side="tl" part="gen" />
+            <clip pos="3" side="tl" part="nbr" />
+            <clip pos="3" side="tl" part="lemq" />
           </lu>
         </out>
       </action>
@@ -3722,8 +3554,8 @@
       <!-- REGLA: NOM ADJECTIU ADJECTIU-->
       <pattern>
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -3761,10 +3593,530 @@
         </out>
       </action>
     </rule>
+
+
+
+    <rule>
+      <!--REGLA: perífrasis verbales: HABER + VENIDO + GER (ser)-->
+      <pattern>
+        <pattern-item n="haber" />
+        <pattern-item n="venir" />
+        <pattern-item n="ger" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="3" side="sl" part="lemh" />
+                <list n="perif_venir" />
+              </in>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="lem" />
+              <clip pos="3" side="tl" part="lem" />
+            </let>
+            <let>
+              <clip pos="2" side="tl" part="a_verb" />
+              <clip pos="3" side="tl" part="a_verb" />
+            </let>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="lem" />
+                <lit-tag v="vaux" />   <!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+                <clip pos="1" side="tl" part="temps" />
+                <clip pos="1" side="tl" part="persona" />
+                <clip pos="1" side="tl" part="nbr" /> 
+              </lu>
+              <b pos="1" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="2" />
+            </call-macro>
+            <call-macro n="f_bcond">
+              <with-param pos="2" />
+              <with-param pos="3" />
+            </call-macro>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="lem" />
+                <lit-tag v="vaux" />   <!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+                <clip pos="1" side="tl" part="temps" />
+                <clip pos="1" side="tl" part="persona" />
+                <clip pos="1" side="tl" part="nbr" />              
+              </lu>
+              <b pos="1" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="2" />
+            </call-macro>
+            <out>
+              <b pos="2" />
+              <lu>
+                <clip pos="3" side="tl" part="lemh" />
+                <clip pos="3" side="tl" part="a_verb" />
+                <clip pos="3" side="tl" part="temps" />
+                <clip pos="3" side="tl" part="lemq" />
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+    <rule>
+      <!--REGLA: perífrasis verbales: HABER + VENIDO + GER (ser)-->
+      <pattern>
+        <pattern-item n="haber" />
+        <pattern-item n="venir" />
+        <pattern-item n="ger" />
+        <pattern-item n="prnenc" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="3" side="sl" part="lemh" />
+                <list n="perif_venir" />
+              </in>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="lem" />
+              <clip pos="3" side="tl" part="lem" />
+            </let>
+            <let>
+              <clip pos="2" side="tl" part="a_verb" />
+              <clip pos="3" side="tl" part="a_verb" />
+            </let>
+            <let>
+              <clip pos="4" side="tl" part="a_encpro" />
+              <lit-tag v="pro" />
+            </let>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip pos="4" side="tl" part="whole" />
+                </get-case-from>
+              </lu>
+              <b pos="2" />
+              <lu>
+                <get-case-from pos="2">
+                  <clip pos="1" side="tl" part="lem" />
+                </get-case-from>
+                <lit-tag v="vaux" />   <!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+                <clip pos="1" side="tl" part="temps" />
+                <clip pos="1" side="tl" part="persona" />
+                <clip pos="1" side="tl" part="nbr" /> 
+              </lu>
+              <b pos="1" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="2" />
+            </call-macro>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip pos="1" side="tl" part="lem" />
+                </get-case-from>
+                <lit-tag v="vaux" />   <!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+                <clip pos="1" side="tl" part="temps" />
+                <clip pos="1" side="tl" part="persona" />
+                <clip pos="1" side="tl" part="nbr" /> 
+              </lu>
+              <b pos="1" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="2" />
+            </call-macro>
+            <out>
+              <b pos="2" />
+              <mlu>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh" />
+                  <clip pos="3" side="tl" part="a_verb" />
+                  <clip pos="3" side="tl" part="temps" />
+                </lu>
+                <lu>
+                  <clip pos="4" side="tl" part="lem" />
+                  <clip pos="4" side="tl" part="a_prnenc" />
+                  <clip pos="4" side="tl" part="persona" />
+                  <clip pos="4" side="tl" part="gen" />
+                  <clip pos="4" side="tl" part="nbr" />
+                  <clip pos="3" side="tl" part="lemq" />
+                </lu>
+              </mlu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+    <rule>
+      <!--REGLA: perífrasis verbales: HABER + VENIDO + GER (ser)-->
+      <pattern>
+        <pattern-item n="haber" />
+        <pattern-item n="venir" />
+        <pattern-item n="ger" />
+        <pattern-item n="prnenc" />
+        <pattern-item n="prnenc" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="3" side="sl" part="lemh" />
+                <list n="perif_venir" />
+              </in>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="lem" />
+              <clip pos="3" side="tl" part="lem" />
+            </let>
+            <let>
+              <clip pos="2" side="tl" part="a_verb" />
+              <clip pos="3" side="tl" part="a_verb" />
+            </let>
+            <let>
+              <clip pos="4" side="tl" part="a_encpro" />
+              <lit-tag v="pro" />
+            </let>
+            <let>
+              <clip pos="5" side="tl" part="a_encpro" />
+              <lit-tag v="pro" />
+            </let>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip pos="4" side="tl" part="whole" />
+                </get-case-from>
+              </lu>
+              <b pos="2" />
+              <lu>
+                <clip pos="5" side="tl" part="whole" />
+              </lu>
+              <b />
+              <lu>
+                <get-case-from pos="2">
+                  <clip pos="1" side="tl" part="lem" />
+                </get-case-from>
+                <lit-tag v="vaux" />   <!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+                <clip pos="1" side="tl" part="temps" />
+                <clip pos="1" side="tl" part="persona" />
+                <clip pos="1" side="tl" part="nbr" /> 
+              </lu>
+              <b pos="2" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="2" />
+            </call-macro>
+          </when>
+          <otherwise>
+              <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip pos="1" side="tl" part="lem" />
+                </get-case-from>
+                <lit-tag v="vaux" />   <!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+                <clip pos="1" side="tl" part="temps" />
+                <clip pos="1" side="tl" part="persona" />
+                <clip pos="1" side="tl" part="nbr" /> 
+              </lu>
+              <b pos="1" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="2" />
+            </call-macro>
+            <out>
+              <b pos="2" />
+              <mlu>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh" />
+                  <clip pos="3" side="tl" part="a_verb" />
+                  <clip pos="3" side="tl" part="temps" />
+                </lu>
+                <lu>
+                  <clip pos="4" side="tl" part="lem" />
+                  <clip pos="4" side="tl" part="a_prnenc" />
+                  <clip pos="4" side="tl" part="persona" />
+                  <clip pos="4" side="tl" part="gen" />
+                  <clip pos="4" side="tl" part="nbr" />
+                </lu>
+                <lu>
+                  <clip pos="5" side="tl" part="lem" />
+                  <clip pos="5" side="tl" part="a_prnenc" />
+                  <clip pos="5" side="tl" part="persona" />
+                  <clip pos="5" side="tl" part="gen" />
+                  <clip pos="5" side="tl" part="nbr" />
+                  <clip pos="3" side="tl" part="lemq" />
+                </lu>
+              </mlu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+
+
+
+
+
+    <rule>
+      <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+      <pattern>
+        <pattern-item n="venir" />
+        <pattern-item n="ger" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="2" side="sl" part="lemh" />
+                <list n="perif_venir" />
+              </in>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="lem" />
+              <clip pos="2" side="tl" part="lem" />
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="a_verb" />
+              <clip pos="2" side="tl" part="a_verb" />
+            </let>
+            <call-macro n="f_pretind">
+              <with-param pos="1" />
+            </call-macro>
+            <call-macro n="f_bcond">
+              <with-param pos="1" />
+              <with-param pos="2" />
+            </call-macro>
+          </when>
+          <otherwise>
+            <call-macro n="f_pretind">
+              <with-param pos="1" />
+            </call-macro>
+            <out>
+              <b pos="1" />
+              <lu>
+                <clip pos="2" side="tl" part="lemh" />
+                <clip pos="2" side="tl" part="a_verb" />
+                <clip pos="2" side="tl" part="temps" />
+                <clip pos="2" side="tl" part="lemq" />
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+    <rule>
+      <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+      <pattern>
+        <pattern-item n="venir" />
+        <pattern-item n="ger" />
+        <pattern-item n="prnenc" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="2" side="sl" part="lemh" />
+                <list n="perif_venir" />
+              </in>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="lem" />
+              <clip pos="2" side="tl" part="lem" />
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="a_verb" />
+              <clip pos="2" side="tl" part="a_verb" />
+            </let>
+            <let>
+              <clip pos="3" side="tl" part="a_encpro" />
+              <lit-tag v="pro" />
+            </let>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip pos="3" side="tl" part="whole" />
+                </get-case-from>
+              </lu>
+              <b pos="1" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="1" />
+            </call-macro>
+          </when>
+          <otherwise>
+            <call-macro n="f_pretind">
+              <with-param pos="1" />
+            </call-macro>
+            <out>
+              <b pos="1" />
+              <mlu>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh" />
+                  <clip pos="2" side="tl" part="a_verb" />
+                  <clip pos="2" side="tl" part="temps" />
+                </lu>
+                <lu>
+                  <clip pos="3" side="tl" part="lem" />
+                  <clip pos="3" side="tl" part="a_prnenc" />
+                  <clip pos="3" side="tl" part="persona" />
+                  <clip pos="3" side="tl" part="gen" />
+                  <clip pos="3" side="tl" part="nbr" />
+                  <clip pos="2" side="tl" part="lemq" />
+                </lu>
+              </mlu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+    <rule>
+      <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+      <pattern>
+        <pattern-item n="venir" />
+        <pattern-item n="ger" />
+        <pattern-item n="prnenc" />
+        <pattern-item n="prnenc" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="2" side="sl" part="lemh" />
+                <list n="perif_venir" />
+              </in>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="lem" />
+              <clip pos="2" side="tl" part="lem" />
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="a_verb" />
+              <clip pos="2" side="tl" part="a_verb" />
+            </let>
+            <let>
+              <clip pos="3" side="tl" part="a_encpro" />
+              <lit-tag v="pro" />
+            </let>
+            <let>
+              <clip pos="4" side="tl" part="a_encpro" />
+              <lit-tag v="pro" />
+            </let>
+            <out>
+              <lu>
+                <clip pos="3" side="tl" part="whole" />
+              </lu>
+              <b pos="1" />
+              <lu>
+                <clip pos="4" side="tl" part="whole" />
+              </lu>
+              <b />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="1" />
+            </call-macro>
+          </when>
+          <otherwise>
+            <call-macro n="f_pretind">
+              <with-param pos="1" />
+            </call-macro>
+            <out>
+              <b pos="1" />
+              <mlu>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh" />
+                  <clip pos="2" side="tl" part="a_verb" />
+                  <clip pos="2" side="tl" part="temps" />
+                </lu>
+                <lu>
+                  <clip pos="3" side="tl" part="lem" />
+                  <clip pos="3" side="tl" part="a_prnenc" />
+                  <clip pos="3" side="tl" part="persona" />
+                  <clip pos="3" side="tl" part="gen" />
+                  <clip pos="3" side="tl" part="nbr" />
+                </lu>
+                <lu>
+                  <clip pos="4" side="tl" part="lem" />
+                  <clip pos="4" side="tl" part="a_prnenc" />
+                  <clip pos="4" side="tl" part="persona" />
+                  <clip pos="4" side="tl" part="gen" />
+                  <clip pos="4" side="tl" part="nbr" />
+                  <clip pos="2" side="tl" part="lemq" />
+                </lu>
+              </mlu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+    <rule>
+      <!--REGLA: HABER 3ª persona + PP (para cambiar la traducción de la 3ª persona ("haver-hi") por la traducción del verbo "haver" en forma auxiliar ("haver")-->
+      <pattern>
+        <pattern-item n="haber3p" />
+        <pattern-item n="pp_nohaber" />
+      </pattern>
+      <action>
+        <!--Cambia el verbo "haber" por la forma auxiliar , ya que la forma no auxiliar "vbhaver" en las terceras formas singulares se traduce en el diccionario por el verbo "haver-hi"-->
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem" />
+            <lit-tag v="vaux" />
+            <clip pos="1" side="tl" part="temps" />
+            <clip pos="1" side="tl" part="persona" />
+            <clip pos="1" side="tl" part="nbr" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <clip pos="2" side="tl" part="lemh" />
+            <clip pos="2" side="tl" part="a_verb" />
+            <clip pos="2" side="tl" part="temps" />
+            <clip pos="2" side="tl" part="gen" />
+            <clip pos="2" side="tl" part="nbr" />
+            <clip pos="2" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <!-- REGLA: haber + participio + NOM  (excepció regla següent)-->  
+      <pattern>
+        <pattern-item n="haber" />
+        <pattern-item n="pp_nohaber" />
+      </pattern>
+      <action>
+        <call-macro n="f_tipusverb">
+          <with-param pos="1" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+          <b pos="1" />
+        </out>
+        <call-macro n="f_seleccioLex">
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_pretind">
+          <with-param pos="2" />
+        </call-macro>
+      </action>
+    </rule> 
     <rule>
       <!-- REGLA: ADJECTIU NOM -->
       <pattern>
-        <pattern-item n="adj" />
+        <pattern-item n="adjec" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -3864,7 +4216,7 @@
       <pattern>
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -3961,7 +4313,7 @@
       <pattern>
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
         <pattern-item n="cnjoadv" />
         <pattern-item n="adjec" />
       </pattern>
@@ -4021,8 +4373,8 @@
       <pattern>
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord4">
@@ -4072,8 +4424,8 @@
       <!-- REGLA: NOM ADJECTIU ADJECTIU-->
       <pattern>
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -4306,7 +4658,7 @@
         <pattern-item n="predet" />
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord4">
@@ -4383,9 +4735,9 @@
     <rule>
       <!-- REGLA: ADJECTIU NOM ADJECTIU-->
       <pattern>
-        <pattern-item n="adj" />
-        <pattern-item n="nom" />
         <pattern-item n="adjec" />
+        <pattern-item n="nom" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -4432,7 +4784,7 @@
         <pattern-item n="det" />
         <pattern-item n="adjec" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_lexicDet">
@@ -4741,7 +5093,7 @@
       <pattern>
         <pattern-item n="num" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -4904,9 +5256,6 @@
                 </equal>
               </not>
             </test>
-            <call-macro n="f_coma">
-              <with-param pos="1" />
-            </call-macro>
           </when>
         </choose>
         <call-macro n="f_preps">
@@ -4931,12 +5280,9 @@
       <!-- REGLA: PREP ADJECTIU -->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="adj" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -5039,9 +5385,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord2">
@@ -5068,12 +5413,9 @@
       <pattern>
         <pattern-item n="prep" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -5109,14 +5451,11 @@
       <pattern>
         <pattern-item n="prep" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
         <pattern-item n="cnjoadv" />
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -5167,13 +5506,10 @@
       <!-- REGLA: PREP ADJECTIU NOM -->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="adj" />
+        <pattern-item n="adjec" />
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="3" />
@@ -5210,15 +5546,14 @@
         <pattern-item n="prep" />
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord3">
@@ -5258,17 +5593,16 @@
         <pattern-item n="prep" />
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
         <pattern-item n="cnjoadv" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord4">
@@ -5324,16 +5658,15 @@
         <pattern-item n="prep" />
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord4">
@@ -5378,13 +5711,10 @@
       <pattern>
         <pattern-item n="prep" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -5433,9 +5763,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="4" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord3">
@@ -5590,7 +5919,7 @@
         <pattern-item n="predet" />
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_lexicDet">
@@ -5647,9 +5976,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord2">
@@ -5678,14 +6006,11 @@
       <!-- REGLA: PREP ADJECTIU NOM ADJECTIU-->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="adj" />
-        <pattern-item n="nom" />
         <pattern-item n="adjec" />
+        <pattern-item n="nom" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="3" />
@@ -5735,15 +6060,14 @@
         <pattern-item n="det" />
         <pattern-item n="adjec" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="4" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord4">
@@ -5801,9 +6125,6 @@
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -5851,9 +6172,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord3">
@@ -5906,9 +6226,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="4" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord2">
@@ -6052,7 +6371,7 @@
         <pattern-item n="prep" />
         <pattern-item n="num" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_preps">
@@ -6154,9 +6473,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="4" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord3">
@@ -6263,27 +6581,6 @@
       </action>
     </rule>
     <rule>
-      <!-- prep + el que -> prep el qual -->
-      <pattern>
-        <pattern-item n="prep" />
-        <pattern-item n="el_que" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole" />
-          </lu>
-          <b pos="1" />
-          <lu>
-            <lit v="el qual" />
-            <lit-tag v="rel.an" />
-            <clip pos="2" side="sl" part="gen" />
-            <clip pos="2" side="sl" part="nbr" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
       <!-- activa la variable porque -->
       <pattern>
         <pattern-item n="porque" />
@@ -6297,6 +6594,23 @@
         <let>
           <var n="varporque" />
           <lit v="yes" />
+        </let>
+      </action>
+    </rule>
+    <rule>
+      <!-- desactiva la variable porque -->
+      <pattern>
+        <pattern-item n="que_si" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+        </out>
+        <let>
+          <var n="varporque" />
+          <lit v="no" />
         </let>
       </action>
     </rule>
@@ -6638,48 +6952,6 @@
       </action>
     </rule>
     <rule>
-      <!--REGLA: prep "en" + nploc = a + nploc: en Barcelona -> a Barcelona -->
-      <pattern>
-        <pattern-item n="en" />
-        <pattern-item n="nploc" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="a" />
-            </get-case-from>
-            <lit-tag v="pr" />
-          </lu>
-          <b pos="1" />
-          <lu>
-            <clip pos="2" side="tl" part="whole" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <!-- REGLA: PREP NOM (para Barcelona - per a Barcelona-->
-      <pattern>
-        <pattern-item n="para" />
-        <pattern-item n="nploc" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="per a" />
-            </get-case-from>
-            <lit-tag v="pr" />
-          </lu>
-          <b pos="1" />
-          <lu>
-            <clip pos="2" side="tl" part="whole" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
       <!--REGLA: cuyo + nom = det nom del qual -->
       <pattern>
         <pattern-item n="cuyo" />
@@ -6912,7 +7184,7 @@
       <pattern>
         <pattern-item n="cuyo" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <choose>
@@ -7981,34 +8253,6 @@
       </action>
     </rule>
     <rule>
-      <!--REGLA: HABER 3ª persona + PP (para cambiar la traducción de la 3ª persona ("haver-hi") por la traducción del verbo "haver" en forma auxiliar ("haver")-->
-      <pattern>
-        <pattern-item n="haber3p" />
-        <pattern-item n="pp_nohaber" />
-      </pattern>
-      <action>
-        <!--Cambia el verbo "haber" por la forma auxiliar , ya que la forma no auxiliar "vbhaver" en las terceras formas singulares se traduce en el diccionario por el verbo "haver-hi"-->
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lem" />
-            <lit-tag v="vaux" />
-            <clip pos="1" side="tl" part="temps" />
-            <clip pos="1" side="tl" part="persona" />
-            <clip pos="1" side="tl" part="nbr" />
-          </lu>
-          <b pos="1" />
-          <lu>
-            <clip pos="2" side="tl" part="lemh" />
-            <clip pos="2" side="tl" part="a_verb" />
-            <clip pos="2" side="tl" part="temps" />
-            <clip pos="2" side="tl" part="gen" />
-            <clip pos="2" side="tl" part="nbr" />
-            <clip pos="2" side="tl" part="lemq" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
       <!-- llamarse -> dir-se-->
       <pattern>
         <pattern-item n="prnproref" />
@@ -8289,198 +8533,6 @@
       </action>
     </rule>
     <rule>
-      <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
-      <pattern>
-        <pattern-item n="venir" />
-        <pattern-item n="ger" />
-      </pattern>
-      <action>
-        <choose>
-          <when>
-            <test>
-              <in caseless="yes">
-                <clip pos="2" side="sl" part="lemh" />
-                <list n="perif_venir" />
-              </in>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="lem" />
-              <clip pos="2" side="tl" part="lem" />
-            </let>
-            <let>
-              <clip pos="1" side="tl" part="a_verb" />
-              <clip pos="2" side="tl" part="a_verb" />
-            </let>
-            <call-macro n="f_pretind">
-              <with-param pos="1" />
-            </call-macro>
-            <call-macro n="f_bcond">
-              <with-param pos="1" />
-              <with-param pos="2" />
-            </call-macro>
-          </when>
-          <otherwise>
-            <call-macro n="f_pretind">
-              <with-param pos="1" />
-            </call-macro>
-            <out>
-              <b pos="1" />
-              <lu>
-                <clip pos="2" side="tl" part="lemh" />
-                <clip pos="2" side="tl" part="a_verb" />
-                <clip pos="2" side="tl" part="temps" />
-                <clip pos="2" side="tl" part="lemq" />
-              </lu>
-            </out>
-          </otherwise>
-        </choose>
-      </action>
-    </rule>
-    <rule>
-      <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
-      <pattern>
-        <pattern-item n="venir" />
-        <pattern-item n="ger" />
-        <pattern-item n="prnenc" />
-      </pattern>
-      <action>
-        <choose>
-          <when>
-            <test>
-              <in caseless="yes">
-                <clip pos="2" side="sl" part="lemh" />
-                <list n="perif_venir" />
-              </in>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="lem" />
-              <clip pos="2" side="tl" part="lem" />
-            </let>
-            <let>
-              <clip pos="1" side="tl" part="a_verb" />
-              <clip pos="2" side="tl" part="a_verb" />
-            </let>
-            <let>
-              <clip pos="3" side="tl" part="a_encpro" />
-              <lit-tag v="pro" />
-            </let>
-            <out>
-              <lu>
-                <clip pos="3" side="tl" part="whole" />
-              </lu>
-              <b pos="1" />
-            </out>
-            <call-macro n="f_pretind">
-              <with-param pos="1" />
-            </call-macro>
-          </when>
-          <otherwise>
-            <call-macro n="f_pretind">
-              <with-param pos="1" />
-            </call-macro>
-            <out>
-              <b pos="1" />
-              <mlu>
-                <lu>
-                  <clip pos="2" side="tl" part="lemh" />
-                  <clip pos="2" side="tl" part="a_verb" />
-                  <clip pos="2" side="tl" part="temps" />
-                </lu>
-                <lu>
-                  <clip pos="3" side="tl" part="lem" />
-                  <clip pos="3" side="tl" part="a_prnenc" />
-                  <clip pos="3" side="tl" part="persona" />
-                  <clip pos="3" side="tl" part="gen" />
-                  <clip pos="3" side="tl" part="nbr" />
-                  <clip pos="2" side="tl" part="lemq" />
-                </lu>
-              </mlu>
-            </out>
-          </otherwise>
-        </choose>
-      </action>
-    </rule>
-    <rule>
-      <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
-      <pattern>
-        <pattern-item n="venir" />
-        <pattern-item n="ger" />
-        <pattern-item n="prnenc" />
-        <pattern-item n="prnenc" />
-      </pattern>
-      <action>
-        <choose>
-          <when>
-            <test>
-              <in caseless="yes">
-                <clip pos="2" side="sl" part="lemh" />
-                <list n="perif_venir" />
-              </in>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="lem" />
-              <clip pos="2" side="tl" part="lem" />
-            </let>
-            <let>
-              <clip pos="1" side="tl" part="a_verb" />
-              <clip pos="2" side="tl" part="a_verb" />
-            </let>
-            <let>
-              <clip pos="3" side="tl" part="a_encpro" />
-              <lit-tag v="pro" />
-            </let>
-            <let>
-              <clip pos="4" side="tl" part="a_encpro" />
-              <lit-tag v="pro" />
-            </let>
-            <out>
-              <lu>
-                <clip pos="3" side="tl" part="whole" />
-              </lu>
-              <b pos="1" />
-              <lu>
-                <clip pos="4" side="tl" part="whole" />
-              </lu>
-              <b />
-            </out>
-            <call-macro n="f_pretind">
-              <with-param pos="1" />
-            </call-macro>
-          </when>
-          <otherwise>
-            <call-macro n="f_pretind">
-              <with-param pos="1" />
-            </call-macro>
-            <out>
-              <b pos="1" />
-              <mlu>
-                <lu>
-                  <clip pos="2" side="tl" part="lemh" />
-                  <clip pos="2" side="tl" part="a_verb" />
-                  <clip pos="2" side="tl" part="temps" />
-                </lu>
-                <lu>
-                  <clip pos="3" side="tl" part="lem" />
-                  <clip pos="3" side="tl" part="a_prnenc" />
-                  <clip pos="3" side="tl" part="persona" />
-                  <clip pos="3" side="tl" part="gen" />
-                  <clip pos="3" side="tl" part="nbr" />
-                </lu>
-                <lu>
-                  <clip pos="4" side="tl" part="lem" />
-                  <clip pos="4" side="tl" part="a_prnenc" />
-                  <clip pos="4" side="tl" part="persona" />
-                  <clip pos="4" side="tl" part="gen" />
-                  <clip pos="4" side="tl" part="nbr" />
-                  <clip pos="2" side="tl" part="lemq" />
-                </lu>
-              </mlu>
-            </out>
-          </otherwise>
-        </choose>
-      </action>
-    </rule>
-    <rule>
       <!--REGLA: CABER + INF -> CALDRE + INF-->
       <pattern>
         <pattern-item n="caber" />
@@ -8591,49 +8643,104 @@
         </out>
       </action>
     </rule>
+    
+    
+    <!--REGLA: No me cabe ninguna duda > no en tinc cap dubte -->
     <rule>
-      <!-- REGLA: , lo que -> la cual cosa -->
       <pattern>
-        <pattern-item n="cm" />
-        <pattern-item n="lo_que" />
+        <pattern-item n="prnproobj" />
+        <pattern-item n="caber" />
+        <pattern-item n="det" />
+        <pattern-item n="duda" />
       </pattern>
       <action>
+        <let>
+          <clip pos="2" side="tl" part="lem" />
+          <get-case-from pos="1">
+            <lit v="tenir" />
+          </get-case-from>
+        </let>
+        <let>
+          <clip pos="2" side="sl" part="nbr" />
+          <clip pos="1" side="sl" part="nbr" />
+        </let>
+        <let>
+          <clip pos="2" side="sl" part="persona" />
+          <clip pos="1" side="sl" part="persona" />
+        </let>
+        <let>
+          <clip pos="2" side="tl" part="nbr" />
+          <clip pos="1" side="sl" part="nbr" />
+        </let>
+        <let>
+          <clip pos="2" side="tl" part="persona" />
+          <clip pos="1" side="sl" part="persona" />
+        </let>
+        <call-macro n="f_pretind">
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="4" />
+          <with-param pos="3" />
+        </call-macro>
+        <call-macro n="f_lexicDet">
+          <with-param pos="3" />
+        </call-macro>
         <out>
+          <b pos="1" />
           <lu>
-            <clip pos="1" side="tl" part="whole" />
+              <clip pos="3" side="tl" part="whole" />
           </lu>
           <b pos="1" />
           <lu>
-            <lit v="la qual cosa" />
-            <lit-tag v="rel.an.nt" />
+              <clip pos="4" side="tl" part="whole" />
           </lu>
         </out>
       </action>
     </rule>
+
     <rule>
-      <!-- REGLA: , por lo que -> , per la cual cosa -->
       <pattern>
-        <pattern-item n="cm" />
-        <pattern-item n="por" />
-        <pattern-item n="lo_que" />
+        <pattern-item n="prnproobj" />
+        <pattern-item n="caber" />
+        <pattern-item n="duda" />
       </pattern>
       <action>
+        <let>
+          <clip pos="2" side="tl" part="lem" />
+          <get-case-from pos="1">
+            <lit v="tenir" />
+          </get-case-from>
+        </let>
+        <let>
+          <clip pos="2" side="sl" part="nbr" />
+          <clip pos="1" side="sl" part="nbr" />
+        </let>
+        <let>
+          <clip pos="2" side="sl" part="persona" />
+          <clip pos="1" side="sl" part="persona" />
+        </let>
+        <let>
+          <clip pos="2" side="tl" part="nbr" />
+          <clip pos="1" side="sl" part="nbr" />
+        </let>
+        <let>
+          <clip pos="2" side="tl" part="persona" />
+          <clip pos="1" side="sl" part="persona" />
+        </let>
+        <call-macro n="f_pretind">
+          <with-param pos="2" />
+        </call-macro>
         <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole" />
-          </lu>
           <b pos="1" />
           <lu>
-            <clip pos="2" side="tl" part="whole" />
-          </lu>
-          <b pos="2" />
-          <lu>
-            <lit v="la qual cosa" />
-            <lit-tag v="rel.an.nt" />
+              <clip pos="3" side="tl" part="whole" />
           </lu>
         </out>
       </action>
     </rule>
+
+
     <rule>
       <!-- REGLA: ser de aplicación + ADJ (perquè els del servei ling UA volen que tradueixi "ser aplicable", cal aquesta regla per quan va seguit d'adjectiu-->
       <pattern>
@@ -9053,10 +9160,10 @@
         </choose>
       </action>
     </rule>
-    <rule alt="val_gva">
+    <rule alt="val_gva val_uni">
       <!-- pronom + haver + participi concordats: las ha comprado = les ha comprades-->
       <pattern>
-        <pattern-item n="prnpro" />
+        <pattern-item n="prnpro_loslasla" />
         <pattern-item n="haber" />
         <pattern-item n="pp_nohaber" />
       </pattern>
@@ -9067,7 +9174,11 @@
           </lu>
           <b pos="1" />
           <lu>
-            <clip pos="2" side="tl" part="whole" />
+            <clip pos="2" side="tl" part="lem" />
+            <lit-tag v="vaux" />
+            <clip pos="2" side="tl" part="temps" />
+            <clip pos="2" side="tl" part="persona" />
+            <clip pos="2" side="tl" part="nbr" />
           </lu>
           <b pos="2" />
           <lu>
@@ -9269,7 +9380,7 @@
         <pattern-item n="cuál" />
         <pattern-item n="ser_parecer" />
         <pattern-item n="det_rel" />
-        <pattern-item n="adj" />
+        <pattern-item n="adjec0" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -9327,7 +9438,7 @@
         <pattern-item n="ser_parecer" />
         <pattern-item n="det_rel" />
         <pattern-item n="nom" />
-        <pattern-item n="adj" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -9375,121 +9486,6 @@
             <clip pos="5" side="tl" part="lemq" />
           </lu>
         </out>
-      </action>
-    </rule>
-    <rule>
-      <!-- romper a + inf => esclafir/rompre a -->
-      <pattern>
-        <pattern-item n="romper" />
-        <pattern-item n="a" />
-        <pattern-item n="inf" />
-      </pattern>
-      <action>
-        <let>
-          <clip part="lem" pos="1" side="tl" />
-          <lit v="esclafir" />
-        </let>
-        <call-macro n="f_pretind">
-          <with-param pos="1" />
-        </call-macro>
-        <out>
-          <b />
-          <lu>
-            <clip part="whole" pos="2" side="tl" />
-          </lu>
-          <b />
-          <lu>
-            <clip part="whole" pos="3" side="tl" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <!-- años tras año > any rere any -->
-      <pattern>
-        <pattern-item n="nom" />
-        <pattern-item n="tras" />
-        <pattern-item n="nom" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <clip part="whole" pos="1" side="tl" />
-            </get-case-from>
-          </lu>
-          <b />
-          <lu>
-            <lit v="rere" />
-            <lit-tag v="adv" />
-          </lu>
-          <b />
-          <lu>
-            <clip part="whole" pos="3" side="tl" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <!-- Caso de leísmo aceptable: se le considera, se le nombró > se'l considera, se'l va nomenar, 
-    Innecessari en plural perquè "les" (spa) ja és "els" (cat) -->
-      <pattern>
-        <pattern-item n="prnproref3" />
-        <pattern-item n="prnpro_le" />
-        <pattern-item n="verbos_impersonal" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <clip part="whole" pos="1" side="tl" />
-            </get-case-from>
-          </lu>
-          <b />
-          <lu>
-            <lit v="el" />
-            <lit-tag v="prn" />
-            <lit-tag v="pro" />
-            <lit-tag v="p3" />
-            <lit-tag v="m" />
-            <lit-tag v="sg" />
-          </lu>
-          <b />
-        </out>
-        <call-macro n="f_pretind">
-          <with-param pos="3" />
-        </call-macro>
-      </action>
-    </rule>
-    <rule>
-      <!-- Verbos impersonales o reflexivos: se la considera-->
-      <pattern>
-        <pattern-item n="prnpro_se_lo" />
-        <pattern-item n="prnpro" />
-        <pattern-item n="verbos_impersonal_reflexivo" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="es" />
-            </get-case-from>
-            <lit-tag v="prn" />
-            <lit-tag v="pro" />
-            <lit-tag v="ref" />
-            <lit-tag v="p3" />
-            <lit-tag v="mf" />
-            <lit-tag v="sp" />
-          </lu>
-          <b />
-          <lu>
-            <clip part="whole" pos="2" side="tl" />
-          </lu>
-          <b />
-        </out>
-        <call-macro n="f_pretind">
-          <with-param pos="3" />
-        </call-macro>
       </action>
     </rule>
     <rule>
@@ -9610,6 +9606,31 @@
       </action>
     </rule>-->
     <!-- REGLA: algo + adj > alguna cosa + adj (fem) -->
+    <rule>
+      <pattern>
+        <pattern-item n="prep" />
+        <pattern-item n="algo" />
+        <pattern-item n="adj-masc-sg" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip part="whole" pos="1" side="tl" />
+          </lu>
+          <b/>
+          <lu>
+            <clip part="whole" pos="2" side="tl" />
+          </lu>
+          <b/>
+          <lu>
+            <clip part="lem" pos="3" side="tl" />
+            <lit-tag v="adj" />
+            <lit-tag v="f"/>
+            <clip part="nbr" pos="3" side="tl" />
+          </lu>
+        </out>
+      </action>
+    </rule>
     <rule>
       <pattern>
         <pattern-item n="algo" />
