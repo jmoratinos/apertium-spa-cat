@@ -284,7 +284,7 @@ Quan se les hagi jutjat. Quan se les ha jutjat.
 Dels petits i mitjans agricultors.
 Petits o grans empresaris.
 Grans o petits empresaris.
-És alguna cosa petita.
+És una cosa petita.
 És una cosa petita.
 
 
@@ -792,7 +792,7 @@ Un nombre primer. Nombre parell, nombre imparell.
 
 **** Alguna cosa ****
 
-Vull fer alguna cosa semblant. Alguna cosa diferent. Alguna cosa diferent.
+Vull fer una cosa semblant. Una cosa diferent. Una cosa diferent.
 Potser les coses segueixen un curs una mica diferent en aquest cas.
 Unes coses una mica diferents.
 Una cosa una mica diferent.
@@ -809,6 +809,24 @@ No és una mica del que s'hagin d'ocupar.
 
 Entendre una mica del que allí ocorre.
 
+Farem una cosa així.
+Farem alguna cosa sobre aquesta qüestió.
+És una cosa no esperada.
+
+Vindrà una mica més tard. 
+Alguna cosa així com menjar-se un elefant.
+
+Encara que sigui una mica tard. 
+
+
+***** Un similar ****
+
+Tinc una similar. 
+Un bonic. Una bonica.
+Una bonica casa.
+Una bonica i preciosa casa.
+Per a un mateix pensant en silenci.
+Per a una mateixa. 
 
 **** Canvi de temps verbals ****
 
@@ -1245,7 +1263,7 @@ Que vagi a tenir lloc immediatament.
 És adequada i necessària.
 Va ser creada i dotada posteriorment.
 Que els agricultors i fabricants deixin de buscar.
-Es precisa alguna cosa diferent.
+Es precisa una cosa diferent.
 És insuficient o inviable.
 Capaços de continuar duent a terme.
 Perquè n'hi ha altres més pobres.
@@ -1262,7 +1280,7 @@ Estrena noves andes per l'any jubilar al Desert de les Palmes.
 L'altre cotxe, l'altra casa. 
 Qualsevol altre document, qualsevol altra cosa, qualssevol altres documents, qualssevol altres causes.
 Qualsevol altre d'ells, qualsevol altra d'elles, qualssevol altres d'ells, qualssevol altres d'elles.
-Alguna cosa correcta, alguna cosa incorrecta. Alguna cosa bonica. Alguna cosa bona.
+Una cosa correcta, una cosa incorrecta. Una cosa bonica. Una cosa bona.
 Els comptes corrents. 
 Emplena el formulari.
 Dels decrets llei, dels decrets llei, dels decrets llei, dels decrets llei.
@@ -1281,7 +1299,7 @@ La uixera, els uixers.
 Adeqüen i adeqüen, adequa o adequa, adequo, adequo, adeqües, adeqües.
 Pi blanc o pins blancs. Docència pregraduada.
 Onzè classificat, tretzè classificat.
-Una rapaç. Unes rapaces. Uns rapaços. Nois capaços, noies capaces. Noies incapaces.
+Un rapinyaire. Uns rapinyaires. Uns rapinyaires. Nois capaços, noies capaces. Noies incapaces.
 Petit Príncep. El Petit Príncep a el Real de Montroi. La Comunitat. Comunitat Valenciana.
 Exp. 240, exp. 240. 40 hertz.
 Casa particularitzada. El sistema Braille, el braille.
@@ -1992,7 +2010,7 @@ José Juan Zaplana López
 
 **** Tractar *****
 
-Es tracta d'alguna cosa necessària o només és una mesura de precaució.
+Es tracta d'una cosa necessària o només és una mesura de precaució.
 
 **** Bé ****
 
@@ -2277,7 +2295,7 @@ Vaig comprar un abonament per a tota la temporada.
 De la cooperació Ucraïna - Unió Europea.
 Potser eren la nostra feblesa i falta de credibilitat.
 Que anessin al Consell Europeu i li diguessin ex-ante.
-Si no fora al mateix temps alguna cosa còmica.
+Si no fora al mateix temps una cosa còmica.
 Quantes menys diferències tinguem en les velocitats més fluid serà el trànsit.
 Ho dic i ho repeteixo, la nostra Cambra comet avui un acte d'ingerència inadmissible!
 Aquesta tarda és per a mi una tarda especial.

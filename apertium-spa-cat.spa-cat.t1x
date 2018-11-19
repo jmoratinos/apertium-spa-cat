@@ -70,7 +70,7 @@
       <cat-item lemma="cuanto" tags="rel.*" />
     </def-cat>
     <def-cat n="prn">
-      <cat-item tags="prn.tn.*" />
+      <!--<cat-item tags="prn.tn.*" /> No hi ha casos en què calgui determinar el gènere-->
       <cat-item tags="prn.itg.*" />
     </def-cat>
     <def-cat n="prntn">
@@ -244,8 +244,11 @@
       <cat-item lemma="que" tags="rel.an.mf.sp" />
       <cat-item lemma="si" tags="cnjadv" />
     </def-cat>
-    <def-cat n="uno_prn">
-      <cat-item lemma="uno" tags="prn.tn.*" />
+    <def-cat n="uno_prn_ms">
+      <cat-item lemma="uno" tags="prn.tn.m.sg" />
+    </def-cat>
+    <def-cat n="uno_prn_fs">
+      <cat-item lemma="uno" tags="prn.tn.f.sg" />
     </def-cat>
     <def-cat n="porque">
       <cat-item lemma="porque" tags="cnjadv" />
@@ -422,7 +425,15 @@
     </def-cat>
     <def-cat n="adj-masc-sg">
       <cat-item tags="adj.m.sg" />
+      <cat-item tags="adj.mf.sg" />
       <cat-item tags="adj.m.sp" />
+      <cat-item tags="vblex.pp.m.sg" />
+    </def-cat>
+    <def-cat n="adj-fem-sg">
+      <cat-item tags="adj.f.sg" />
+      <cat-item tags="adj.mf.sg" />
+      <cat-item tags="adj.f.sp" />
+      <cat-item tags="vblex.pp.f.sg" />
     </def-cat>
     <def-cat n="ninguno">
       <cat-item lemma="ninguno" tags="det.ind.*" />
@@ -8913,11 +8924,12 @@
         </out>
       </action>
     </rule>
-    <rule>
-      <!-- REGLA: uno similar - un de similar -->
+    <!-- REGLA: uno similar - un de similar -->
+    <!-- Té massa problemes. S'ha de revisar. Potser cal limitar a uns pocs adjectius: similar, etc.
+    <rule>    
       <pattern>
-        <pattern-item n="uno_prn" />
-        <pattern-item n="adj" />
+        <pattern-item n="uno_prn_ms" />
+        <pattern-item n="adj-masc-sg" />
       </pattern>
       <action>
         <out>
@@ -8938,6 +8950,30 @@
         </out>
       </action>
     </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="uno_prn_fs" />
+        <pattern-item n="adj-fem-sg" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <lit v="de" />
+            <lit-tag v="pr" />
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lemh" />
+            <clip pos="2" side="tl" part="tags" />
+            <clip pos="2" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>-->
     <!--REGLA: IR (presente) + A + INF -> FUTUR-->
     <rule>
       <pattern>
@@ -9608,8 +9644,56 @@
     <!-- REGLA: algo + adj > alguna cosa + adj (fem) -->
     <rule>
       <pattern>
-        <pattern-item n="prep" />
         <pattern-item n="algo" />
+        <pattern-item n="adj-masc-sg" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip part="whole" pos="1" side="tl" />
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="lemh" />
+            <clip pos="2" side="tl" part="a_adjec" />
+            <lit-tag v="f"/>
+            <clip pos="2" side="tl" part="nbr" />
+            <clip pos="2" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="algo" />
+        <pattern-item n="adv" />
+        <pattern-item n="adj-masc-sg" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip part="whole" pos="1" side="tl" />
+          </lu>
+          <b/>
+            <lu>
+            <clip part="whole" pos="2" side="tl" />
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="3" side="tl" part="lemh" />
+            <clip pos="3" side="tl" part="a_adjec" />
+            <lit-tag v="f"/>
+            <clip pos="3" side="tl" part="nbr" />
+            <clip pos="3" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="algo" />
+        <pattern-item n="adv" />
+        <pattern-item n="adv" />
         <pattern-item n="adj-masc-sg" />
       </pattern>
       <action>
@@ -9623,30 +9707,15 @@
           </lu>
           <b/>
           <lu>
-            <clip part="lem" pos="3" side="tl" />
-            <lit-tag v="adj" />
-            <lit-tag v="f"/>
-            <clip part="nbr" pos="3" side="tl" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <pattern>
-        <pattern-item n="algo" />
-        <pattern-item n="adj-masc-sg" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip part="whole" pos="1" side="tl" />
+            <clip part="whole" pos="3" side="tl" />
           </lu>
           <b/>
           <lu>
-            <clip part="lem" pos="2" side="tl" />
-            <lit-tag v="adj" />
+            <clip pos="4" side="tl" part="lemh" />
+            <clip pos="4" side="tl" part="a_adjec" />
             <lit-tag v="f"/>
-            <clip part="nbr" pos="2" side="tl" />
+            <clip pos="4" side="tl" part="nbr" />
+            <clip pos="4" side="tl" part="lemq" />
           </lu>
         </out>
       </action>

@@ -1657,6 +1657,7 @@
       <match lemma="cisterciense"/>
       <match lemma="conventual"/>
       <match lemma="caballería"/>
+      <match lemma="caballero"/>
       <match lemma="dominico"/>
       <match lemma="escolapio"/>
       <match lemma="franciscano"/>
@@ -4620,6 +4621,8 @@
       <match lemma="reñir" tags="vblex.*"/>
       <match lemma="secuestrar" tags="vblex.*"/>
       <match lemma="sorprender" tags="vblex.*"/>
+      <match lemma="cesar" tags="vblex.*"/>
+      <match lemma="destituir" tags="vblex.*"/>
   </or>
       <repeat from="0" upto="1">
         <match tags="adv"/>
@@ -4629,6 +4632,8 @@
         <match tags="det.*"/>
         <match tags="n.*"/>
         <match tags="adj.*"/>
+        <match tags="num.*"/>
+        <match tags="num"/>
         <match tags="rel.an.*" lemma="el que"/>
         <match tags="rel.an.*" lemma="lo que"/>
       </or>
@@ -4911,6 +4916,26 @@
       <match lemma="haber"/>
     </repeat>
     <match lemma="reñir" tags="vblex.*"><select lemma="renyar"/></match>
+  </rule>
+
+  <!-- realizar > realitzar / fer -->
+
+  <rule weight="0.5">
+    <match lemma="realizar" tags="vblex.*"><select lemma="realitzar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="realizar" tags="vblex.*"><select lemma="fer"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="tarea" tags="n.*"/>
+      <match lemma="trabajo" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- rayar > ratllar / vorejar -->
@@ -5405,6 +5430,20 @@
     <match lemma="sumo" tags="adj.*"><select lemma="suprem"/></match>
   </rule>
 
+    <!-- palo > pal / bastó -->
+
+  <rule weight="0.5">
+    <match lemma="palo" tags="n.*"><select lemma="pal"/></match>
+  </rule>
+
+  <rule weight="3">
+    <match lemma="palo" tags="n.*"><select lemma="bastó"/></match>
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <match tags="det.*"/>
+    <match lemma="rueda"/>
+  </rule>
+
+
   <!-- agallas > ganya / coratge (també: amígdala / gala /angina !!)  -->
 
   <rule weight="0.5">
@@ -5555,6 +5594,38 @@
     <match lemma="atizar" tags="vblex.*"><select lemma="atiar"/></match>
   </rule>
 
+  <!-- cesar > cessar / destituir -->
+
+  <rule weight="0.5">
+    <match lemma="cesar" tags="vblex.*"><select lemma="cessar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="ser" tags="vbser.*"/>
+    <match lemma="cesar" tags="vblex.pp.*"><select lemma="destituir"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="cesar" tags="vblex.*"><select lemma="destituir"/></match>
+    <repeat from="1" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="pr" lemma="a"/>
+        <match tags="num"/>
+        <match tags="num.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="n.*" lemma="ministro"/>
+      <match tags="n.*" lemma="consejero"/>
+      <match tags="n.*" lemma="presidente"/>
+      <match tags="n.*" lemma="director"/>
+      <match tags="n.*" lemma="rector"/>
+      <match tags="n.*" lemma="cargo"/>
+      <match tags="n.*" lemma="miembro"/>
+    </or>
+  </rule>
+
   <!-- qué duda cabe > no hi ha dubte / no n'hi ha dubte -->
 
   <rule weight="0.5">
@@ -5567,6 +5638,62 @@
       <match lemma="de" tags="pr"/>
       <match lemma="que" />
       <match lemma="de que"/>
+    </or>
+  </rule>
+
+  <!-- por entonces > en aquells dies / llavors -->
+
+  <rule weight="0.5">
+    <match lemma="por entonces" tags="adv"><select lemma="en aquells dies"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="det.*"/>
+    <match lemma="por entonces" tags="adv"><select lemma="llavors"/></match>
+  </rule>
+  
+
+  <!-- berenjenal > embolic / vesper / camp d'albergínies  -->
+
+  <rule weight="0.5">
+    <match lemma="berenjenal" tags="n.*"><select lemma="embolic"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="meter"/>
+      <match lemma="entrar"/>
+    </or>
+    <repeat from="0" upto="5">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="berenjenal" tags="n.*"><select lemma="vesper"/></match>
+  </rule>
+
+  <!-- algo > alguna cosa / una cosa -->
+
+  <rule weight="0.5">
+    <match lemma="algo" tags="prn.*"><select lemma="alguna cosa"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="algo" tags="prn.*"><select lemma="una cosa"/></match>
+    <match lemma="así" tags="adv"/>
+    <!--<match lemma="como" tags="adv"/>-->
+  </rule>
+
+  <rule weight="1">
+    <match lemma="algo" tags="prn.*"><select lemma="una cosa"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="adj.m.sg"/>
+      <match tags="adj.mf.sg"/>
+      <match tags="vblex.pp.m.sg"/>
     </or>
   </rule>
 
@@ -5633,6 +5760,7 @@
   <macro name="noms_propis" p1="Amadeo" p2="Amadeu" />
   <macro name="noms_propis" p1="Antonio" p2="Antoni" />
   <macro name="noms_propis" p1="Joaquín" p2="Joaquim" />
+  <macro name="noms_propis" p1="Constantino" p2="Constantí" />
 
   <macro name="noms_propis" p1="Vilfredo" p2="Guifré" />
   <macro name="noms_propis" p1="Ramón" p2="Ramon" />
