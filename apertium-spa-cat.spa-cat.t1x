@@ -63,6 +63,12 @@
     <def-cat n="prep">
       <cat-item tags="pr" />
     </def-cat>
+    <def-cat n="prep_a_en_de_con">
+      <cat-item tags="pr" lemma="a" />
+      <cat-item tags="pr" lemma="en" />
+      <cat-item tags="pr" lemma="de" />
+      <cat-item tags="pr" lemma="con" />
+    </def-cat>
     <def-cat n="cuyo">
       <cat-item tags="rel.aa.*" />
     </def-cat>
@@ -159,7 +165,7 @@
       <cat-item tags="vblex.inf" />
       <cat-item tags="vbser.inf" />
       <cat-item tags="vbhaver.inf" />
-      <cat-item tags="vbmod.inf" />
+      <cat-item tags="vbmod.inf"/>
     </def-cat>
     <def-cat n="ger">
       <cat-item tags="vblex.ger" />
@@ -239,6 +245,9 @@
       <cat-item lemma="que" tags="cnjsub" />
       <cat-item lemma="que" tags="rel.an.mf.sp" />
     </def-cat>
+    <def-cat n="que_cnjsub">
+      <cat-item lemma="que" tags="cnjsub" />
+    </def-cat>
     <def-cat n="que_si">
       <cat-item lemma="que" tags="cnjsub" />
       <cat-item lemma="que" tags="rel.an.mf.sp" />
@@ -309,6 +318,7 @@
     </def-cat>
     <def-cat n="verbospron">
       <cat-item lemma="caer" tags="vblex.*" />
+      <cat-item lemma="escaquear" tags="vblex.*" />
       <cat-item lemma="reír" tags="vblex.*" />
       <cat-item lemma="callar" tags="vblex.*" />
       <cat-item lemma="conchabar" tags="vblex.*" />
@@ -316,15 +326,18 @@
       <cat-item lemma="asomarse" tags="vblex.*" />
       <cat-item lemma="asomar" tags="vblex.*" />
       <cat-item lemma="afanar# en" tags="vblex.*" />
+      <cat-item lemma="apear" tags="vblex.*" />
     </def-cat>
     <def-cat n="verbospron_pp">
       <cat-item lemma="caer" tags="vblex.pp.*" />
+      <cat-item lemma="escaquear" tags="vblex.pp.*" />      
       <cat-item lemma="reír" tags="vblex.pp.*" />
       <cat-item lemma="callar" tags="vblex.pp.*" />
       <cat-item lemma="conchabar" tags="vblex.*" />
       <cat-item lemma="marchar" tags="vblex.pp.*" />
       <cat-item lemma="asomarse" tags="vblex.pp.*" />
       <cat-item lemma="afanar# en" tags="vblex.pp.*" />
+      <cat-item lemma="apear" tags="vblex.pp.*" />
     </def-cat>
     <def-cat n="ser_de_aplicacion">
       <cat-item lemma="ser# de aplicación" tags="vbser.*" />
@@ -453,7 +466,26 @@
       <cat-item lemma="pena" tags="n.*" />
       <cat-item lemma="prisa" tags="n.*" />
       <cat-item lemma="dinero" tags="n.*" />
+      <cat-item lemma="rigor" tags="n.*" />
     </def-cat>
+    <def-cat n="alguno_negativo">
+      <cat-item lemma="alguno_negativo" tags="det.*"/>
+    </def-cat>
+    <def-cat n="no_tampoco">
+      <cat-item lemma="no" tags="adv"/>
+      <cat-item lemma="tampoco" tags="adv"/>
+    </def-cat>
+    <def-cat n="haber_que">
+      <cat-item lemma="haber que" tags="vbmod.*"/>
+    </def-cat>
+    <def-cat n="olvidar"> 
+      <cat-item lemma="olvidar" tags="vblex.inf"/>
+      <cat-item lemma="confundir" tags="vblex.inf"/>
+      <cat-item lemma="ignorar" tags="vblex.inf"/>
+      <cat-item lemma="desconocer" tags="vblex.inf"/>
+      <cat-item lemma="descuidar" tags="vblex.inf"/>
+    </def-cat>
+
     <!--<def-cat n="pr_1s"><cat-item lemma="me" tags="prn.pro.p1.mf.sg" /></def-cat>
     <def-cat n="ir_1s"><cat-item lemma="ir" tags="vblex.*.p1.sg" /></def-cat>
     <def-cat n="pr_2s"><cat-item lemma="te" tags="prn.pro.p2.mf.sg" /></def-cat>
@@ -572,6 +604,7 @@
       <attr-item tags="mf" />
       <attr-item tags="GD" />
       <attr-item tags="nt" />
+      <attr-item tags="adv" />
     </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sg" />
@@ -934,7 +967,7 @@
         </when>
       </choose>
     </def-macro>
-    <def-macro n="f_seleccioLex" npar="1">
+    <!--<def-macro n="f_seleccioLex" npar="1">
       <choose>
         <when>
           <test>
@@ -1021,7 +1054,7 @@
           </let>
         </when>
       </choose>
-    </def-macro>
+    </def-macro>-->
     <def-macro n="f_concord1" npar="1">
       <choose>
         <!--To determine value of variables of gender and
@@ -4116,9 +4149,9 @@
           </lu>
           <b pos="1" />
         </out>
-        <call-macro n="f_seleccioLex">
+        <!--<call-macro n="f_seleccioLex">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_pretind">
           <with-param pos="2" />
         </call-macro>
@@ -5250,8 +5283,246 @@
         </out>
       </action>
     </rule>
+
+    <!-- REGLA: Preposició + que (casos que queden sense eliminar): de que, amb que, a que, en que -->
     <rule>
-      <!-- REGLA: PREP NOM -->
+      <pattern>
+        <pattern-item n="prep_a_en_de_con" />
+        <pattern-item n="que_cnjsub" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal caseless="yes">
+                <clip pos="2" side="tl" part="lem" />
+                <lit v="que" /> <!-- no es fa quan es tradueix per "el fet que"-->
+              </equal>
+            </test>
+            <call-macro n="f_bcond">
+              <with-param pos="1" />
+              <with-param pos="2" />
+            </call-macro>
+            <out>
+              <lu>
+                <clip pos="2" side="tl" part="whole" />
+              </lu>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole" />
+              </lu>
+              <b pos="1" />
+              <lu>
+                <clip pos="2" side="tl" part="whole" />
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+    <!-- REGLA: No hay que olvidar > cal no oblidar -->
+    <rule>
+      <pattern>
+        <pattern-item n="no_tampoco" />
+        <pattern-item n="haber_que" />
+        <pattern-item n="olvidar" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <clip part="whole" pos="2" side="tl" />
+            </get-case-from>
+          </lu>
+          <b />
+          <lu>
+            <lit v="no" />
+            <lit-tag v="adv" />
+          </lu>
+          <b />
+          <lu>
+            <clip part="whole" pos="3" side="tl" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="no_tampoco" />
+        <pattern-item n="haber_que" />
+        <pattern-item n="olvidar" />
+        <pattern-item n="prnenc" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <clip part="whole" pos="2" side="tl" />
+            </get-case-from>
+          </lu>
+          <b />
+          <lu>
+            <lit v="no" />
+            <lit-tag v="adv" />
+          </lu>
+          <b />
+          <mlu>
+            <lu>
+              <clip pos="3" side="tl" part="lemh" />
+              <clip pos="3" side="tl" part="a_verb" />
+              <clip pos="3" side="tl" part="temps" />
+              <clip pos="3" side="tl" part="persona" />
+              <clip pos="3" side="tl" part="nbr" />
+            </lu>
+            <lu>
+              <clip pos="4" side="tl" part="lem" />
+              <clip pos="4" side="tl" part="a_prnenc" />
+              <clip pos="4" side="tl" part="persona" />
+              <clip pos="4" side="tl" part="gen" />
+              <clip pos="4" side="tl" part="nbr" />
+              <clip pos="3" side="tl" part="lemq" />
+            </lu>
+          </mlu>
+        </out>
+      </action>
+    </rule>
+ 
+    <!-- REGLA: CASO ALGUNO -->
+    <rule>
+      <pattern>
+        <pattern-item n="prep" />
+        <pattern-item n="nom" />
+        <pattern-item n="alguno_negativo" />
+      </pattern>
+      <action>
+        <call-macro n="f_preps">
+          <with-param pos="1" />
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="2" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="3" side="tl" part="whole" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="nom" />
+        <pattern-item n="alguno_negativo" />
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="1" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="nom" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="alguno_negativo" />
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="1" />
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_llamado">
+          <with-param pos="2" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="3" side="tl" part="whole" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <clip pos="1" side="tl" part="lemh" />
+            <clip pos="1" side="tl" part="a_nom" />
+            <clip pos="1" side="tl" part="gen" />
+            <clip pos="1" side="tl" part="nbr" />
+            <clip pos="1" side="tl" part="lemq" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <clip pos="2" side="tl" part="lemh" />
+            <clip pos="2" side="tl" part="a_adjec" />
+            <clip pos="2" side="tl" part="gen" />
+            <clip pos="2" side="tl" part="nbr" />
+            <clip pos="2" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="prep" />
+        <pattern-item n="nom" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="alguno_negativo" />
+      </pattern>
+      <action>
+        <call-macro n="f_preps">
+          <with-param pos="1" />
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="2" />
+          <with-param pos="3" />
+        </call-macro>
+        <call-macro n="f_llamado">
+          <with-param pos="3" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="4" side="tl" part="whole" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <clip pos="2" side="tl" part="lemh" />
+            <clip pos="2" side="tl" part="a_nom" />
+            <clip pos="2" side="tl" part="gen" />
+            <clip pos="2" side="tl" part="nbr" />
+            <clip pos="2" side="tl" part="lemq" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="lemh" />
+            <clip pos="3" side="tl" part="a_adjec" />
+            <clip pos="3" side="tl" part="gen" />
+            <clip pos="3" side="tl" part="nbr" />
+            <clip pos="3" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+<!-- REGLA: PREP NOM -->
+    <rule>
       <pattern>
         <pattern-item n="prep" />
         <pattern-item n="nom" />
@@ -6673,9 +6944,9 @@
         <pattern-item n="verb" />
       </pattern>
       <action>
-        <call-macro n="f_seleccioLex">
+        <!--<call-macro n="f_seleccioLex">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_pretind">
           <with-param pos="1" />
         </call-macro>
@@ -9720,6 +9991,8 @@
         </out>
       </action>
     </rule>
+
+
     <rule>
       <!-- REGLA: reset variables-->
       <pattern>
