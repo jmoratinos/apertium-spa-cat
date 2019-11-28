@@ -203,7 +203,7 @@
       <match lemma="mort"/>
       <match lemma="estudi"/>
       <match lemma="curs"/>
-      <match lemma="claase"/>
+      <match lemma="clase"/>
       <match lemma="investigació"/>
       <match lemma="recerca"/>
       <match lemma="cerca"/>
@@ -505,6 +505,7 @@
     </def-seq>
 
     <def-seq n="verbs_ci">
+      <match lemma="accedir" tags="vblex.*"/>
        <match lemma="afegir" tags="vblex.*"/>
        <match lemma="agafar" tags="vblex.*"/>
        <match lemma="atorgar" tags="vblex.*"/>
@@ -547,6 +548,7 @@
 
     <def-seq n="verbs_mov_amb_a">
        <match lemma="apropar" tags="vblex.*"/>
+       <match lemma="acostar" tags="vblex.*"/>
        <match lemma="aproximar" tags="vblex.*"/>
        <match lemma="llençar" tags="vblex.*"/>
        <match lemma="llançar" tags="vblex.*"/>
@@ -554,22 +556,69 @@
        <match lemma="posar" tags="vblex.*"/>
     </def-seq>
 
+    <def-seq n="regeix_a">
+       <match lemma="accedir"/>
+       <match lemma="accés"/>
+       <match lemma="adreçar"/>
+       <match lemma="adscrit"/>
+       <match lemma="adscriure"/>
+       <match lemma="ajustar"/>
+       <match lemma="alternatiu"/>
+       <match lemma="anterior"/>
+       <match lemma="asistir"/>
+       <match lemma="connectar"/>
+       <match lemma="connexió"/>
+       <match lemma="contribució"/>
+       <match lemma="corresponent"/>
+       <match lemma="destí"/>
+       <match lemma="dirigir"/>
+       <match lemma="equivalent"/>
+       <match lemma="equivaler"/>
+       <match lemma="extern"/>
+       <match lemma="intern"/>
+       <match lemma="pertànyer"/>
+       <match lemma="pertanyent"/>
+       <match lemma="posterior"/>
+       <match lemma="presentar"/>
+       <match lemma="procedir"/>
+       <match lemma="promoció"/>
+       <match lemma="promoure"/>
+       <match lemma="proper"/>
+       <match lemma="prorrogable"/>
+       <match lemma="prorrogar"/>
+       <match lemma="pròxim"/>
+       <match lemma="relatiu"/>
+       <match lemma="següent"/>
+       <match lemma="sotmetre"/>
+       <match lemma="suport"/>
+     </def-seq>
+
   </def-seqs>
 
 <rules>
 
 <!-- **************** PR **************** -->
+
+<!-- a > que -->
+
+  <rule weight="2">
+    <match lemma="tenir"/>
+    <match lemma="a" tags="pr"><select lemma="que" tags="cnjsub"/></match>
+    <match lemma="veure"/>
+  </rule>
+
 <!-- a > a, en -->
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
-  <rule weight="1.0">
+  <rule weight="2.0">
     <or>
-       <match lemma="proper"/>
-       <match lemma="pròxim"/>
+      <seq n="regeix_a"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
+
+
   
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
@@ -623,7 +672,7 @@
       <seq n="mitja_comunicacio"/>
     </or>
   </rule>
-  <rule weight="1.0">
+  <!--<rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
     <or>
       <seq n="lloc_concret"/>
@@ -632,7 +681,7 @@
       <seq n="part_ciutat"/>
       <seq n="periode"/>
     </or>
-  </rule>
+  </rule>-->
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
     <match tags="det.*"/>
@@ -699,7 +748,7 @@
     <match tags="adj.*"/>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
-  <rule weight="1.0">
+  <!--<rule weight="1.0">
     <or>
       <match lemma="ser" tags="vbser.*"/>
       <match lemma="estar" tags="vblex.*"/>
@@ -724,7 +773,7 @@
       <match lemma="aterrar" tags="vblex.*"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
-  </rule>
+  </rule>-->
   <rule weight="1.2">
     <or>
       <match lemma="ser" tags="vbser.*"/>
@@ -764,6 +813,7 @@
     <or>
       <seq n="verbs_moviment"/>
       <seq n="verbs_donar"/>
+      <seq n="verbs_ci"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
@@ -771,6 +821,7 @@
     <or>
       <seq n="verbs_moviment"/>
       <seq n="verbs_donar"/>
+      <seq n="verbs_ci"/>
     </or>
     <match tags="adv"/>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
@@ -816,6 +867,7 @@
     <match tags="nom.*"/>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
+  <!--
   <rule weight="1.0">
     <or><match lemma="estar"/><match lemma="ser"/><match lemma="quedar"/></or>
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
@@ -828,7 +880,7 @@
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
     <match lemma="manera" tags="n.*"/>
     <match lemma="de" tags="pr"/>
-  </rule>
+  </rule>-->
 
 <!-- **************** CNJSUB **************** -->
 
@@ -1341,6 +1393,23 @@
 <!-- **************** A **************** -->
 
   <rule weight="0.5">
+     <match lemma="divers" tags="adj.*"><select lemma="diverso"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="de" tags="pr"/>
+     <match tags="det.def.*"/>
+     <match lemma="divers" tags="adj.*"><select lemma="vario"/></match>
+     <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="de" tags="pr"/>
+     <match tags="det.def.*"/>
+     <match lemma="divers" tags="adj.*"><select lemma="vario"/></match>
+     <match tags="adj.*"/>
+     <match tags="n.*"/>
+  </rule>
+
+  <rule weight="0.5">
      <match lemma="net" tags="adj.*"><select lemma="limpio"/></match>
   </rule>
   <rule weight="1.0">
@@ -1551,6 +1620,17 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+<!-- ocupació > ocupación, empleo -->
+
+  <rule weight="0.6">
+     <match lemma="ocupació" tags="n.*"><select lemma="ocupación"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="borsa"/>
+    <match lemma="de"/>
+    <match lemma="ocupació" tags="n.*"><select lemma="empleo"/></match> 
+  </rule>
 
 <!-- sant > santo, san -->
 
@@ -1958,7 +2038,12 @@
      <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
   </rule>
 
-
+  <macro name="noms_propis" p1="Salomó" p2="Salomón" />
+  <macro name="noms_propis" p1="Faust" p2="Fausto" />
+  <macro name="noms_propis" p1="Tomàs" p2="Tomás" />  
+  <macro name="noms_propis" p1="Josep" p2="José" />  
+  <macro name="noms_propis" p1="Agustí" p2="Agustín" />  
+  <macro name="noms_propis" p1="Lucrècia" p2="Lucrecia" />
   <macro name="noms_propis" p1="Albert Carles" p2="Alberto Carlos" />
   <macro name="noms_propis" p1="Francesc Josep" p2="Francisco José" />
   <macro name="noms_propis" p1="Joan Carles" p2="Juan Carlos" />
@@ -2018,3 +2103,4 @@
   <macro name="noms_propis" p1="Humbert" p2="Humberto" />
 </rules>
 </metalrx>
+

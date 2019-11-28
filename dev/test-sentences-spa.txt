@@ -1,3 +1,38 @@
+**** Mesa ****
+
+Juan Mesa es el presidente.
+Mesa García es la presidenta.
+El presidente de la mesa.
+Mesa de contratación.
+Mesa de trabajo.
+Mesa quirúrgica.
+En la Mesa Sectorial.
+En la Mesa de Negociación.
+En la mesa negociadora.
+Mesa negociadora.
+En la Mesa del Parlamento.
+Mesa del Congreso.
+Los diputados se dirigieron a la Mesa.
+Mesas Redondas.
+Ciclo de Mesas Redondas. 
+
+
+
+**** Trabajo ****
+
+Ha presentado un trabajo impecable.
+Ha hecho mucho trabajo.
+Ha hecho un buen trabajo.
+Ha hecho un muy buen trabajo.
+
+**** Fallo ****
+
+Fue un fallo del sistema.
+La sentencia y el fallo.
+La sentencia cuyo encabezamiento y fallo son del tenor siguiente.
+Se publicó el fallo del jurado.
+La sentencia cuyo fallo es del tenor siguiente.
+
 **** Quisiera ****
 
 Quisiera hablar con vosotros.
@@ -10,6 +45,10 @@ Sr. Comisario, quisiera plantear otra cuestión.
 
 Hubiéramos podido ir. 
 Dijo que hubiéramos podido ir.
+
+Por lo tanto, quisiera decirlo claro.
+Sin embargo, quisiera decirlo claro.
+No obstante, quisiera decirlo claro.
 
 *** Apretar ****
 
@@ -25,6 +64,27 @@ Ha sido una acción refleja.
 Esta acción es refleja.
 Estas acciones son reflejas.
 
+
+**** uno / una ****
+
+Algo que una sino que también separe.
+El cual una a todo el colectivo. 
+Que una varios grupos. 
+Que una diversos grupos. 
+Una solidaridad que una.
+
+No hay más que una.
+Algo que una empresa no puede hacer.
+Da una cierta desventaja al enemigo.
+
+Una y otra no quieren. 
+Ni una ni otra quieren. 
+Ni una ni la otra quieren. 
+Ni una ni otra. 
+
+Una y otra persona.
+Ni una ni otra persona.
+
 **** Apoyar ****
 
 Me apoyo en la barandilla. 
@@ -39,9 +99,78 @@ Apoyó siempre la revolución.
 Apoyó siempre a la revolución.
 Apoya también la idea.
 Yo le apoyo siempre. 
+Yo les apoyo siempre. 
+Yo las apoyo siempre. 
 
 La apoyaba plenamente.
 Apoyaron planes de modernización.
+
+Apoyarle como partido democrático. 
+
+Apoyándose, en particular, en las tradiciones.
+Se apoyan, sobre todo, en más reformas.
+Estamos todos apoyándole.
+Estamos todos apoyándolo.
+Le he apoyado siempre.
+La he apoyado siempre.
+Apoyarles en sus opciones.
+Apoyarlos en sus opciones.
+Le apoyo expresamente en sus esfuerzos.
+
+La Comisión apoya, en principio, la enmienda 16.
+Habría que apoyar, en particular, la propuesta.
+Que usted apoyara, en su calidad, el pago.
+Hay que apoyarlo hoy mayoritariamente en el Parlamento.
+
+El marco jurídico en el que se apoya.
+El marco jurídico en el cual apoyarse
+
+Apoyarse mutuamente.
+Apoyándose unos a otros.
+Que se apoyen unas a otras.
+
+Me apoyé aquí.
+Se apoyaba en la mesa.
+Te apoyas.
+
+Ellos te apoyan. 
+Ellos me apoyaban. 
+Os apoyamos.
+
+Se apoya proyectos varios.
+Se apoyan proyectos varios.
+Tienen que apoyarse también proyectos como Galileo.
+Se tienen que apoyar también proyectos como Galileo.
+
+Apoyándonos en el euro.
+Apoyarlos en general.
+Apoyarles en general.
+
+Espero que pueda apoyarnos en nuestras ambiciones.
+
+Nos hemos apoyado en esto.
+Debemos apoyarnos en lo que podamos.
+Que esté dispuesto a apoyarnos en la restitución.
+Necesitamos apoyarnos en nuestra innovación.
+
+*** apoyar: por revisar ****
+
+Podrán apoyarse en personas asalariadas.
+En situaciones similares apoyándose en el concepto de paisaje urbano.
+Apoyándose sobre un libro.
+El modelo trata de apoyarse en los principios básicos.
+Que los grupos políticos quieran apoyarnos en esta petición.
+Me han apoyado en la elaboración.
+Me han apoyado en la petición.
+Nos han apoyado en nuestros esfuerzos.
+Tiene que apoyase una enmienda.
+Es lo que haremos apoyándonos en una dotación presupostaria. 
+Apoyándose en el miedo.
+Apoyándome en los informes. 
+Nos proponemos apoyar a Serbia.
+Tiene que apoyarse en la posibilidad de acciones diferenciadas.
+Puede apoyarse en algún tipo de pensamiento.
+
 
 **** Relativo ****
 
@@ -91,7 +220,29 @@ El estado en que se encuentra.
 
 Dio la falsa impresión de que mi grupo no apoyaba la propuesta.
 
+Tenía mucho que decir.
+Si tiene algo más que añadir.
+Tenía más que decir.
+Tenía mucho más que decir.
+No tenía mucho más que decir.
+Lo que tenemos que ver es esto.
 Tiene que ver con que en nuestra sabiduría.
+Tenía que ver, en muchos casos, con el pasado. 
+Tiene poco que ver con el dinero. 
+Tiene mucho que ver con el dinero. 
+Tiene algo que ver con el dinero. 
+No tiene nada que ver con el dinero. 
+No hay nada que hacer.
+No tenía nada que hacer.
+Puede tener más que ver con un casino.
+Puede tener menos que ver con un casino.
+Puede tener más que ver.
+Puede tener menos que ver.
+Allí había algo que hacer.
+No tiene más que leer la prensa. 
+No tiene otro que leer la prensa. 
+No tiene sino que leer la prensa.
+
 Concuerda con que después pasaran otras cosas.
 Estoy absolutamente de acuerdo con que preguntar.
 Estoy absolutamente en desacuerdo con que preguntar a alguien.
@@ -185,6 +336,9 @@ Ni influencia exterior alguna.
 Incorporar a Estado miembro alguno.
 
 Como ha dicho muy bien alguno de mis compañeros.
+
+No hay razón alguna que lo justifique.
+No tiene observación alguna que efectuar.
 
 
 **** El día siguiente ****
@@ -282,6 +436,19 @@ El tema, digámoslo así, es complicado.
 El tema, por decirlo así, es complicado.
 A mi parecer debemos hacer lo uno y lo otro.
 Más de lo deseado o lo permitido.
+
+*** Más ****
+Más grave de lo previsto.
+Mostrar una vez más nuestra indignación.
+Desarrollar más vacunas nuevas.
+Más importante aún es esto.
+De más medios administrativos y humanos.
+Un orden mundial más seguro para todos.
+Es bastante más elevada en la actualidad.
+
+Hay que pasárselo bien.
+Debemos pasárselo cuanto antes.
+Y pasárselos a todos los organismos oficiales. [?]
 
 **** Caber la posibilidad ****
 
@@ -405,6 +572,22 @@ Haber de cantar es duro.
 Debe imputarse al haber de la cuenta.
 Poca duda puede haber de que en estas elecciones.
 No queremos haber de afrontar.
+
+Nunca había habido una reunión.
+Que no había habido la cooperación necesaria.
+No habría habido ninguna diferencia.
+No consta que haya habido ningún problema.
+Cuando haya habido oposición de un tercero.
+No había nada construido.
+Donde no había nada sofisticado.
+No haya habido necesidad de aplicar. 
+
+Si se hubiera ya ejecutado.
+Miranda había también triunfado.
+La batalla no había aún concluido. 
+No haya habido de aplicar medidas. 
+Habría ya desaparecido.
+Había probablemente sido colocada.
 
 ***** Pequeño *****
 
@@ -583,6 +766,12 @@ Dame un abrazo.
 
 Dar paso a la deliberación.
 
+**** Malo ***
+
+La posible mala gestión.
+En unas pocas malas personas.
+Son personas malas.
+
 ***** Contar ****
 
 Nos contó un cuento. 
@@ -614,6 +803,9 @@ Cuenta con él.
 
 Cuento más bien con que el parlamento lo hará.
 Cuento siempre con él.
+
+Cuenta usted con nuestra ayuda.
+Cuente usted con nuestra ayuda.
 
 Otros:
 No contaba con que vinierais.
@@ -682,6 +874,8 @@ Aeropuerto del Prat.
 Ayuntamiento del Prat de Llobregat. 
 Ayuntamiento de Prat de Llobregat. 
 Prat de Llobregat. El Prat de Llobregat.
+Viene del Hondón de los Frailes. 
+Va al Hondón de las Nieves.
 
 
 ***** Cubo *****
@@ -690,6 +884,8 @@ El cubo de Rubik.
 Cubos de Rubik. 
 El cubo inventado por Rubik.
 Tres al cubo.
+Cincuenta y cuatro al cubo. 
+45 al cubo. 
 Al cuadrado o al cubo. 
 Un cubo y un dodecaedro.
 Las aristas del cubo. 
@@ -701,6 +897,8 @@ Un cubo de 3 cm de lado.
 El área lateral del cubo.
 ¿Cuantas caras tiene un cubo?
 
+Tirar al cubo de la basura. 
+Echar al cubo de la basura. 
 El cubo y la fregona.
 Un cubo de agua. 
 Un cubo de hielo.
@@ -813,6 +1011,7 @@ Emplearon todos los medios.
 
 **** Empleo ****
 
+La relación de personas que integran la bolsa de empleo de la categoría que corresponda.
 El empleo creció un 5%. Se perdieron muchos empleos.
 Queremos empleos de calidad.
 
@@ -969,10 +1168,14 @@ Haremos algo así.
 Haremos algo sobre esta cuestión.
 Es algo no esperado.
 
+Una actitud algo más afable respecto al Parlamento.
+Un enfoque algo más pragmático.
+Era algo más joven de lo que soy ahora.
 Vendrá algo más tarde. 
 Algo así como comerse un elefante.
 
 Aunque sea algo tarde. 
+
 
 **** Andar ****
 
@@ -1072,6 +1275,9 @@ Porque, si creamos un banco euromediterráneo.
 ***** Cuyo *****
 
 Una situación cuya reversibilidad solo se daría en el futuro.
+Un país cuyo producto interior bruto crece.
+A aquellas cuya persona investigadora principal sea mujer.
+Los préstamos cuyo tipo de interés sea superior al 5%.
 
 **** Como. ****
 
@@ -1123,6 +1329,9 @@ Hoy he querido manifestar.
 Condiciones de trabajo que se quieren aplicar. 
 
 Señor Presidente, queridos colegas, ustedes lo saben.
+Es uno de los logros más queridos en esta Cámara.
+Entre mis proyectos más queridos.
+Sobre todo el deseo más querido de los partidarios de la paz.
 
 ***** cuanto, tanto *****
 
@@ -1242,6 +1451,38 @@ Es lo que se le pide, lo que cumple cuando puede.
 Ahora bien, lo que parece haber hasta ahora es desconfianza.
 Señor presidente, lo que parece haber hasta ahora es desconfianza.
 
+Sin embargo, lo que me interesa es aquello.
+Por lo tanto, lo que necesitamos es una revolución en la investigación.
+
+Tiene que ser activada especialmente, lo que solo se hace en los EEUU.
+
+De lo que es el mercado interior. 
+Esto -y lo que es más importante-, no aquello.
+Esto -y lo que era más importante-, no aquello.
+Esto -y lo que fue más importante-, no aquello.
+
+Con todo respeto para lo que ha dicho.
+
+[POR HACER]
+Necesitan desarrollarse, para lo que es preciso ayuda financiera.
+Algo para lo que todavía no ha tenido tiempo.
+Que apueste más por la prevención, para lo que sería conveniente un mayor apoyo.
+Y es por eso por lo que es difícil. 
+
+Es compatible con el uso actual, por lo que es posible el cultivo.
+Es compatible con el uso actual por lo que es posible el cultivo.
+Haría necesario cortar un camino público por lo que es inviable.
+La relación no es exhaustiva por lo que es susceptible de ampliarse.
+Es compatible con el uso actual; por lo que es necesario que se tenga en cuenta su capacidad.
+
+Apostamos por lo que es posible. 
+Guiándome por lo que es bueno para los consumidores. 
+
+Es por esta razón por lo que queremos aprobar la ley.
+Es por este motivo por lo que queremos aprobar la ley.
+Es por este logro extraordinario por lo que es lamentable que pase esto.
+
+
 **** Pienso ****
 
 Pienso evidentemente que es lo mejor. 
@@ -1332,6 +1573,31 @@ Los que votan a favor no saben a cuántos comités y reuniones de comités dan s
 
 ***** Varios *****
 
+La liaron parda. Tienes que liarla parda.
+En un principio era así. 
+Se convierten en un principio básico. 
+Se conocían en un principio tres tipos.
+Aunque no exentas de controversia.
+Disponer de informe expreso favorable de la Dirección.
+Mi informe expresa preocupación.
+El pequeño y medio campesinado.
+El populoso pequeño y medio campesinado.
+Escriba con letra clara.
+Davó Escriba Ricardo.
+Uva de mesa embolsada.
+Uva embolsada
+Uva de Mesa Embolsada.
+Gretchen y Fausto.
+La leyenda de Fausto. 
+Para crear un demos europeo.
+Presentó una demo en la feria.
+Demos una oportunidad a la gente.
+Es una embarcación de 3 m de calado.
+Es una decisión de calado.
+Es una decisión despreciable.
+Es una cantidad despreciable.
+El resultado de la suma es despreciable. 
+Se tenía muy en cuenta los valores morales y las virtudes.
 No es solo nuestro entorno.
 Como mejor pueden conseguirse.
 Todo el rato igual. 
@@ -1431,7 +1697,7 @@ Que son objeto de la convocatoria.
 Ella saca uno de los cuadros.
 Ella carga al niño Jesús.
 Y comprende que él ama en serio a Juan.
-En ella cuenta de forma autobiográfica.
+En ella cuenta de forma autobiográfica la historia del equipo.
 El camino para él pasa, entre otros aspectos, por el desarrollo social.
 
 La modelo Jean Shrimpton fue otro ícono.
@@ -1554,6 +1820,8 @@ El tenedor está limpio y reluciente.
 El Libro Blanco de las instituciones europeas.
 Se baraja llevarlo en la convocatoria.
 Es seguro y eficaz.
+De productos alternativos más seguros.
+Unos requisitos de seguridad bastante más estrictos.
 Para que la UE y Europa puedan tener. 
 Que vaya a tener lugar inmediatamente.
 Es adecuada y necesaria.
@@ -1735,6 +2003,11 @@ Nada más se tendrán en cuenta los cursos superiores.
 Nada más podrán concurrir las candidaturas de lista cerrada.
 Nada más iniciarse este tramo, se produce el cruce.
 
+No hay nada perdido.
+
+*** Bajo ***
+Al precio más bajo posible.
+El crecimiento promedio es bajo, pero el promedio es alto.
 
 **** Ningún *****
 
@@ -1968,6 +2241,9 @@ La coma, el punto y coma, el punto.
 Para las comidas, hurtaban conejos.
 Será la comida del día.
 
+Hay que pensárselo muy bien. 
+El Congreso tienen que pensárselo dos veces.
+
 
 *****  ser/ir *****
 
@@ -2101,14 +2377,26 @@ Del Imperio Romano.
 De la República Popular China. 
 De la República Popular de China.
 Planes de acción Unión Europea-China.
+Planes de acción EU-EE.UU.
 Sr. Alto Representante.
 Él es Director Ejecutivo.
 Él es Director Financiero. 
 Del señor Primer Ministro.
 Utilizan I+D. Mantienen un monopolio.
+Plan Internacional contra la Pobreza.
+Programa Marco Europeo.
+Convenio Marco Polo de intercambios.
+En el Plan Internacional contra la Pobreza.
+Por el Programa Marco Europeo.
+En el Convenio Marco Polo de intercambios.
+Ingeniería de Montes.
+
 
 ***** Nombres propios ****
 
+Caen los precios en Caen.
+Ayuntamiento de Orihuela, Dolores Orihuela.
+Con el gusto importado por D. Salvador Pujó.
 El nombramiento de Pío X.
 Pío X fue un papa. El Museo San Pío.
 De los Altos Pirineos.
@@ -2611,6 +2899,7 @@ No ayudó a nadie.
 Concierne a los padres.
 Oblígale a hacerlo.
 Le obligó a hacerlo.
+Le van a obligar a hacerlo.
 Acusaron de corrupción al partido del presidente.
 Acusaron al partido del presidente.
 Acusaron siempre al partido del presidente.
@@ -2657,6 +2946,8 @@ De unas con otras.
 Unos en otros.
 Unos y otras.
 Los unos con los otros.
+Tanto unos como otros.
+Tanto unas como otras. 
 
 ***** reñir *****
 
@@ -2703,7 +2994,7 @@ Arden 2 ha de cultivo en Onda.
 Alberto Isla. Islas Canarias. 
 
 Decir lo que pienso y hacer lo que quiero.
-El Consorcio Río Millares.
+El Consorcio Río Mijares.
 Maduro llama "cobarde".
 Honda Moto Valencia.
 Sueca homenajea a la llamada "Quinta del biberón".
@@ -2805,3 +3096,1092 @@ Los abrigos estrella de este invierno.
 Rompe el cuentakilómetros.
 Mal arranque de Sergio García.
 
+**** Municipios: nombre oficial en valenciano ****.
+.
+Ademuz.
+Ador.
+Agost.
+Agres.
+Agullent.
+Aielo de Malferit.
+Aielo de Rugat.
+Aigües.
+Aín.
+Ayódar.
+Ayora.
+Alacant.
+Alaquàs.
+Albaida.
+Albal.
+Albalat de la Ribera.
+Albalat dels Sorells.
+Albalat dels Tarongers.
+Albatera.
+Alberic.
+Albocàsser.
+Alboraia.
+Alborache.
+Albuixech.
+Alcalà de Xivert.
+Alcalalí.
+Alcàntera de Xúquer.
+Alcàsser.
+Alcoi.
+Alcoleja.
+Alcocer de Planes.
+Aldaia.
+Alfafar.
+Alfafara.
+Alfara de la Baronia.
+Alfara del Patriarca.
+Alfarp.
+Alfarrasí.
+Alfauir.
+Alfondeguilla.
+Algar de Palancia.
+Algemesí.
+Algímia d'Alfara.
+Algimia de Almonacid.
+Alginet.
+Algorfa.
+Almàssera.
+Almassora.
+Almedíjar.
+Almenara.
+Almiserà.
+Almoines.
+Almoradí.
+Almudaina.
+Almussafes.
+Alpuente.
+Altea.
+Altura.
+Alzira.
+Andilla.
+Anna.
+Antella.
+Arañuel.
+Aras de los Olmos.
+Ares del Maestrat.
+Argelita.
+Artana.
+Aspe.
+Azuébar.
+Atzeneta d'Albaida.
+Atzeneta del Maestrat.
+Balones.
+Banyeres de Mariola.
+Barracas.
+Barx.
+Barxeta.
+Bejís.
+Bèlgida.
+Bellreguard.
+Bellús.
+Benafer.
+Benafigos.
+Benaguasil.
+Benagéber.
+Benasau.
+Benassal.
+Benavites.
+Beneixama.
+Beneixida.
+Benejúzar.
+Benetússer.
+Benferri.
+Beniarbeig.
+Beniardá.
+Beniarjó.
+Beniarrés.
+Beniatjar.
+Benicarló.
+Benicàssim.
+Benicolet.
+Benicull de Xúquer.
+Benidoleig.
+Benidorm.
+Benifaió.
+Benifairó de la Valldigna.
+Benifairó de les Valls.
+Benifallim.
+Benifato.
+Beniflá.
+Benigànim.
+Benigembla.
+Benijófar.
+Benilloba.
+Benillup.
+Benimantell.
+Benimarfull.
+Benimassot.
+Benimeli.
+Benimodo.
+Benimuslem.
+Beniparrell.
+Benirredrà.
+Benissa.
+Benissanó.
+Benissoda.
+Benissuera.
+Benlloc.
+Bétera.
+Betxí.
+Biar.
+Bicorp.
+Bigastro.
+Bocairent.
+Bolbaite.
+Bolulla.
+Bonrepòs i Mirambell.
+Borriana.
+Borriol.
+Bufali.
+Bugarra.
+Buñol.
+Burjassot.
+Busot.
+Cabanes.
+Càlig.
+Ayuntamiento de Calles.
+Callosa d'en Sarrià.
+Callosa de Segura.
+Calp.
+Camporrobles.
+Canals.
+Canet d'en Berenguer.
+Canet lo Roig.
+Carcaixent.
+Càrcer.
+Carlet.
+Carrícola.
+Casas Altas.
+Casas Bajas.
+Casinos.
+Castalla.
+Castell de Cabres.
+Castell de Castells.
+Castellfort.
+Castellnovo.
+Castelló de la Plana.
+Castelló de Rugat.
+Castellonet de la Conquesta.
+Castielfabib.
+Catadau.
+Catarroja.
+Catí.
+Catral.
+Caudete de las Fuentes.
+Caudiel.
+Cerdà.
+Cervera del Maestre.
+Cinctorres.
+Cirat.
+Cocentaina.
+Cofrentes.
+Cox.
+Confrides.
+Corbera.
+Cortes de Arenoso.
+Cortes de Pallás.
+Costur.
+Cotes.
+Crevillent.
+Culla.
+Cullera.
+Daya Nueva.
+Daya Vieja.
+Daimús.
+Dénia.
+Dolores.
+Domeño.
+Dos Aguas.
+el Camp de Mirra.
+el Campello.
+el Castell de Guadalest.
+Castillo de Villamalefa.
+el Fondó de les Neus.
+Hondón de los Frailes.
+Forcall.
+el Genovés.
+el Palomar.
+Pilar de la Horadada.
+el Pinós.
+el Poble Nou de Benitatxell.
+el Puig de Santa Maria.
+el Ràfol d'Almúnia.
+Ráfol de Salem.
+el Real de Gandia.
+El Toro.
+el Verger.
+Villar del Arzobispo.
+Elda.
+els Poblets.
+Elx.
+Emperador.
+Enguera.
+Eslida.
+Espadilla.
+Estivella.
+Estubeny.
+Facheca.
+Famorca.
+Fanzara.
+Faura.
+Favara.
+Higueras.
+Figueroles.
+Higueruelas.
+Finestrat.
+Foios.
+Fontanars dels Alforins.
+Formentera del Segura.
+Fortaleny.
+Fuenterrobles.
+Gaianes.
+Gaibiel.
+Gandia.
+Gata de Gorgos.
+Gátova.
+Gavarda.
+Geldo.
+Gilet.
+Godella.
+Godelleta.
+Gorga.
+Guadasséquies.
+Guadassuar.
+Guardamar de la Safor.
+Guardamar del Segura.
+Herbés.
+Yátova.
+Ibi.
+l'Alcora.
+l'Alcúdia.
+l'Alcúdia de Crespins.
+Alcudia de Veo.
+l'Alfàs del Pi.
+Algueña.
+l'Alqueria d'Asnar.
+l'Alqueria de la Comtessa.
+l'Atzúbia.
+l'Eliana.
+l'Ènova.
+l'Olleria.
+l'Orxa.
+Cañada.
+la Font d'en Carròs.
+la Font de la Figuera.
+Fuente la Reina.
+la Granja de la Costera.
+Granja de Rocamora.
+La Yesa.
+la Jana.
+la Llosa.
+la Llosa de Ranes.
+Losa del Obispo.
+la Mata.
+la Nucia.
+Puebla de Arenoso.
+la Pobla de Benifassà.
+la Pobla de Farnals.
+Puebla de San Miguel.
+la Pobla de Vallbona.
+la Pobla del Duc.
+la Pobla Llarga.
+la Pobla Tornesa.
+la Romana.
+la Salzadella.
+Sierra Engarcerán.
+la Serratella.
+Todolella.
+la Torre d'en Besora.
+la Torre d'en Doménec.
+la Torre de les Maçanes.
+Vall d'Alba.
+la Vall d'Alcalà.
+Vall de Almonacid.
+la Vall d'Ebo.
+la Vall d'Uixó.
+Vall de Gallinera.
+la Vall de Laguar.
+la Vila Joiosa.
+la Vilavella.
+Alcublas.
+les Alqueries.
+les Coves de Vinromà.
+Fuentes de Ayódar.
+les Useres.
+Llanera de Ranes.
+Llaurí.
+Llíber.
+Llíria.
+Llocnou d'en Fenollet.
+Llocnou de la Corona.
+Llocnou de Sant Jeroni.
+Llombai.
+Llucena.
+Ludiente.
+Llutxent.
+Loriguilla.
+Los Montesinos.
+Macastre.
+Manises.
+Manuel.
+Marines.
+Massalavés.
+Massalfassar.
+Massamagrell.
+Massanassa.
+Matet.
+Meliana.
+Millares.
+Millena.
+Miramar.
+Mislata.
+Moixent.
+Moncofa.
+Monòver.
+Montanejos.
+Montán.
+Montaverner.
+Moncada.
+Montesa.
+Monforte del Cid.
+Montitxelvo.
+Montroi.
+Montserrat.
+Morella.
+Murla.
+Muro de Alcoy.
+Museros.
+Mutxamel.
+Nàquera.
+Navajas.
+Navarrés.
+Novelda.
+Novetlè.
+Nules.
+Oliva.
+Olocau.
+Olocau del Rey.
+Onda.
+Ondara.
+Onil.
+Ontinyent.
+Orba.
+Orihuela.
+Orpesa.
+Orxeta.
+Otos.
+Paiporta.
+Palanques.
+Palma de Gandía.
+Palmera.
+Parcent.
+Paterna.
+Pavías.
+Pedralba.
+Pedreguer.
+Pego.
+Penàguila.
+Peníscola.
+Petrer.
+Petrés.
+Picanya.
+Picassent.
+Piles.
+Pina de Montalgrao.
+Pinet.
+Ayuntamiento de Planes.
+Polinyà de Xúquer.
+Polop.
+Portell de Morella.
+Potries.
+Puçol.
+Quart de les Valls.
+Quart de Poblet.
+Quartell.
+Quatretonda.
+Quatretondeta.
+Quesa.
+Rafal.
+Rafelbunyol.
+Rafelcofer.
+Rafelguaraf.
+Real.
+Redován.
+Relleu.
+Requena.
+Riba-roja de Túria.
+Ribesalbes.
+Riola.
+Rocafort.
+Rojales.
+Rossell.
+Rotglà i Corberà.
+Rótova.
+Rugat.
+Sacañet.
+Sagra.
+Sagunt.
+Sax.
+Salem.
+Salinas.
+Sanet y Negrals.
+San Antonio de Benagéber.
+San Fulgencio.
+San Isidro.
+Sant Joan d'Alacant.
+Sant Joan de Moró.
+Sant Joanet.
+Sant Jordi.
+Sant Mateu.
+San Miguel de Salinas.
+San Rafael del Río.
+Sant Vicent del Raspeig.
+Santa Magdalena de Pulpis.
+Santa Pola.
+Sedaví.
+Segart.
+Sella.
+Sellent.
+Sempere.
+Senija.
+Senyera.
+Serra.
+Siete Aguas.
+Silla.
+Simat de la Valldigna.
+Sinarcas.
+Segorbe.
+Sollana.
+Soneja.
+Zorita del Maestrazgo.
+Sot de Ferrer.
+Sot de Chera.
+Zucaina.
+Sueca.
+Suera.
+Sumacàrcer.
+Ayuntamiento de Tales.
+Tàrbena.
+Tavernes Blanques.
+Tavernes de la Valldigna.
+Teresa.
+Teresa de Cofrentes.
+Terrateig.
+Teulada.
+Tibi.
+Tírig.
+Titaguas.
+Toga.
+Tuéjar.
+Tollos.
+Torás.
+Turís.
+Tormos.
+Torralba del Pinar.
+Torrechiva.
+Torrebaja.
+Torreblanca.
+Torrella.
+Torrent.
+Torres Torres.
+Torrevieja.
+Tous.
+Traiguera.
+Utiel.
+València.
+Vallada.
+Vallanca.
+Vallat.
+Vallés.
+Vallibona.
+Venta del Moro.
+Vila-real.
+Vilafamés.
+Villahermosa del Río.
+Vilafranca.
+Vilallonga.
+Villamalur.
+Vilamarxant.
+Vilanova d'Alcolea.
+Villanueva de Castellón.
+Villanueva de Viver.
+Vilar de Canes.
+Villargordo del Cabriel.
+Villena.
+Villores.
+Vinalesa.
+Vinaròs.
+Vistabella del Maestrat.
+Viver.
+Xàbia.
+Jacarilla.
+Jalance.
+Xaló.
+Jarafuel.
+Xàtiva.
+Chella.
+Chelva.
+Chera.
+Xeraco.
+Xeresa.
+Jérica.
+Xert.
+Cheste.
+Gestalgar.
+Xilxes.
+Xirivella.
+Chiva.
+Xixona.
+Xodos.
+Chóvar.
+Chulilla.
+Zarra.
+.
+**** Municipios: nombre oficial en castellano ****.
+.
+Ademuz.
+Ador.
+Agost.
+Agres.
+Agullent.
+Aielo de Malferit.
+Aielo de Rugat.
+Aigües.
+Aín.
+Ayódar.
+Ayora.
+Alicante.
+Alaquàs.
+Albaida.
+Albal.
+Albalat de la Ribera.
+Albalat dels Sorells.
+Albalat dels Tarongers.
+Albatera.
+Alberic.
+Albocàsser.
+Alboraya.
+Alborache.
+Albuixech.
+Alcalà de Xivert.
+Alcalalí.
+Alcàntera de Xúquer.
+Alcàsser.
+Alcoy.
+Alcoleja.
+Alcocer de Planes.
+Aldaia.
+Alfafar.
+Alfafara.
+Alfara de la Baronia.
+Alfara del Patriarca.
+Alfarp.
+Alfarrasí.
+Alfauir.
+Alfondeguilla.
+Algar de Palancia.
+Algemesí.
+Algímia d'Alfara.
+Algimia de Almonacid.
+Alginet.
+Algorfa.
+Almàssera.
+Almassora.
+Almedíjar.
+Almenara.
+Almiserà.
+Almoines.
+Almoradí.
+Almudaina.
+Almussafes.
+Alpuente.
+Altea.
+Altura.
+Alzira.
+Andilla.
+Anna.
+Antella.
+Arañuel.
+Aras de los Olmos.
+Ares del Maestrat.
+Argelita.
+Artana.
+Aspe.
+Azuébar.
+Atzeneta d'Albaida.
+Atzeneta del Maestrat.
+Balones.
+Banyeres de Mariola.
+Barracas.
+Barx.
+Barxeta.
+Bejís.
+Bèlgida.
+Bellreguard.
+Bellús.
+Benafer.
+Benafigos.
+Benaguasil.
+Benagéber.
+Benasau.
+Benassal.
+Benavites.
+Beneixama.
+Beneixida.
+Benejúzar.
+Benetússer.
+Benferri.
+Beniarbeig.
+Beniardá.
+Beniarjó.
+Beniarrés.
+Beniatjar.
+Benicarló.
+Benicasim.
+Benicolet.
+Benicull de Xúquer.
+Benidoleig.
+Benidorm.
+Benifaió.
+Benifairó de la Valldigna.
+Benifairó de les Valls.
+Benifallim.
+Benifato.
+Beniflá.
+Benigànim.
+Benigembla.
+Benijófar.
+Benilloba.
+Benillup.
+Benimantell.
+Benimarfull.
+Benimassot.
+Benimeli.
+Benimodo.
+Benimuslem.
+Beniparrell.
+Benirredrà.
+Benissa.
+Benissanó.
+Benissoda.
+Benissuera.
+Benlloc.
+Bétera.
+Betxí.
+Biar.
+Bicorp.
+Bigastro.
+Bocairent.
+Bolbaite.
+Bolulla.
+Bonrepòs i Mirambell.
+Burriana.
+Borriol.
+Bufali.
+Bugarra.
+Buñol.
+Burjassot.
+Busot.
+Cabanes.
+Càlig.
+Ayuntamiento de Calles.
+Callosa d'en Sarrià.
+Callosa de Segura.
+Calp.
+Camporrobles.
+Canals.
+Canet d'en Berenguer.
+Canet lo Roig.
+Carcaixent.
+Càrcer.
+Carlet.
+Carrícola.
+Casas Altas.
+Casas Bajas.
+Casinos.
+Castalla.
+Castell de Cabres.
+Castell de Castells.
+Castellfort.
+Castellnovo.
+Castelló de la Plana.
+Castelló de Rugat.
+Castellonet de la Conquesta.
+Castielfabib.
+Catadau.
+Catarroja.
+Catí.
+Catral.
+Caudete de las Fuentes.
+Caudiel.
+Cerdà.
+Cervera del Maestre.
+Cinctorres.
+Cirat.
+Cocentaina.
+Cofrentes.
+Cox.
+Confrides.
+Corbera.
+Cortes de Arenoso.
+Cortes de Pallás.
+Costur.
+Cotes.
+Crevillent.
+Culla.
+Cullera.
+Daya Nueva.
+Daya Vieja.
+Daimús.
+Dénia.
+Dolores.
+Domeño.
+Dos Aguas.
+Campo de Mirra.
+el Campello.
+el Castell de Guadalest.
+Castillo de Villamalefa.
+Hondón de las Nieves.
+Hondón de los Frailes.
+Forcall.
+el Genovés.
+el Palomar.
+Pilar de la Horadada.
+Pinoso.
+Benitachell.
+el Puig de Santa Maria.
+el Ràfol d'Almúnia.
+Ráfol de Salem.
+el Real de Gandia.
+El Toro.
+el Verger.
+Villar del Arzobispo.
+Elda.
+els Poblets.
+Elche.
+Emperador.
+Enguera.
+Eslida.
+Espadilla.
+Estivella.
+Estubeny.
+Facheca.
+Famorca.
+Fanzara.
+Faura.
+Favara.
+Higueras.
+Figueroles.
+Higueruelas.
+Finestrat.
+Foios.
+Fontanars dels Alforins.
+Formentera del Segura.
+Fortaleny.
+Fuenterrobles.
+Gaianes.
+Gaibiel.
+Gandia.
+Gata de Gorgos.
+Gátova.
+Gavarda.
+Geldo.
+Gilet.
+Godella.
+Godelleta.
+Gorga.
+Guadasséquies.
+Guadassuar.
+Guardamar de la Safor.
+Guardamar del Segura.
+Herbés.
+Yátova.
+Ibi.
+l'Alcora.
+l'Alcúdia.
+l'Alcúdia de Crespins.
+Alcudia de Veo.
+l'Alfàs del Pi.
+Algueña.
+l'Alqueria d'Asnar.
+l'Alqueria de la Comtessa.
+l'Atzúbia.
+l'Eliana.
+l'Ènova.
+l'Olleria.
+Lorcha.
+Cañada.
+la Font d'en Carròs.
+la Font de la Figuera.
+Fuente la Reina.
+la Granja de la Costera.
+Granja de Rocamora.
+La Yesa.
+la Jana.
+la Llosa.
+la Llosa de Ranes.
+Losa del Obispo.
+la Mata.
+la Nucia.
+Puebla de Arenoso.
+la Pobla de Benifassà.
+la Pobla de Farnals.
+Puebla de San Miguel.
+la Pobla de Vallbona.
+la Pobla del Duc.
+la Pobla Llarga.
+la Pobla Tornesa.
+la Romana.
+la Salzadella.
+Sierra Engarcerán.
+la Serratella.
+Todolella.
+la Torre d'en Besora.
+la Torre d'en Doménec.
+Torremanzanas.
+Vall d'Alba.
+la Vall d'Alcalà.
+Vall de Almonacid.
+la Vall d'Ebo.
+la Vall d'Uixó.
+Vall de Gallinera.
+la Vall de Laguar.
+Villajoyosa.
+la Vilavella.
+Alcublas.
+Alquerías del Niño Perdido.
+les Coves de Vinromà.
+Fuentes de Ayódar.
+Useras.
+Llanera de Ranes.
+Llaurí.
+Llíber.
+Llíria.
+Llocnou d'en Fenollet.
+Llocnou de la Corona.
+Llocnou de Sant Jeroni.
+Llombai.
+Lucena del Cid.
+Ludiente.
+Llutxent.
+Loriguilla.
+Los Montesinos.
+Macastre.
+Manises.
+Manuel.
+Marines.
+Massalavés.
+Massalfassar.
+Massamagrell.
+Massanassa.
+Matet.
+Meliana.
+Millares.
+Millena.
+Miramar.
+Mislata.
+Mogente.
+Moncofa.
+Monóvar.
+Montanejos.
+Montán.
+Montaverner.
+Moncada.
+Montesa.
+Monforte del Cid.
+Montichelvo.
+Montroy.
+Montserrat.
+Morella.
+Murla.
+Muro de Alcoy.
+Museros.
+Mutxamel.
+Náquera.
+Navajas.
+Navarrés.
+Novelda.
+Novelé.
+Nules.
+Oliva.
+Olocau.
+Olocau del Rey.
+Onda.
+Ondara.
+Onil.
+Ontinyent.
+Orba.
+Orihuela.
+Oropesa del Mar.
+Orxeta.
+Otos.
+Paiporta.
+Palanques.
+Palma de Gandía.
+Palmera.
+Parcent.
+Paterna.
+Pavías.
+Pedralba.
+Pedreguer.
+Pego.
+Penàguila.
+Peñíscola.
+Petrer.
+Petrés.
+Picanya.
+Picassent.
+Piles.
+Pina de Montalgrao.
+Pinet.
+Ayuntamiento de Planes.
+Polinyà de Xúquer.
+Polop.
+Portell de Morella.
+Potries.
+Puçol.
+Quart de les Valls.
+Quart de Poblet.
+Quartell.
+Quatretonda.
+Quatretondeta.
+Quesa.
+Rafal.
+Rafelbunyol.
+Rafelcofer.
+Rafelguaraf.
+Real.
+Redován.
+Relleu.
+Requena.
+Riba-roja de Túria.
+Ribesalbes.
+Riola.
+Rocafort.
+Rojales.
+Rossell.
+Rotglà i Corberà.
+Rótova.
+Rugat.
+Sacañet.
+Sagra.
+Sagunto.
+Sax.
+Salem.
+Salinas.
+Sanet y Negrals.
+San Antonio de Benagéber.
+San Fulgencio.
+San Isidro.
+Sant Joan d'Alacant.
+Sant Joan de Moró.
+Sant Joanet.
+San Jorge.
+Sant Mateu.
+San Miguel de Salinas.
+San Rafael del Río.
+San Vicente del Raspeig.
+Santa Magdalena de Pulpis.
+Santa Pola.
+Sedaví.
+Segart.
+Sella.
+Sellent.
+Sempere.
+Senija.
+Senyera.
+Serra.
+Siete Aguas.
+Silla.
+Simat de la Valldigna.
+Sinarcas.
+Segorbe.
+Sollana.
+Soneja.
+Zorita del Maestrazgo.
+Sot de Ferrer.
+Sot de Chera.
+Zucaina.
+Sueca.
+Sueras.
+Sumacàrcer.
+Ayuntamiento de Tales.
+Tàrbena.
+Tavernes Blanques.
+Tavernes de la Valldigna.
+Teresa.
+Teresa de Cofrentes.
+Terrateig.
+Teulada.
+Tibi.
+Tírig.
+Titaguas.
+Toga.
+Tuéjar.
+Tollos.
+Torás.
+Turís.
+Tormos.
+Torralba del Pinar.
+Torrechiva.
+Torrebaja.
+Torreblanca.
+Torrella.
+Torrent.
+Torres Torres.
+Torrevieja.
+Tous.
+Traiguera.
+Utiel.
+València.
+Vallada.
+Vallanca.
+Vallat.
+Vallés.
+Vallibona.
+Venta del Moro.
+Vila-real.
+Vilafamés.
+Villahermosa del Río.
+Villafranca del Cid.
+Villalonga.
+Villamalur.
+Vilamarxant.
+Vilanova d'Alcolea.
+Villanueva de Castellón.
+Villanueva de Viver.
+Vilar de Canes.
+Villargordo del Cabriel.
+Villena.
+Villores.
+Vinalesa.
+Vinaròs.
+Vistabella del Maestrat.
+Viver.
+Jávea.
+Jacarilla.
+Jalance.
+Xaló.
+Jarafuel.
+Xàtiva.
+Chella.
+Chelva.
+Chera.
+Xeraco.
+Xeresa.
+Jérica.
+Xert.
+Cheste.
+Gestalgar.
+Chilches.
+Xirivella.
+Chiva.
+Jijona.
+Chodos.
+Chóvar.
+Chulilla.
+Zarra.

@@ -1,3 +1,38 @@
+**** Mesa ****
+
+Juan Mesa és el president.
+Mesa García és la presidenta.
+El president de la mesa.
+Mesa de contractació.
+Taula de treball.
+Taula quirúrgica.
+En la Taula Sectorial.
+En la Taula de Negociació.
+En la taula negociadora.
+Taula negociadora.
+En la Mesa del Parlament.
+Mesa del Congrés.
+Els diputats es van dirigir a la Mesa.
+Taules Redones.
+Cicle de Taules Redones. 
+
+
+
+**** Treball ****
+
+Ha presentat un treball impecable.
+Ha fet molta faena.
+Ha fet una bona faena.
+Ha fet una molt bona faena.
+
+**** Fallada ****
+
+Va ser una fallada del sistema.
+La sentència i la part dispositiva.
+La sentència l'encapçalament i la part dispositiva de la qual són del tenor següent.
+Es va publicar la decisió del jurat.
+La sentència la part dispositiva de la qual és del tenor següent.
+
 **** Voldria ****
 
 Voldria parlar amb vosaltres.
@@ -10,6 +45,10 @@ Sr. Comissari, voldria plantejar una altra qüestió.
 
 Hauríem pogut anar. 
 Va dir que haguérem pogut anar.
+
+Per tant, voldria dir-ho clar.
+No obstant això, voldria dir-ho clar.
+No obstant això, voldria dir-ho clar.
 
 *** Estrényer ****
 
@@ -25,7 +64,28 @@ Ha sigut una acció reflexa.
 Aquesta acció és reflexa.
 Aquestes accions són reflexes.
 
-**** Donar suport ****
+
+**** un / una ****
+
+Alguna cosa que unisca sinó que també separe.
+El qual unisca a tot el col·lectiu. 
+Que unisca diversos grups. 
+Que unisca diversos grups. 
+Una solidaritat que unisca.
+
+No hi ha més que una.
+Alguna cosa que una empresa no pot fer.
+Dóna un cert desavantatge a l'enemic.
+
+L'una i l'altra no volen. 
+Ni l'una ni l'altra volen. 
+Ni una ni l'altra volen. 
+Ni l'una ni l'altra. 
+
+Una i una altra persona.
+Ni una ni una altra persona.
+
+**** Secundar ****
 
 Em recolze en la barana. 
 Es recolza sempre sobre dades sòlides
@@ -33,15 +93,84 @@ Es va recolzar sobre la paret.
 No pot recolzar-se simplement en mesures especials.
 No es recolza en cap base legal.
 
-Jo done suport al partit blanc.
+Jo faig costat al partit blanc.
 Ell no donava suport a la moció.
-Va donar suport sempre la revolució.
-Va donar suport sempre a la revolució.
-Dóna suport també la idea.
+Va secundar sempre la revolució.
+Va fer costat sempre a la revolució.
+Secunda també la idea.
 Jo li done suport sempre. 
+Jo els done suport sempre. 
+Jo les secunde sempre. 
 
-La donava suport plenament.
+La secundava plenament.
 Van donar suport a plans de modernització.
+
+Donar-li suport com a partit democràtic. 
+
+Recolzant-se, en particular, en les tradicions.
+Es recolzen, sobretot, en més reformes.
+Estem tots donant-li suport.
+Estem tots secundant-ho.
+Li he donat suport sempre.
+L'he secundada sempre.
+Donar-los suport en les seues opcions.
+Secundar-los en les seues opcions.
+Li done suport expressament en els seus esforços.
+
+La Comissió secunda, en principi, l'esmena 16.
+Caldria secundar, en particular, la proposta.
+Que vosté secundara, en la seua qualitat, el pagament.
+Cal secundar-ho hui majoritàriament en el Parlament.
+
+El marc jurídic en el qual es recolza.
+El marc jurídic en el qual recolzar-se
+
+Donar-se suport mútuament.
+Donant-se suport els uns als altres.
+Que es donen suport les unes a les altres.
+
+Em vaig recolzar ací.
+Es recolzava en la taula.
+Et recolzes.
+
+Ells et donen suport. 
+Ells em donaven suport. 
+Us donem suport.
+
+Es dóna suport a projectes varis.
+Es donen suport a projectes varis.
+Han de secundar-se també projectes com Galileu.
+S'han de secundar també projectes com Galileu.
+
+Donant-nos suport en l'euro.
+Secundar-los en general.
+Donar-los suport en general.
+
+Espere que puga donar-nos suport en les nostres ambicions.
+
+Ens hem recolzat en això.
+Hem de recolzar-nos en el que puguem.
+Que estiga disposat a donar-nos suport en la restitució.
+Necessitem recolzar-nos en la nostra innovació.
+
+*** secundar: per revisar ****
+
+Podran secundar-se en persones assalariades.
+En situacions similars secundant-se en el concepte de paisatge urbà.
+Secundant-se sobre un llibre.
+El model tracta de secundar-se en els principis bàsics.
+Que els grups polítics vulguen donar-nos suport en aquesta petició.
+M'han recolzat en l'elaboració.
+M'han recolzat en la petició.
+Ens han recolzat en els nostres esforços.
+Té que donara suport a una esmena.
+És el que farem donant-nos suport en una dotació *presupostaria. 
+Secundant-se en la por.
+Donant-me suport en els informes. 
+Ens proposem recolzar a Sèrbia.
+Ha de secundar-se en la possibilitat d'accions diferenciades.
+Pot secundar-se en alguna mena de pensament.
+
 
 **** Relatiu ****
 
@@ -91,7 +220,29 @@ L'estat en què es troba.
 
 Va fer la falsa impressió que el meu grup no donava suport a la proposta.
 
+Tenia molt a dir.
+Si té alguna cosa més a afegir.
+Tenia més a dir.
+Tenia molt més a dir.
+No tenia molt més a dir.
+El que hem de veure és això.
 Té a veure amb el fet que en la nostra saviesa.
+Tenia a veure, en molts casos, amb el passat. 
+Té poc a veure amb els diners. 
+Té molt a veure amb els diners. 
+Té alguna cosa a veure amb els diners. 
+No té res a veure amb els diners. 
+No hi ha res a fer.
+No tenia res a fer.
+Pot tindre més a veure amb un casino.
+Pot tindre menys a veure amb un casino.
+Pot tindre més a veure.
+Pot tindre menys a veure.
+Allí hi havia alguna cosa a fer.
+No té més que llegir la premsa. 
+No té un altre que llegir la premsa. 
+No ha sinó de llegir la premsa.
+
 Concorda amb el fet que després passaren altres coses.
 Estic absolutament d'acord que preguntar.
 Estic absolutament en desacord que preguntar a algú.
@@ -185,6 +336,9 @@ Ni cap influència exterior.
 Incorporar a cap Estat membre.
 
 Com ha dit molt bé algun dels meus companys.
+
+No hi ha cap raó que ho justifique.
+No té cap observació a efectuar.
 
 
 **** L'endemà ****
@@ -283,6 +437,19 @@ El tema, per dir-ho així, és complicat.
 Al meu parer hem de fer l'un i l'altre.
 Més del desitjat o el permés.
 
+*** Més ****
+Més greu del que es preveu.
+Mostrar una vegada més la nostra indignació.
+Desenvolupar més vacunes noves.
+Més important encara és això.
+De més mitjans administratius i humans.
+Un ordre mundial més segur per a tots.
+És bastant més elevada en l'actualitat.
+
+Cal passar-s'ho bé.
+Hem de passar-li-ho com més prompte millor.
+I passar-se'ls a tots els organismes oficials. [?]
+
 **** Haver-hi la possibilitat ****
 
 Hi ha la possibilitat.
@@ -327,7 +494,7 @@ Fins hui de manera clara.
 Fins hui gran part d'ells.
 
 **** A mi ****
-Em dirigisc al meu molt benvolguda amiga.
+Em dirigisc a la meua molt benvolguda amiga.
 El meu jo va dir que no.
 
 **** Acordar. Recordar. *******
@@ -390,7 +557,7 @@ Del consum pressuposat pels economistes.
 
 N'hi havia en quantitat.
 Les havia vistes. 
-Les hi havia sempre vist. 
+Les havia sempre vist. 
 N'hi ha. N'hi havia. N'hi havia.
 N'hi haurà.
 No n'hi ha. No n'hi ha. No n'hi ha. No n'hi ha. N'hi havia.
@@ -405,6 +572,22 @@ Haver de cantar és dur.
 Ha d'imputar-se a l'haver del compte.
 Poc dubte pot haver-hi que en aquestes eleccions.
 No volem haver d'afrontar.
+
+Mai hi havia hagut una reunió.
+Que no hi havia hagut la cooperació necessària.
+No hi hauria hagut cap diferència.
+No consta que hi haja hagut cap problema.
+Quan hi haja hagut oposició d'un tercer.
+No hi havia res construït.
+On no hi havia res sofisticat.
+No hi haja hagut necessitat d'aplicar. 
+
+Si s'haguera ja executat.
+Miranda havia també triomfat.
+La batalla no havia encara conclòs. 
+No haja hagut d'aplicar mesures. 
+Hauria ja desaparegut.
+Havia probablement sigut col·locada.
 
 ***** Xicotet *****
 
@@ -500,7 +683,7 @@ en l'habitació del costat,
 a la meua habitació,
 a la seua habitació,
 a la teua habitació,
-Els xiquets estan a les seues habitacions.
+Els xiquets són a les seues habitacions.
 
 Vull decorar l'habitació. 
 Vull pintar l'habitació.
@@ -583,6 +766,12 @@ Fes-me una abraçada.
 
 Donar pas a la deliberació.
 
+**** Dolent ***
+
+La possible mala gestió.
+En unes poques males persones.
+Són persones dolentes.
+
 ***** Comptar ****
 
 Ens va contar un conte. 
@@ -614,6 +803,9 @@ Compta amb ell.
 
 Compte més aviat que el parlament el farà.
 Compte sempre amb ell.
+
+Compta vosté amb la nostra ajuda.
+Compte vosté amb la nostra ajuda.
 
 Uns altres:
 No comptava que vinguéreu.
@@ -682,6 +874,8 @@ Aeroport del Prat.
 Ajuntament del Prat de Llobregat. 
 Ajuntament de Prat de Llobregat. 
 Prat de Llobregat. El Prat de Llobregat.
+Ve de l'Hondón de los Frailes. 
+Va al Fondó de les Neus.
 
 
 ***** Poal *****
@@ -690,6 +884,8 @@ El cub de Rubik.
 Cubs de Rubik. 
 El cub inventat per *Rubik.
 Tres al cub.
+Cinquanta-quatre al cub. 
+45 al cub. 
 Al quadrat o al cub. 
 Un cub i un dodecaedre.
 Les arestes del cub. 
@@ -701,6 +897,8 @@ Un cub de 3 cm de costat.
 L'àrea lateral del cub.
 Quantes cares té un cub?
 
+Tirar al poal del fem. 
+Tirar al poal del fem. 
 El poal i el pal de fregar.
 Un poal d'aigua. 
 Un poal de gel.
@@ -758,7 +956,7 @@ Van superar la terrible crisi.
 
 **** Trànsit *****
 
-Tràfic d'estupefaents. Tràfic il·legal. Tràfic de mercaderies. Tràfic d'haixix.
+Tràfic d'estupefaents. Tràfic il·legal. Trànsit de mercaderies. Tràfic d'haixix.
 Feia negoci amb el tràfic de bananes. Va ser acusat de tràfic de rinoceronts.
 Tràfic d'éssers humans. Tràfic d'influències.
 Tràfic de blanques. Tràfic de xiquets. Tràfic d'éssers humans.
@@ -771,7 +969,7 @@ Encendre un ciri. El ciri està apagat.
 Ciris en l'altar. Un ciri de cera. A la llum dels ciris.
 Els ciris en consumir-se. 
 Va bufar els ciris del pastís. Els ciris de l'aniversari.
-El Museu del Prat bufa els seus 198 ciris en gran.
+El Museu del Prado bufa els seus 198 ciris en gran.
 Una embarcació de vela. La vela del vaixell. Carros de vela. 
 
 **** Asseure ****
@@ -813,6 +1011,7 @@ Van emprar tots els mitjans.
 
 **** Ocupació ****
 
+La relació de persones que integren la borsa d'ocupació de la categoria que corresponga.
 L'ocupació va créixer un 5%. Es van perdre moltes ocupacions.
 Volem ocupacions de qualitat.
 
@@ -969,10 +1168,14 @@ Farem una cosa així.
 Farem alguna cosa sobre aquesta qüestió.
 És una cosa no esperada.
 
+Una actitud una mica més afable respecte al Parlament.
+Un enfocament una mica més pragmàtic.
+Era una mica més jove del que sóc ara.
 Vindrà una mica més tard. 
 Alguna cosa així com menjar-se un elefant.
 
 Encara que siga una mica tard. 
+
 
 **** Caminar ****
 
@@ -1072,6 +1275,9 @@ Perquè, si creem un banc euromediterrani.
 ***** Que el seu *****
 
 Una situació la reversibilitat sol de la qual es donaria en el futur.
+Un país el producte interior brut del qual creix.
+A aquelles la persona investigadora principal de les quals siga dona.
+Els préstecs el tipus d'interés dels quals siga superior al 5%.
 
 **** Com. ****
 
@@ -1083,7 +1289,7 @@ Tan obligat com pesat.
 També se'l coneix com "*Princeps *officii".
 
 Un pare veu com el menjar fem.
-No solament el menjar, les begudes.
+No sols el menjar, les begudes.
 
 Ofereix com a base proves científiques.
 Com passa a Espanya.
@@ -1123,6 +1329,9 @@ Hui he volgut manifestar.
 Condicions de treball que es volen aplicar. 
 
 Senyor President, benvolguts col·legues, vostés ho saben.
+És un dels assoliments més estimats en aquesta Cambra.
+Entre els meus projectes més estimats.
+Sobretot el desig més estimat dels partidaris de la pau.
 
 ***** quant, tant *****
 
@@ -1242,6 +1451,38 @@ El que demana, el que volen per a ells és just.
 Ara bé, el que sembla haver-hi fins ara és desconfiança.
 Senyor president, el que sembla haver-hi fins ara és desconfiança.
 
+No obstant això, el que m'interessa és allò.
+Per tant, el que necessitem és una revolució en la investigació.
+
+Ha de ser activada especialment, la qual cosa només es fa als EUA.
+
+Del que és el mercat interior. 
+Això -i cosa que és més important-, no allò.
+Això -i cosa que era més important-, no allò.
+Això -i cosa que va ser més important-, no allò.
+
+Amb tot respecte per al que ha dit.
+
+[PER FER]
+Necessiten desenvolupar-se, per al que cal ajuda financera.
+Alguna cosa per al que encara no ha tingut temps.
+Que aposte més per la prevenció, per al que seria convenient un major suport.
+I és per això  que és difícil. 
+
+És compatible amb l'ús actual, per la qual cosa és possible el cultiu.
+És compatible amb l'ús actual per la qual cosa és possible el cultiu.
+Faria necessari tallar un camí públic per la qual cosa és inviable.
+La relació no és exhaustiva per la qual cosa és susceptible d'ampliar-se.
+És compatible amb l'ús actual; per la qual cosa és necessari que es tinga en compte la seua capacitat.
+
+Apostem pel que és possible. 
+Guiant-me pel que és bo per als consumidors. 
+
+És per aquesta raó  que volem aprovar la llei.
+És per aquest motiu  que volem aprovar la llei.
+És per aquest assoliment extraordinari  que és lamentable que passe això.
+
+
 **** Pense ****
 
 Pense evidentment que és el millor. 
@@ -1332,6 +1573,31 @@ Els que voten a favor no saben a quants comités i reunions de comités donen el
 
 ***** Varis *****
 
+La van fer grossa. Has de fer-la grossa.
+Al principi era així. 
+Es converteixen en un principi bàsic. 
+Es coneixien al principi tres tipus.
+Encara que no exemptes de controvèrsia.
+Disposar d'informe exprés favorable de la Direcció.
+El meu informe expressa preocupació.
+La petita i mitjana pagesia.
+La populosa petita i mitjana pagesia.
+Escriga amb lletra clara.
+Davó *Escriba Ricardo.
+Raïm de taula embossat.
+Raïm embossat
+Raïm de taula Embossat.
+Gretchen i Faust.
+La llegenda de Faust. 
+Per a crear un demos europeu.
+Va presentar una demo en la fira.
+Donem una oportunitat a la gent.
+És una embarcació de 3 m de calat.
+És una decisió de gran importància.
+És una decisió menyspreable.
+És una quantitat negligible.
+El resultat de la suma és negligible. 
+Es tenia molt en compte els valors morals i les virtuts.
 No és només el nostre entorn.
 Com millor poden aconseguir-se.
 Tota l'estona igual. 
@@ -1411,7 +1677,7 @@ En altres diverses causes.
 Ratlle's el que no escaiga, o cosa que és el mateix, tot.
 
 En aqueix cas, pel que fa a mi.
-Així hem de x és la variable principal.
+Així tenim que x és la variable principal.
 Totalment o parcialment.
 En les emissions de ràdio i Internet.
 Concreció de bogues.
@@ -1431,7 +1697,7 @@ Que són objecte de la convocatòria.
 Ella trau un dels quadres.
 Ella carrega al xiquet Jesús.
 I comprén que ell estima de debò a Juan.
-En ella compta de forma autobiogràfica.
+En ella conta de manera autobiogràfica la història de l'equip.
 El camí per a ell passa, entre altres aspectes, pel desenvolupament social.
 
 La model Jean *Shrimpton va ser una altra icona.
@@ -1446,7 +1712,7 @@ Segons apartat E de l'annex I.
 Els articles 48 e i f.
 Els articles 48 d i e.
 Incís e de l'article 28.
-John *E. Brown.
+John E. Brown.
 Subapartat e de la llei.
 Secció e de l'article.
 Subsecció e de la part.
@@ -1554,6 +1820,8 @@ La forqueta està neta i lluenta.
 El Llibre blanc de les institucions europees.
 Es considera portar-ho en la convocatòria.
 És segur i eficaç.
+De productes alternatius més segurs.
+Uns requisits de seguretat bastant més estrictes.
 Perquè la UE i Europa puguen tindre. 
 Que vaja a tindre lloc immediatament.
 És adequada i necessària.
@@ -1735,6 +2003,11 @@ Res més es tindran en compte els cursos superiors.
 Res més podran concórrer les candidatures de llista tancada.
 Res més iniciar-se aquest tram, es produeix l'encreuament.
 
+No hi ha res perdut.
+
+*** Sota ***
+Al preu més baix possible.
+El creixement mitjà és baix, però la mitjana és alta.
 
 **** Cap *****
 
@@ -1759,7 +2032,7 @@ Crec que és així.
 És la seua manera de ser. 
 És la manera d'aconseguir-ho.
 
-De forma contínua.
+De manera contínua.
 De forma rectangular.
 
 **** Deure de / deure ****
@@ -1829,7 +2102,7 @@ Se li atribueix. Se'ls atribueix.
 Indecidible: Li ho atribueix (a un altre o a si mateix). Li l'atribueix. Li'ls atribueix. Li les atribueix.
 Se'l considera. Se'l considera. Se la considera. Se'ls considera. Se'ls considera. Se les considera.
 Se li va menjar. S'ho va menjar. Se la va menjar. Se'ls va menjar. Se'ls va menjar. Se les va menjar. Se la van menjar. Li la vaig menjar.
-Menjar-li-la. [?]
+Menjar-se-la. [?]
 Se'l va nomenar. Se'l va nomenar. Se la va nomenar. Se'ls va nomenar. Se'ls va nomenar. Se les va nomenar.
 Se'l va obligar a fer-ho.
 Se li veia poc. Però: se li va veure la intenció. [?]
@@ -1968,6 +2241,9 @@ La coma, el punt i coma, el punt.
 Per als menjars, furtaven conills.
 Serà el menjar del dia.
 
+Cal pensar-s'ho molt bé. 
+El Congrés han de pensar-s'ho dues vegades.
+
 
 *****  ser/anar *****
 
@@ -2100,15 +2376,27 @@ Comité Consultiu Gallec.
 De l'Imperi Romà.
 De la República Popular de la Xina. 
 De la República Popular de la Xina.
-Plans d'acció Unió Europea-la Xina.
+Plans d'acció Unió Europea-Xina.
+Plans d'acció EU-EUA
 Sr. Alt Representant.
 Ell és Director Executiu.
 Ell és Director Financer. 
 Del senyor Primer Ministre.
-Utilitzen I+Sr. *Mantienen un monopoli.
+Utilitzen I+D. Mantenen un monopoli.
+Pla Internacional contra la Pobresa.
+Programa Marc Europeu.
+Conveni Marco Polo d'intercanvis.
+En el Pla Internacional contra la Pobresa.
+Pel Programa Marc Europeu.
+En el Conveni Marco Polo d'intercanvis.
+Enginyeria forestal.
+
 
 ***** Noms propis ****
 
+Cauen els preus a Caen.
+Ajuntament d'Orihuela, Dolores Orihuela.
+Amb el gust importat per Sr. Salvador *Pujó.
 El nomenament de Pius X.
 Pius X va ser un papa. El Museu Sant Pius.
 Dels Alts Pirineus.
@@ -2117,12 +2405,12 @@ El Corte Inglés.
 Del Sr. Romano Prodi.
 Del President Romano Prodi.
 Del president Romano Prodi.
-Del Sr. Enrique *Barón Crespo.
-Del Sr. Enrique *Barón Crespo.
-Del Sr. Baró Crespo.
-Del Sr. Baró Crespo.
-Del Sr. President Baró Crespo.
-Del Sr. Ministre Baró Crespo.
+Del Sr. Enrique Barón Crespo.
+Del Sr. Enrique Barón Crespo.
+Del Sr. Barón Crespo.
+Del Sr. Barón Crespo.
+Del Sr. President Barón Crespo.
+Del Sr. Ministre Barón Crespo.
 Del president Barroso.
 Del President Barroso.
 Del Sr. Barroso.
@@ -2162,11 +2450,11 @@ Martínez de Bedoya-- *Fondos de Cohesió
 Martínez de Bedoya— *Fondos de Cohesió
 Martínez de Bedoya, Fons de Cohesió
 Johan *Van *Hecke
-Enrique *Barón, Juan Raúl *Garza, Jaime *Gama, María *Izquierdo, Carlota *Terrón. Fernando *Marques.
+Enrique *Barón, Juan Raúl *Garza, Jaime *Gama, María *Izquierdo, Carlota Terrón. Fernando *Marques.
 Carlos *Carnero, Carlos *Carnicero, Giorgio *Napolitano. María *Paredes.
 dels Khmers Rojos.
 Sr. Alejandro García.
-Sr. John *D. *Rockefeller
+Sr. John *D. Rockefeller
 
 Benvinguda
 Vull donar les gràcies a tots.
@@ -2444,7 +2732,7 @@ Tinc una granet en la cara.
 Tinc granets en el cul.
 Els set "granets d'arena".
 
-Tira un granet de sal.
+Tira una mica de sal.
 
 Escultura de granit.
 
@@ -2479,8 +2767,8 @@ Ens veurem prompte. Els donarem una sorpresa.
 Veuràs el que és bo.
 
 Ens els menjarem.
-Anaven a menjar-li'ls.
-Li'ls menjaran.
+Anaven a menjar-se'ls.
+Se'ls menjaran.
 Anaven a trencar-li-ho.
 Li ho trencaré.
 
@@ -2536,7 +2824,7 @@ A fi de concursar.
 Estic d'acord a fi d'arribar a fi de mes.
 D'acord amb el nombre d'alumnes autoritzats.
 A fi d'acostar-les als ciutadans.
-No solament a fi que el passatger conega els seus drets.
+No sols a fi que el passatger conega els seus drets.
 Pujar les penes a fi que aquest delicte desaparega.
 
 **** Verbs pronominals ****
@@ -2594,7 +2882,7 @@ Una prova o entrevista als aspirants.
 Una prova i una entrevista als aspirants.
 S'obliga els propietaris de les parcel·les a arrancar els arbres.
 Obliga als països *ACP a readmetre'ls.
-Obliguen als països més avançats a fer marxa enrere.
+Obliguen els països més avançats a fer marxa enrere.
 Que obligara als dos components de la coalició governamental a fer una declaració.
 Ajudava els seus fills a fer els deures.
 El cas ens afecta a tots.
@@ -2611,6 +2899,7 @@ No va ajudar a ningú.
 Concerneix els pares.
 Obliga'l a fer-ho.
 El va obligar a fer-ho.
+L'obligaran a fer-ho.
 Van acusar de corrupció al partit del president.
 Van acusar el partit del president.
 Van acusar sempre el partit del president.
@@ -2653,10 +2942,12 @@ Els uns o els altres. Els uns o els altres.
 Els uns i les altres.
 Els uns als altres.
 Els uns pels altres.
-D'unes amb unes altres.
+De les unes amb les altres.
 Els uns en els altres.
 Els uns i les altres.
 Els uns amb els altres.
+Tant els uns com els altres.
+Tant les unes com les altres. 
 
 ***** renyir *****
 
@@ -2689,7 +2980,7 @@ Vaig comprar un abonament per a tota la temporada.
 De la cooperació Ucraïna - Unió Europea.
 Potser eren la nostra feblesa i falta de credibilitat.
 Que anaren al Consell Europeu i li digueren ex-ante.
-Si no fora al mateix temps una cosa còmica.
+Si no fóra al mateix temps una cosa còmica.
 Quantes menys diferències tinguem en les velocitats més fluid serà el trànsit.
 Ho dic i ho repetisc, la nostra Cambra comet hui un acte d'ingerència inadmissible!
 Aquesta vesprada és per a mi una vesprada especial.
@@ -2716,7 +3007,7 @@ Els refrescos de cola.
 Els 8 millors nuclis urbans del món.
 Vi 'self-service' a Vila-real.
 Llenguado al forn. Xampinyons a la grega.
-la Vall d'Alba Nova cort d'honor infantil.
+Vall d'Alba Nova cort d'honor infantil.
 Dóna un monumental tall a un diputat.
 Se suma a la moda 'eco'. Se suma a la moda eco.
 Es fa ressò de la notícia.
@@ -2805,3 +3096,1092 @@ Els abrics estrela d'aquest hivern.
 Trenca el comptaquilòmetres.
 Malament arrencada de Sergio García.
 
+**** Municipis: nom oficial en valencià ****.
+.
+Ademuz.
+Ador.
+Agost.
+Agres.
+Agullent.
+Aielo de Malferit.
+Aielo de Rugat.
+Aigües.
+Aín.
+Ayódar.
+Ayora.
+Alacant.
+Alaquàs.
+Albaida.
+Albal.
+Albalat de la Ribera.
+Albalat dels Sorells.
+Albalat dels Tarongers.
+Albatera.
+Alberic.
+Albocàsser.
+Alboraia.
+Alborache.
+Albuixech.
+Alcalà de Xivert.
+Alcalalí.
+Alcàntera de Xúquer.
+Alcàsser.
+Alcoi.
+Alcoleja.
+Alcocer de Planes.
+Aldaia.
+Alfafar.
+Alfafara.
+Alfara de la Baronia.
+Alfara del Patriarca.
+Alfarp.
+Alfarrasí.
+Alfauir.
+Alfondeguilla.
+Algar de Palancia.
+Algemesí.
+Algímia d'Alfara.
+Algimia de Almonacid.
+Alginet.
+Algorfa.
+Almàssera.
+Almassora.
+Almedíjar.
+Almenara.
+Almiserà.
+Almoines.
+Almoradí.
+Almudaina.
+Almussafes.
+Alpuente.
+Altea.
+Altura.
+Alzira.
+Andilla.
+Anna.
+Antella.
+Arañuel.
+Aras de los Olmos.
+Ares del Maestrat.
+Argelita.
+Artana.
+Aspe.
+Azuébar.
+Atzeneta d'Albaida.
+Atzeneta del Maestrat.
+Balones.
+Banyeres de Mariola.
+Barracas.
+Barx.
+Barxeta.
+Bejís.
+Bèlgida.
+Bellreguard.
+Bellús.
+Benafer.
+Benafigos.
+Benaguasil.
+Benagéber.
+Benasau.
+Benassal.
+Benavites.
+Beneixama.
+Beneixida.
+Benejúzar.
+Benetússer.
+Benferri.
+Beniarbeig.
+Beniardá.
+Beniarjó.
+Beniarrés.
+Beniatjar.
+Benicarló.
+Benicàssim.
+Benicolet.
+Benicull de Xúquer.
+Benidoleig.
+Benidorm.
+Benifaió.
+Benifairó de la Valldigna.
+Benifairó de les Valls.
+Benifallim.
+Benifato.
+Beniflá.
+Benigànim.
+Benigembla.
+Benijófar.
+Benilloba.
+Benillup.
+Benimantell.
+Benimarfull.
+Benimassot.
+Benimeli.
+Benimodo.
+Benimuslem.
+Beniparrell.
+Benirredrà.
+Benissa.
+Benissanó.
+Benissoda.
+Benissuera.
+Benlloc.
+Bétera.
+Betxí.
+Biar.
+Bicorp.
+Bigastro.
+Bocairent.
+Bolbaite.
+Bolulla.
+Bonrepòs i Mirambell.
+Borriana.
+Borriol.
+Bufali.
+Bugarra.
+Buñol.
+Burjassot.
+Busot.
+Cabanes.
+Càlig.
+Ajuntament de Calles.
+Callosa d'en Sarrià.
+Callosa de Segura.
+Calp.
+Camporrobles.
+Canals.
+Canet d'en Berenguer.
+Canet lo Roig.
+Carcaixent.
+Càrcer.
+Carlet.
+Carrícola.
+Casas Altas.
+Casas Bajas.
+Casinos.
+Castalla.
+Castell de Cabres.
+Castell de Castells.
+Castellfort.
+Castellnovo.
+Castelló de la Plana.
+Castelló de Rugat.
+Castellonet de la Conquesta.
+Castielfabib.
+Catadau.
+Catarroja.
+Catí.
+Catral.
+Caudete de las Fuentes.
+Caudiel.
+Cerdà.
+Cervera del Maestre.
+Cinctorres.
+Cirat.
+Cocentaina.
+Cofrentes.
+Cox.
+Confrides.
+Corbera.
+Cortes de Arenoso.
+Cortes de Pallás.
+Costur.
+Cotes.
+Crevillent.
+Culla.
+Cullera.
+Daya Nueva.
+Daya Vieja.
+Daimús.
+Dénia.
+Dolores.
+Domeño.
+Dos Aguas.
+el Camp de Mirra.
+el Campello.
+el Castell de Guadalest.
+Castillo de Villamalefa.
+el Fondó de les Neus.
+Hondón de los Frailes.
+Forcall.
+el Genovés.
+el Palomar.
+Pilar de la Horadada.
+el Pinós.
+el Poble Nou de Benitatxell.
+el Puig de Santa Maria.
+el Ràfol d'Almúnia.
+Ráfol de Salem.
+el Real de Gandia.
+el Toro.
+el Verger.
+Villar del Arzobispo.
+Elda.
+els Poblets.
+Elx.
+Emperador.
+Enguera.
+Eslida.
+Espadilla.
+Estivella.
+Estubeny.
+Facheca.
+Famorca.
+Fanzara.
+Faura.
+Favara.
+Higueras.
+Figueroles.
+Higueruelas.
+Finestrat.
+Foios.
+Fontanars dels Alforins.
+Formentera del Segura.
+Fortaleny.
+Fuenterrobles.
+Gaianes.
+Gaibiel.
+Gandia.
+Gata de Gorgos.
+Gátova.
+Gavarda.
+Geldo.
+Gilet.
+Godella.
+Godelleta.
+Gorga.
+Guadasséquies.
+Guadassuar.
+Guardamar de la Safor.
+Guardamar del Segura.
+Herbés.
+Yátova.
+Ibi.
+l'Alcora.
+l'Alcúdia.
+l'Alcúdia de Crespins.
+Alcudia de Veo.
+l'Alfàs del Pi.
+Algueña.
+l'Alqueria d'Asnar.
+l'Alqueria de la Comtessa.
+l'Atzúbia.
+l'Eliana.
+l'Ènova.
+l'Olleria.
+l'Orxa.
+Cañada.
+la Font d'en Carròs.
+la Font de la Figuera.
+Fuente la Reina.
+la Granja de la Costera.
+Granja de Rocamora.
+La Yesa.
+la Jana.
+la Llosa.
+la Llosa de Ranes.
+Losa del Obispo.
+la Mata.
+la Nucia.
+Puebla de Arenoso.
+la Pobla de Benifassà.
+la Pobla de Farnals.
+Puebla de San Miguel.
+la Pobla de Vallbona.
+la Pobla del Duc.
+la Pobla Llarga.
+la Pobla Tornesa.
+la Romana.
+la Salzadella.
+Sierra Engarcerán.
+la Serratella.
+Todolella.
+la Torre d'en Besora.
+la Torre d'en Doménec.
+la Torre de les Maçanes.
+Vall d'Alba.
+la Vall d'Alcalà.
+Vall de Almonacid.
+la Vall d'Ebo.
+la Vall d'Uixó.
+Vall de Gallinera.
+la Vall de Laguar.
+la Vila Joiosa.
+la Vilavella.
+Alcublas.
+les Alqueries.
+les Coves de Vinromà.
+Fuentes de Ayódar.
+les Useres.
+Llanera de Ranes.
+Llaurí.
+Llíber.
+Llíria.
+Llocnou d'en Fenollet.
+Llocnou de la Corona.
+Llocnou de Sant Jeroni.
+Llombai.
+Llucena.
+Ludiente.
+Llutxent.
+Loriguilla.
+Los Montesinos.
+Macastre.
+Manises.
+Manuel.
+Marines.
+Massalavés.
+Massalfassar.
+Massamagrell.
+Massanassa.
+Matet.
+Meliana.
+Millares.
+Millena.
+Miramar.
+Mislata.
+Moixent.
+Moncofa.
+Monòver.
+Montanejos.
+Montán.
+Montaverner.
+Moncada.
+Montesa.
+Monforte del Cid.
+Montitxelvo.
+Montroi.
+Montserrat.
+Morella.
+Murla.
+Muro de Alcoy.
+Museros.
+Mutxamel.
+Nàquera.
+Navajas.
+Navarrés.
+Novelda.
+Novetlè.
+Nules.
+Oliva.
+Olocau.
+Olocau del Rey.
+Onda.
+Ondara.
+Onil.
+Ontinyent.
+Orba.
+Orihuela.
+Orpesa.
+Orxeta.
+Otos.
+Paiporta.
+Palanques.
+Palma de Gandía.
+Palmera.
+Parcent.
+Paterna.
+Pavías.
+Pedralba.
+Pedreguer.
+Pego.
+Penàguila.
+Peníscola.
+Petrer.
+Petrés.
+Picanya.
+Picassent.
+Piles.
+Pina de Montalgrao.
+Pinet.
+Ajuntament de Planes.
+Polinyà de Xúquer.
+Polop.
+Portell de Morella.
+Potries.
+Puçol.
+Quart de les Valls.
+Quart de Poblet.
+Quartell.
+Quatretonda.
+Quatretondeta.
+Quesa.
+Rafal.
+Rafelbunyol.
+Rafelcofer.
+Rafelguaraf.
+Real.
+Redován.
+Relleu.
+Requena.
+Riba-roja de Túria.
+Ribesalbes.
+Riola.
+Rocafort.
+Rojales.
+Rossell.
+Rotglà i Corberà.
+Rótova.
+Rugat.
+Sacañet.
+Sagra.
+Sagunt.
+Sax.
+Salem.
+Salinas.
+Sanet y Negrals.
+San Antonio de Benagéber.
+San Fulgencio.
+San Isidro.
+Sant Joan d'Alacant.
+Sant Joan de Moró.
+Sant Joanet.
+Sant Jordi.
+Sant Mateu.
+San Miguel de Salinas.
+San Rafael del Río.
+Sant Vicent del Raspeig.
+Santa Magdalena de Pulpis.
+Santa Pola.
+Sedaví.
+Segart.
+Sella.
+Sellent.
+Sempere.
+Senija.
+Senyera.
+Serra.
+Siete Aguas.
+Silla.
+Simat de la Valldigna.
+Sinarcas.
+Segorbe.
+Sollana.
+Soneja.
+Zorita del Maestrazgo.
+Sot de Ferrer.
+Sot de Chera.
+Zucaina.
+Sueca.
+Suera.
+Sumacàrcer.
+Ajuntament de Tales.
+Tàrbena.
+Tavernes Blanques.
+Tavernes de la Valldigna.
+Teresa.
+Teresa de Cofrentes.
+Terrateig.
+Teulada.
+Tibi.
+Tírig.
+Titaguas.
+Toga.
+Tuéjar.
+Tollos.
+Torás.
+Turís.
+Tormos.
+Torralba del Pinar.
+Torrechiva.
+Torrebaja.
+Torreblanca.
+Torrella.
+Torrent.
+Torres Torres.
+Torrevieja.
+Tous.
+Traiguera.
+Utiel.
+València.
+Vallada.
+Vallanca.
+Vallat.
+Vallés.
+Vallibona.
+Venta del Moro.
+Vila-real.
+Vilafamés.
+Villahermosa del Río.
+Vilafranca.
+Vilallonga.
+Villamalur.
+Vilamarxant.
+Vilanova d'Alcolea.
+Villanueva de Castellón.
+Villanueva de Viver.
+Vilar de Canes.
+Villargordo del Cabriel.
+Villena.
+Villores.
+Vinalesa.
+Vinaròs.
+Vistabella del Maestrat.
+Viver.
+Xàbia.
+Jacarilla.
+Jalance.
+Xaló.
+Jarafuel.
+Xàtiva.
+Chella.
+Chelva.
+Chera.
+Xeraco.
+Xeresa.
+Jérica.
+Xert.
+Cheste.
+Gestalgar.
+Xilxes.
+Xirivella.
+Chiva.
+Xixona.
+Xodos.
+Chóvar.
+Chulilla.
+Zarra.
+.
+**** Municipis: nom oficial en castellà ****.
+.
+Ademuz.
+Ador.
+Agost.
+Agres.
+Agullent.
+Aielo de Malferit.
+Aielo de Rugat.
+Aigües.
+Aín.
+Ayódar.
+Ayora.
+Alacant.
+Alaquàs.
+Albaida.
+Albal.
+Albalat de la Ribera.
+Albalat dels Sorells.
+Albalat dels Tarongers.
+Albatera.
+Alberic.
+Albocàsser.
+Alboraia.
+Alborache.
+Albuixech.
+Alcalà de Xivert.
+Alcalalí.
+Alcàntera de Xúquer.
+Alcàsser.
+Alcoi.
+Alcoleja.
+Alcocer de Planes.
+Aldaia.
+Alfafar.
+Alfafara.
+Alfara de la Baronia.
+Alfara del Patriarca.
+Alfarp.
+Alfarrasí.
+Alfauir.
+Alfondeguilla.
+Algar de Palancia.
+Algemesí.
+Algímia d'Alfara.
+Algimia de Almonacid.
+Alginet.
+Algorfa.
+Almàssera.
+Almassora.
+Almedíjar.
+Almenara.
+Almiserà.
+Almoines.
+Almoradí.
+Almudaina.
+Almussafes.
+Alpuente.
+Altea.
+Altura.
+Alzira.
+Andilla.
+Anna.
+Antella.
+Arañuel.
+Aras de los Olmos.
+Ares del Maestrat.
+Argelita.
+Artana.
+Aspe.
+Azuébar.
+Atzeneta d'Albaida.
+Atzeneta del Maestrat.
+Balones.
+Banyeres de Mariola.
+Barracas.
+Barx.
+Barxeta.
+Bejís.
+Bèlgida.
+Bellreguard.
+Bellús.
+Benafer.
+Benafigos.
+Benaguasil.
+Benagéber.
+Benasau.
+Benassal.
+Benavites.
+Beneixama.
+Beneixida.
+Benejúzar.
+Benetússer.
+Benferri.
+Beniarbeig.
+Beniardá.
+Beniarjó.
+Beniarrés.
+Beniatjar.
+Benicarló.
+Benicàssim.
+Benicolet.
+Benicull de Xúquer.
+Benidoleig.
+Benidorm.
+Benifaió.
+Benifairó de la Valldigna.
+Benifairó de les Valls.
+Benifallim.
+Benifato.
+Beniflá.
+Benigànim.
+Benigembla.
+Benijófar.
+Benilloba.
+Benillup.
+Benimantell.
+Benimarfull.
+Benimassot.
+Benimeli.
+Benimodo.
+Benimuslem.
+Beniparrell.
+Benirredrà.
+Benissa.
+Benissanó.
+Benissoda.
+Benissuera.
+Benlloc.
+Bétera.
+Betxí.
+Biar.
+Bicorp.
+Bigastro.
+Bocairent.
+Bolbaite.
+Bolulla.
+Bonrepòs i Mirambell.
+Borriana.
+Borriol.
+Bufali.
+Bugarra.
+Buñol.
+Burjassot.
+Busot.
+Cabanes.
+Càlig.
+Ajuntament de Calles.
+Callosa d'en Sarrià.
+Callosa de Segura.
+Calp.
+Camporrobles.
+Canals.
+Canet d'en Berenguer.
+Canet lo Roig.
+Carcaixent.
+Càrcer.
+Carlet.
+Carrícola.
+Casas Altas.
+Casas Bajas.
+Casinos.
+Castalla.
+Castell de Cabres.
+Castell de Castells.
+Castellfort.
+Castellnovo.
+Castelló de la Plana.
+Castelló de Rugat.
+Castellonet de la Conquesta.
+Castielfabib.
+Catadau.
+Catarroja.
+Catí.
+Catral.
+Caudete de las Fuentes.
+Caudiel.
+Cerdà.
+Cervera del Maestre.
+Cinctorres.
+Cirat.
+Cocentaina.
+Cofrentes.
+Cox.
+Confrides.
+Corbera.
+Cortes de Arenoso.
+Cortes de Pallás.
+Costur.
+Cotes.
+Crevillent.
+Culla.
+Cullera.
+Daya Nueva.
+Daya Vieja.
+Daimús.
+Dénia.
+Dolores.
+Domeño.
+Dos Aguas.
+el Camp de Mirra.
+el Campello.
+el Castell de Guadalest.
+Castillo de Villamalefa.
+el Fondó de les Neus.
+Hondón de los Frailes.
+Forcall.
+el Genovés.
+el Palomar.
+Pilar de la Horadada.
+el Pinós.
+el Poble Nou de Benitatxell.
+el Puig de Santa Maria.
+el Ràfol d'Almúnia.
+Ráfol de Salem.
+el Real de Gandia.
+el Toro.
+el Verger.
+Villar del Arzobispo.
+Elda.
+els Poblets.
+Elx.
+Emperador.
+Enguera.
+Eslida.
+Espadilla.
+Estivella.
+Estubeny.
+Facheca.
+Famorca.
+Fanzara.
+Faura.
+Favara.
+Higueras.
+Figueroles.
+Higueruelas.
+Finestrat.
+Foios.
+Fontanars dels Alforins.
+Formentera del Segura.
+Fortaleny.
+Fuenterrobles.
+Gaianes.
+Gaibiel.
+Gandia.
+Gata de Gorgos.
+Gátova.
+Gavarda.
+Geldo.
+Gilet.
+Godella.
+Godelleta.
+Gorga.
+Guadasséquies.
+Guadassuar.
+Guardamar de la Safor.
+Guardamar del Segura.
+Herbés.
+Yátova.
+Ibi.
+l'Alcora.
+l'Alcúdia.
+l'Alcúdia de Crespins.
+Alcudia de Veo.
+l'Alfàs del Pi.
+Algueña.
+l'Alqueria d'Asnar.
+l'Alqueria de la Comtessa.
+l'Atzúbia.
+l'Eliana.
+l'Ènova.
+l'Olleria.
+l'Orxa.
+Cañada.
+la Font d'en Carròs.
+la Font de la Figuera.
+Fuente la Reina.
+la Granja de la Costera.
+Granja de Rocamora.
+La Yesa.
+la Jana.
+la Llosa.
+la Llosa de Ranes.
+Losa del Obispo.
+la Mata.
+la Nucia.
+Puebla de Arenoso.
+la Pobla de Benifassà.
+la Pobla de Farnals.
+Puebla de San Miguel.
+la Pobla de Vallbona.
+la Pobla del Duc.
+la Pobla Llarga.
+la Pobla Tornesa.
+la Romana.
+la Salzadella.
+Sierra Engarcerán.
+la Serratella.
+Todolella.
+la Torre d'en Besora.
+la Torre d'en Doménec.
+la Torre de les Maçanes.
+Vall d'Alba.
+la Vall d'Alcalà.
+Vall de Almonacid.
+la Vall d'Ebo.
+la Vall d'Uixó.
+Vall de Gallinera.
+la Vall de Laguar.
+la Vila Joiosa.
+la Vilavella.
+Alcublas.
+les Alqueries.
+les Coves de Vinromà.
+Fuentes de Ayódar.
+les Useres.
+Llanera de Ranes.
+Llaurí.
+Llíber.
+Llíria.
+Llocnou d'en Fenollet.
+Llocnou de la Corona.
+Llocnou de Sant Jeroni.
+Llombai.
+Llucena.
+Ludiente.
+Llutxent.
+Loriguilla.
+Los Montesinos.
+Macastre.
+Manises.
+Manuel.
+Marines.
+Massalavés.
+Massalfassar.
+Massamagrell.
+Massanassa.
+Matet.
+Meliana.
+Millares.
+Millena.
+Miramar.
+Mislata.
+Moixent.
+Moncofa.
+Monòver.
+Montanejos.
+Montán.
+Montaverner.
+Moncada.
+Montesa.
+Monforte del Cid.
+Montitxelvo.
+Montroi.
+Montserrat.
+Morella.
+Murla.
+Muro de Alcoy.
+Museros.
+Mutxamel.
+Nàquera.
+Navajas.
+Navarrés.
+Novelda.
+Novetlè.
+Nules.
+Oliva.
+Olocau.
+Olocau del Rey.
+Onda.
+Ondara.
+Onil.
+Ontinyent.
+Orba.
+Orihuela.
+Orpesa.
+Orxeta.
+Otos.
+Paiporta.
+Palanques.
+Palma de Gandía.
+Palmera.
+Parcent.
+Paterna.
+Pavías.
+Pedralba.
+Pedreguer.
+Pego.
+Penàguila.
+Peníscola.
+Petrer.
+Petrés.
+Picanya.
+Picassent.
+Piles.
+Pina de Montalgrao.
+Pinet.
+Ajuntament de Planes.
+Polinyà de Xúquer.
+Polop.
+Portell de Morella.
+Potries.
+Puçol.
+Quart de les Valls.
+Quart de Poblet.
+Quartell.
+Quatretonda.
+Quatretondeta.
+Quesa.
+Rafal.
+Rafelbunyol.
+Rafelcofer.
+Rafelguaraf.
+Real.
+Redován.
+Relleu.
+Requena.
+Riba-roja de Túria.
+Ribesalbes.
+Riola.
+Rocafort.
+Rojales.
+Rossell.
+Rotglà i Corberà.
+Rótova.
+Rugat.
+Sacañet.
+Sagra.
+Sagunt.
+Sax.
+Salem.
+Salinas.
+Sanet y Negrals.
+San Antonio de Benagéber.
+San Fulgencio.
+San Isidro.
+Sant Joan d'Alacant.
+Sant Joan de Moró.
+Sant Joanet.
+Sant Jordi.
+Sant Mateu.
+San Miguel de Salinas.
+San Rafael del Río.
+Sant Vicent del Raspeig.
+Santa Magdalena de Pulpis.
+Santa Pola.
+Sedaví.
+Segart.
+Sella.
+Sellent.
+Sempere.
+Senija.
+Senyera.
+Serra.
+Siete Aguas.
+Silla.
+Simat de la Valldigna.
+Sinarcas.
+Segorbe.
+Sollana.
+Soneja.
+Zorita del Maestrazgo.
+Sot de Ferrer.
+Sot de Chera.
+Zucaina.
+Sueca.
+Suera.
+Sumacàrcer.
+Ajuntament de Tales.
+Tàrbena.
+Tavernes Blanques.
+Tavernes de la Valldigna.
+Teresa.
+Teresa de Cofrentes.
+Terrateig.
+Teulada.
+Tibi.
+Tírig.
+Titaguas.
+Toga.
+Tuéjar.
+Tollos.
+Torás.
+Turís.
+Tormos.
+Torralba del Pinar.
+Torrechiva.
+Torrebaja.
+Torreblanca.
+Torrella.
+Torrent.
+Torres Torres.
+Torrevieja.
+Tous.
+Traiguera.
+Utiel.
+València.
+Vallada.
+Vallanca.
+Vallat.
+Vallés.
+Vallibona.
+Venta del Moro.
+Vila-real.
+Vilafamés.
+Villahermosa del Río.
+Vilafranca.
+Vilallonga.
+Villamalur.
+Vilamarxant.
+Vilanova d'Alcolea.
+Villanueva de Castellón.
+Villanueva de Viver.
+Vilar de Canes.
+Villargordo del Cabriel.
+Villena.
+Villores.
+Vinalesa.
+Vinaròs.
+Vistabella del Maestrat.
+Viver.
+Xàbia.
+Jacarilla.
+Jalance.
+Xaló.
+Jarafuel.
+Xàtiva.
+Chella.
+Chelva.
+Chera.
+Xeraco.
+Xeresa.
+Jérica.
+Xert.
+Cheste.
+Gestalgar.
+Xilxes.
+Xirivella.
+Chiva.
+Xixona.
+Xodos.
+Chóvar.
+Chulilla.
+Zarra.
