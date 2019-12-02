@@ -169,16 +169,11 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 	apertium-genvrdix val_gva $< >$@
 
 .deps/$(PREFIX1).val_uni.dix: .deps/$(PREFIX1).dix
-<<<<<<< HEAD
-	python genvrdix.py val_uni $< >$@
+	apertium-genvrdix val_uni $< >$@
 	
 .deps/$(PREFIX1).bal.dix: .deps/$(PREFIX1).dix
-	python genvrdix.py bal $< >$@
+	apertium-genvrdix bal $< >$@
 	
-=======
-	apertium-genvrdix val_uni $< >$@
-
->>>>>>> cd67aeba90aee429cbbb67d3da2d63a850da3f39
 $(PREFIX1C).autobil.bin: .deps/$(PREFIX1).cat.dix
 	apertium-validate-dictionary $<
 	lt-comp --var-right=cat lr $< $@
