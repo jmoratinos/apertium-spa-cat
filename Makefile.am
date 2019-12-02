@@ -170,10 +170,10 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 
 .deps/$(PREFIX1).val_uni.dix: .deps/$(PREFIX1).dix
 	apertium-genvrdix val_uni $< >$@
-	
+
 .deps/$(PREFIX1).bal.dix: .deps/$(PREFIX1).dix
 	apertium-genvrdix bal $< >$@
-	
+
 $(PREFIX1C).autobil.bin: .deps/$(PREFIX1).cat.dix
 	apertium-validate-dictionary $<
 	lt-comp --var-right=cat lr $< $@
