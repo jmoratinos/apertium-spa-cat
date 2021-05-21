@@ -1,3 +1,9 @@
+**** Entorn / al voltant ***
+
+Miraven al voltant.
+
+A l'entorn de la ciutat.
+
 **** Mesa ****
 
 Juan Mesa és el president.
@@ -16,6 +22,93 @@ Els diputats es van dirigir a la Mesa.
 Taules Redones.
 Cicle de Taules Redones. 
 
+*** Oposat ***
+
+Van expressar sentiments oposats.
+Són opinions científiques oposades. 
+Han escoltat el Parlament i trobat postures equilibrades.
+Són interessos i opinions oposats.
+
+
+Que s'hagen trobat posicions comunes.
+Hem trobat enfocaments sòlids.
+
+*** Buit ***
+
+Ha trobat un lloc en aquest pressupost.
+En l'ull de l'escala.
+Ha deixat un gran buit.
+
+**** Aconseguir ****
+
+No va arribar a veure els resultats finals.
+
+**** Solo ****
+
+una simple afirmació que estan completament segurs només per a complaure.
+
+*** Ratllar ****
+
+Ceba ratllada.
+En text ratllat.
+
+Això raneja en l'estupidesa.
+Amb freqüència raneja en els límits de la catàstrofe.
+Només voreja la superfície.
+
+Coses que ranegen en el nazi.
+Que voregen la il·legalitat.
+La qual cosa raneja en la deflació.
+I raneja en el paternalisme.
+Aquests casos voregen el límit.
+Temors irracionals que ranegen en la xenofòbia.
+Una incertesa quasi raneja en la certitud.
+Experiències que ranegen en el càstig físic.
+*Declraciones que ranegen en l'homofòbia.
+Que sovint ranegen en l'explotació.
+On les relacions voregen constantment la competència.
+
+*WRONG:
+El xiquet ranejava en la llibreta.
+El cuiner vorejava la carlota.
+
+**** Fi ****
+
+La fi de la guerra.
+Arribarà a la seua fi.
+Arribarà a la fi.
+
+Per a altres fins.
+Per a fins espuris
+Per a aqueix fi.
+Per al fi que cerca.
+A bon fi.
+A un bon fi.
+A aqueix fi.
+Remés per als fins del procediment.
+No serviria als fins dels Estats.
+
+Els fins i els mitjans. 
+No és un fi adequat per a aquest mitjà.
+No és un mitjà adequat per a aquest fi.
+El fi justifica els mitjans.
+L'home és el fi de la societat i el mitjà que la construeix.
+
+Va lluitar amb tots els mitjans per la fi de l'apartheid.
+Va lluitar amb tots els instruments amb la finalitat de guanyar.
+
+**** Ser / Anar ****
+
+Potser eren romàniques.
+Que no foren tan nombrosos com alguns pensaven.
+
+**** dempeus ****
+
+Estava dret. 
+Estaven drets.
+Les diputades es posen dretes. 
+Ella es va posar dreta.
+Els xiquets es mantenen drets.
 
 
 **** Treball ****
@@ -32,6 +125,13 @@ La sentència i la part dispositiva.
 La sentència l'encapçalament i la part dispositiva de la qual són del tenor següent.
 Es va publicar la decisió del jurat.
 La sentència la part dispositiva de la qual és del tenor següent.
+
+**** so ***
+
+De la categoria A són dones.
+Els culpables de tot són els pensionistes.
+
+Dels sindicats en so de protesta.
 
 **** Voldria ****
 
@@ -57,7 +157,7 @@ No va prémer el gallet.
 Has de collar fort el caragol.
 Si pitges aquest botó, s'encén la llum.
 
-**** Reflecteix ****
+**** Reflexa ****
 
 Aquesta acció reflecteix la incertesa de la situació.
 Ha sigut una acció reflexa.
@@ -180,7 +280,7 @@ La porta a la qual va trucar.
 El telèfon al qual trucava.
 
 En aplicació del que preveu la llei.
-S'atendrà  el que s'estableix en el decret.
+S'atendrà el que s'estableix en el decret.
 Excepte la que li agrada.
 
 Similars al que demanen.
@@ -190,14 +290,14 @@ Per a arribar al que se'ns presenta hui.
 Un règim similar al que existeix actualment.
 És millor, per descomptat, del que ara tenim.
 Siga inferior al que gaudíem en la comissió.
-Desig que tornem al que, segons la comissió.
+Desitge que tornem al que, segons la comissió.
 Diferent del que correspon.
 De similars característiques al que ocupaven abans.
 Respon al que tradicionalment s'ha descrit.
-Per a protegir al que ho usa.
-Per a protegir més al que ho usa.
+Per a protegir el que ho usa.
+Per a protegir més el que ho usa.
 Va trobar més resistència de la que esperava.
-L'endemà del dia  que es publique. 
+L'endemà del dia que es publique. 
 L'anterior presidència belga, a la qual vull agrair.
 Està dominada pels que creuen que no.
 Es troba dominada pels que creuen que sí.
@@ -252,6 +352,8 @@ Els dos exemplars de què consta aquesta sol·licitud.
 Transport públic de què es dispose.
 La convocatòria de què es tracte.
 El comité de què disposa aquest complex.
+Els avantatges de què gaudeixen els ciutadans.
+Els avantatges de què gaudeixen els ciutadans.
 
 Tinc la impressió que es tracta d'una cosa important.
 
@@ -294,6 +396,10 @@ Confie que vosté ho entendrà.
 
 Consisteix en el fet que tots nosaltres ho entenguem.
 Convenim que és imprescindible. 
+
+No sols d'ells sinó també dels que estan a favor.
+
+D'una manera en què no pogueren exercir-se.
 
 **** bossa *****
 
@@ -339,6 +445,7 @@ Com ha dit molt bé algun dels meus companys.
 
 No hi ha cap raó que ho justifique.
 No té cap observació a efectuar.
+No hem d'adoptar cap mesura contra ells.
 
 
 **** L'endemà ****
@@ -348,7 +455,7 @@ Fins a l'endemà.
 L'endemà va arribar.
 Va arribar l'endemà.
 Respecte a l'endemà. 
-L'endemà del dia  que es publique. 
+L'endemà del dia que es publique. 
 
 **** Bé ****
 Com bé saben. 
@@ -380,7 +487,7 @@ vaig a Granada,
 viu a Granada.
 Granada és un lloc bonic.
 
-**** Cim ****
+**** Cimera ****
 
 IV Cimera Iberoamericana.
 Primera Cimera.
@@ -437,6 +544,9 @@ El tema, per dir-ho així, és complicat.
 Al meu parer hem de fer l'un i l'altre.
 Més del desitjat o el permés.
 
+El bonic de París és el riu.
+El rar de tot això és la seua actitud.
+
 *** Més ****
 Més greu del que es preveu.
 Mostrar una vegada més la nostra indignació.
@@ -449,6 +559,40 @@ Un ordre mundial més segur per a tots.
 Cal passar-s'ho bé.
 Hem de passar-li-ho com més prompte millor.
 I passar-se'ls a tots els organismes oficials. [?]
+
+És pot dir el mateix de qualsevol impost.
+
+**** Assegurança ****
+
+Per a contractar aquesta assegurança. 
+Mitjançant assegurança d'indemnització.
+Assegurança col·lectiva de vida.
+S'inclouen els treballs de transport, muntatge, catàleg, gràfica, assegurança i altres despeses.
+Un règim d'assegurança que cobrisca tots els casos.
+Subscriure una assegurança que ho cobrisca tot.
+La millor assegurança contra la volatilitat. 
+No és gens segur que hagen conclòs
+No és ben segur que els beneficis siguen alts.
+Qualificats com a segurs per al consumidor.
+Podem donar per segur que aquests s'accentuaran.
+No és encara una cosa segura.
+No és que siguen poc segurs.
+Massa confiats i massa segurs.
+
+Va tindre per segur que guanyaria.
+Tinga per segur que ens ho prenem de debò.
+Tinga vosté per segur que ens ho prenem de debò.
+Els que parlen francés segur que diran a la UE.
+Ho saben els cubans i segur que ho assumeixen.
+Que és una cosa ecològicament segura.
+De temes de control, com segur que ho farà la Sra. Morgan.
+No cal considerar com a segur a cap país.
+No es pot considerar en absolut segur.
+No es considera en cap cas segur.
+
+La creació d'un entorn laboral segur, la democratització.
+La creació d'entorns laborals segurs, la democratització.
+Un entorn en línia segur.
 
 **** Haver-hi la possibilitat ****
 
@@ -522,7 +666,7 @@ Ha d'acordar-se la caducitat.
 Els projectes s'acorden entre les parts.
 
 
-***** Passa ****
+***** Pansa ****
 
 Cada dia que passa pot significar la fi.
 
@@ -553,7 +697,7 @@ Jo pressuposte el que vull.
 Del consum pressuposat pels economistes.
 
 
-**** Haver-hi ****
+**** Haver ****
 
 N'hi havia en quantitat.
 Les havia vistes. 
@@ -807,11 +951,11 @@ Compte sempre amb ell.
 Compta vosté amb la nostra ajuda.
 Compte vosté amb la nostra ajuda.
 
-Uns altres:
+Altres:
 No comptava que vinguéreu.
 Comptava amb 300 habitants. [*]
 
-***** Casero *****
+***** Amo *****
 
 Cinc batuts naturals i casolans per a mantindre la línia.
 
@@ -935,7 +1079,9 @@ Atés que és alié. Amb el benentés que.
 Amb la condició que.
 Vosté o vostés 
 És de Vosté o vostés
-50 €/un.
+50 €/u.
+Amb vostés 20 u.
+A tots vostés els presente les 20 u. 
 
 **** Expressions temporals *****
 
@@ -1004,10 +1150,33 @@ Sent vergonya.
 
 **** Emprar ****
 
-Ocupen a molts treballadors. 
-Ocupaven a més obrers.
+Ocupen molts treballadors. 
+Ocupaven més obrers.
+No és manera d'ocupar els ciutadans europeus.
+Ocupa 400.000 treballadors.
+Ocupen el 66% de la mà d'obra.
+Ocupen quatre assalariats.
+Ocupa aproximadament 8.500 persones.
+Ocupa un milió i mig de treballadors.
+Ocupa un 70% del total d'assalariats.
+Ocupen la meitat dels assalariats.
+Ocupa més de dos milions dues-centes mil persones. 
+Ocupa més de la meitat del nostre treballadors. 
+Ocupa molts centenars de milers dels nostres ciutadans.
+Ocupa directament o indirectament dotze milions de treballadors a Europa-
 
 Van emprar tots els mitjans.
+Que ha emprat en els punts 7 i 8.
+Emprar dos llenguatges.
+Emprem quasi mil milions d'euros en la destrucció.
+I han d'emprar-se les onze.
+Empraré els meus últims tres minuts a resumir l'engany.
+En això hem d'emprar els pròxims tres anys.
+Empraràs sis anys més per a llicenciar-te.
+Podem emprar aquests dos informes per a dir-ho.
+No empren el 0,7% del seu PIB.
+
+Quan empleats de la Comissió proporcionen les respostes.
 
 **** Ocupació ****
 
@@ -1040,6 +1209,15 @@ Perdran la seua ocupació. Recuperaràs la teua ocupació. Recuperaran la seua o
 Es prohibeix el seu ús. Per al seu ús en avions militars.
 
 
+**** Emprar ***
+
+Cal emprar els que no tenen treball.
+Ocupen dones de tot el món. 
+Ocupen milions de persones de tots el món. 
+Ocupen el 50% d'habitants de la zona. 
+Ocupen el 50% dels ciutadans de la regió.
+Ocupava 3.200 persones. 
+
 ***** Cua *****
 
 Posa't en la cua. La cua del supermercat.
@@ -1067,6 +1245,27 @@ En la pàgina dos. De la posició vint-i-dos. En la fila dos.
 En la pàgina dos-cents vint-i-quatre.
 Dues-centes vint-i-quatre coses.
 Fila un.
+Durant els dos pròxims exercicis.
+
+En tan sols dos anys. 
+Pàgina 22. 
+Pàgina vint-i-dos. 
+Durant els meus 30 anys en el sector. 
+Després de només dos anys. 
+Es van desplegar 2 000 soldats de la UE.
+Amb els seus 150 estats. 
+D'almenys 150 Estats membres.
+En els dos primers.
+Protegir els seus 225 quilòmetres de costa. 
+En les 34 dades.
+
+Detenció cautelar per a altres tants agents. 
+
+Entre les dues Europes.
+D'almenys #dos Europes.
+Entre les dues. Entre els dos.
+Amb els dos. Amb les dues.
+
 
 **** Gènere ****
 
@@ -1126,14 +1325,15 @@ Fins a l'any que ve.
 Fins al pròxim segle
 Fins ahir.
 Fins quan vulgues.
-Fins el qual vulgues.
-Fins els quals vulgues.
+Fins al qual vulgues.
+Fins als quals vulgues.
 Fins on vulgues.
 Fins jo ho sé.
 Fins es pensa que és el millor. 
 Fins pensa que és el millor. 
 Fins s'ho creu.
 Fins a on vols arribar?
+Els límits fins als quals arriba.
 
 **** Número ****
 
@@ -1154,15 +1354,21 @@ Una cosa una mica diferent.
 Uns dies una mica diferents.
 Un dia una mica diferent.
 
-Hi ha una mica del que ens haurem d'ocupar.
---una mica del que em congratule--
-, una mica del que tal vegada.
-No és una mica del que hagen d'ocupar-se.
-No és una mica del que hagen d'ocupar-se.
-No és una mica del que s'hagen d'ocupar.
-No és una mica del que s'hagen d'ocupar.
+Té alguna cosa de bo.
+Tinc una mica de fam.
+És una cosa que no puc entendre.
+Que hi ha alguna cosa de veritat en la seua exposició.
 
-Entendre una mica del que allí ocorre.
+Hi ha una cosa de la qual ens haurem d'ocupar.
+--una cosa de la qual em congratule--
+, una cosa de la qual tal vegada.
+No és una cosa de la qual hagen d'ocupar-se.
+No és una cosa de la qual hagen d'ocupar-se.
+No és una cosa de la qual s'hagen d'ocupar.
+No és una cosa de la qual s'hagen d'ocupar.
+Voldria referir-me a una cosa de la qual, en general, podem estar satisfets.
+
+Entendre alguna cosa del que allí ocorre.
 
 Farem una cosa així.
 Farem alguna cosa sobre aquesta qüestió.
@@ -1175,7 +1381,45 @@ Vindrà una mica més tard.
 Alguna cosa així com menjar-se un elefant.
 
 Encara que siga una mica tard. 
+S'allunyen una mica de les que tenim.
 
+**** Vaja ***
+
+Quan vaja a la platja.
+Quan vaja, no s'oblide la tovallola.
+
+Quin home!
+Quina dona!
+Quines consideracions!
+Quins monstres!
+Quina diferència!
+
+Vaja, així que eres tu.
+Vaja, vaja.
+
+Vaja, amb aquestes m'ixes ara!
+Vaja, amb aquestes m'ixes!
+Amb aquestes m'ixes, vaja!
+
+Que es vaja contra ells.
+Que vaja contra ells.
+Que vaja bé amb això.
+Espere que us vaja bé.
+Que vaja bé!
+Que aquest informe vaja contra un pretés interés.
+
+
+**** Compte ****
+
+Però, compte amb les falses expectatives.
+Però compte amb les falses expectatives.
+Vés amb compte amb ell.
+Tingues molt compte amb ell.
+Tingues molt més compte amb aquest.
+Vés amb compte amb ell. 
+Va amb compte.
+Si no et vas amb compte.
+Camina't amb cura.
 
 **** Caminar ****
 
@@ -1195,13 +1439,17 @@ Per a una mateixa.
 
 Potser ve hui. 
 Probablement és la millor solució.
-Potser hi ha una mica d'això.
+Potser hi ha alguna cosa d'això.
 Potser haja sigut millor.
-Potser hi havia una mica d'això.
+Potser hi havia alguna cosa d'això.
 Potser hauria sigut millor.
 Perquè hauria sigut millor.
 Potser és millor.
-No és perquè hi ha quòrum.
+No és perquè hi haja quòrum.
+Perquè, siguem seriosos, això no pot ser.
+Tal vegada era el millor.
+Tal vegada és el millor.
+Tal vegada estic jo equivocat.
 
 **** Fam ***
 
@@ -1254,6 +1502,42 @@ Per què no pensem una dinàmica que ho impedira?
 
 Tot això fa que no creguem més en les meres condemnes verbals.
 
+**** Per què ****
+
+Per quina raó es va fer així?
+Per quins motius és convenient fer-ho?
+Per quines raons es va fer així?
+Per quin motiu és convenient fer-ho?
+Per quina causa és convenient fer-ho?
+Per quines causes és convenient fer-ho?
+Quan es produeix aquesta malaltia i per quines causes.
+Per a quines finalitats és convenient fer-ho?
+Per quines persones ha de ser impulsat?
+
+Per què dimonis es va fer així?
+Per a què dimonis es va fer així?
+Per què collons es va fer així?
+Per què es va fer així?
+Per què un curs d'enginyeria en la UPV?
+Volem saber el perquè.
+No va vindre perquè no va voler.
+Pot dir-me per què aquest Parlament no compleix.
+Costa comprendre per què francesos i europeus ho autoritzen.
+Per què el 76% dels ciutadans ho creu.
+Per què cap institució ho accepta?
+I per què Europa està tan disposada?
+Per què resulta important aquest percentatge?
+Per què trac en aquesta cambra l'assumpte?
+He dit per què done suport a la Constitució?
+
+*** Dur ***
+Hem de treballar intensament per a assegurar els resultats.
+Amb el dur i determinant treball de la comissió.
+Va haver de colpejar fort.
+
+És un treball dur. 
+És un treball molt dur.
+
 **** Creem (present / passat) ****
 
 
@@ -1274,7 +1558,7 @@ Perquè, si creem un banc euromediterrani.
 
 ***** Que el seu *****
 
-Una situació la reversibilitat sol de la qual es donaria en el futur.
+Una situació la reversibilitat de la qual només es donaria en el futur.
 Un país el producte interior brut del qual creix.
 A aquelles la persona investigadora principal de les quals siga dona.
 Els préstecs el tipus d'interés dels quals siga superior al 5%.
@@ -1288,14 +1572,14 @@ Tan obligat com pesat.
 
 També se'l coneix com "*Princeps *officii".
 
-Un pare veu com el menjar fem.
+Un pare veu com el menjar porqueria.
 No sols el menjar, les begudes.
 
 Ofereix com a base proves científiques.
 Com passa a Espanya.
 
 
-**** Tant ****
+**** Punt ****
 
 Per tant, la qual cosa vol el Sr. *Huhne ja és possible.
 
@@ -1356,7 +1640,7 @@ Ajudada supeditada al fet que es complisquen els requisits.
 Jo aposte que eixirà bé.
 Esperaven que isqueren.
 
-Instem per això al President Clinton que concedisca la clemència. 
+Instem per això el President Clinton que concedisca la clemència. 
 
 És la qüestió de què depén.
 Els fets de què es té constància. 
@@ -1412,7 +1696,7 @@ Per les seues moltíssimes contribucions.
 En molts països.
 Molta calor, molt de fred.
 
-***** Tant ****
+***** Punt ****
 
 Tanta calor, tant de fred.
 Feia tant de fred. Era tan fred.
@@ -1465,9 +1749,9 @@ Amb tot respecte per al que ha dit.
 
 [PER FER]
 Necessiten desenvolupar-se, per al que cal ajuda financera.
-Alguna cosa per al que encara no ha tingut temps.
+Una cosa per a la qual encara no ha tingut temps.
 Que aposte més per la prevenció, per al que seria convenient un major suport.
-I és per això  que és difícil. 
+I és per això que és difícil. 
 
 És compatible amb l'ús actual, per la qual cosa és possible el cultiu.
 És compatible amb l'ús actual per la qual cosa és possible el cultiu.
@@ -1478,12 +1762,12 @@ La relació no és exhaustiva per la qual cosa és susceptible d'ampliar-se.
 Apostem pel que és possible. 
 Guiant-me pel que és bo per als consumidors. 
 
-És per aquesta raó  que volem aprovar la llei.
-És per aquest motiu  que volem aprovar la llei.
-És per aquest assoliment extraordinari  que és lamentable que passe això.
+És per aquesta raó que volem aprovar la llei.
+És per aquest motiu que volem aprovar la llei.
+És per aquest assoliment extraordinari que és lamentable que passe això.
 
 
-**** Pense ****
+**** Pinso ****
 
 Pense evidentment que és el millor. 
 Pense en Nigèria.
@@ -1512,7 +1796,7 @@ Resulta necessari estudiar l'informe.
 
 
 
-**** Què ****
+**** Quin ****
 
 Faça saber quins passos donarà.
 Quins instruments?
@@ -1531,7 +1815,7 @@ Quina és la situació actual i quines noves pràctiques es proposen?
 Quines altres mesures?
 Quina altra cosa pot ser?
 
-***** Mota ***
+***** Bri ***
 
 M'ha entrat una brossa en l'ull. 
 No corre ni un bri d'aire.
@@ -1571,8 +1855,47 @@ Fan gust de poc.
 Feia gust d'agre.
 Els que voten a favor no saben a quants comités i reunions de comités donen el seu vistiplau.
 
+**** Encara que ****
+
+Encara que m'agrada, no ho vull.
+Si bé encara m'agrada, no ho vull.
+Si bé encara m'agrada, no ho vull.
+Malgrat que encara m'agrade, no ho vull.
+Malgrat que encara m'agrade, no ho vull.
+
+**** Prefixos ****
+
+*Prodon. *Probus. *REG, *REX.
+Però el sistema proposat de treball a temps parcial.
+antijueu, antinazi, pronazi, autogol, autocolp, antipuces, antimàfia.
+multietapa.
+En accions antiromanís.
+
 ***** Varis *****
 
+Sals de bany. Ixes del bany. Agafa les sals del bany.
+La sal del rentavaixella. Les sals del bany.
+No desistirà de la seua obstinació. Dividir la cella en dues. Com fer-se les celles en casa.
+No pare d'insistir. No per a de dir-ho.
+No pare enmig del camí.
+S'ha proposat que anem a l'esbarjo. 
+La zones d'esbarjo que s'han instal·lat.
+En la seua defensa. En la meua defensa.
+Ompli el depòsit. Està plena la botiga? En el supermercat, ompli la bossa.
+I, per tant, plena del contingut desitjat.
+Emplene el formulari.
+Emplena el formulari.
+Atempta contra els drets més bàsics.
+Convertir en real aquest nou instrument.
+A la despesa per càpita prevista i aprovat.
+No hem de sentir-nos enganyats.
+No et sentes enganyat.
+Es protegia al mateix temps les nostres famoses begudes.
+Que aquest estudi pilot ha de ser integral.
+El bo i el dolent del cas. 
+Tot el dolent ve d'allí.
+El mal és que no vindran.
+El mal és la intenció.
 La van fer grossa. Has de fer-la grossa.
 Al principi era així. 
 Es converteixen en un principi bàsic. 
@@ -1631,7 +1954,7 @@ Cal no ignorar.
 Cal no desconéixer.
 Calia no descurar allò. 
 Això de "que comparteixen objectius".
-Això  "que compartisquen objectius".
+Això "que compartisquen objectius".
 És a dir que sí. 
 És a dir, és això.
 Siga això o siga que no vulga.
@@ -1741,18 +2064,18 @@ Enrique Calle. Enrique Ochoa Calle.
 Que les presente en la Tresoreria.
 Apilant-se els uns sobre els altres.
 El dolor en la marrada.
-Afecten  els i les joves
+Afecten els i les joves
 Tota la resta no importa.
 Menjar-se un pastís. Colors pastel.
 Raneja en la indecència. Vorejava la indecència. Voreja els 30 anys. Voreja la ineptitud.
 És un terreny adobat per a les crítiques.
 Aquest és el resultat. Però aquest és el resultat.
-No requereixen acreditació. Europa requeria tindre capacitat. Europa requereix tindre capacitat.  
+No requereixen acreditació. Europa requeria tindre capacitat. Europa requereix tindre capacitat. 
 Continua sent necessari millorar l'eficàcia.
 És un problema que requereix ser aclarit.
 Tanmateix, això no és possible. 
 Això, tanmateix, no és possible.
-No obstant això, no és possible.
+Tanmateix, no és possible.
 Ixen a cantar.
 Cenyint-se a l'important.
 Avança d'est a oest. I d'oest a est.
@@ -1864,7 +2187,7 @@ Adeqüen i adeqüen, adequa o adequa, adeqüe, adeqüe, adeqües, adeqües.
 Pi blanc o pins blancs. Docència pregraduada.
 Onzé classificat, tretzé classificat.
 Un rapinyaire. Uns rapinyaires. Uns rapinyaires. Xics capaços, xiques capaces. Xiques incapaces.
-Petit Príncep. El Petit Príncep a el Real de Montroi. La Comunitat. Comunitat Valenciana.
+Petit príncep. El Petit Príncep a el Real de Montroi. La Comunitat. Comunitat Valenciana.
 Exp. 240, exp. 240. 40 hertz.
 Casa particularitzada. El sistema Braille, el braille.
 Solars que donen a la part posterior. Parcel·la que dóna al barranc.
@@ -1883,7 +2206,7 @@ Una discapacitat. Una discapacitada. Un discapacitat.
 Davall de les pedres. Hores extres. Hores extra, vins extra. De qualitat extra.
 Van caure a terra. Cau-te a terra.
 S'ha degut a altres causes. No hi havia lloc a continuar. No és procedent.
-Escoltar a l'altre. Escoltar a altres persones. Sentir a altres persones. Sentir a l'altre.
+Escoltar l'altre. Escoltar altres persones. Sentir altres persones. Sentir l'altre.
 Culpabilitza-les. El mogol. Les mogoles.
 Va canviar de nom els fitxers. Feblíssimes, fortíssima. Finestres fúcsia. Les fúcsies. El fúcsia.
 A l'hivern comença el dia tard. No van desistir de la seua lluita. Rossíssims. Poquíssimes.
@@ -1948,6 +2271,7 @@ Cal donar-li compte a ell. Van donar compte al jutjat.
 
 Has de donar-li compte.
 
+El que de veritat compta és això.
 
 ***** Nata *****
 
@@ -1982,8 +2306,8 @@ No és gens agradable.
 No aporta res bo. Res nou afig.
 Res nou sota el sol. 
 No té res d'extraordinari.
-No va anar gens educat.
-No van anar gens educats.
+No va ser gens educat.
+No van ser gens educats.
 Havien aconseguit resultats poc o gens reeixits. 
 
 No tinc gens de paciència.
@@ -2245,7 +2569,7 @@ Cal pensar-s'ho molt bé.
 El Congrés han de pensar-s'ho dues vegades.
 
 
-*****  ser/anar *****
+***** ser/anar *****
 
 Aquest va ser també el motiu.
 Faria el que fora. 
@@ -2264,7 +2588,7 @@ Ens anem, us aneu, es van.
 Em vaig anar, et vas anar, es va anar.
 Ens vam anar, us vau anar, es van anar.
 
-En 1872 es va anar a Suïssa per a participar en el Congrés.
+En 1872 se'n va anar a Suïssa per a participar en el Congrés.
 
 M'aniria, t'aniries, s'aniria.
 Ens aniríem, us aniríeu, s'anirien.
@@ -2279,6 +2603,8 @@ Jo vaig ser l'únic.
 Ens hem d'anar. Hem d'anar-nos.
 
 Et diré una cosa.
+
+I va ser prompte substituït.
 
 
 **** Fora ****
@@ -2307,7 +2633,8 @@ L'UVI, en l'UVI.
 De l'hidra, de la ira.
 La hidratació, en la hidratació, per la hidratació, de la hidratació.
 
-Que representa la "Immaculada Concepción".
+Que representa la "Immaculada Concepció".
+Que representa la Immaculada Concepció.
 
 És la una. 
 
@@ -2350,7 +2677,7 @@ Hi havia una càmera de televisió en la finestra.
 Hi havia un càmera en la finestra.
 
 Càmera i acció.
-Les càmera d'À Punt estaven presents.
+Les càmeres d'À Punt eren presents.
 El càmera de Telemadrid agredit.
 
 L'actriu va actuar davant la càmera.
@@ -2393,6 +2720,61 @@ Enginyeria forestal.
 
 
 ***** Noms propis ****
+
+Presidenta del Parlament de Navarra.
+El nou Cavaller de la Legió d'Honor.
+Les Noves Fonts d'Energia. 
+La Real Policia d'Ulster.
+de Guerra Olímpica.
+En la II Guerra Mundial. 
+En la Primera Guerra Mundial.
+A la seua Sala de Concerts.
+Escola de Cultura i de Pau.
+Els Acords de Pau de Lomé. 
+Organització Mundial per a la Pau.
+Campanya Mundial per la Pau.
+El Pla de Pau per al Sàhara Oriental.
+El Tractat de Pau de Roma.
+El Procés de Pau del Pròxim Orient.
+El Procés de Pau Irlandés. 
+En la Comissió de Medi Ambient. 
+En la Convenció Marc de les Nacions Unides.
+La Directiva Marc 89/107/CEE.
+La Decisió Marc es revise. 
+El pròxim Marc Comunitari.
+Secretari d'Estat d'Aigües i Costes del Ministeri.
+Federació Internacional de Cases d'Europa.
+Els Papers del Pentàgon.
+La Creu de Crist
+Que aquesta Creu siga font de fortalesa.
+Inversions en Plans de Millores. 
+
+No obstant això, la Xina Roja continua sent una amenaça.
+D'una Xina oberta.
+El Tractat d'Asunción.
+Reunits a Asunción.
+De Sierra Leone.
+La Vall d'Aran.
+A la Vall d'Aran. 
+A la Vall d'Aran. 
+A la Vall d'Aran.
+
+Emili Josep *Sampio Morales.
+Fernando Navarro.
+El Sr. Pérez Royo parla.
+Com diu Octavio Paz.
+De Paz Vega. 
+De Rodrigo Paz. 
+Amb Paz García. 
+Amb Alfonso Guerra.
+Que els del general Pinochet adulen a Castro. 
+Iñaki *Totorika Vega.
+La Sra. Torres *Marques.
+A la Sra. De Palacio.
+En l'aeroport de Barajas. 
+El Sr. Ricard de Lleó *Regil.
+Ho acaba de dir Rama *Yade.
+Del col·lega Marco *Cappato.
 
 Cauen els preus a Caen.
 Ajuntament d'Orihuela, Dolores Orihuela.
@@ -2709,7 +3091,7 @@ El que vosté diu "una política mediterrània".
 Que van cridar la seua atenció.
 Que cridaven sempre l'atenció de tots.
 
-Que crida  la Unió Europea i els seus Estats membres a integrar els drets.
+Que crida la Unió Europea i els seus Estats membres a integrar els drets.
 La Comissió crida els Estats membres a regular.
 
 Lleis cridades a ser referencials. 
@@ -2803,6 +3185,10 @@ Estudis de grau mitjà.
 Dos anys i mig després. 
 Una vegada i mitja.
 
+Són dos i mig.
+Em va portar tres i mitja.
+Un marge de dos i mig per cent.
+
 Un gos sord i mig cec.
 Una persona mig cega.
 Estan mig bojos.
@@ -2876,6 +3262,7 @@ Va encreuar els braços.
 
 **** Verbs transitius ****
 
+Han nomenat els seus representants.
 Has entrevistat el president?
 Una prova i/o entrevista als aspirants.
 Una prova o entrevista als aspirants.
@@ -2971,6 +3358,75 @@ T'acarnissaràs amb ell.
 
 Encebaven els porcs amb pinso.
 
+**** prec ****
+
+L'últim encarit prec que faig.
+El meu últim prec és aquest.
+Els dirigisc el molt encarit prec que concloguem.
+
+Pregue que s'accepte la petició.
+Per això pregue que se seguisca.
+En aquest cas específic pregue que s'atenga la sol·licitud.
+
+Pregue que em perdonen.
+Espere que reben les meues salutacions.
+Sol·licite que s'accepte.
+Pregue que m'ho accepten.
+Aquests són els arbres que volguera es plantaren.
+Voldria que es plantaren aquests arbres.
+Espere que vingues prompte.
+L'ambient per al que espere que siga una discussió del problema.
+Pregue que guardem un minut de silenci.
+
+El que espere és que vingues.
+El que espere t'ho dic ara.
+Si volem que la ciutadania europea que desitgem existisca.
+Pot opinar el que vulga sobre el Sr. Haider.
+Que se sol·licite per a un o diversos Estats.
+Mentrestant, esperem avanços en aquest camp.
+Esperem els informes periòdics del comissari.
+I desitge per a l'informe.
+que desitge que es tanque definitivament.
+Que el pressupost -com desitjaríem- mostrara un altre enfocament. 
+Quan la categoria que se sol·licite siga la de doctor.
+
+**** Desig ****
+
+Quina capacitat i/o desig té el ministeri.
+De necessitat profunda i desig profund.
+El qual expressarà aquest desig, així com la resta.
+Interés, desig i acció.
+Interés, acció i desig.
+Interés, acció i desig, per a demà.
+Necessitat, desig, demanda.
+És desig de les institucions.
+El desig que tenia.
+La pel·lícula es deia Un tramvia anomenat desig i el guionista era ell.
+
+Però espere i desitge que arribe.
+President, desitge també donar la benvinguda.
+Desitge, en comptes d'usar aquest terme, usar un altre.
+Amb els estats i desitge ardentment que passe.
+I desitge ferventment que es tinga en compte.
+Desitge al comissari molta sort.
+És el que jo desitge.
+Sí, però desitge dir-li encara més.
+En el temps de què dispose desitge, en nom de la comissió, afirmar.
+Per haver-ho plantejat i desitge per a ell el millor.
+Ho estaven molt rarament, i desitge a partir d'ara que ho estiguen.
+Per tant, desitge i confie que siga així.
+Concretament, desitge, doncs, que siga així.
+Amb la conciliació, i desitge -en nom del meu grup- que siga així.
+Gràcies pel seu informe i desitge el millor per a l'informe.
+Senyor president, desitge, efectivament, que es produïsca.
+Va reiterar aquest desig, afirmant que.
+Però no desitge a ningú que ho visca.
+Amb l'informe, desitge, no obstant això, una altra cosa.
+
+Per arreglar:
+Senyor president, desig d'entrada que es produïsca.
+Senyor president, desig bon profit.
+
 ***** Abonament *****
 
 Cal usar adobs i herbicides.
@@ -2985,8 +3441,14 @@ Quantes menys diferències tinguem en les velocitats més fluid serà el trànsi
 Ho dic i ho repetisc, la nostra Cambra comet hui un acte d'ingerència inadmissible!
 Aquesta vesprada és per a mi una vesprada especial.
 
+**** Falta ***
+
+No es produeix perquè falta gent.
+Per què falta gent ací?
+
 **** *Aixeque-*EMV ****
 
+En aquest moment falta encara molt referent a això.
 Lluç a la mestressa. 
 Els pendents colombians.
 Cristina Barber nada el nacional.
@@ -3056,12 +3518,12 @@ Crema de remolatxa pas a pas.
 Malgrat el seu decret estrela.
 Sant Vicent-Amparo Iturbi. 
 Després de guanyar al Muro. 
-Cura amb les fartades de Nadal.
+Compte amb les fartades de Nadal.
 Fer-se un panxó de dolços.
 La febre per la Grossa de Nadal.
 Que et toque la Grossa.
 Errors que has d'evitar en Nit de cap d'any.
-Dóna *picotazos com a titular. 
+Dóna becarrades com a titular. 
 El secret del rei Mides.
 La ràdio emetrà demà des d'Alacant.
 Carlota *Corredera, en la corda fluixa. 
@@ -3094,7 +3556,7 @@ Pastís de carlotes i panses.
 Ningú pot amb el València.
 Els abrics estrela d'aquest hivern.
 Trenca el comptaquilòmetres.
-Malament arrencada de Sergio García.
+Mala arrancada de Sergio García.
 
 **** Municipis: nom oficial en valencià ****.
 .

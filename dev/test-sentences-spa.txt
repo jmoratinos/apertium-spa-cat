@@ -1,3 +1,9 @@
+**** Entorno / en torno ***
+
+Miraban en torno.
+
+En el entorno de la ciudad.
+
 **** Mesa ****
 
 Juan Mesa es el presidente.
@@ -16,6 +22,93 @@ Los diputados se dirigieron a la Mesa.
 Mesas Redondas.
 Ciclo de Mesas Redondas. 
 
+*** Encontrado ***
+
+Expresaron sentimientos encontrados.
+Son opiniones científicas encontradas. 
+Han escuchado al Parlamento y encontrado posturas equilibradas.
+Son intereses y opiniones encontrados.
+
+
+Que se hayan encontrado posiciones comunes.
+Hemos encontrado enfoques sólidos.
+
+*** Hueco ***
+
+Ha encontrado un hueco en este presupuesto.
+En el hueco de la escalera.
+Ha dejado un gran hueco.
+
+**** Alcanzar ****
+
+No alcanzó a ver los resultados finales.
+
+**** Solo ****
+
+una simple afirmación de que están completamente seguros solo para complacer.
+
+*** Rayar ****
+
+Cebolla rallada.
+En texto rayado.
+
+Esto raya en la estupidez.
+Con frecuencia raya en los límites de la catástrofe.
+Solo raya la superficie.
+
+Cosas que rayan en lo nazi.
+Que rayan la ilegalidad.
+Lo cual raya en la deflación.
+Y raya en el paternalismo.
+Estos casos rayan el límite.
+Temores irracionales que rayan en la xenofobia.
+Una incertidumbre casi raya en la certidumbre.
+Experiencias que rayan en el castigo físico.
+Declraciones que rayan en la homofobia.
+Que frecuentemente rayan en la explotación.
+Donde las relaciones rayan constantemente la competencia.
+
+WRONG:
+El niño rayaba en la libreta.
+El cocinero rayaba la zanahoria.
+
+**** Fin ****
+
+El fin de la guerra.
+Llegará a su fin.
+Tocará a su fin.
+
+Para otros fines.
+Para fines espúreos
+Para ese fin.
+Para el fin que busca.
+A buen fin.
+A un buen fin.
+A ese fin.
+Remitido para los fines del procedimiento.
+No serviría a los fines de los Estados.
+
+Los fines y los medios. 
+No es un fin adecuado para este medio.
+No es un medio adecuado para este fin.
+El fin justifica los medios.
+El hombre es el fin de la sociedad y el medio que la construye.
+
+Luchó con todos los medios por el fin del apartheid.
+Luchó con todos los instrumentos con el fin de ganar.
+
+**** Ser / Ir ****
+
+Quizá fuesen románicas.
+Que no fueran tan numerosos como algunos pensaban.
+
+**** de pie ****
+
+Estaba de pie. 
+Estaban de pie.
+Las diputadas se ponen de pie. 
+Ella se puso de pie.
+Los niños se mantienen de pie.
 
 
 **** Trabajo ****
@@ -32,6 +125,13 @@ La sentencia y el fallo.
 La sentencia cuyo encabezamiento y fallo son del tenor siguiente.
 Se publicó el fallo del jurado.
 La sentencia cuyo fallo es del tenor siguiente.
+
+**** son ***
+
+De la categoría A son mujeres.
+Los culpables de todo son los pensionistas.
+
+De los sindicatos en son de protesta.
 
 **** Quisiera ****
 
@@ -252,6 +352,8 @@ Los dos ejemplares de que consta esta solicitud.
 Transporte público de que se disponga.
 La convocatoria de que se trate.
 El comité de que dispone este complejo.
+Las ventajas de que gozan los ciudadanos.
+Las ventajas de que disfrutan los ciudadanos.
 
 Tengo la impresión de que se trata de algo importante.
 
@@ -294,6 +396,10 @@ Confío en que usted lo entenderá.
 
 Consiste en que todos nosotros lo entendamos.
 Convenimos en que es imprescindible. 
+
+No solo de ellos sino también de los que están a favor.
+
+De un modo en el que no pudieran ejercerse.
 
 **** bolsa *****
 
@@ -339,6 +445,7 @@ Como ha dicho muy bien alguno de mis compañeros.
 
 No hay razón alguna que lo justifique.
 No tiene observación alguna que efectuar.
+No debemos adoptar medida alguna contra ellos.
 
 
 **** El día siguiente ****
@@ -437,6 +544,9 @@ El tema, por decirlo así, es complicado.
 A mi parecer debemos hacer lo uno y lo otro.
 Más de lo deseado o lo permitido.
 
+Lo bonito de París es el río.
+Lo raro de todo esto es su actitud.
+
 *** Más ****
 Más grave de lo previsto.
 Mostrar una vez más nuestra indignación.
@@ -449,6 +559,40 @@ Es bastante más elevada en la actualidad.
 Hay que pasárselo bien.
 Debemos pasárselo cuanto antes.
 Y pasárselos a todos los organismos oficiales. [?]
+
+Es puede decir lo mismo de cualquier impuesto.
+
+**** Seguro ****
+
+Para contratar este seguro. 
+Mediante seguro de indemnización.
+Seguro colectivo de vida.
+Se incluyen los trabajos de transporte, montaje, catálogo, gráfica, seguro y otros gastos.
+Un régimen de seguro que cubra todos los casos.
+Subscribir un seguro que lo cubra todo.
+El mejor seguro contra la volatibilidad. 
+No es nada seguro de que hayan concluido
+No es bien seguro de que los beneficios sean altos.
+Calificados como seguros para el consumidor.
+Podemos dar por seguro que estos se acentuarán.
+No es aún algo seguro.
+No es que sean poco seguros.
+Demasiado confiados y demasiado seguros.
+
+Tuvo por seguro de que ganaría.
+Tenga por seguro de que nos lo tomamos en serio.
+Tenga usted por seguro de que nos lo tomamos en serio.
+Los que hablan francés seguro que dirán a la UE.
+Lo saben los cubanos y seguro que lo asumen.
+Que es algo ecológicamente seguro.
+De temas de control, como seguro que lo hará la Sra. Morgan.
+No hay que considerar como seguro a ningún país.
+No se puede considerar en absoluto seguro.
+No se considera en ningún caso seguro.
+
+La creación de un entorno laboral seguro, la democratización.
+La creación de entornos laborales seguros, la democratización.
+Un entorno online seguro.
 
 **** Caber la posibilidad ****
 
@@ -936,6 +1080,8 @@ Con la condición que.
 Vd. o uds. 
 Es de Ud. o uds.
 50 €/ud.
+Con uds. 20 uds.
+A todos uds. les presento las 20 uds.  
 
 **** Expresiones temporales *****
 
@@ -1006,8 +1152,31 @@ Siento vergüenza.
 
 Emplean a muchos trabajadores. 
 Empleaban a más obreros.
+No es manera de emplear a los ciudadanos europeos.
+Emplea a 400.000 trabajadores.
+Emplean el 66% de la mano de obra.
+Emplean cuatro asalariados.
+Emplea a aproximadamente 8.500 personas.
+Emplea a un millón y medio de trabajadores.
+Emplea a un 70% del total de asalariados.
+Emplean a la mitad de los asalariados.
+Emplea a más de dos millones doscientas mil personas. 
+Emplea a más de la mitad de nuestro trabajadores. 
+Emplea a muchos centenares de miles de nuestros ciudadanos.
+Emplea directa o indirectamente a doce millones de trabajadores en Europa-
 
 Emplearon todos los medios.
+Que ha empleado en los puntos 7 y 8.
+Emplear dos lenguajes.
+Empleamos casi mil millones de euros en la destrucción.
+Y tienen que emplearse las once.
+Emplearé mis últimos tres minutos en resumir el engaño.
+En esto debemos emplear los próximos tres años.
+Emplearás seis años más para licenciarte.
+Podemos emplear estos dos informes para decirlo.
+No emplean el 0,7% de su PIB.
+
+Cuando empleados de la Comisión proporcionen las respuestas.
 
 **** Empleo ****
 
@@ -1040,6 +1209,15 @@ Perderán su empleo. Recuperarás tu empleo. Recuperarán su empleo.
 Se prohíbe su empleo. Para su empleo en aviones militares.
 
 
+**** Emplear ***
+
+Hay que emplear a los que no tienen trabajo.
+Emplean a mujeres de todo el mundo. 
+Emplean a millones de personas de todos el mundo. 
+Emplean el 50% de habitantes de la zona. 
+Emplean el 50% de los ciudadanos de la región.
+Empleaba a 3.200 personas. 
+
 ***** Cola *****
 
 Ponte en la cola. La cola del supermercado.
@@ -1067,6 +1245,27 @@ En la página dos. De la posición veintidós. En la fila dos.
 En la página doscientos veinticuatro.
 Doscientas veinticuatro cosas.
 Fila uno.
+Durante los dos próximos ejercicios.
+
+En tan solo dos años. 
+Página 22. 
+Página veintidós. 
+Durante mis 30 años en el sector. 
+Después de solo dos años. 
+Se desplegaron 2 000 soldados de la UE.
+Con sus 150 estados. 
+De al menos 150 Estados miembros.
+En los dos primeros.
+Proteger sus 225 kilómetros de costa. 
+En los 34 datos.
+
+Detención cautelar para otros tantos agentes. 
+
+Entre las dos Europas.
+De al menos dos Europas.
+Entre las dos. Entre los dos.
+Con los dos. Con las dos.
+
 
 **** Género ****
 
@@ -1134,6 +1333,7 @@ Hasta se piensa que es el mejor.
 Hasta piensa que es el mejor. 
 Hasta se lo cree.
 ¿Hasta dónde quieres llegar?
+Los límites hasta los que llega.
 
 **** Número ****
 
@@ -1154,6 +1354,11 @@ Una cosa algo distinta.
 Unos días algo distintos.
 Un día algo distinto.
 
+Tiene algo de bueno.
+Tengo algo de hambre.
+Es algo que no puedo entender.
+Que hay algo de verdad en su exposición.
+
 Hay algo de lo que nos tendremos que ocupar.
 --algo de lo que me congratulo--
 , algo de lo que tal vez.
@@ -1161,6 +1366,7 @@ No es algo de lo que deban ocuparse.
 No es algo de lo que deban de ocuparse.
 No es algo de lo que se deban ocupar.
 No es algo de lo que se deban de ocupar.
+Quisiera referirme a algo de lo que, en general, podemos estar satisfechos.
 
 Entender algo de lo que allí ocurre.
 
@@ -1175,7 +1381,45 @@ Vendrá algo más tarde.
 Algo así como comerse un elefante.
 
 Aunque sea algo tarde. 
+Se alejan algo de las que tenemos.
 
+**** Vaya ***
+
+Cuando vaya a la playa.
+Cuando vaya, no se olvide la toalla.
+
+¡Vaya hombre!
+¡Vaya mujer!
+¡Vaya consideraciones!
+¡Vaya monstruos!
+¡Vaya diferencia!
+
+Vaya, así que eras tú.
+Vaya, vaya.
+
+¡Vaya, con estas me sales ahora!
+¡Vaya, con estas me sales!
+¡Con estas me sales, vaya!
+
+Que se vaya contra ellos.
+Que vaya contra ellos.
+Que vaya bien con ello.
+Espero que os vaya bien.
+¡Que vaya bien!
+Que este informe vaya contra un pretendido interés.
+
+
+**** Cuidado ****
+
+Pero, cuidado con las falsas expectativas.
+Pero cuidado con las falsas expectativas.
+Ten cuidado con él.
+Ten mucho cuidado con él.
+Ten mucho más cuidado con este.
+Ve con cuidado con él. 
+Anda con cuidado.
+Si no te andas con cuidado.
+Ándate con cuidado.
 
 **** Andar ****
 
@@ -1202,6 +1446,10 @@ Quizás hubiera sido mejor.
 Porque hubiera sido mejor.
 Quizá sea mejor.
 No es porque haya quórum.
+Porque, seamos serios, esto no puede ser.
+Tal vez fuese lo mejor.
+Tal vez sea lo mejor.
+Tal vez esté yo equivocado.
 
 **** Hambre ***
 
@@ -1253,6 +1501,42 @@ La que crea una necesidad.
 ¿Por qué no pensamos una dinámica que lo impidiera?
 
 Todo esto hace que no creamos más en las meras condenas verbales.
+
+**** Por qué ****
+
+¿Por qué razón se hizo así?
+¿Por qué motivos es conveniente hacerlo?
+¿Por qué razones se hizo así?
+¿Por qué motivo es conveniente hacerlo?
+¿Por qué causa es conveniente hacerlo?
+¿Por qué causas es conveniente hacerlo?
+Cuando se produce esta enfermedad y por qué causas.
+¿Para qué finalidades es conveniente hacerlo?
+¿Por qué personas debe ser impulsado?
+
+¿Por qué demonios se hizo así?
+¿Para qué demonios se hizo así?
+¿Por qué cojones se hizo así?
+¿Por qué se hizo así?
+¿Por qué un curso de ingeniería en la UPV?
+Queremos saber el porqué.
+No vino porque no quiso.
+Puede decirme por qué este Parlamento no cumple.
+Cuesta comprender por qué franceses y europeos lo autorizan.
+Por qué el 76% de los ciudadanos lo cree.
+¿Por qué ninguna institución lo acepta?
+¿Y por qué Europa está tan dispuesta?
+¿Por qué resulta importante este porcentaje?
+¿Por qué saco en esta cámara el asunto?
+¿He dicho por qué apoyo la Constitución?
+
+*** Duro ***
+Tenemos que trabajar duro para asegurar los resultados.
+Con el duro y determinante trabajo de la comisión.
+Tuvo que golpear duro.
+
+Es un trabajo duro. 
+Es un trabajo muy duro.
 
 **** Creamos (presente / pasado) ****
 
@@ -1571,8 +1855,47 @@ Saben a poco.
 Sabía a agrio.
 Los que votan a favor no saben a cuántos comités y reuniones de comités dan su visto bueno.
 
+**** Aunque ****
+
+Aunque me gusta, no lo quiero.
+Aunque aún me gusta, no lo quiero.
+Aunque todavía me gusta, no lo quiero.
+Aunque aún me guste, no lo quiero.
+Aunque todavía me guste, no lo quiero.
+
+**** Prefijos ****
+
+Prodon. Probus. REG, REX.
+Pero el sistema propuesto de trabajo a tiempo parcial.
+Antijudío, antinazi, pronazi, autogol, autogolpe, antipulgas, antimafia.
+Multietapa.
+En acciones antirromaníes.
+
 ***** Varios *****
 
+Sales de baño. Sales del baño. Coge las sales del baño.
+La sal del lavavajillas. Las sales del baño.
+No cejará en su empeño. Dividir la ceja en dos. Como hacerse las cejas en casa.
+No paro de insistir. No para de decirlo.
+No paro en medio del camino.
+Se ha propuesto que vayamos al recreo. 
+La zonas de recreo que se han instalado.
+En su defensa. En mi defensa.
+Llena el depósito. ¿Está llena la tienda? En el supermercado, llena la bolsa.
+Y, por lo tanto, llena del contenido deseado.
+Rellene el formulario.
+Rellena el formulario.
+Atenta contra los derechos más básicos.
+Convertir en real este nuevo instrumento.
+Al gasto per cápita previsto y aprobado.
+No tenemos que llamarnos a engaño.
+No te llames a engaño.
+Se protegía al mismo tiempo a nuestras famosas bebidas.
+Que este estudio piloto tiene que ser integral.
+Lo bueno y lo malo del caso. 
+Todo lo malo viene de allí.
+Lo malo es que no vendrán.
+Lo malo es la intención.
 La liaron parda. Tienes que liarla parda.
 En un principio era así. 
 Se convierten en un principio básico. 
@@ -1948,6 +2271,7 @@ Hay que darle cuenta a él. Dieron cuenta al juzgado.
 
 Tienes que darle cuenta.
 
+Lo que de verdad cuenta es esto.
 
 ***** Nata *****
 
@@ -2280,6 +2604,8 @@ Nos hemos de ir. Debemos irnos.
 
 Te voy a decir una cosa.
 
+Y fue pronto sustituido.
+
 
 **** Fuera ****
 
@@ -2308,6 +2634,7 @@ De la hidra, de la ira.
 La hidratación, en la hidratación, por la hidratación, de la hidratación.
 
 Que representa la "Inmaculada Concepción".
+Que representa la Inmaculada Concepción.
 
 Es la una. 
 
@@ -2350,7 +2677,7 @@ Había una cámara de televisión en la ventana.
 Había un cámara en la ventana.
 
 Cámara y acción.
-Las cámara de À Punt estaban presentes.
+Las cámaras de À Punt estaban presentes.
 El cámara de Telemadrid agredido.
 
 La actriz actuó ante la cámara.
@@ -2393,6 +2720,61 @@ Ingeniería de Montes.
 
 
 ***** Nombres propios ****
+
+Presidenta del Parlamento de Navarra.
+El nuevo Caballero de la Legión de Honor.
+Las Nuevas Fuentes de Energía. 
+La Real Policía de Ulster.
+de Guerra Olímpica.
+En la II Guerra Mundial. 
+En la Primera Guerra Mundial.
+En su Sala de Conciertos.
+Escuela de Cultura y de Paz.
+Los Acuerdos de Paz de Lomé. 
+Organización Mundial para la Paz.
+Campaña Mundial por la Paz.
+El Plan de Paz para el Sáhara Oriental.
+El Tratado de Paz de Roma.
+El Proceso de Paz del Próximo Oriente.
+El Proceso de Paz Irlandés. 
+En la Comisión de Medio Ambiente. 
+En la Convención Marco de las Naciones Unidas.
+La Directiva Marco 89/107/CEE.
+La Decisión Marco se revise. 
+El próximo Marco Comunitario.
+Secretario de Estado de Aguas y Costas del Ministerio.
+Federación Internacional de Casas de Europa.
+Los Papeles del Pentágono.
+La Cruz de Cristo
+Que esta Cruz sea fuente de fortaleza.
+Inversiones en Planes de Mejoras. 
+
+Sin embargo, la China Roja sigue siendo una amenaza.
+De una China abierta.
+El Tratado de Asunción.
+Reunidos en Asunción.
+De Sierra Leona.
+El Valle de Arán.
+En el Valle de Arán. 
+En la Val d'Aran. 
+En la Vall d'Aran.
+
+Emili Josep Sampio Morales.
+Fernando Navarro.
+El Sr. Pérez Royo habla.
+Como dice Octavio Paz.
+De Paz Vega. 
+De Rodrigo Paz. 
+Con Paz García. 
+Con Alfonso Guerra.
+Que los del general Pinochet adulen a Castro. 
+Iñaki Totorika Vega.
+La Sra. Torres Marques.
+A la Sra. De Palacio.
+En el aeropuerto de Barajas. 
+El Sr. Ricardo de León Regil.
+Lo acaba de decir Rama Yade.
+Del colega Marco Cappato.
 
 Caen los precios en Caen.
 Ayuntamiento de Orihuela, Dolores Orihuela.
@@ -2803,6 +3185,10 @@ Estudios de grado medio.
 Dos años y medio después. 
 Una vez y media.
 
+Son dos y medio.
+Me trajo tres y media.
+Un margen de dos y medio por ciento.
+
 Un perro sordo y medio ciego.
 Una persona medio ciega.
 Están medio locos.
@@ -2876,6 +3262,7 @@ Cruzó los brazos.
 
 **** Verbos transitivos ****
 
+Han nombrado a sus representantes.
 ¿Has entrevistado al presidente?
 Una prueba y/o entrevista a los aspirantes.
 Una prueba o entrevista a los aspirantes.
@@ -2971,6 +3358,75 @@ Vas a cebarte con él.
 
 Cebaban los cerdos con pienso.
 
+**** ruego ****
+
+El último encarecido ruego que hago.
+Mi último ruego es este.
+Les dirijo el muy encarecido ruego de que concluyamos.
+
+Ruego que se acepte la petición.
+Por eso ruego que se siga.
+En este caso específico ruego que se atienda la solicitud.
+
+Ruego me perdonen.
+Espero reciban mis saludos.
+Solicito se acepte.
+Ruego me lo acepten.
+Estos son los árboles que quisiera se plantasen.
+Quisiera se plantasen estos árboles.
+Espero vengas pronto.
+El ambiente para lo que espero sea una discusión del problema.
+Ruego guardemos un minuto de silencio.
+
+Lo que espero es que vengas.
+Lo que espero te lo digo ahora.
+Si queremos que la ciudadanía europea que deseamos exista.
+Puede opinar lo que quiera sobre el Sr. Haider.
+Que se solicite para uno o varios Estados.
+Mientras tanto, esperamos avances en este campo.
+Esperamos los informes periódicos del comisario.
+Y deseo para el informe.
+que deseo se cierre definitivamente.
+Que el presupuesto -como desearíamos- mostrase otro enfoque. 
+Cuando la categoría que se solicite sea la de doctor.
+
+**** Deseo ****
+
+Qué capacidad i/o deseo tiene el ministerio.
+De necesidad profunda y deseo profundo.
+El cual expresará dicho deseo, así como el resto.
+Interés, deseo y acción.
+Interés, acción y deseo.
+Interés, acción y deseo, para mañana.
+Necesidad, deseo, demanda.
+Es deseo de las instituciones.
+El deseo que tenía.
+La película se llamaba Un tranvía llamado deseo y el guionista era él.
+
+Pero espero y deseo que llegue.
+Presidente, deseo también dar la bienvenida.
+Deseo, en vez de usar este término, usar otro.
+Con los estados y deseo ardientemente que pase.
+Y deseo fervientemente que se tenga en cuenta.
+Deseo al comisario mucha suerte.
+Es lo que yo deseo.
+Sí, pero deseo decirle aún más.
+En el tiempo de que dispongo deseo, en nombre de la comisión, afirmar.
+Por haberlo planteado y deseo para él lo mejor.
+Lo estaban muy raramente, y deseo a partir de ahora que lo estén.
+Por lo tanto, deseo y confío que sea así.
+Concretamente, deseo, pues, que sea así.
+Con la conciliación, y deseo -en nombre de mi grupo- que sea así.
+Gracias por su informe y deseo lo mejor para el informe.
+Señor presidente, deseo, efectivamente, que se produzca.
+Reiteró este deseo, afirmando que.
+Pero no deseo a nadie que lo viva.
+Con el informe, deseo, sin embargo, otra cosa.
+
+Por arreglar:
+Señor presidente, deseo de entrada que se produzca.
+Señor presidente, deseo buen provecho.
+
 ***** Abono *****
 
 Hay que usar abonos y herbicidas.
@@ -2985,8 +3441,14 @@ Cuantas menos diferencias tengamos en las velocidades más fluido será el tráf
 Lo digo y lo repito, ¡nuestra Cámara comete hoy un acto de injerencia inadmisible!
 Esta tarde es para mí una tarde especial.
 
+**** Falta ***
+
+No se produce porque falta gente.
+¿Por qué falta gente aquí?
+
 **** Aixeque-EMV ****
 
+En este momento falta todavía mucho a este respecto.
 Merluza a la casera. 
 Los pendientes colombianos.
 Cristina Barber nada el nacional.

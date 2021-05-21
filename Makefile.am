@@ -39,6 +39,8 @@ TARGETS_COMMON =			\
 	$(PREFIX1U).autobil.bin 	\
 	$(PREFIX1B).autobil.bin 	\
 	$(PREFIX1).autolex.bin  \
+	$(PREFIX1).autolex-toponims-trad.bin  \
+	$(PREFIX1).autolex-toponims-oficials.bin  \
 	$(PREFIX1C).autogen.bin 	\
 	$(PREFIX1V).autogen.bin 	\
 	$(PREFIX1U).autogen.bin 	\
@@ -159,7 +161,11 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 ## Bilingual dictionaries
 ###############################################################################
 
-.deps/$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
+.deps/$(BASENAME).$(PREFIX1).dix: $(BASENAME).$(PREFIX1).metadix .deps/.d
+	python3 convert-metadix-dix.py $< $@ 
+	apertium-validate-dictionary $@
+
+.deps/$(PREFIX1).dix: .deps/$(BASENAME).$(PREFIX1).dix
 	apertium-translate-to-default-equivalent $< $@
 
 .deps/$(PREFIX1).cat.dix: .deps/$(PREFIX1).dix
@@ -190,7 +196,7 @@ $(PREFIX1B).autobil.bin: .deps/$(PREFIX1).bal.dix
 	apertium-validate-dictionary $<
 	lt-comp --var-right=bal lr $< $@
 
-$(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
+$(PREFIX2).autobil.bin: .deps/$(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
@@ -210,6 +216,11 @@ $(PREFIX1).autolex.bin: .deps/$(BASENAME).$(PREFIX1).lrx
 $(PREFIX2).autolex.bin: .deps/$(BASENAME).$(PREFIX2).lrx
 	lrx-comp $< $@
 
+$(PREFIX1).autolex-toponims-oficials.bin: .deps/$(BASENAME).$(PREFIX1).toponims-oficials.lrx
+	lrx-comp $< $@
+
+$(PREFIX1).autolex-toponims-trad.bin: .deps/$(BASENAME).$(PREFIX1).toponims-trad.lrx
+	lrx-comp $< $@
 
 ###############################################################################
 ## Structural transfer rules
@@ -265,9 +276,11 @@ $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 
 EXTRA_DIST=									\
 		.deps/$(BASENAME).$(PREFIX1).lrx	\
+		.deps/$(BASENAME).$(PREFIX1).toponims-oficials.lrx	\
+		.deps/$(BASENAME).$(PREFIX1).toponims-trad.lrx	\
 		.deps/$(BASENAME).$(PREFIX2).lrx	\
-		$(BASENAME).$(PREFIX1).dix 			\
-		$(BASENAME).$(PREFIX1).dix 			\
+		$(BASENAME).$(PREFIX1).metadix 			\
+		$(BASENAME).$(PREFIX1).metadix 			\
 		$(PREFIX1C).t1x 	\
 		$(PREFIX1V).t1x 	\
 		$(PREFIX1U).t1x 	\
@@ -319,3 +332,4 @@ test: all
 	@echo "pero" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
+	bash -x dev/test-translations.sh

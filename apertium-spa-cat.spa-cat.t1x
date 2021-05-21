@@ -263,8 +263,8 @@
       <cat-item lemma="que" tags="cnjsub" />
     </def-cat>
     <def-cat n="que_si">
-      <cat-item lemma="que" tags="cnjsub" />
-      <cat-item lemma="que" tags="rel.an.mf.sp" />
+      <cat-item tags="cnjsub" />
+      <cat-item tags="rel.an.mf.sp" />
       <cat-item lemma="si" tags="cnjadv" />
     </def-cat>
     <def-cat n="uno_prn_ms">
@@ -274,11 +274,13 @@
       <cat-item lemma="uno" tags="prn.tn.f.sg" />
     </def-cat>
     <def-cat n="porque">
-      <cat-item lemma="porque" tags="cnjadv" />
+      <!--<cat-item lemma="porque" tags="cnjadv" />-->
       <cat-item lemma="quizá" tags="adv" />
+      <cat-item lemma="tal vez" tags="adv" />
       <cat-item lemma="quizás" tags="adv" />
       <cat-item lemma="probablemente" tags="adv"/>
       <cat-item lemma="posiblemente" tags="adv"/>
+      <cat-item lemma="seguramente" tags="adv"/>
     </def-cat>
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo" />
@@ -341,6 +343,8 @@
       <cat-item lemma="asomar" tags="vblex.*" />
       <cat-item lemma="afanar# en" tags="vblex.*" />
       <cat-item lemma="apear" tags="vblex.*" />
+      <cat-item lemma="cernir" tags="vblex.*" />
+      <cat-item lemma="cerner" tags="vblex.*" />
     </def-cat>
     <def-cat n="verbospron_pp">
       <cat-item lemma="caer" tags="vblex.pp.*" />
@@ -352,6 +356,8 @@
       <cat-item lemma="asomarse" tags="vblex.pp.*" />
       <cat-item lemma="afanar# en" tags="vblex.pp.*" />
       <cat-item lemma="apear" tags="vblex.pp.*" />
+      <cat-item lemma="cernir" tags="vblex.pp.*" />
+      <cat-item lemma="cerner" tags="vblex.pp.*" />
     </def-cat>
     <def-cat n="ser_de_aplicacion">
       <cat-item lemma="ser# de aplicación" tags="vbser.*" />
@@ -501,7 +507,7 @@
       <cat-item lemma="descuidar" tags="vblex.inf"/>
     </def-cat>
 
-    <!--<def-cat n="pr_1s"><cat-item lemma="me" tags="prn.pro.p1.mf.sg" /></def-cat>
+    <def-cat n="pr_1s"><cat-item lemma="me" tags="prn.pro.p1.mf.sg" /></def-cat>
     <def-cat n="ir_1s"><cat-item lemma="ir" tags="vblex.*.p1.sg" /></def-cat>
     <def-cat n="pr_2s"><cat-item lemma="te" tags="prn.pro.p2.mf.sg" /></def-cat>
     <def-cat n="ir_2s"><cat-item lemma="ir" tags="vblex.*.p2.sg" /></def-cat>
@@ -512,7 +518,7 @@
     <def-cat n="pr_2p"><cat-item lemma="os" tags="prn.pro.p2.mf.pl" /></def-cat>
     <def-cat n="ir_2p"><cat-item lemma="ir" tags="vblex.*.p2.pl" /></def-cat>
     <def-cat n="pr_3p"><cat-item lemma="se" tags="prn.pro.ref.p3.mf.sp" /></def-cat>
-    <def-cat n="ir_3p"><cat-item lemma="ir" tags="vblex.*.p3.pl" /></def-cat>-->
+    <def-cat n="ir_3p"><cat-item lemma="ir" tags="vblex.*.p3.pl" /></def-cat>
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">
@@ -1163,7 +1169,7 @@
         </when>-->
       </choose>
     </def-macro>
-    <def-macro n="f_lexicDet" npar="1">
+    <!--<def-macro n="f_lexicDet" npar="1">
       <choose>
         <when>
           <test>
@@ -1186,7 +1192,7 @@
           </let>
         </when>
       </choose>
-    </def-macro>
+    </def-macro>-->
     <!--<def-macro n="f_seleccioLex" npar="1">
       <choose>
         <when>
@@ -3664,9 +3670,9 @@
         <call-macro n="f_concord1">
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -3788,9 +3794,9 @@
           <with-param pos="2" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -3935,9 +3941,9 @@
           <with-param pos="4" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <choose>
           <when>
             <test>
@@ -4015,9 +4021,9 @@
           <with-param pos="6" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <choose>
           <when>
             <test>
@@ -4867,9 +4873,9 @@
           <with-param pos="3" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -4964,9 +4970,9 @@
           <with-param pos="5" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -5017,9 +5023,9 @@
           <with-param pos="4" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -5066,9 +5072,9 @@
           <with-param pos="3" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_lexicAdj">
           <with-param pos="2" />
         </call-macro>
@@ -5162,9 +5168,9 @@
         <call-macro n="f_lexicAdj">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <choose>
           <when>
             <test>
@@ -5276,9 +5282,9 @@
         <call-macro n="f_lexicAdj">
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <choose>
           <when>
             <test>
@@ -5394,9 +5400,9 @@
           <with-param pos="2" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -5429,12 +5435,12 @@
           <with-param pos="2" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
-        <call-macro n="f_lexicDet">
+        </call-macro>-->
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -5469,9 +5475,9 @@
           <with-param pos="2" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -5510,9 +5516,9 @@
           <with-param pos="2" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -5580,9 +5586,9 @@
         <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_concord4">
           <with-param pos="3" />
           <with-param pos="4" />
@@ -5619,6 +5625,46 @@
             <clip pos="4" side="tl" part="gen" />
             <clip pos="4" side="tl" part="nbr" />
             <clip pos="4" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+<rule>
+      <!-- REGLA: DET NUM ADJECTIU NOM -->
+      <pattern>
+        <pattern-item n="det" />
+        <pattern-item n="xifra" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="nom" />
+      </pattern>
+      <action>
+        <!--<call-macro n="f_lexicDet">
+          <with-param pos="1" />
+        </call-macro>-->
+        <call-macro n="f_concord4">
+          <with-param pos="4" />
+          <with-param pos="3" />
+          <with-param pos="2" />
+          <with-param pos="1" />
+        </call-macro>
+        <!--<call-macro n="f_lexicAdj">
+          <with-param pos="2" />
+        </call-macro>-->
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="whole" />
+          </lu>
+          <b pos="3" />
+          <lu>
+            <clip pos="4" side="tl" part="whole" />
           </lu>
         </out>
       </action>
@@ -5667,9 +5713,9 @@
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_concord3">
           <with-param pos="2" />
           <with-param pos="1" />
@@ -5710,9 +5756,9 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_concord2">
           <with-param pos="3" />
           <with-param pos="1" />
@@ -5739,7 +5785,7 @@
     <rule>
       <!-- REGLA: NUMERAL NOM -->
       <pattern>
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -5769,7 +5815,7 @@
     <rule>
       <!-- REGLA: NUMERAL ADJECTIU -->
       <pattern>
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="adjec" />
       </pattern>
       <action>
@@ -5799,9 +5845,9 @@
     <rule>
       <!-- REGLA: NUMERAL cnjcoo NUMERAL NOM (dos o tres semanas) -->
       <pattern>
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="cnjcoo" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -5839,7 +5885,7 @@
         <pattern-item n="num" />
         <pattern-item n="cnjcoo" />
         <pattern-item n="adv" />
-        <pattern-item n="nom" />
+        <pattern-item n="num" />
       </pattern>
       <action>
         <call-macro n="f_concord2">
@@ -5872,7 +5918,7 @@
     <rule>
       <!-- REGLA: NUMERAL NOM ADJECTIU -->
       <pattern>
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
         <pattern-item n="adjec0" />
       </pattern>
@@ -5912,7 +5958,7 @@
     <rule>
       <!-- REGLA: NUMERAL ADJECTIU NOM -->
       <pattern>
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="adjec" />
         <pattern-item n="nom" />
       </pattern>
@@ -5956,13 +6002,13 @@
       <!-- REGLA: DET NUMERAL NOM -->
       <pattern>
         <pattern-item n="det" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_concord3">
           <with-param pos="3" />
           <with-param pos="2" />
@@ -6363,7 +6409,7 @@
       <!-- REGLA: PREP NUMERAL-->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
       </pattern>
       <action>
         <call-macro n="f_preps">
@@ -6392,9 +6438,9 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -6414,6 +6460,92 @@
             <clip pos="3" side="tl" part="gen" />
             <clip pos="3" side="tl" part="nbr" />
             <clip pos="3" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <!-- REGLA: PREP DET NUM -->
+      <pattern>
+        <pattern-item n="prep" />
+        <pattern-item n="det" />
+        <pattern-item n="xifra" />
+      </pattern>
+      <action>
+        <call-macro n="f_preps">
+          <with-param pos="1" />
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="3" />
+          <with-param pos="2" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="whole" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <!-- REGLA: PREP ADV NUM -->
+      <pattern>
+        <pattern-item n="prep" />
+        <pattern-item n="adv" />
+        <pattern-item n="xifra" />
+      </pattern>
+      <action>
+        <call-macro n="f_preps">
+          <with-param pos="1" />
+          <with-param pos="2" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="whole" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <!-- REGLA: PREP ADV NUM NOM-->
+      <pattern>
+        <pattern-item n="prep" />
+        <pattern-item n="adv" />
+        <pattern-item n="xifra" />
+        <pattern-item n="nom" />
+      </pattern>
+      <action>
+        <call-macro n="f_preps">
+          <with-param pos="1" />
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="3" />
+          <with-param pos="4" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="whole" />
+          </lu>
+           <b pos="3" />
+          <lu>
+            <clip pos="4" side="tl" part="lemh" />
+            <clip pos="4" side="tl" part="a_nom" />
+            <clip pos="4" side="tl" part="gen" />
+            <clip pos="4" side="tl" part="nbr" />
+            <clip pos="4" side="tl" part="lemq" />
           </lu>
         </out>
       </action>
@@ -6550,9 +6682,9 @@
         <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -6596,9 +6728,9 @@
         <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -6654,9 +6786,9 @@
         <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -6752,9 +6884,9 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -6870,9 +7002,9 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="4" />
@@ -6911,9 +7043,9 @@
         <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="4" />
@@ -6959,9 +7091,9 @@
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -7043,9 +7175,9 @@
         <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -7140,9 +7272,9 @@
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -7188,12 +7320,12 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
-        <call-macro n="f_lexicDet">
+        </call-macro>-->
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -7225,7 +7357,7 @@
       <!-- REGLA: PREP NUMERAL NOM -->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -7260,9 +7392,9 @@
       <!-- REGLA: PREP NUMERAL cnjcoo NUMERAL NOM (entre dos y tres semanas)-->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="cnjcoo" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -7302,7 +7434,7 @@
       <!-- REGLA: PREP NUMERAL ADJECTIU -->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="adjec" />
       </pattern>
       <action>
@@ -7337,7 +7469,7 @@
       <!-- REGLA: PREP NUMERAL NOM ADJECTIU -->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
         <pattern-item n="adjec0" />
       </pattern>
@@ -7382,7 +7514,7 @@
       <!-- REGLA: PREP NUMERAL ADJECTIU NOM -->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="adjec" />
         <pattern-item n="nom" />
       </pattern>
@@ -7431,13 +7563,13 @@
       <pattern>
         <pattern-item n="prep" />
         <pattern-item n="det" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -7462,6 +7594,96 @@
             <clip pos="4" side="tl" part="gen" />
             <clip pos="4" side="tl" part="nbr" />
             <clip pos="4" side="tl" part="lemq" />
+          </lu>
+        </out>
+        <let>
+          <var n="numvist" />
+          <lit v="yes" />
+        </let>
+      </action>
+    </rule>
+    <rule>
+      <!-- REGLA: PREP DET NUMERAL ADJ -->
+      <pattern>
+        <pattern-item n="prep" />
+        <pattern-item n="det" />
+        <pattern-item n="xifra" />
+        <pattern-item n="adj" />
+      </pattern>
+      <action>
+        <!--<call-macro n="f_lexicDet">
+          <with-param pos="2" />
+        </call-macro>-->
+        <call-macro n="f_preps">
+          <with-param pos="1" />
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_concord3">
+          <with-param pos="4" />
+          <with-param pos="3" />
+          <with-param pos="2" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="whole" />
+          </lu>
+          <b pos="3" />
+          <lu>
+            <clip pos="4" side="tl" part="whole" />
+          </lu>
+        </out>
+        <let>
+          <var n="numvist" />
+          <lit v="yes" />
+        </let>
+      </action>
+    </rule>
+    <rule>
+      <!-- REGLA: PREP DET NUMERAL ADJ NOM -->
+      <pattern>
+        <pattern-item n="prep" />
+        <pattern-item n="det" />
+        <pattern-item n="xifra" />
+        <pattern-item n="adj" />
+        <pattern-item n="nom" />
+      </pattern>
+      <action>
+   <!-- <call-macro n="f_lexicDet">
+          <with-param pos="2" />
+	</call-macro> -->
+        <call-macro n="f_preps">
+          <with-param pos="1" />
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_concord4">
+          <with-param pos="5" />
+          <with-param pos="4" />
+          <with-param pos="3" />
+          <with-param pos="2" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="whole" />
+          </lu>
+          <b pos="3" />
+          <lu>
+            <clip pos="4" side="tl" part="whole" />
+          </lu>
+          <b pos="4" />
+          <lu>
+            <clip pos="5" side="tl" part="lemh" />
+            <clip pos="5" side="tl" part="a_nom" />
+            <clip pos="5" side="tl" part="gen" />
+            <clip pos="5" side="tl" part="nbr" />
+            <clip pos="5" side="tl" part="lemq" />
           </lu>
         </out>
         <let>
@@ -7777,7 +7999,7 @@
             <get-case-from pos="1">
               <lit v="en" />
             </get-case-from>
-            <clip pos="1" side="tl" part="a_prep" />
+            <clip pos="1" side="sl" part="a_prep" />
           </lu>
           <b pos="1" />
           <lu>
@@ -10273,9 +10495,9 @@
           <with-param pos="4" />
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <b pos="1" />
           <lu>
@@ -10908,9 +11130,9 @@
           <with-param pos="4" />
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <get-case-from pos="1">
@@ -10955,9 +11177,9 @@
           <with-param pos="4" />
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <get-case-from pos="1">
@@ -11004,9 +11226,9 @@
           <with-param pos="4" />
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <get-case-from pos="1">
@@ -11061,9 +11283,9 @@
           <with-param pos="5" />
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+       <!-- <call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <get-case-from pos="1">
@@ -11141,8 +11363,129 @@
         </out>
       </action>
     </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="pr_1s" />
+        <pattern-item n="ir_1s" />
+        <pattern-item n="a" />
+        <pattern-item n="nploc" />
+      </pattern>
+      <action>
+        <out>
+          <lu><clip part="whole" pos="1" side="tl" /></lu><b />
+          <lu><lit v="en" /><lit-tag v="prn" /><lit-tag v="pro" /><lit-tag v="adv" /></lu><b />
+        </out>
+        <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
+        <out>
+          <b />
+          <lu><clip part="whole" pos="3" side="tl" /></lu><b />
+          <lu><clip part="whole" pos="4" side="tl" /></lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="pr_2s" />
+        <pattern-item n="ir_2s" />
+        <pattern-item n="a" />
+        <pattern-item n="nploc" />
+      </pattern>
+      <action>
+        <out>
+          <lu><clip part="whole" pos="1" side="tl" /></lu><b />
+          <lu><lit v="en" /><lit-tag v="prn" /><lit-tag v="pro" /><lit-tag v="adv" /></lu><b />
+        </out>
+        <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
+        <out>
+          <b />
+          <lu><clip part="whole" pos="3" side="tl" /></lu><b />
+          <lu><clip part="whole" pos="4" side="tl" /></lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="pr_3s" />
+        <pattern-item n="ir_3s" />
+        <pattern-item n="a" />
+        <pattern-item n="nploc" />
+      </pattern>
+      <action>
+        <out>
+          <lu><clip part="whole" pos="1" side="tl" /></lu><b />
+          <lu><lit v="en" /><lit-tag v="prn" /><lit-tag v="pro" /><lit-tag v="adv" /></lu><b />
+        </out>
+        <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
+        <out>
+          <b />
+          <lu><clip part="whole" pos="3" side="tl" /></lu><b />
+          <lu><clip part="whole" pos="4" side="tl" /></lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="pr_1p" />
+        <pattern-item n="ir_1p" />
+        <pattern-item n="a" />
+        <pattern-item n="nploc" />
+      </pattern>
+      <action>
+        <out>
+          <lu><clip part="whole" pos="1" side="tl" /></lu><b />
+          <lu><lit v="en" /><lit-tag v="prn" /><lit-tag v="pro" /><lit-tag v="adv" /></lu><b />
+        </out>
+        <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
+        <out>
+          <b />
+          <lu><clip part="whole" pos="3" side="tl" /></lu><b />
+          <lu><clip part="whole" pos="4" side="tl" /></lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="pr_2p" />
+        <pattern-item n="ir_2p" />
+        <pattern-item n="a" />
+        <pattern-item n="nploc" />
+      </pattern>
+      <action>
+        <out>
+          <lu><clip part="whole" pos="1" side="tl" /></lu><b />
+          <lu><lit v="en" /><lit-tag v="prn" /><lit-tag v="pro" /><lit-tag v="adv" /></lu><b />
+        </out>
+        <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
+        <out>
+          <b />
+          <lu><clip part="whole" pos="3" side="tl" /></lu><b />
+          <lu><clip part="whole" pos="4" side="tl" /></lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="pr_3p" />
+        <pattern-item n="ir_3p" />
+        <pattern-item n="a" />
+        <pattern-item n="nploc" />
+      </pattern>
+      <action>
+        <out>
+          <lu><clip part="whole" pos="1" side="tl" /></lu><b />
+          <lu><lit v="en" /><lit-tag v="prn" /><lit-tag v="pro" /><lit-tag v="adv" /></lu><b />
+        </out>
+        <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
+        <out>
+          <b />
+          <lu><clip part="whole" pos="3" side="tl" /></lu><b />
+          <lu><clip part="whole" pos="4" side="tl" /></lu>
+        </out>
+      </action>
+    </rule>
     <!-- REGLA: irse > anar-se'n -->
-    <!--<rule>
+    <!--
+      <rule>
       <pattern>
         <pattern-item n="pr_1s" />
         <pattern-item n="ir_1s" />

@@ -591,6 +591,7 @@
        <match lemma="següent"/>
        <match lemma="sotmetre"/>
        <match lemma="suport"/>
+       <match lemma="tornada"/>
      </def-seq>
 
   </def-seqs>
@@ -1973,6 +1974,12 @@
     </or>
   </rule>
 
+  <!-- posar > poner, posar -->
+
+  <rule weight="0.6">
+     <match lemma="posar" tags="vblex.*"><select lemma="poner"/></match>
+  </rule>  
+
   <!-- grau > grado, grao -->
 
   <rule weight="0.6">
@@ -2038,6 +2045,8 @@
      <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
   </rule>
 
+  <macro name="noms_propis" p1="Cristòfor" p2="Cristóbal" />
+  <macro name="noms_propis" p1="Octavi" p2="Octavio" />
   <macro name="noms_propis" p1="Salomó" p2="Salomón" />
   <macro name="noms_propis" p1="Faust" p2="Fausto" />
   <macro name="noms_propis" p1="Tomàs" p2="Tomás" />  
@@ -2054,6 +2063,7 @@
   <macro name="noms_propis" p1="Enric" p2="Enrique" />
   <macro name="noms_propis" p1="Pere" p2="Pedro" />
   <macro name="noms_propis" p1="Jaume" p2="Jaime" />
+  <macro name="noms_propis" p1="Valentí" p2="Valentín" />
   <macro name="noms_propis" p1="Ferran" p2="Fernando" />
   <macro name="noms_propis" p1="Alfons" p2="Alfonso" />
   <macro name="noms_propis" p1="Joan" p2="Juan" />

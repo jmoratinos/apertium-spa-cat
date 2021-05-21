@@ -1,5 +1,7 @@
 **** Noms propis *****
 
+
+Del mar Bàltic. Del Mar Bàltic. 
 Natxo Costa Pina
 Daría Terrádez Salom
 Clara Ferrando Estrella
@@ -71,6 +73,7 @@ La quantitat de deu mil nou-cents trenta-vuit euros amb deu cèntims.
 
 **** Diversos *****
 
+Anada i tornada a Barcelona.
 Certificat de la Sindicatura de comptes que acrediti els pagaments.
 Elaborarà un programa marc d'actuació.
 Pla Nacional contra la Droga.
@@ -222,6 +225,13 @@ De l'empresa contractista.
 L'empresa contractista.
 La despesa objecte de l'ajuda.
 De la despesa objecte de l'ajuda.
+
+*** Voler/volar ****
+
+Què voleu per a dinar?
+Què vols per a dinar?
+Què voleu per dinar?
+Què vols per dinar?
 
 **** Segons ****
 

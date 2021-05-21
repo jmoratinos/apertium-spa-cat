@@ -17,13 +17,17 @@
       <program name="lt-proc -b">
         <file name="spa-cat.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m" debug-suff="toponims">
+        <file name="spa-cat.autolex-toponims-trad.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat.t1x"/>
         <file name="spa-cat.t1x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="spa-cat.autogen.bin"/>
       </program>
@@ -52,13 +56,17 @@
       <program name="lt-proc -b">
         <file name="spa-cat.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m" debug-suff="toponims">
+        <file name="spa-cat.autolex-toponims-trad.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat.t1x"/>
         <file name="spa-cat.t1x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="spa-cat.autogen.bin"/>
       </program>
@@ -86,13 +94,17 @@
       <program name="lt-proc -b">
         <file name="spa-cat_valencia_gva.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m" debug-suff="toponims">
+        <file name="spa-cat.autolex-toponims-oficials.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat_valencia_gva.t1x"/>
         <file name="spa-cat_valencia_gva.t1x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="spa-cat_valencia_gva.autogen.bin"/>
       </program>
@@ -120,13 +132,17 @@
       <program name="lt-proc -b">
         <file name="spa-cat_valencia_gva.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m" debug-suff="toponims">
+        <file name="spa-cat.autolex-toponims-oficials.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat_valencia_gva.t1x"/>
         <file name="spa-cat_valencia_gva.t1x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="spa-cat_valencia_gva.autogen.bin"/>
       </program>
@@ -154,13 +170,17 @@
       <program name="lt-proc -b">
         <file name="spa-cat_valencia_uni.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m" debug-suff="toponims">
+        <file name="spa-cat.autolex-toponims-trad.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat_valencia_uni.t1x"/>
         <file name="spa-cat_valencia_uni.t1x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="spa-cat_valencia_uni.autogen.bin"/>
       </program>
@@ -188,13 +208,17 @@
       <program name="lt-proc -b">
         <file name="spa-cat_valencia_uni.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m" debug-suff="toponims">
+        <file name="spa-cat.autolex-toponims-trad.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat_valencia_uni.t1x"/>
         <file name="spa-cat_valencia_uni.t1x.bin"/>
       </program>
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="spa-cat_valencia_uni.autogen.bin"/>
       </program>
@@ -313,6 +337,7 @@
         <file name="cat-spa.t1x.bin"/>
       </program>
       
+      <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="cat-spa.autogen.bin"/>
       </program>
