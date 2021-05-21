@@ -241,7 +241,7 @@ $(PREFIX1B).t1x.bin: $(PREFIX1B).t1x
 	python3 gent1x.py val_uni $< >$@
 
 .deps/$(BASENAME).$(PREFIX1).bal.t1x: $(BASENAME).$(PREFIX1).t1x
-	python gent1x.py bal $< >$@
+	python3 gent1x.py bal $< >$@
 
 $(PREFIX1C).t1x: .deps/$(BASENAME).$(PREFIX1).cat.t1x
 	xsltproc --stringparam alt cat alt.xsl $< >$@
